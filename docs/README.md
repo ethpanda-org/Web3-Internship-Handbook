@@ -1,33 +1,30 @@
 ---
 home: true
-title: Home
+title: Web3 实习手册
 heroImage: https://vuejs.press/images/hero.png
 actions:
-  - text: Get Started
-    link: /get-started.html
+  - text: 入门导读
+    link: /intro.html
     type: primary
-
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: Web3 行业知识
+    link: /industry.html
     type: secondary
 
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: 系统化内容
+    details: 覆盖区块链、以太坊、行业岗位、实战技能、面试准备等核心内容。
+  - title: 实用性强
+    details: 结合真实实习场景，提供工具、案例、经验与面试指导。
+  - title: 持续迭代
+    details: 社区共建，内容持续完善，欢迎贡献和反馈。
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+footer: MIT Licensed | Copyright © 2024 ETHPanda & Contributors
 ---
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
+# 前言
 
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+本手册旨在为 Web3 行业实习生提供系统的入门与进阶指导，涵盖区块链基础、以太坊生态、行业岗位、实战技能、面试准备等内容，帮助你高效融入 Web3 世界。
+
+- 介绍当前手册是做什么的？
+- 目标实习生背景
+- 手册使用场景
