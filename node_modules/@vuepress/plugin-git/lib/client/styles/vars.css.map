@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../../src/client/styles/vars.css"],"names":[],"mappings":"AAAA,MACE,mCACA,gCACA","file":"vars.css","sourcesContent":[":root {\n  --changelog-bg: var(--vp-c-bg-alt);\n  --changelog-font-size: 0.875rem;\n  --changelog-c-text: var(--vp-c-text);\n}\n"]}

@@ -1,0 +1,28 @@
+@use 'mixins';
+@use 'variables' as *;
+
+// plugin-comment
+.vp-comment {
+  @include mixins.content-wrapper;
+}
+
+.vp-navbar {
+  // plugin-docsearch
+  /* stylelint-disable-next-line selector-class-pattern */
+  .DocSearch {
+    transition: background-color var(--vp-t-color);
+  }
+
+  // plugin-search
+  .search-box {
+    vertical-align: top;
+    flex: 0 0 auto;
+  }
+}
+
+// plugin-markdown-hint
+.hint-container {
+  @media screen and (max-width: $MQMobile) {
+    margin-inline: -0.75rem;
+  }
+}

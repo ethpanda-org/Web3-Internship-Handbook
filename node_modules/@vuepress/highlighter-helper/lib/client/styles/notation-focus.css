@@ -1,0 +1,1 @@
+div[class*=language-] .has-focused-lines .line:not(.has-focus){opacity:.7;filter:blur(0.095rem);transition:filter .35s,opacity .35s}div[class*=language-]:hover .has-focused-lines .line:not(.has-focus){opacity:1;filter:blur(0)}/*# sourceMappingURL=notation-focus.css.map */

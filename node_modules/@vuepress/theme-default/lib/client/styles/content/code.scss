@@ -1,0 +1,23 @@
+@use '../variables' as *;
+
+// code block additional styles
+div[class*='language-'] {
+  margin: 0.75rem 0;
+  transition:
+    background-color var(--vp-t-color),
+    color var(--vp-t-color);
+
+  @media (max-width: $MQMobileNarrow) {
+    --code-border-radius: 0;
+
+    margin: 0.75rem -1.5rem;
+  }
+
+  // transitions for code notation highlighting
+  .line {
+    &.diff,
+    &.highlighted {
+      transition: background-color var(--vp-t-color);
+    }
+  }
+}

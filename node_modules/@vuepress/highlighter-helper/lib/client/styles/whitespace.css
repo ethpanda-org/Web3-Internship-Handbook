@@ -1,0 +1,1 @@
+﻿div[class*=language-] .tab,div[class*=language-] .space{position:relative}div[class*=language-] .tab::before,div[class*=language-] .space::before{position:absolute;opacity:.3}div[class*=language-] .tab::before{content:"⇥"}div[class*=language-] .space::before{content:"·"}/*# sourceMappingURL=whitespace.css.map */

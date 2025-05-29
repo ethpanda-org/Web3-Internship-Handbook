@@ -1,0 +1,11 @@
+@use 'variables' as *;
+
+:root {
+  scroll-behavior: smooth;
+}
+
+.vp-hide-mobile {
+  @media screen and (max-width: $MQMobile) {
+    display: none;
+  }
+}

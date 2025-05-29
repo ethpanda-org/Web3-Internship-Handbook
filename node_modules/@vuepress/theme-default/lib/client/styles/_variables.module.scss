@@ -1,0 +1,5 @@
+@use 'variables' as *;
+
+:export {
+  mobile: $MQMobile;
+}

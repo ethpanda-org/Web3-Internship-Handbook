@@ -1,0 +1,66 @@
+@use 'variables' as *;
+
+/**
+ * code-group
+ */
+.code-group-nav {
+  margin-top: 0.85rem;
+
+  // 2 * margin + border-radius of <pre> tag
+  margin-bottom: calc(-1.7rem - 6px);
+  padding-top: 10px;
+  padding-bottom: calc(1.7rem - 6px);
+  padding-left: 10px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+
+  background-color: var(--vp-c-code-tab-bg);
+
+  transition: background-color var(--vp-t-color);
+
+  @media (max-width: $MQMobileNarrow) {
+    margin-inline: -1.5rem;
+    border-radius: 0;
+  }
+}
+
+.code-group-nav-tab {
+  padding: 5px;
+  border: 0;
+
+  background-color: transparent;
+  color: var(--vp-c-code-tab-title);
+
+  font-weight: 600;
+  font-size: 0.85em;
+  line-height: 1.4;
+
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 1px solid;
+  }
+
+  &.active {
+    border-bottom: var(--vp-c-code-tab-active) 1px solid;
+  }
+}
+
+/**
+ * code-group-item
+ */
+.code-group-item {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+
+  > pre {
+    background-color: #ffa500;
+  }
+}
