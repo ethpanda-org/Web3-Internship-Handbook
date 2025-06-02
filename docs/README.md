@@ -108,6 +108,6 @@
 
 ## [文档编写与贡献人员](./thanks.md)
 
-主要编写与贡献：Echo、汤圆、Jason Chung、Luna、Alex、Julie Chen 及 ETHPanda 社区成员
+主要编写与贡献：Echo、汤圆、Jason Chung、Luna、Alex、Julie Che 以及 LXDAO 和 ETHPanda 的社区成员
 
 欢迎更多同学参与内容完善与共建！

@@ -135,7 +135,7 @@
 </ol>
 <hr>
 <h2 id="文档编写与贡献人员" tabindex="-1"><a class="header-anchor" href="#文档编写与贡献人员"><span><RouteLink to="/thanks.html">文档编写与贡献人员</RouteLink></span></a></h2>
-<p>主要编写与贡献：Echo、汤圆、Jason Chung、Luna、Alex、Julie Chen 及 ETHPanda 社区成员</p>
+<p>主要编写与贡献：Echo、汤圆、Jason Chung、Luna、Alex、Julie Che 以及 LXDAO 和 ETHPanda 的社区成员</p>
 <p>欢迎更多同学参与内容完善与共建！</p>
 </div></template>
 
