@@ -9,7 +9,7 @@ export default defineUserConfig({
   description: '系统化的 Web3 实习生入门与进阶手册',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/images/logo.png',
 
     navbar: [
       '/',
