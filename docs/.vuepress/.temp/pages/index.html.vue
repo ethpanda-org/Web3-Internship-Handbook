@@ -51,7 +51,6 @@
 </ul>
 </li>
 </ol>
-<hr>
 <h3 id="第二部分-web3-行业知识" tabindex="-1"><a class="header-anchor" href="#第二部分-web3-行业知识"><span><RouteLink to="/industry.html">第二部分：Web3 行业知识</RouteLink></span></a></h3>
 <ol>
 <li><strong>区块链岗位类型与职能简介</strong>
@@ -92,7 +91,6 @@
 </ul>
 </li>
 </ol>
-<hr>
 <h3 id="第三部分-行业前辈访谈录" tabindex="-1"><a class="header-anchor" href="#第三部分-行业前辈访谈录"><span><RouteLink to="/interviews.html">第三部分：行业前辈访谈录</RouteLink></span></a></h3>
 <ul>
 <li>智能合约工程师</li>
@@ -101,7 +99,6 @@
 <li>研究分析师/投研岗</li>
 <li>Web3 初创团队联合创始人 / 核心成员</li>
 </ul>
-<hr>
 <h3 id="第四部分-面试准备与行业岗位推荐" tabindex="-1"><a class="header-anchor" href="#第四部分-面试准备与行业岗位推荐"><span><RouteLink to="/interview-prep.html">第四部分：面试准备与行业岗位推荐</RouteLink></span></a></h3>
 <ol>
 <li><strong>Web3 行业简历撰写指导</strong>
@@ -125,7 +122,6 @@
 </ul>
 </li>
 </ol>
-<hr>
 <h3 id="第五部分-附录" tabindex="-1"><a class="header-anchor" href="#第五部分-附录"><span><RouteLink to="/appendix.html">第五部分：附录</RouteLink></span></a></h3>
 <ol>
 <li>区块链/以太坊术语表</li>
@@ -133,7 +129,6 @@
 <li>常见问题解答（FAQ）</li>
 <li>工具清单与 GitHub 推荐列表</li>
 </ol>
-<hr>
 <h2 id="文档编写与贡献人员" tabindex="-1"><a class="header-anchor" href="#文档编写与贡献人员"><span><RouteLink to="/thanks.html">文档编写与贡献人员</RouteLink></span></a></h2>
 <p>主要编写与贡献：Echo、汤圆、Jason Chung、Luna、Alex、Julie Che 以及 LXDAO 和 ETHPanda 的社区成员</p>
 <p>欢迎更多同学参与内容完善与共建！</p>
