@@ -241,7 +241,13 @@ export interface ServeOptions {
   keyfile?: string
   certfile?: string
   fallback?: string
+  cors?: CORSOptions
   onRequest?: (args: ServeOnRequestArgs) => void
+}
+
+/** Documentation: https://esbuild.github.io/api/#cors */
+export interface CORSOptions {
+  origin?: string | string[]
 }
 
 export interface ServeOnRequestArgs {
@@ -256,7 +262,7 @@ export interface ServeOnRequestArgs {
 /** Documentation: https://esbuild.github.io/api/#serve-return-values */
 export interface ServeResult {
   port: number
-  host: string
+  hosts: string[]
 }
 
 export interface TransformOptions extends CommonOptions {

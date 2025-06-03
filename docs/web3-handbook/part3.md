@@ -2,7 +2,7 @@
 title: 第三部分：行业前辈访谈录
 createTime: 2025/06/03 16:33:50
 order: 3
-permalink: /article/kewvm7ho/
+# permalink: /article/kewvm7ho/
 ---
 # 第三部分：行业前辈访谈录
 
