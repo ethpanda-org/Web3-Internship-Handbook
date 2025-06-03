@@ -10,6 +10,7 @@ export const routes = Object.fromEntries([
   ["/intro.html", { loader: () => import(/* webpackChunkName: "intro.html" */"/Users/apple/Desktop/ETHPanda-intern/vuepress-starter/docs/.vuepress/.temp/pages/intro.html.js"), meta: {"title":"第一部分：入门导读"} }],
   ["/thanks.html", { loader: () => import(/* webpackChunkName: "thanks.html" */"/Users/apple/Desktop/ETHPanda-intern/vuepress-starter/docs/.vuepress/.temp/pages/thanks.html.js"), meta: {"title":"致谢名单"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/apple/Desktop/ETHPanda-intern/vuepress-starter/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
+  ["/%E7%A4%BE%E5%8C%BA%E8%BF%90%E8%90%A5%E5%AE%9E%E4%B9%A0%E5%B2%97%E4%BD%8D%E7%9F%A5%E8%AF%86%E6%A8%A1%E5%9D%97%20206bbd63be878082bd23eb6e33e8a934.html", { loader: () => import(/* webpackChunkName: "社区运营实习岗位知识模块 206bbd63be878082bd23eb6e33e8a934.html" */"/Users/apple/Desktop/ETHPanda-intern/vuepress-starter/docs/.vuepress/.temp/pages/社区运营实习岗位知识模块 206bbd63be878082bd23eb6e33e8a934.html.js"), meta: {"title":"社区运营实习岗位知识模块"} }],
 ]);
 
 if (import.meta.webpackHot) {
