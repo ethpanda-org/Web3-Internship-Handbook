@@ -1,3 +1,8 @@
+---
+title: industry
+createTime: 2025/06/03 18:14:27
+permalink: /article/jmrm7smy/
+---
 # 第二部分：Web3 行业知识
 
 ## 一、 区块链岗位类型与职能简介

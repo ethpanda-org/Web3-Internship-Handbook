@@ -1,3 +1,8 @@
+---
+title: interview-prep
+createTime: 2025/06/03 18:14:27
+permalink: /article/8dzmbium/
+---
 # 第四部分：面试准备与行业岗位推荐
 
 ## 1. Web3 行业简历撰写指导

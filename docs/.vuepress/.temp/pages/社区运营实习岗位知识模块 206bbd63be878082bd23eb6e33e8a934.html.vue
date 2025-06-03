@@ -1,5 +1,4 @@
-<template><div><h1 id="社区运营实习岗位知识模块" tabindex="-1"><a class="header-anchor" href="#社区运营实习岗位知识模块"><span>社区运营实习岗位知识模块</span></a></h1>
-<p>完成进度: 100
+<template><div><p>完成进度: 100
 日期: June 3, 2025
 状态: 进行中
 编写人员: Luna

@@ -1,3 +1,8 @@
+---
+title: interviews
+createTime: 2025/06/03 18:14:27
+permalink: /article/wk6lfr74/
+---
 # 第三部分：行业前辈访谈录
 
 > 建议篇幅：概览版可选1-2篇，系统版可扩展5-8篇（不同岗位+背景）

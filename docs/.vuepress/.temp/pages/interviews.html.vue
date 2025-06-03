@@ -1,5 +1,4 @@
-<template><div><h1 id="第三部分-行业前辈访谈录" tabindex="-1"><a class="header-anchor" href="#第三部分-行业前辈访谈录"><span>第三部分：行业前辈访谈录</span></a></h1>
-<blockquote>
+<template><div><blockquote>
 <p>建议篇幅：概览版可选1-2篇，系统版可扩展5-8篇（不同岗位+背景）</p>
 </blockquote>
 <h2 id="_1-智能合约工程师" tabindex="-1"><a class="header-anchor" href="#_1-智能合约工程师"><span>1. 智能合约工程师</span></a></h2>

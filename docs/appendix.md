@@ -1,3 +1,8 @@
+---
+title: appendix
+createTime: 2025/06/03 18:14:27
+permalink: /article/lvgczp94/
+---
 # 第五部分：附录
 
 ## 1. 区块链/以太坊术语表

@@ -1,5 +1,4 @@
-<template><div><h1 id="第一部分-入门导读" tabindex="-1"><a class="header-anchor" href="#第一部分-入门导读"><span>第一部分：入门导读</span></a></h1>
-<h2 id="一、区块链基础概念" tabindex="-1"><a class="header-anchor" href="#一、区块链基础概念"><span>一、区块链基础概念</span></a></h2>
+<template><div><h2 id="一、区块链基础概念" tabindex="-1"><a class="header-anchor" href="#一、区块链基础概念"><span>一、区块链基础概念</span></a></h2>
 <blockquote>
 <p>在本章，我们首先介绍区块链的基本概念，包括其定义、典型结构，接着阐述公链、私链与联盟链三种主要类型；然后解析一下 Web3 的内涵，并对比了 Web3、Web 3.0 与传统 Web2 的差异；最后探讨去中心化带来的主要优势与面临的挑战。</p>
 </blockquote>
@@ -886,13 +885,12 @@
 </li>
 <li><strong>万能汇报结构</strong></li>
 </ol>
-<div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre v-pre><code><span class="line">【项目 xxx 进度】</span>
-<span class="line">✅ 已完成：A 模块上线（比计划提前 1 天）</span>
-<span class="line">🚧 进行中：B 测试（完成 70%，明天下班前交付）</span>
-<span class="line">⚠️ 卡点：C 接口权限未获批（已联系 @李四，最晚周四答复）</span>
-<span class="line">🔜 下一步：周四同步测试报告（初稿已发附件）</span>
-<span class="line"></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="3">
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#393a34;--shiki-dark:#dbd7caee;--shiki-light-bg:#ffffff;--shiki-dark-bg:#121212"><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code class="language-"><span class="line"><span>【项目 xxx 进度】</span></span>
+<span class="line"><span>✅ 已完成：A 模块上线（比计划提前 1 天）</span></span>
+<span class="line"><span>🚧 进行中：B 测试（完成 70%，明天下班前交付）</span></span>
+<span class="line"><span>⚠️ 卡点：C 接口权限未获批（已联系 @李四，最晚周四答复）</span></span>
+<span class="line"><span>🔜 下一步：周四同步测试报告（初稿已发附件）</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><ol start="3">
 <li><strong>埋点式复盘</strong></li>
 </ol>
 <ul>
@@ -909,13 +907,12 @@
 <p>当同事说：“这个功能尽快做出来！”</p>
 <p>❌ 回答：“现在排期满了” → 制造对立</p>
 <p>✅ 结构化回应：</p>
-<div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre v-pre><code><span class="line">🔹 理解需求：您需要解决X问题，对么？（确认真实诉求）</span>
-<span class="line">🔹 给选项：</span>
-<span class="line">    Option A：简化版周五交付（缺Y功能）</span>
-<span class="line">    Option B：完整版下周三交付</span>
-<span class="line">🔹 建议：如果急用推荐A，我能协调资源加急</span>
-<span class="line"></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#393a34;--shiki-dark:#dbd7caee;--shiki-light-bg:#ffffff;--shiki-dark-bg:#121212"><pre class="shiki shiki-themes vitesse-light vitesse-dark vp-code" v-pre=""><code class="language-"><span class="line"><span>🔹 理解需求：您需要解决X问题，对么？（确认真实诉求）</span></span>
+<span class="line"><span>🔹 给选项：</span></span>
+<span class="line"><span>    Option A：简化版周五交付（缺Y功能）</span></span>
+<span class="line"><span>    Option B：完整版下周三交付</span></span>
+<span class="line"><span>🔹 建议：如果急用推荐A，我能协调资源加急</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div></li>
 <li>
 <p><strong>冲突化解话术</strong></p>
 <p><strong>当被甩锅时</strong>：</p>

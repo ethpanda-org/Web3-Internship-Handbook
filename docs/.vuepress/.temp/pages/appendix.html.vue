@@ -1,5 +1,4 @@
-<template><div><h1 id="第五部分-附录" tabindex="-1"><a class="header-anchor" href="#第五部分-附录"><span>第五部分：附录</span></a></h1>
-<h2 id="_1-区块链-以太坊术语表" tabindex="-1"><a class="header-anchor" href="#_1-区块链-以太坊术语表"><span>1. 区块链/以太坊术语表</span></a></h2>
+<template><div><h2 id="_1-区块链-以太坊术语表" tabindex="-1"><a class="header-anchor" href="#_1-区块链-以太坊术语表"><span>1. 区块链/以太坊术语表</span></a></h2>
 <ul>
 <li>行业黑话大全：https://github.com/WTFAcademy/WTF-gm</li>
 </ul>

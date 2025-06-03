@@ -1,5 +1,4 @@
-<template><div><h1 id="第四部分-面试准备与行业岗位推荐" tabindex="-1"><a class="header-anchor" href="#第四部分-面试准备与行业岗位推荐"><span>第四部分：面试准备与行业岗位推荐</span></a></h1>
-<h2 id="_1-web3-行业简历撰写指导" tabindex="-1"><a class="header-anchor" href="#_1-web3-行业简历撰写指导"><span>1. Web3 行业简历撰写指导</span></a></h2>
+<template><div><h2 id="_1-web3-行业简历撰写指导" tabindex="-1"><a class="header-anchor" href="#_1-web3-行业简历撰写指导"><span>1. Web3 行业简历撰写指导</span></a></h2>
 <ul>
 <li>岗位简历结构模板（技术岗 / 非技术岗）</li>
 <li>如何突出开源项目贡献</li>

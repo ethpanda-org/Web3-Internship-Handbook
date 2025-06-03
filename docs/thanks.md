@@ -1,3 +1,8 @@
+---
+title: thanks
+createTime: 2025/06/03 18:14:27
+permalink: /article/gk45w7u4/
+---
 # 致谢名单
 
 感谢所有为本手册内容、结构、校对、案例、访谈等做出贡献的同学和前辈！
