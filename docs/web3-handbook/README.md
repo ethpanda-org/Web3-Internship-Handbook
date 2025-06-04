@@ -1,8 +1,3 @@
----
-title: web3-handbook
-createTime: 2025/06/03 16:33:50
-permalink: /web3-handbook/
----
 # Web3 实习手册 
 
 ## 前言
