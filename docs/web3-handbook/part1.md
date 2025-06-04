@@ -2,7 +2,7 @@
 title: 第一部分：入门导读
 createTime: 2025/06/03 16:33:50
 order: 1
-# permalink: /article/bfcq3the/
+permalink: /web3-handbook/f0w4d254/
 ---
 ## 一、区块链基础概念
 

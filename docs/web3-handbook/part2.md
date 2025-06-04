@@ -2,7 +2,7 @@
 title: 第二部分：Web3 行业知识
 createTime: 2025/06/03 16:33:50
 order: 2
-# permalink: /article/mo2dy14d/
+permalink: /web3-handbook/sqqjhknh/
 ---
 
 ## 一、 区块链岗位类型与职能简介

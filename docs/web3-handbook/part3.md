@@ -2,7 +2,7 @@
 title: 第三部分：行业前辈访谈录
 createTime: 2025/06/03 16:33:50
 order: 3
-# permalink: /article/kewvm7ho/
+permalink: /web3-handbook/2q57geal/
 ---
 # 第三部分：行业前辈访谈录
 

@@ -2,7 +2,7 @@
 title: 第四部分：面试准备与行业岗位推荐
 createTime: 2025/06/03 16:33:50
 order: 4
-# permalink: /article/xmwudk63/
+permalink: /web3-handbook/7hcqn68x/
 ---
 # 第四部分：面试准备与行业岗位推荐
 

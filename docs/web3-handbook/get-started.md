@@ -1,7 +1,7 @@
 ---
 title: get-started
 createTime: 2025/06/03 16:33:50
-# permalink: /article/ebwgc5sl/
+permalink: /web3-handbook/m7ol9fkm/
 ---
 # Get Started
 
