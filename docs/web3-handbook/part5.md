@@ -6,9 +6,9 @@ permalink: /web3-handbook/6to8vqys/
 ---
 # 第五部分：附录
 
-## 1. 区块链/以太坊术语表
+## 一. 区块链/以太坊术语表
 - 行业黑话大全：[https://github.com/WTFAcademy/WTF-gm](https://github.com/WTFAcademy/WTF-gm)
-## 2. 推荐资料清单
+## 二. 推荐资料清单
 > 文档、书籍、技术博客、视频课程
 - Ethereum 官方学习文档：[https://ethereum.org/en/learn/](https://ethereum.org/en/learn/)
 - Solidity 官方文档：[https://docs.soliditylang.org/zh-cn/latest/index.html](https://docs.soliditylang.org/zh-cn/latest/index.html)
@@ -21,7 +21,7 @@ permalink: /web3-handbook/6to8vqys/
 - NFT 详细介绍：[https://nft.myfirst.io/](https://nft.myfirst.io/)
 - L2 详细介绍：[https://layer2.myfirst.io/](https://layer2.myfirst.io/)
 
-## 3. 常见问题解答（FAQ）
+## 三. 常见问题解答（FAQ）
 - 例如："区块链开发需要数学很强吗？"、"如何跟进行业最新进展？"、"遇到智能合约黑客攻击案例应该如何学习？"等
 
-## 4. 工具清单与 GitHub 推荐列表 
+## 四. 工具清单与 GitHub 推荐列表 
