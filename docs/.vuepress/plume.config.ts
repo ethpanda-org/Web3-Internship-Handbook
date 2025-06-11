@@ -41,7 +41,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message: '© 2025 Web3 实习手册 | 由 ETHPanda 和 LXDAO 团队维护',
+    message: '© Web3 实习手册 | 由 ETHPanda 和 LXDAO 团队维护',
     // 你可以自定义更多内容，如：copyright: ''
   },
 

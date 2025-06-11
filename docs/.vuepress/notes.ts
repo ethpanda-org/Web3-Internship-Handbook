@@ -33,16 +33,6 @@ const zhDemoNote = defineNoteConfig({
   sidebar: ['', 'foo', 'bar'],
   // 根据文件结构自动生成侧边栏
   // sidebar: 'auto',
-  //   sidebar: [
-  //   'README.md',
-  //   'part1.md',
-  //   'part2.md',
-  //   'part3.md',
-  //   'part4.md',
-  //   'part5.md',
-  //   '致谢名单.md',
-  //   'get-started.md'
-  // ],
 })
 
 /**
