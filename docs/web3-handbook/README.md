@@ -15,28 +15,28 @@ permalink: /web3-handbook/
 
 ## 内容大纲
 
-### [第一部分：入门导读](./part1.md)
+### 第一部分：入门导读
 
-1. **区块链基础概念**
+1. [**区块链基础概念**](../web3-handbook/part1/blockchain-basic.md)
     - 区块链是什么？
         - 区块链的典型结构（区块、链、共识、P2P 网络）
         - 公链 vs 私链 vs 联盟链
     - Web3 是什么？Web3 vs Web 3.0？ Web3 vs Web2
     - 去中心化的优势与挑战
-2. **以太坊概览**
+2. [**以太坊概览**](../web3-handbook/part1/overview-of-ethereum.md)
     - 以太坊的介绍
     - Ethereum 与 Bitcoin 的差异
     - 以太坊的定位与演进（从 PoW 到 PoS，合并事件 The Merge）
     - 以太坊生态概览：L1、L2、Rollup、EVM 等
     - 以太坊文化（核心价值观、密码朋克）
     - 关键组件介绍（以太坊虚拟机 EVM、账户系统、Gas 模型）
-3. **行业知识模块**（涵盖 DeFi、NFT、DAO、MEME 等）
+3. [**行业知识模块**](../web3-handbook/part1/industry-knowledge.md)（涵盖 DeFi、NFT、DAO、MEME 等）
     - DeFi：Uniswap、Compound、MakerDAO 案例
     - NFT：CryptoPunks、OpenSea 案例
     - DAO：LXDAO、NounsDAO 案例
     - MEME：MEME 文化与风险
     - 延伸阅读（推荐优秀文章、报告）
-4. **基础工作习惯**
+4. [**基础工作习惯**](../web3-handbook/part1/Web3-working-habits.md)
     - 行业黑话
     - Web3 常用工具：Twitter / Telegram / Discord / 使用教程
     - 以太坊钱包（Metamask）安装与安全
@@ -45,14 +45,14 @@ permalink: /web3-handbook/
     - 职场知识（排版、汇报进展、沟通等）
 
 
-### [第二部分：Web3 行业知识](./part2.md)
+### 第二部分：Web3 行业知识
 
-1. **区块链岗位类型与职能简介**
+1. [**区块链岗位类型与职能简介**](../web3-handbook/part2/position-introduction.md)
     - 技术岗：区块链开发、智能合约开发
     - 非技术岗：产品运营、社区运营、合规法务、研究分析等
     - Web3 行业岗位与技能列表（附职业路径参考）
     - 职业成长路线图建议（初级→中级→高级）
-2. **智能合约实习岗位知识模块**
+2. [**智能合约实习岗位知识模块**](../web3-handbook/part2/solidity-intern.md)
     - dapp 架构和开发流程
     - 以太坊开发环境搭建
     - Solidity 智能合约编程
@@ -61,7 +61,7 @@ permalink: /web3-handbook/
     - 部署合约
     - 区块链前端整合
     - 高阶内容：Gas 优化、合约安全、审计、单元测试、Layer 2
-3. **社区运营实习岗位知识模块**
+3. [**社区运营实习岗位知识模块**](../web3-handbook/part2/community-intern.md)
     - Web3 基础与以太坊生态
     - 常见工具与平台
     - 社区运营核心职责
@@ -74,7 +74,7 @@ permalink: /web3-handbook/
     - 安全防钓鱼建议
 
 
-### [第三部分：行业前辈访谈录](./part3.md)
+### [第三部分：行业前辈访谈录](../web3-handbook/part3/part3.md)
 
 - 智能合约工程师
 - 产品经理
@@ -83,9 +83,9 @@ permalink: /web3-handbook/
 - Web3 初创团队联合创始人 / 核心成员
 
 
-### [第四部分：面试准备与行业岗位推荐](./part4.md)
+### 第四部分：面试准备与行业岗位推荐
 
-1. **Web3 行业简历撰写指导**
+1. [**Web3 行业简历撰写指导**](../web3-handbook/part4/write-resume.md)
     - 岗位简历结构模板（技术岗 / 非技术岗）
     - 如何突出开源项目贡献
     - 项目经验描述要点（STAR 法则）
@@ -93,7 +93,7 @@ permalink: /web3-handbook/
     - 理论类
     - 安全类
     - 编程类
-3. **行业岗位推荐**
+3. [**行业岗位推荐**](../web3-handbook/part4/job-platform.md)
     - ETHPanda LXDAO 社区
     - 国内外 Web3 求职平台
 
@@ -108,6 +108,6 @@ permalink: /web3-handbook/
 
 ## [文档编写与贡献人员](./致谢名单.md)
 
-主要编写与贡献：Echo、汤圆、Jason Chung、Luna、Alex、Julie Che 以及 LXDAO 和 ETHPanda 的社区成员
+主要编写与贡献：Echo、汤圆、Jason Chung、Luna、Alex 以及 LXDAO 和 ETHPanda 的社区成员
 
 欢迎更多同学参与内容完善与共建！

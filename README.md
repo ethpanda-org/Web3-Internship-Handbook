@@ -10,15 +10,15 @@
 
 ## 内容大纲
 
-### [第一部分：入门导读](./docs/web3-handbook/part1.md)
+### 第一部分：入门导读
 
-1. **区块链基础概念**
+1. [**区块链基础概念**](./docs/web3-handbook/part1/blockchain-basic.md)
     - 区块链是什么？
         - 区块链的典型结构（区块、链、共识、P2P 网络）
         - 公链 vs 私链 vs 联盟链
     - Web3 是什么？Web3 vs Web 3.0？ Web3 vs Web2
     - 去中心化的优势与挑战
-2. **以太坊概览**
+2. [**以太坊概览**](./docs/web3-handbook/part1/overview-of-ethereum.md)
     - 以太坊的介绍
     - Ethereum 与 Bitcoin 的差异
     - 以太坊的定位与演进（从 PoW 到 PoS，合并事件 The Merge）

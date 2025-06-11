@@ -60,21 +60,50 @@ const handbookNote = defineNoteConfig({
   dir: 'web3-handbook',
   link: '/web3-handbook',
   sidebar: [
-    'README.md',
-    'part1.md',
-    'part2.md',
-    'part3.md',
-    'part4.md',
-    'part5.md',
-    '致谢名单.md',
-    'get-started.md'
-  ]
+    { text: '内容大纲', link: 'README.md' },
+    {
+      text: '入门导读',
+      items: [
+        { text: '区块链基础概念', link: 'part1/blockchain-basic.md' },
+        { text: '以太坊概览', link: 'part1/overview-of-ethereum.md' },
+        { text: '行业知识', link: 'part1/industry-knowledge.md' },
+        { text: 'Web3 基础工作习惯', link: 'part1/Web3-working-habits.md' },
+      ],
+      collapsed: true
+    },
+    {
+      text: 'Web3 行业知识',
+      items: [
+        { text: '区块链岗位类型与职能简介', link: 'part2/position-introduction.md' },
+        { text: '智能合约实习岗位知识模块', link: 'part2/solidity-intern.md' },
+        { text: '社区运营实习岗位知识模块', link: 'part2/community-intern.md' },
+        { text: '合规和网络安全', link: 'part2/security.md' },
+      ],
+      collapsed: true,
+    },
+    {
+      text: '行业前辈访谈录',link: 'part3/part3.md'
+    },
+    {
+      text: '面试准备与行业岗位推荐', collapsed: true,
+      items: [
+        { text: '招聘平台与职位推荐', link: 'part4/job-platform.md' },
+        { text: 'Web3 行业简历撰写指导', link: 'part4/write-resume.md' },
+      ],
+    },
+    { text: '附录', link: 'part5.md'},
+    { text: '致谢名单', link: '致谢名单.md'},
+    // {text: '获取更多', link: 'get-started.md', collapsed: true}
+  ],
+
 })
 
 export const zhNotes = defineNotesConfig({
   dir: '/',
   link: '/',
-  notes: [handbookNote],
+  notes: [
+    handbookNote
+  ],
 })
 
 /* =================== locale: en-US ======================= */
@@ -101,4 +130,3 @@ export const enNotes = defineNotesConfig({
   link: '/en/',
   notes: [enDemoNote],
 })
-
