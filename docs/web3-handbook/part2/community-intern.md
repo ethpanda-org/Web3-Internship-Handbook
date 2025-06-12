@@ -35,12 +35,10 @@ Web3 的叙事传播和社交活动主要发生在下列平台：
 
 | 渠道 | 用途 | 示例链接 |
 | --- | --- | --- |
-| **Twitter (X)** | 项目更新、KOL扩散、活动传播主阵地 | [https://x.com/ETHPanda_Org](https://x.com/ETHPanda_Org) |
-| **微信公众号** | 中文市场的信息更新与活动推广 | [https://mp.weixin.qq.com/s/en8CeulLNRiWDVc8A94R1w](https://mp.weixin.qq.com/s/en8CeulLNRiWDVc8A94R1w) |
-| **Medium/Substack** | 长文、项目理念、开发进展发布 | Medium:
-[http://medium.com/](http://medium.com/)
-Substack: [https://ethpanda.substack.com/](https://ethpanda.substack.com/) |
-| **Mirror** | 支持写作上链、发行 NFT 与众筹功能 | [https://mirror.xyz/](https://mirror.xyz/) |
+| **Twitter (X)** | 项目更新、KOL扩散、活动传播主阵地 | [推特账号 示例](https://x.com/ETHPanda_Org) |
+| **微信公众号** | 中文市场的信息更新与活动推广 | [微信公众号 示例](https://mp.weixin.qq.com/s/en8CeulLNRiWDVc8A94R1w) |
+| **Medium/Substack** | 长文、项目理念、开发进展发布 | [Medium 示例](http://medium.com/) [Substack  示例](https://ethpanda.substack.com/) |
+| **Mirror** | 支持写作上链、发行 NFT 与众筹功能 | [Mirror 示例](https://mirror.xyz/) |
 
 ### 社群沟通平台
 
@@ -60,14 +58,8 @@ Substack: [https://ethpanda.substack.com/](https://ethpanda.substack.com/) |
 | --- | --- | --- |
 | **Notion / Notion AI** | 文档整理、活动计划、项目管理 | [https://www.notion.com/](https://www.notion.com/) |
 | **ChatGPT** | 快速生成社交文案、翻译技术内容 | [https://openai.com/index/chatgpt/](https://openai.com/index/chatgpt/) |
-| **Figma / Canva** | 活动海报、推文视觉设计 | Figma:
-[https://www.figma.com/](https://www.figma.com/)
-Canva:
-[https://www.canva.com/](https://www.canva.com/) |
-| **Tally / Typeform** | 调研问卷、活动报名表单制作 | Tally:
-[https://tally.so/](https://tally.so/)
-Typeform:
-[https://www.typeform.com/](https://www.typeform.com/) |
+| **Figma / Canva** | 活动海报、推文视觉设计 | [Figma 官网](https://www.figma.com/) [Canva 官网](https://www.canva.com/) |
+| **Tally / Typeform** | 调研问卷、活动报名表单制作 | Tally:[https://tally.so/](https://tally.so/)Typeform:[https://www.typeform.com/](https://www.typeform.com/) |
 
 ### 数据与行业调研工具
 
@@ -77,17 +69,14 @@ Web3 世界的数据是开放的，以下工具是日常分析和监控项目的
 | --- | --- | --- |
 | **Etherscan** | 查看交易、合约、地址活动 | [https://etherscan.io/](https://etherscan.io/) |
 | **Dune Analytics** | 可视化仪表盘，SQL 查询链上数据 | [https://dune.com/home](https://dune.com/home) |
-| **CoinGecko / CoinMarketCap** | 币价监控与基本信息查询 | CoinGecko:
-[https://www.coingecko.com/](https://www.coingecko.com/)
-CoinMarketCap:
-[https://coinmarketcap.com/](https://coinmarketcap.com/) |
+| **CoinGecko / CoinMarketCap** | 币价监控与基本信息查询 | CoinGecko:[https://www.coingecko.com/](https://www.coingecko.com/)CoinMarketCap:[https://coinmarketcap.com/](https://coinmarketcap.com/) |
 | **Token Terminal** | 项目财务表现与用户增长分析 | [https://tokenterminal.com/](https://tokenterminal.com/) |
 
 # 二、常见任务案例模板
 
 ## Twitter Space 策划与执行
 
-[Twitter Space 执行模版](https://www.notion.so/Twitter-Space-206bbd63be8780b6aef8d71698d5196d?pvs=21)
+[Twitter Space 执行模版](./twitterSpace.md)
 
 ## 线上社区活动策划与执行
 
