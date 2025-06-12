@@ -408,3 +408,9 @@ app.appendChild(window.document.createElement('small')).textContent = a
     也可以由多个段落组成
 
 [^second]: 脚注文字。
+
+站点由 VuePress [+vuepress] 驱动。
+
+[+vuepress]:
+  VuePress 是一个 [静态站点生成器](https://en.wikipedia.org/wiki/Static_site_generator) (SSG) 。
+  专为构建快速、以内容为中心的站点而设计。
