@@ -7,10 +7,10 @@ to make decoding buffers and streams incredibly easy.
 
 ## Features
 
--   Support for streams
--   Support for XML encoding types, including UTF-16 prefixes and
-    `<?xml encoding="...">`
--   Allows decoding streams and buffers with a single function call
+- Support for streams
+- Support for XML encoding types, including UTF-16 prefixes and
+  `<?xml encoding="...">`
+- Allows decoding streams and buffers with a single function call
 
 ## Installation
 

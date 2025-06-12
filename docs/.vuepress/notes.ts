@@ -65,7 +65,7 @@ const handbookNote = defineNoteConfig({
       text: 'Web3 行业知识',
       items: [
         { text: '区块链岗位类型与职能简介', link: 'part2/position-introduction.md' },
-        { text: '智能合约实习岗位知识模块', link: 'part2/solidity-intern.md' },
+        { text: '智能合约实习岗位知识模块', link: 'part2/tec-intern.md' },
         { text: '社区运营实习岗位知识模块', link: 'part2/community-intern.md' },
         { text: '合规和网络安全', link: 'part2/security.md' },
       ],
