@@ -1,6 +1,6 @@
 ---
 title: part3
-createTime: 2025/06/12 00:30:37
+createTime: "2025/06/12 00:30:37"
 permalink: /web3-handbook/0f2y6b90/
 ---
 # 行业前辈访谈录

@@ -1,6 +1,6 @@
 ---
 title: 社区运营实习岗位知识模块
-createTime: 2025/06/11 20:30:21
+createTime: "2025/06/11 20:30:21"
 permalink: /web3-handbook/jsyscy5o/
 ---
 # 社区运营核心职责与常见工具/平台使用
@@ -53,7 +53,7 @@ permalink: /web3-handbook/jsyscy5o/
 | **Notion / Notion AI** | 文档整理、活动计划、项目管理 | [https://www.notion.com/](https://www.notion.com/) |
 | **ChatGPT** | 快速生成社交文案、翻译技术内容 | [https://openai.com/index/chatgpt/](https://openai.com/index/chatgpt/) |
 | **Figma / Canva** | 活动海报、推文视觉设计 | [Figma 官网](https://www.figma.com/) [Canva 官网](https://www.canva.com/) |
-| **Tally / Typeform** | 调研问卷、活动报名表单制作 | Tally:[https://tally.so/](https://tally.so/)Typeform:[https://www.typeform.com/](https://www.typeform.com/) |
+| **Tally / Typeform** | 调研问卷、活动报名表单制作 | Tally:[https://tally.so/](https://tally.so/) Typeform:[https://www.typeform.com/](https://www.typeform.com/) |
 
 ### 4. 数据与行业调研工具
 

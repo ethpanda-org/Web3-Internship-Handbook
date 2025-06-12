@@ -1,6 +1,6 @@
 ---
 title: 智能合约实习岗位知识模块
-createTime: 2025/06/12 00:30:37
+createTime: "2025/06/12 00:30:37"
 permalink: /web3-handbook/cmbn9gfu/
 ---
 
