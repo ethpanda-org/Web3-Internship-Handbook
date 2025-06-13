@@ -1,9 +1,8 @@
 ---
-title: web3-handbook
+title: Web3 实习手册 
 createTime: 2025/06/03 18:14:31
 permalink: /web3-handbook/
 ---
-# Web3 实习手册 
 
 ## 前言
 
