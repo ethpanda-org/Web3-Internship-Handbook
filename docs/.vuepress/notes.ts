@@ -81,7 +81,13 @@ const handbookNote = defineNoteConfig({
         { text: 'Web3 行业简历撰写指导', link: 'part4/write-resume.md' },
       ],
     },
-    { text: '附录', link: 'part5.md'},
+    { text: '附录', link: 'part5/part5.md',collapsed: true,
+      items: [
+        { text: 'Twitter Space 执行模版', link: 'part5/twitterSpace.md' },
+        { text: '线上活动执行模板', link: 'part5/online.md' },
+        { text: '线下活动执行模板', link: 'part5/offline.md' },
+      ],
+    },
     { text: '致谢名单', link: '致谢名单.md'},
     // {text: '获取更多', link: 'get-started.md', collapsed: true}
   ],

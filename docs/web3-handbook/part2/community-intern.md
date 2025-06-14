@@ -53,7 +53,7 @@ permalink: /web3-handbook/jsyscy5o/
 | **Notion / Notion AI** | 文档整理、活动计划、项目管理 | [https://www.notion.com/](https://www.notion.com/) |
 | **ChatGPT** | 快速生成社交文案、翻译技术内容 | [https://openai.com/index/chatgpt/](https://openai.com/index/chatgpt/) |
 | **Figma / Canva** | 活动海报、推文视觉设计 | [Figma 官网](https://www.figma.com/) [Canva 官网](https://www.canva.com/) |
-| **Tally / Typeform** | 调研问卷、活动报名表单制作 | Tally:[https://tally.so/](https://tally.so/) Typeform:[https://www.typeform.com/](https://www.typeform.com/) |
+| **Tally / Typeform** | 调研问卷、活动报名表单制作 | Tally:[https://tally.so/](https://tally.so/) <br> Typeform:[https://www.typeform.com/](https://www.typeform.com/) |
 
 ### 4. 数据与行业调研工具
 
@@ -61,17 +61,17 @@ permalink: /web3-handbook/jsyscy5o/
 | --- | --- | --- |
 | **Etherscan** | 查看交易、合约、地址活动 | [https://etherscan.io/](https://etherscan.io/) |
 | **Dune Analytics** | 可视化仪表盘，SQL 查询链上数据 | [https://dune.com/home](https://dune.com/home) |
-| **CoinGecko / CoinMarketCap** | 币价监控与基本信息查询 | CoinGecko:[https://www.coingecko.com/](https://www.coingecko.com/)CoinMarketCap:[https://coinmarketcap.com/](https://coinmarketcap.com/) |
+| **CoinGecko / CoinMarketCap** | 币价监控与基本信息查询 | CoinGecko:[https://www.coingecko.com/](https://www.coingecko.com/) <br> CoinMarketCap:[https://coinmarketcap.com/](https://coinmarketcap.com/) |
 | **Token Terminal** | 项目财务表现与用户增长分析 | [https://tokenterminal.com/](https://tokenterminal.com/) |
 
 ## 三、常见任务案例模板
 
 ## Twitter Space 策划与执行
 
-[Twitter Space 执行模版](./twitterSpace.md)
+[附录：Twitter Space 执行模版](../part5/twitterSpace.md)
 
 ### 2. 线上社区活动策划与执行
-[线上活动执行模板](https://www.notion.so/206bbd63be8780548290dab0608652ab?pvs=21)
+[附录：线上活动执行模板](../part5/online.md)
 
 ### 3. 线下活动策划与执行
-[线下活动执行模板](https://www.notion.so/206bbd63be878053b634edc40e8aa0c8?pvs=21)
+[附录：线下活动执行模板](../part5/offline.md)

@@ -17,13 +17,15 @@ Dapp 的架构主要由三个核心部分组成：
 
 ![图 1](../images/solidity-intern/a979e8e0-3547-4f54-a9b9-bd308ff25776.png)
 
-1. **前端（User Interface）**：
+==1. **前端（User Interface）**：==
   - 前端是 Dapp 与用户交互的界面，通常由 HTML、CSS 和 JavaScript（如 React、Vue 等框架）构建。与传统 Web 应用不同，dApp 前端会连接区块链来调用智能合约，呈现数据和执行交易。
   - 前端还需要集成区块链钱包（如 MetaMask）来进行身份验证和签署交易，确保用户的隐私和安全。
-2. **智能合约（Smart Contracts）**：
+
+==2. **智能合约（Smart Contracts）**：==
   - 智能合约是 Dapp 的核心，它定义了应用的业务逻辑，并部署在区块链上。智能合约通过执行自动化的规则来确保交易和操作的透明性与不可篡改性。
-  - 在以太坊平台上，智能合约通常使用 **Solidity** 编程语言编写，并通过 **Ethereum Virtual Machine (EVM)** 执行。
-3. **区块链和去中心化存储（Blockchain & Decentralized Storage）**：
+  - 在以太坊平台上，智能合约通常使用 **Solidity** 编程语言编写，并通过 **Ethereum Virtual Machine (EVM)** 执行。  
+
+==3. **区块链和去中心化存储（Blockchain & Decentralized Storage）**：==
   - 区块链用于存储智能合约的状态数据及交易记录。去中心化存储如 **IPFS**（InterPlanetary File System）或 **Arweave**，用于存储大规模的非结构化数据（如图片、文档等），确保数据不易丢失和篡改。
   - 通过使用去中心化存储，Dapp 确保所有数据在多个节点上备份，保证数据的持久性和去中心化特性。
 
@@ -32,47 +34,51 @@ Dapp 的架构主要由三个核心部分组成：
 Dapp 的开发流程可以分为以下几个阶段：
 
 ![图 2](../images/solidity-intern/0970775d-49eb-4b9d-9c8c-927ee2adddd9.png)
+::: steps
+1. **需求分析与规划**
 
-#### 2.1 **需求分析与规划**
+    在开发 Dapp 之前，首先需要进行需求分析和规划，明确应用的目标和功能。此阶段包括：
 
-在开发 Dapp 之前，首先需要进行需求分析和规划，明确应用的目标和功能。此阶段包括：
+    - **确定功能需求**：需要定义用户可以进行的操作，比如转账、查询余额、创建投票等。
+    - **选择区块链平台**：决定在哪个平台上构建 Dapp（如以太坊、Solana、Polygon 等），这通常取决于目标用户群、交易成本、可扩展性等因素。
+    - **设计用户体验（UX）**：定义 Dapp 的界面设计和交互流程，确保用户能够轻松使用应用并与区块链交互。  
+    <br>
 
-- **确定功能需求**：需要定义用户可以进行的操作，比如转账、查询余额、创建投票等。
-- **选择区块链平台**：决定在哪个平台上构建 Dapp（如以太坊、Solana、Polygon 等），这通常取决于目标用户群、交易成本、可扩展性等因素。
-- **设计用户体验（UX）**：定义 Dapp 的界面设计和交互流程，确保用户能够轻松使用应用并与区块链交互。
+2. **智能合约开发**
 
-#### 2.2 **智能合约开发**
+    智能合约是 Dapp 的核心，负责执行去中心化的业务逻辑和存储重要的数据。在这一阶段，开发者需要：
 
-智能合约是 Dapp 的核心，负责执行去中心化的业务逻辑和存储重要的数据。在这一阶段，开发者需要：
+    - **编写智能合约**：使用 **Solidity** 或其他智能合约语言编写合约，确保合约的功能满足需求分析中定义的要求。
+    - **编写测试用例**：为智能合约编写单元测试，确保合约逻辑正确、无漏洞。
+    - **审计和优化**：对合约进行安全审计，确保合约的安全性，避免常见漏洞（如重入攻击、整数溢出等）。  
+    <br>
 
-- **编写智能合约**：使用 **Solidity** 或其他智能合约语言编写合约，确保合约的功能满足需求分析中定义的要求。
-- **编写测试用例**：为智能合约编写单元测试，确保合约逻辑正确、无漏洞。
-- **审计和优化**：对合约进行安全审计，确保合约的安全性，避免常见漏洞（如重入攻击、整数溢出等）。
+3. **前端开发**
 
-#### 2.3 **前端开发**
+    前端是用户与 Dapp 交互的主要界面，因此开发前端时需要：
 
-前端是用户与 Dapp 交互的主要界面，因此开发前端时需要：
+    - **选择前端框架**：可以使用现代前端框架（如 **React**、**Vue**）来构建 UI。前端将通过 JavaScript 与智能合约进行交互。
+    - **连接钱包**：通过集成 **MetaMask** 等 Web3 钱包，用户可以连接到 dApp，并授权其与智能合约交互。
+    - **显示区块链数据**：前端需要从区块链获取数据（如账户余额、交易记录），并通过用户界面展示。
+    - **处理交易签名与确认**：当用户发起交易时，前端需要与钱包进行交互，获取用户的签名并将交易发送到区块链。  
+    <br>
 
-- **选择前端框架**：可以使用现代前端框架（如 **React**、**Vue**）来构建 UI。前端将通过 JavaScript 与智能合约进行交互。
-- **连接钱包**：通过集成 **MetaMask** 等 Web3 钱包，用户可以连接到 dApp，并授权其与智能合约交互。
-- **显示区块链数据**：前端需要从区块链获取数据（如账户余额、交易记录），并通过用户界面展示。
-- **处理交易签名与确认**：当用户发起交易时，前端需要与钱包进行交互，获取用户的签名并将交易发送到区块链。
+4. **与区块链交互**
 
-#### 2.4 **与区块链交互**
+    前端和智能合约通过 **Web3.js**、**Ethers.js** 或 **Viem** 等库进行交互。这些库允许前端与以太坊或其他区块链进行通信，实现读取和写入操作：
 
-前端和智能合约通过 **Web3.js**、**Ethers.js** 或 **Viem** 等库进行交互。这些库允许前端与以太坊或其他区块链进行通信，实现读取和写入操作：
+    - **读取数据**：前端通过智能合约的公共函数读取区块链上的状态数据（如余额、合约信息）。
+    - **发送交易**：当用户发起交易时，前端需要通过钱包签署交易并发送到区块链，执行合约中的某个功能（如转账）。  
+    <br>
 
-- **读取数据**：前端通过智能合约的公共函数读取区块链上的状态数据（如余额、合约信息）。
-- **发送交易**：当用户发起交易时，前端需要通过钱包签署交易并发送到区块链，执行合约中的某个功能（如转账）。
+5. **部署与上线**
 
-#### 2.5 **部署与上线**
+    一旦开发完成，Dapp 进入部署阶段。具体步骤包括：
 
-一旦开发完成，Dapp 进入部署阶段。具体步骤包括：
-
-- **部署智能合约**：通过工具（如 **Hardhat** 或 **Truffle**）将智能合约部署到测试网（如 **Sepolia**）或主网。
-- **前端部署**：将前端应用部署到去中心化平台（如 **IPFS**、**Fleek**）或传统的 Web 主机。
-- **发布和维护**：将 Dapp 上线，进行用户反馈收集，定期更新合约和前端，修复潜在问题。
-
+    - **部署智能合约**：通过工具（如 **Hardhat** 或 **Truffle**）将智能合约部署到测试网（如 **Sepolia**）或主网。
+    - **前端部署**：将前端应用部署到去中心化平台（如 **IPFS**、**Fleek**）或传统的 Web 主机。
+    - **发布和维护**：将 Dapp 上线，进行用户反馈收集，定期更新合约和前端，修复潜在问题。
+:::
 ### 3. 小结
 
 Dapp 的开发流程从需求分析、智能合约编写、前端开发，到最终部署，涵盖了多个技术栈的综合应用。通过了解 dApp 的架构和开发流程，开发者可以更好地把握去中心化应用的核心概念，并有效地进行开发和部署。
@@ -543,9 +549,9 @@ contract EventExample {
 
 | 风险点 | 攻击机理 | 典型防护措施 |
 | --- | --- | --- |
-| Reentrancy | 恶意合约在 transfer / call 回调中再次进入受害函数，导致重复提款 | 1. **Checks-Effects-Interactions**2. `ReentrancyGuard`（OpenZeppelin）3. 使用 `transfer`/`send` 或限制 gas（已不推荐，仅旧代码） |
-| 访问控制 (Access Control) | 未受保护的管理函数可被任何人调用 | 1. `Ownable`：`onlyOwner` 修饰符2. `AccessControl`：基于角色的权限（`DEFAULT_ADMIN_ROLE`, `MINTER_ROLE` 等）3. 及时转移 / 多签管理 |
-| 整数溢出 (Integer Overflow / Underflow) | 旧版本 `<0.8` 加法/减法越界产生错误数值 | 1. Solidity 0.8+ 默认内置溢出检查2. 对老版本使用 `SafeMath` 库3. 精简不必要的 `unchecked` 区块 |
+| Reentrancy | 恶意合约在 transfer / call 回调中再次进入受害函数，导致重复提款 | 1. **Checks-Effects-Interactions** <br> 2. `ReentrancyGuard`（OpenZeppelin）<br> 3. 使用 `transfer`/`send` 或限制 gas（已不推荐，仅旧代码） |
+| 访问控制 (Access Control) | 未受保护的管理函数可被任何人调用 | 1. `Ownable`：`onlyOwner` 修饰符 <br> 2. `AccessControl`：基于角色的权限（`DEFAULT_ADMIN_ROLE`, `MINTER_ROLE` 等）<br> 3. 及时转移 / 多签管理 |
+| 整数溢出 (Integer Overflow / Underflow) | 旧版本 `<0.8` 加法/减法越界产生错误数值 | 1. Solidity 0.8+ 默认内置溢出检查 <br> 2. 对老版本使用 `SafeMath` 库 <br> 3. 精简不必要的 `unchecked` 区块 |
 
 #### 3.1 重入攻击（Reentrancy）防护
 
@@ -780,7 +786,7 @@ contract SafeCounter {
 
 推荐使用 [Remix IDE](https://remix.ethereum.org/)，它是一个基于浏览器的在线集成开发环境，提供完整的 Solidity 编写、编译、部署与调试功能，适合初学者快速上手。
 
-![image.png](../images/solidity-intern/image%202.png)
+![图 5](../images/solidity-intern/image%202.png)
 
 ### 2. 合约代码
 
@@ -827,7 +833,7 @@ contract MessageBoard {
 
 在 Remix IDE 左侧文件管理面板（File Explorer）中，点击"新建文件"按钮，创建一个名为 `messageboard.sol` 的 Solidity 合约文件，并将合约代码粘贴至该文件中。
 
-![image.png](../images/solidity-intern/image%203.png)
+![图 6](../images/solidity-intern/image%203.png)
 
 ### 4. 编译
 
@@ -839,23 +845,23 @@ contract MessageBoard {
 
 如需重新组织项目结构，可点击 **FILE EXPLORER** 创建文件夹以便分类管理文件。
 
-![image.png](../images/solidity-intern/image%204.png)
+![图 7](../images/solidity-intern/image%204.png)
 
 ### 5. 部署
 
 - 在 Remix 右侧面板中选择 **Deploy & Run Transactions**，进入部署与交互界面；
 - 默认环境选择为 JavaScript VM，本地虚拟区块链，系统将自动为多个账户分配初始余额（每个账户默认 100 ETH），可用于部署与调用合约时支付 Gas 费用；
 
-![image.png](../images/solidity-intern/image%205.png)
+![图 8](../images/solidity-intern/image%205.png)
 
 - 确认部署合约的合约名无误后，点击 **Deploy** 按钮，即可完成部署；
 - 部署成功后，在下方面板将显示合约部署地址、可调用函数列表及状态变量
 
-![image.png](../images/solidity-intern/image%206.png)
+![图 9](../images/solidity-intern/image%206.png)
 
 - 展开底部命令终端可查看部署日志及构造函数的执行信息，验证合约初始化情况与留言功能的准备状态。
 
-![image.png](../images/solidity-intern/image%207.png)
+![图 10](../images/solidity-intern/image%207.png)
 
 ### 6. 调用函数
 
@@ -866,7 +872,7 @@ contract MessageBoard {
 3. 点击 **leaveMessage** 按钮，发起交易调用；
 4. 右侧命令终端将显示一条新的交易记录，点击该记录可查看交易详情与链上存储的留言信息。
 
-![image.png](../images/solidity-intern/image%208.png)
+![图 11](../images/solidity-intern/image%208.png)
 
 ## 五、以太坊技术基础
 
@@ -914,31 +920,31 @@ contract MessageBoard {
 
 在第四章中，我们已经体验了使用 Remix 在本地虚拟机环境下部署合约的基本流程。然而，该过程仅为本地模拟，并未真正将合约发布到区块链网络。
 
-接下来，我们将通过 **测试网络（Testnet）** 实现合约的正式部署，使其真正上链。
+接下来，我们将通过 ==**测试网络（Testnet）**=={.important} 实现合约的正式部署，使其真正上链。
 
-**测试链部署的意义**
+==**测试链部署的意义**==
 
 测试网络是与主网结构一致的区块链网络，由真实的去中心化节点共同维护。与主网不同的是，测试网中的代币不具有实际经济价值，适用于：
-
+::: card
 - 验证合约功能是否符合预期；
 - 检查合约在不同场景下的行为稳定性；
 - 发现并修复潜在的安全漏洞；
 - 避免在主网部署时产生高额 Gas 费用或造成实际损失。
-
+:::
 一旦在测试链中部署成功且运行稳定，才建议将合约迁移至以太坊主网，以降低研发与运维成本。
 
-**浏览器可见性**
+==**浏览器可见性**==
 
 由于测试链同样由真实节点组成，部署在测试链上的合约也可以通过以太坊区块浏览器（如 Sepolia Etherscan）进行查询与验证。
 
 您可以在浏览器中查看：
-
+::: card
 - 合约部署地址；
 - 所属交易哈希（Transaction Hash）；
 - 发起者地址；
 - 合约代码及 ABI；
 - 状态变量和函数调用记录等。
-
+::: 
 ### 1. 测试链
 
 以太坊测试网（Ethereum Testnets）是用于开发、测试和部署智能合约的网络环境，它们模拟主网功能但使用无价值的测试代币，让开发者可以安全地进行实验而无需承担真实的经济成本。
@@ -948,198 +954,211 @@ contract MessageBoard {
 | Sepolia | PoS (权益证明) | 活跃 |  长期支持的主要测试网，与主网最相似，稳定性高。 | 最终部署前测试，生产环境模拟，DApp集成测试 |
 | Goerli | PoS (权益证明) | 即将弃用 |  曾经的主要测试网，2024年开始逐步淘汰，仍有部分服务支持。 | 遗留项目测试，不建议新项目使用。 |
 | Holesky | PoS (权益证明) | 活跃 | 专为验证者测试设计，大型网络规模，质押功能完整。 | 验证者节点测试， 质押协议开发，大规模网络测试。 |
-| Ropsten | PoW (工作量证明) | 已弃用 | 历史上重要的测试网，2022年已关闭，曾模拟主网PoW环境。 | 已停用 |
-| Rinkeby | PoA (权威证明) | 已弃用 | 基于权威证明，2022年已关闭，曾经较为稳定。 | 已停用 |
-| Kovan | PoA (权威证明) | 已弃用 | 快速出块，2022年已关闭，社区维护。 | 已停用 |
+| Ropsten | PoW (工作量证明) | 已弃用 | 历史上重要的测试网，2022年已关闭，曾模拟主网PoW环境。 | ❌ 已停用 |
+| Rinkeby | PoA (权威证明) | 已弃用 | 基于权威证明，2022年已关闭，曾经较为稳定。 | ❌ 已停用 |
+| Kovan | PoA (权威证明) | 已弃用 | 快速出块，2022年已关闭，社区维护。 | ❌ 已停用 |
 
 ### 2. 领取 Sepolia 代币
 
 在将合约部署至 Sepolia 测试网之前，需确保部署地址拥有足够的测试用 ETH（Sepolia ETH），以支付部署与调用智能合约所需的 Gas 费用。
 
-#### 2.1 获取 Sepolia 地址
+::: steps
+1. ==获取 Sepolia 地址==
 
-1. 打开 [MetaMask 钱包](https://metamask.io/)，创建或导入钱包账户；
-2. 在网络选择栏中切换至 **Sepolia 测试网络**；
-3. 此时，您将获得一个以 `0x` 开头的以太坊地址，用于接收 Sepolia 测试币。
+    1. 打开 [MetaMask 钱包](https://metamask.io/)，创建或导入钱包账户；
+    2. 在网络选择栏中切换至 **Sepolia 测试网络**；
+    3. 此时，您将获得一个以 `0x` 开头的以太坊地址，用于接收 Sepolia 测试币。
+    :::: card-grid
+    ::: card
+    ![图 12](../images/solidity-intern/image%209.png)
+    :::
+    ::: card
+    ![图 13](../images/solidity-intern/image%2010.png)
+    :::
+    ::::
+2. ==申请测试币==
 
-![image.png](../images/solidity-intern/image%209.png)
+    可以通过以下水龙头（Faucet）网址申请 Sepolia 测试代币：
 
-![image.png](../images/solidity-intern/image%2010.png)
+    - [https://sepolia-faucet.pk910.de/](https://sepolia-faucet.pk910.de/)
 
-#### 2.2 申请测试币
+    ==**操作步骤如下：**=={.note}
 
-可以通过以下水龙头（Faucet）网址申请 Sepolia 测试代币：
+    1. 打开上述网址；
+    2. 在输入框中粘贴您的 **Sepolia 测试地址**；
+    3. 点击 **Start Mining** 按钮，平台将自动为您启动工作量证明（Proof of Work）过程；
+    4. 几分钟后，您将收到一定数量的 Sepolia ETH，自动打入对应地址。
 
-- [https://sepolia-faucet.pk910.de/](https://sepolia-faucet.pk910.de/)
+    ==**注意事项**=={.note}
 
-**操作步骤如下：**
+    - 某些水龙头服务可能会对申请者的主网余额、GitHub 账号或 Twitter 活跃度进行校验；
+    - 若在上述网站申请时出现 IP 相关错误提示，请按照以下步骤操作：
+        - 先完成网站的真人验证（Captcha）；
+        - 关闭 VPN 或代理服务；
+        - 重新点击 **Start Mining**；
+    - 若该 Faucet 不可用，也可尝试其他公开的 Sepolia 水龙头服务
+    :::: card-grid
+    ::: card
+    ![图 14](../images/solidity-intern/image%2011.png)
+    :::
+    ::: card
+    ![图 15](../images/solidity-intern/image%2012.png)
+    :::
+    ::::
 
-1. 打开上述网址；
-2. 在输入框中粘贴您的 **Sepolia 测试地址**；
-3. 点击 **Start Mining** 按钮，平台将自动为您启动工作量证明（Proof of Work）过程；
-4. 几分钟后，您将收到一定数量的 Sepolia ETH，自动打入对应地址。
-
-**注意事项**
-
-- 某些水龙头服务可能会对申请者的主网余额、GitHub 账号或 Twitter 活跃度进行校验；
-- 若在上述网站申请时出现 IP 相关错误提示，请按照以下步骤操作：
-    - 先完成网站的真人验证（Captcha）；
-    - 关闭 VPN 或代理服务；
-    - 重新点击 **Start Mining**；
-- 若该 Faucet 不可用，也可尝试其他公开的 Sepolia 水龙头服务
-
-![image.png](../images/solidity-intern/image%2011.png)
-
-![image.png](../images/solidity-intern/image%2012.png)
-
+:::
 ### 3. Remix 部署到 Sepolia
 
 在完成合约编写、编译和测试币领取等准备工作后，接下来可通过 Remix IDE 将合约正式部署到 Sepolia 测试网络，实现"上链"操作。
 
-#### 3.1 Remix 编译部署
+::: steps
 
-**连接钱包**
+1. ==Remix 编译部署==
 
-打开 Remix IDE，点击右侧面板中的 **Deploy & Run Transactions** 模块，在 **Environment** 下拉菜单中选择：
+    ==**连接钱包**=={.note}
 
-> Injected Provider - MetaMask
-> 
-> 
-> Remix 将自动调用浏览器中的 MetaMask 钱包，并连接到当前所选网络（确保已切换至 Sepolia 测试网）。
-> 
+    打开 Remix IDE，点击右侧面板中的 **Deploy & Run Transactions** 模块，在 **Environment** 下拉菜单中选择：
+    ::: card
+    ```
+    Injected Provider - MetaMask
+    ```
+     
+    Remix 将自动调用浏览器中的 MetaMask 钱包，并连接到当前所选网络（确保已切换至 Sepolia 测试网）。
+     
+    :::
 
-![image.png](../images/solidity-intern/image%2013.png)
+    ![图 16](../images/solidity-intern/image%2013.png)
 
-**编译合约**
+    ==**编译合约**=={.note}
 
-切换至**Solidity Compiler**面板，点击**Compile messageboard.sol**对合约进行编译，确保无错误提示。
+    切换至**Solidity Compiler**面板，点击**Compile messageboard.sol**对合约进行编译，确保无错误提示。
 
-![image.png](../images/solidity-intern/image%2014.png)
+    ![图 17](../images/solidity-intern/image%2014.png)
 
-**部署合约**
+    ==**部署合约**=={.note}
 
-回到 **Deploy & Run Transactions** 面板：
+    回到 **Deploy & Run Transactions** 面板：
 
-- 确保合约名称与合约文件一致；
-- 点击 **Deploy** 按钮；
-- MetaMask 会弹出交易确认窗口，展示 Gas 费用等信息；
-- 点击 **确认** 提交交易。
+    - 确保合约名称与合约文件一致；
+    - 点击 **Deploy** 按钮；
+    - MetaMask 会弹出交易确认窗口，展示 Gas 费用等信息；
+    - 点击 **确认** 提交交易。
 
-![image.png](../images/solidity-intern/image%2015.png)
+    ![图 18](../images/solidity-intern/image%2015.png)
 
-**查看部署结果**
+    ==**查看部署结果**=={.note}
 
-部署完成后，Remix 下方的命令行终端将输出相关日志，包括：
+    部署完成后，Remix 下方的命令行终端将输出相关日志，包括：
 
-- 合约部署的交易哈希（Transaction Hash）；
-- 部署成功的合约地址；
-- 构造函数的执行信息；
-- 可调用的函数与状态变量接口
+    - 合约部署的交易哈希（Transaction Hash）；
+    - 部署成功的合约地址；
+    - 构造函数的执行信息；
+    - 可调用的函数与状态变量接口
 
-![image.png](../images/solidity-intern/image%2016.png)
+    ![图 19](../images/solidity-intern/image%2016.png)
 
-#### 3.2 Etherscan查看合约
+2. ==Etherscan查看合约==
 
-部署成功后，我们可以借助 [Etherscan](https://sepolia.etherscan.io) （已默认选择测试网）区块浏览器 对部署过程及合约状态进行进一步验证与分析。
+    部署成功后，我们可以借助 [Etherscan](https://sepolia.etherscan.io) （已默认选择测试网）区块浏览器 对部署过程及合约状态进行进一步验证与分析。
 
-**切换到 Sepolia 网络**
+    ==**切换到 Sepolia 网络**=={.note}
 
-1. 打开 [Etherscan](https://etherscan.io/)；
-2. 在页面顶部的网络切换器中选择 **Sepolia** 测试网，或直接访问 https://sepolia.etherscan.io。
+    1. 打开 [Etherscan](https://etherscan.io/)；
+    2. 在页面顶部的网络切换器中选择 **Sepolia** 测试网，或直接访问 [https://sepolia.etherscan.io](https://sepolia.etherscan.io)。
 
-![image.png](../images/solidity-intern/image%2017.png)
+    ![图 20](../images/solidity-intern/image%2017.png)
 
-**通过交易哈希查看部署信息**
+    ==**通过交易哈希查看部署信息**=={.note}
 
-部署合约时，MetaMask 会生成一条交易记录，其 **Transaction Hash** 可在 Remix 的命令终端或 MetaMask 历史记录中找到。将该哈希值粘贴到 Etherscan 的搜索框中，即可查看部署交易的详细信息，包括：
+    部署合约时，MetaMask 会生成一条交易记录，其 **Transaction Hash** 可在 Remix 的命令终端或 MetaMask 历史记录中找到。将该哈希值粘贴到 Etherscan 的搜索框中，即可查看部署交易的详细信息，包括：
 
-- 交易发起地址（From）；
-- 合约部署地址（To 会显示为 *Contract Creation*）；
-- Gas 使用量及费用；
-- 区块确认数；
-- 输入的合约字节码（Input Data）等。
+    - 交易发起地址（From）；
+    - 合约部署地址（To 会显示为 *Contract Creation*）；
+    - Gas 使用量及费用；
+    - 区块确认数；
+    - 输入的合约字节码（Input Data）等。
 
-![image.png](../images/solidity-intern/image%2018.png)
+    ![图 21](../images/solidity-intern/image%2018.png)
 
-**通过合约地址查看合约详情**
+    ==**通过合约地址查看合约详情**=={.note}
 
-1. 在 Remix 中复制合约部署成功后的地址（如示例地址：`0xfaC4dF6aA3b8265A96a7B269a55A88E2009F34Be`）；
-2. 在 Etherscan 搜索框中粘贴该地址并进入合约页面；
-3. 页面中将显示如下信息：
-    - 当前余额（Balance）；
-    - 合约创建交易；
-    - 交互记录（若无交互，则显示为"暂无 Transactions"）；
-    - 发布者地址（Creator）；
-    - 合约代码（若已验证）等
+    1. 在 Remix 中复制合约部署成功后的地址（如示例地址：`0xfaC4dF6aA3b8265A96a7B269a55A88E2009F34Be`）；
+    2. 在 Etherscan 搜索框中粘贴该地址并进入合约页面；
+    3. 页面中将显示如下信息：
+        - 当前余额（Balance）；
+        - 合约创建交易；
+        - 交互记录（若无交互，则显示为"暂无 Transactions"）；
+        - 发布者地址（Creator）；
+        - 合约代码（若已验证）等
 
-![image.png](../images/solidity-intern/image%2019.png)
+    ![图 22](../images/solidity-intern/image%2019.png)
 
-**查看合约事件日志（Events）**
+    ==**查看合约事件日志（Events）**=={.note}
 
-即使该合约尚未发生函数调用或转账交易，也可以通过 Etherscan 的 **Events** 标签页查看部署过程中由构造函数或初始设置触发的事件。该功能有助于调试初始化逻辑和验证合约状态。
+    即使该合约尚未发生函数调用或转账交易，也可以通过 Etherscan 的 **Events** 标签页查看部署过程中由构造函数或初始设置触发的事件。该功能有助于调试初始化逻辑和验证合约状态。
 
-![image.png](../images/solidity-intern/image%2020.png)
+    ![图 23](../images/solidity-intern/image%2020.png)
 
-#### 3.3 合约交互
+3. ==合约交互==
 
-完成部署后，我们可以使用 Remix 提供的图形界面与已部署的智能合约进行函数调用测试，实现链上交互，并通过 Etherscan 验证交易与日志记录。
+    完成部署后，我们可以使用 Remix 提供的图形界面与已部署的智能合约进行函数调用测试，实现链上交互，并通过 Etherscan 验证交易与日志记录。
 
-**通过 Remix 调用合约函数**
+    ==**通过 Remix 调用合约函数**=={.note}
 
-1. 回到 Remix 的 **Deploy & Run Transactions** 面板；
-2. 在已部署合约实例下，找到函数 `leaveMessage`；
-3. 在输入框中输入一条测试信息（例如：`Hello ETH`）；
-4. 点击 `leaveMessage` 按钮发起函数调用；
-5. MetaMask 将弹出交易确认窗口，确认后即可发送交易；
-6. Remix 下方的终端将显示交易成功日志，包括交易哈希（Tx Hash）。
+    1. 回到 Remix 的 **Deploy & Run Transactions** 面板；
+    2. 在已部署合约实例下，找到函数 `leaveMessage`；
+    3. 在输入框中输入一条测试信息（例如：`Hello ETH`）；
+    4. 点击 `leaveMessage` 按钮发起函数调用；
+    5. MetaMask 将弹出交易确认窗口，确认后即可发送交易；
+    6. Remix 下方的终端将显示交易成功日志，包括交易哈希（Tx Hash）。
 
-![image.png](../images/solidity-intern/image%2021.png)
+    ![图 24](../images/solidity-intern/image%2021.png)
 
-**通过 Etherscan 验证交互结果**
+    ==**通过 Etherscan 验证交互结果**=={.note}
 
-1. 复制合约地址，再次访问 Sepolia Etherscan；
-2. 在搜索框粘贴合约地址，进入合约详情页面；
-3. 此时页面中将显示新增的一条交易（Transaction），即刚刚执行的函数调用记录；
-4. 点击该交易进入交易详情页；
-5. 在页面下方的 **Logs** 或 **Event Logs** 标签页中，可看到刚刚触发的事件日志，其中包含输入的留言内容等参数信息。
+    1. 复制合约地址，再次访问 Sepolia Etherscan；
+    2. 在搜索框粘贴合约地址，进入合约详情页面；
+    3. 此时页面中将显示新增的一条交易（Transaction），即刚刚执行的函数调用记录；
+    4. 点击该交易进入交易详情页；
+    5. 在页面下方的 **Logs** 或 **Event Logs** 标签页中，可看到刚刚触发的事件日志，其中包含输入的留言内容等参数信息。
 
-![image.png](../images/solidity-intern/image%2022.png)
+    ![图 25](../images/solidity-intern/image%2022.png)
 
-![image.png](../images/solidity-intern/image%2023.png)
-
+    ![图 26](../images/solidity-intern/image%2023.png)
+:::
 ## 七、区块链前端整合
 
 ### 1. 前端与合约交互工作流程概览
 
-#### 1.2 交互流程
+#### ==1.2 交互流程==
 
-1. **初始化连接**：前端检测并连接Web3提供者
+1. **初始化连接**：前端检测并连接 Web 3提供者
 2. **用户授权**：请求用户授权访问钱包账户
-3. **合约实例化**：使用ABI和合约地址创建合约实例
+3. **合约实例化**：使用 ABI 和合约地址创建合约实例
 4. **函数调用**：通过合约实例调用智能合约函数
 5. **交易签名**：钱包对交易进行数字签名
 6. **广播交易**：将签名交易发送到区块链网络
 7. **状态更新**：获取交易结果并更新前端界面
 
-![image.png](../images/solidity-intern/image%2024.png)
+![图 27](../images/solidity-intern/image%2024.png)
 
-#### 1.2 关键技术栈
+#### ==1.2 关键技术栈==
 
-- **合约语言：**掌握Solidity等相关合约开发语言
-- **Web3.js/Ethers.js**：JavaScript库，提供区块链交互API
-- **钱包连接器**：如WalletConnect、Web3Modal
-- **状态管理**：React Context、Redux等管理连接状态
-- **错误处理**：网络异常、用户拒绝、Gas不足等场景处理
+- **合约语言：** 掌握 Solidity 等相关合约开发语言
+- **Web3.js/Ethers.js**：JavaScript 库，提供区块链交互 API
+- **钱包连接器**：如 WalletConnect、Web3Modal
+- **状态管理**：React Context、Redux 等管理连接状态
+- **错误处理**：网络异常、用户拒绝、Gas 不足等场景处理
 
-上述技术栈中，合约语言与一些前端JS区块交互的API最为基础，其他方面往往由其他厂商提供，如RPC节点、钱包等。
+上述技术栈中，合约语言与一些前端 JS 区块交互的 API 最为基础，其他方面往往由其他厂商提供，如 RPC 节点、钱包等。
 
 ### 2. 实例操作
 
 在第六章中，我们已成功将智能合约部署至测试网络。然而，仅部署合约并不足以实现用户交互。为此，本章节将通过构建一个基于 Web 的前端页面，使用户可以通过网页界面与区块链上的合约进行交互（如留言等操作），从而实现完整的链上功能闭环。
 
-![image.png](../images/solidity-intern/image%2025.png)
+![图 28](../images/solidity-intern/image%2025.png)
 
-#### 2.1 关键代码
+#### ==2.1 关键代码==
 
 本前端界面基于以下技术栈构建：
 
@@ -1147,11 +1166,10 @@ contract MessageBoard {
 - **代码规模**：约 650 行
 - **核心依赖库**：`Web3.js` —— 用于与以太坊区块链进行交互
 
-完整源代码参考地址：
-
-👉 [messageboard.html - GitHub](https://github.com/JXChuangLab/JXChuangLab.github.io/blob/main/messageboard.html)
-
-**连接钱包**
+::: note
+完整源代码参考地址 👉: [messageboard.html - GitHub](https://github.com/JXChuangLab/JXChuangLab.github.io/blob/main/messageboard.html)
+:::
+==**连接钱包**=={.note}
 
 前端通过调用浏览器中的以太坊钱包插件（如 MetaMask）提供的 API，实现用户地址的连接与授权操作。
 
@@ -1174,7 +1192,7 @@ async function connectWallet() {
 }
 ```
 
-**合约 ABI 定义**
+==**合约 ABI 定义**=={.note}
 
 - ABI（**Application Binary Interface**，应用二进制接口）是智能合约对外提供的接口描述规范。
 - 在前端，ABI 以 JSON 格式定义，描述合约中的函数、参数、返回类型等。
@@ -1210,7 +1228,7 @@ const contractABI = [
         ];
 ```
 
-**合约实例化**
+==**合约实例化**=={.note}
 
 完成 ABI 导入与钱包连接后，通过 Web3.js 创建合约实例，绑定合约地址与 ABI，从而可直接调用合约中的函数接口。
 
@@ -1229,7 +1247,7 @@ function setContract() {
 }
 ```
 
-**合约方法调用**
+==**合约方法调用**=={.note}
 
 写入操作（需要 Gas）
 
@@ -1291,13 +1309,13 @@ async function queryMessages() {
 
 ### 1. Gas 优化
 
-#### 1.1 基本原理与计量单位
+::: note 基本原理与计量单位
 
 - Gas 是 EVM 执行操作的单位。每条指令消耗固定的 gas。
 - 优化目标是减少交易所需的总 gas，提高用户体验并降低成本。
-
-#### 1.2 常见优化技巧
-
+:::
+#### ==常见优化技巧==
+::: steps
 1. **减少存储操作（Storage Write）**
     - 读取存储第一次需 2100 gas（后续 100 gas），而内存读取仅3 gas。推荐多次访问同一存储数据时，将其缓存到内存以减少 SLOAD 次数
     - 每次写入 `storage` 的成本高达 20,000 gas；优先使用 `memory`。
@@ -1346,21 +1364,21 @@ async function queryMessages() {
         
 4. **函数可见性选择**
     - `external` 比 `public` 更节省 gas，适用于仅被外部调用的函数。
-
+::: 
 ### 2. 合约安全
 
-- 安全漏洞库（reentrancy、oracle manipulation）
+<!-- - 安全漏洞库（reentrancy、oracle manipulation） -->
 
-#### 2.1 安全设计原则
+::: note 安全设计原则
 
 - 最小权限原则（Least Privilege）
 - 模块化结构便于审计
 - 显式错误处理与事件记录
-
-#### 2.2 常见漏洞类型与防护
-
+:::
+#### ==常见漏洞类型与防护==
+::: steps
 1. **重入攻击 Reentrancy**
-    - 利用外部合约在 fallback 中重新调用原函数。历史上最著名的The DAO事件便因重入漏洞导致约6000万美元ETH被盗，最终造成以太坊社区分裂（形成ETH/ETC链）。
+    - 利用外部合约在 fallback 中重新调用原函数。历史上最著名的 The DAO 事件便因重入漏洞导致约 6000 万美元 ETH 被盗，最终造成以太坊社区分裂（形成 ETH/ETC 链）。
     - 防护方法：先更新状态，再转账。
     - 示例：
         
@@ -1380,37 +1398,38 @@ async function queryMessages() {
             (bool sent,) = msg.sender.call{value: amount}("");
             require(sent);
         }
-        ```
-        
+        ```  
+        <br>
 2. **预言机操纵 Oracle Manipulation**
     - 依赖外部价格源的不可信更新。
     - 解决方法：
         - 使用 Chainlink 等权威价格源。
-        - 增加时序约束和多源验证。
+        - 增加时序约束和多源验证。  
+    <br>
 3. **整数溢出/下溢**
     - 使用 `unchecked {}` 时需确保逻辑安全。
-    - 推荐使用 `SafeMath` 或 Solidity 0.8+ 的内建溢出检查。
+    - 推荐使用 `SafeMath` 或 Solidity 0.8+ 的内建溢出检查。  
+    <br>
 4. **权限控制缺失**
-    - 所有管理函数应使用 `onlyOwner` 或 `AccessControl` 修饰符保护。
+    - 所有管理函数应使用 `onlyOwner` 或 `AccessControl` 修饰符保护。  
+    <br>
 5. **未初始化代理**
     - 基于代理模式的合约若未正确执行初始化函数，可能被任意人初始化并接管合约。
-    - 著名的例子包括 Harvest Finance 其在使用 Uniswap V3 做市策略的 Vault 合约中存在未初始化漏洞，如果被利用攻击者可销毁实现合约。该团队曾为此漏洞支付高额赏金修复。
+    - 著名的例子包括 Harvest Finance 其在使用 Uniswap V3 做市策略的 Vault 合约中存在未初始化漏洞，如果被利用攻击者可销毁实现合约。该团队曾为此漏洞支付高额赏金修复。  
+    <br>
 6. **前置交易/三明治攻击**
     - 攻击者在交易执行前后分别发送交易，以不利滑点或套利为目的。
     - 例如 2025 年 3 月，一名用户在 Uniswap V3 的稳定币兑换中遭遇三明治攻击，约 21.5 万美元的 USDC 兑换几乎被抢跑，损失了 98% 的资金
-
+:::
 ### 3. 智能合约审计
 
-> 为什么要审计合约、合约审计的流程是什么、业内有名的审计公司有哪些
-> 
-
-#### 3.1 审计必要性
+::: note 审计必要性
 
 - 智能合约一旦部署无法修改，审计是风险控制关键手段。
 - 资金安全：避免用户资产被盗。
 - 法律合规：一些监管要求必须审计证明。
-
-#### 3.2 常见的合约审计工具
+:::
+#### 3.1 常见的合约审计工具
 
 - **Slither**：以 Python 编写的静态分析工具，可检测安全漏洞和代码规范问题
     - 常用命令为 `slither MyContract.sol`（也可指定合约地址）来扫描合约代码
@@ -1422,21 +1441,21 @@ async function queryMessages() {
     - 可使用 `forge test` 运行所有测试（包括以 `testFuzz_` 开头的基于属性测试）
     - 使用方式：[learnblockchain.cn](https://learnblockchain.cn/docs/foundry/i18n/zh/forge/fuzz-testing.html#:~:text=%E8%BF%90%E8%A1%8C%E6%B5%8B%E8%AF%95%EF%BC%8C%E6%88%91%E4%BB%AC%E7%9C%8B%E5%88%B0%E5%AE%83%E9%80%9A%E8%BF%87%E4%BA%86%EF%BC%9A)，或通过 `forge test --match-path <test 文件路径>` 定向运行特定测试文件。
 
-#### 3.3 审计标准流程
+#### 3.2 审计标准流程
 
-![🧠 常见 Web3 行业黑话大全（附解释） - visual selection (2).png](../images/solidity-intern/2ae3ed30-21a9-4447-b8c5-1d79dcde2b6d.png)
+![图 29](../images/solidity-intern/2ae3ed30-21a9-4447-b8c5-1d79dcde2b6d.png)
 
 1. **静态分析（Static Analysis）**：使用工具如 Slither、Mythril 扫描代码缺陷
 2. **动态测试（Fuzzing/Property Testing）**：模拟攻击行为和极限条件
 3. **人工审查（Manual Review）**：由资深审计员检查业务逻辑漏洞
 4. **审计报告生成（Audit Report）**：明确发现的问题及修复建议
 
-#### 3.4 知名审计机构比较
+#### 3.3 知名审计机构比较
 
 | 机构 | 特点 | 项目经验 |
 | --- | --- | --- |
 | 慢雾科技 | 国内领先，注重攻击复现 | EOS、币安、火币等 |
-| CertiK | 静态扫描+天网监控平台 | PancakeSwap、Aave |
+| CertiK | 静态扫描 + 天网监控平台 | PancakeSwap、Aave |
 | OpenZeppelin | 社区信赖度高，基础库作者 | Compound、Balancer |
 | ConsenSys Diligence | 精通以太坊底层原理 | Uniswap、1inch |
 
@@ -1444,8 +1463,8 @@ async function queryMessages() {
 
 #### 4.1 GitHub 工作流
 
-![🧠 常见 Web3 行业黑话大全（附解释） - visual selection (3).png](../images/solidity-intern/e12ee92b-1860-42a9-a1aa-89c29e0d131d.png)
-
+![图 30](../images/solidity-intern/e12ee92b-1860-42a9-a1aa-89c29e0d131d.png)
+::: steps
 - 分支策略：
     - **主分支 (main/master)**：始终保持可部署状态，任何代码合并前必须经过测试与审查。
     - **开发分支 (develop)**：用于日常功能开发，作为 feature 分支的合并目标。
@@ -1499,11 +1518,11 @@ async function queryMessages() {
         - 是否增加了足够的注释和文档说明？是否存在未使用的代码或死代码？
         - 是否编写了充分的单元测试覆盖常见场景和极端情况？
         ```
-        
+:::
 
 #### 4.2 Issue 管理
 
-![🧠 常见 Web3 行业黑话大全（附解释） - visual selection (5).png](../images/solidity-intern/cdb9939a-18e9-4dd8-80f6-b8cf22ccf0dc.png)
+![图 31](../images/solidity-intern/cdb9939a-18e9-4dd8-80f6-b8cf22ccf0dc.png)
 
 - 描述 Issue 结构推荐：背景 + 问题 + 尝试过的方法 + 环境信息
     - 示例：
