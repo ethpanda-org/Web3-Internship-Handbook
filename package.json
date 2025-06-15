@@ -25,6 +25,7 @@
     "vuepress-theme-plume": "1.0.0-rc.152"
   },
   "dependencies": {
+    "@iconify/json": "^2.2.348",
     "flowchart": "^1.2.0",
     "flowchart.ts": "^3.0.1",
     "mermaid": "^11.6.0"

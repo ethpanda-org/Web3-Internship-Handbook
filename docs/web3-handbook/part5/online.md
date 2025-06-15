@@ -51,17 +51,17 @@ permalink: /web3-handbook/vrgj9iaz/
     3. 合作/支持社区以及 KOL reach out
 
 7. ### **宣发文案**
-
+    ::: card
     [海报]
 
-    以太坊 Pectra 升级分叉成功！EIP Fun 网页也同步焕新！🌟为庆祝这一历史性突破，EIP Fun 特别推出「Pectra 升级纪念版动态NFT」！
+    以太坊 Pectra 升级分叉成功！EIP Fun 网页也同步焕新！🌟 为庆祝这一历史性突破，EIP Fun 特别推出「Pectra 升级纪念版动态NFT」！
 
     完成 Galxe 任务，解锁额外奖励机会 👉🏻 [Galxe Link]
 
     立即行动，成为区块链历史见证者！✨
 
     #Pectra #Web3 #Ethereum
-
+    :::
 
 8. ### 活动 Recap
 
