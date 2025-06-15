@@ -1,9 +1,9 @@
 ---
-title: 社区运营实习岗位知识模块
+title: 社区运营核心职责与常见工具/平台使用
 createTime: "2025/06/11 20:30:21"
 permalink: /web3-handbook/jsyscy5o/
 ---
-# 社区运营核心职责与常见工具/平台使用
+> 在 Web3 项目中，社区运营是连接用户与项目的重要桥梁。本模块将梳理社区运营的核心职责，包括内容发布、社群维护、活动组织和对外协作等日常工作，同时介绍常用的工具和平台，涵盖社交媒体、沟通协作、内容创作和数据分析等方面，帮助你快速掌握实操技能，建立高效的工作流程。
 
 ## 一、社区运营核心职责
 
@@ -28,8 +28,12 @@ permalink: /web3-handbook/jsyscy5o/
 - 与媒体保持联系，对重要活动与内容进行快讯等其他方式的支持，扩大曝光。
 
 ## 二、常见工具/平台使用
-
+::: card
+Web3 的工作流与传统互联网有所不同，涉及链上数据、加密钱包、社群协作等多个维度，掌握基本工具是必备技能。
+::: 
 ### 1. 社交媒体渠道
+
+Web3 的叙事传播和社交活动主要发生在下列平台：
 
 | 渠道 | 用途 | 示例链接 |
 | --- | --- | --- |
@@ -39,34 +43,35 @@ permalink: /web3-handbook/jsyscy5o/
 | **Mirror** | 支持写作上链、发行 NFT 与众筹功能 | [Mirror 示例](https://mirror.xyz/) |
 
 ### 2. 社群沟通平台
+社区建设和成员维护大多通过以下工具进行：
 
 | 平台           | 用途                                     | 链接                                             |
 | ------------ | -------------------------------------- | ---------------------------------------------- |
-| **Discord**  | 项目 Discord 是社区运营主阵地，分频道管理，支持 Bot 与权限管理 | [https://discord.com/](https://discord.com/)   |
-| **Telegram** | 更轻量的群聊工具，适合 AMA、用户支持                   | [https://telegram.org/](https://telegram.org/) |
+| **Discord**  | 项目 Discord 是社区运营主阵地，分频道管理，支持 Bot 与权限管理 | [Discord 官网](https://discord.com/)   |
+| **Telegram** | 更轻量的群聊工具，适合 AMA、用户支持                   | [Telegram 官网](https://telegram.org/) |
 | **微信群**      | 中国用户常用渠道，适合组织活动和日常互动                   |                                                |
 
 ### 3. 内容创作工具
-
+社区运营人员常常需要快速生成内容、设计视觉、记录文档等，推荐以下工具：
 | 工具 | 功能 | 链接 |
 | --- | --- | --- |
-| **Notion / Notion AI** | 文档整理、活动计划、项目管理 | [https://www.notion.com/](https://www.notion.com/) |
-| **ChatGPT** | 快速生成社交文案、翻译技术内容 | [https://openai.com/index/chatgpt/](https://openai.com/index/chatgpt/) |
+| **Notion / Notion AI** | 文档整理、活动计划、项目管理 | [Notion 官网](https://www.notion.com/) |
+| **ChatGPT** | 快速生成社交文案、翻译技术内容 | [开始 chatgpt 一下](https://openai.com/index/chatgpt/) |
 | **Figma / Canva** | 活动海报、推文视觉设计 | [Figma 官网](https://www.figma.com/) [Canva 官网](https://www.canva.com/) |
-| **Tally / Typeform** | 调研问卷、活动报名表单制作 | Tally:[https://tally.so/](https://tally.so/) <br> Typeform:[https://www.typeform.com/](https://www.typeform.com/) |
+| **Tally / Typeform** | 调研问卷、活动报名表单制作 |[Tally 官网](https://tally.so/) [Typeform 官网](https://www.typeform.com/) |
 
 ### 4. 数据与行业调研工具
-
+Web3 世界的数据是开放的，以下工具是日常分析和监控项目的重要资源：
 | 工具 | 用途 | 链接 |
 | --- | --- | --- |
-| **Etherscan** | 查看交易、合约、地址活动 | [https://etherscan.io/](https://etherscan.io/) |
-| **Dune Analytics** | 可视化仪表盘，SQL 查询链上数据 | [https://dune.com/home](https://dune.com/home) |
-| **CoinGecko / CoinMarketCap** | 币价监控与基本信息查询 | CoinGecko:[https://www.coingecko.com/](https://www.coingecko.com/) <br> CoinMarketCap:[https://coinmarketcap.com/](https://coinmarketcap.com/) |
+| **Etherscan** | 查看交易、合约、地址活动 | [Etherscan 官网](https://etherscan.io/) |
+| **Dune Analytics** | 可视化仪表盘，SQL 查询链上数据 | [Dune 官网](https://dune.com/home) |
+| **CoinGecko / CoinMarketCap** | 币价监控与基本信息查询 | [CoinGecko 官网](https://www.coingecko.com/) [CoinMarketCap 官网](https://coinmarketcap.com/) |
 | **Token Terminal** | 项目财务表现与用户增长分析 | [https://tokenterminal.com/](https://tokenterminal.com/) |
 
 ## 三、常见任务案例模板
 
-## Twitter Space 策划与执行
+### 1. Twitter Space 策划与执行
 
 [附录：Twitter Space 执行模版](../part5/twitterSpace.md)
 
