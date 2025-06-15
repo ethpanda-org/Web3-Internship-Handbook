@@ -73,7 +73,7 @@ permalink: /web3-handbook/
     - 安全防钓鱼建议
 
 
-### [第三部分：行业前辈访谈录](../web3-handbook/part3/part3.md)
+### 第三部分：行业前辈访谈录
 
 1. [**Logic：Bybit 前端先锋的链上闯关之路**](../web3-handbook/part3/Logic.md)
 
