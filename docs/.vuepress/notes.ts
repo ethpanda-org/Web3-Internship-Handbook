@@ -74,9 +74,9 @@ const handbookNote = defineNoteConfig({
     {
       text: '行业前辈访谈录',
       items: [
-        { text: 'Logic Bybit 前端先锋的链上闯关之路', link: 'part3/Jason.md' },
-        { text: 'Jason Web2 资深工程师的 Web3 转型之路', link: 'part3/Julie.md' },
-        { text: 'Julie 从 0 到 1 的00后 Web3 社区增长专家', link: 'part3/Logic.md' },
+        { text: 'Logic Bybit 前端先锋的链上闯关之路', link: 'part3/Logic.md' },
+        { text: 'Jason Web2 资深工程师的 Web3 转型之路', link: 'part3/Jason.md' },
+        { text: 'Julie 从 0 到 1 的00后 Web3 社区增长专家', link: 'part3/Julie.md' },
       ],
       collapsed: true,
     },
