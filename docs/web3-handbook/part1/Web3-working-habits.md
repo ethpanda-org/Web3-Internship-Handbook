@@ -90,14 +90,15 @@ permalink: /web3-handbook/iwic3itt/
 2. ==安装注册指南==
 
     - Windows (网页版)
-    - 在浏览器中打开 Twitter 官网：[https://twitter.com](https://twitter.com/)。
-    - 点击页面上的「注册」或「Sign up」按钮开始新用户注册。
-    - 填写姓名和电子邮件（或手机号）及出生日期，然后按提示点击「下一步」。
-    - Twitter 会向所填邮箱 / 手机号发送验证码，输入验证码后点击「下一步」。
-    - 设置账户密码并完成注册。如果提示通过手机号验证，可稍后在账号设置中添加手机号。
+        - 在浏览器中打开 Twitter 官网：[https://twitter.com](https://twitter.com/)。
+        - 点击页面上的「注册」或「Sign up」按钮开始新用户注册。
+        - 填写姓名和电子邮件（或手机号）及出生日期，然后按提示点击「下一步」。
+        - Twitter 会向所填邮箱 / 手机号发送验证码，输入验证码后点击「下一步」。
+        - 设置账户密码并完成注册。如果提示通过手机号验证，可稍后在账号设置中添加手机号。
     - Mac (网页版)
-    - Mac 用户通过 Safari 或 Chrome 打开 [twitter.com](https://twitter.com/) 进行注册，流程与 Windows 相同，可参照上述步骤完成。
-    - Twitter 官网也提供官方桌面应用（Windows 商店或 Mac App Store），下载安装后使用同一账户登录，可获得类似网页版的使用体验。
+        - Mac 用户通过 Safari 或 Chrome 打开 [twitter.com](https://twitter.com/) 进行注册，流程与 Windows 相同，可参照上述步骤完成。
+        - Twitter 官网也提供官方桌面应用（Windows 商店或 Mac App Store），下载安装后使用同一账户登录，可获得类似网页版的使用体验。  
+        <br>
 
 3. ==Twitter 常见的使用问题==  
     ::: tabs
@@ -240,11 +241,11 @@ permalink: /web3-handbook/iwic3itt/
 
 ### 5. Linkedin
 ::: steps
-1. 工具介绍
+1. ==工具介绍==
 
     LinkedIn（领英）是全球领先的职业社交平台，专注于帮助用户建立职业身份、拓展行业人脉、获取求职机会以及分享专业知识。通过 LinkedIn，用户可创建个人职业档案，连接企业、同事和行业伙伴，并访问海量职位招聘信息与行业动态。
 
-2. 安装注册指南
+2. ==安装注册指南==
 
     - [http://xhslink.com/a/tfKL51gogLlcb，复制本条信息，打开【小红书】App查看精彩内容！](http://xhslink.com/a/tfKL51gogLlcb%EF%BC%8C%E5%A4%8D%E5%88%B6%E6%9C%AC%E6%9D%A1%E4%BF%A1%E6%81%AF%EF%BC%8C%E6%89%93%E5%BC%80%E3%80%90%E5%B0%8F%E7%BA%A2%E4%B9%A6%E3%80%91App%E6%9F%A5%E7%9C%8B%E7%B2%BE%E5%BD%A9%E5%86%85%E5%AE%B9%EF%BC%81)
 
@@ -253,11 +254,11 @@ permalink: /web3-handbook/iwic3itt/
 
 ### 6. Notion
 ::: steps
-1. 工具介绍
+1. ==工具介绍==
 
     Notion 是一款功能强大的在线协作平台，将笔记、文档、数据库和任务管理整合在一个工作区中。你可以在 Notion 中创建页面，用于记录项目计划、知识库、团队 Wiki 等内容，并通过多种内容模块（如文本、图片、表格）自由排版。Notion 支持多人实时协作，共享与评论功能便于团队交流与知识积累。
 
-2. 安装注册指南（以 Mac 系统为例）
+2. ==安装注册指南（以 Mac 系统为例）==
 
     ![图 7](../images/Web3-working-habits/image%204.png)
 
@@ -272,16 +273,16 @@ permalink: /web3-handbook/iwic3itt/
 
 ### 7. Zoom
 ::: steps
-1. 工具介绍
+1. ==工具介绍==
 
     **Zoom** 是一款广泛使用的在线视频会议软件，类似于国内的腾讯会议，支持视频会议、语音通话、屏幕共享、聊天、录制等功能。它适用于远程办公、在线教育、团队会议等多种场景。由于其使用便捷、画面清晰、功能丰富，Zoom 被广泛应用于全球企业和组织中。
 
-2. 安装注册指南
+2. ==安装注册指南==
 
     - 具体安装细节请参考：[https://zoom.us/zh-cn/download](https://zoom.us/zh-cn/download)
     - 安装完成后，打开 Zoom 客户端：如果已有 Zoom 账号，可点击"登录"输入邮箱和密码；也可使用 **Google、Apple、Facebook 或企业邮箱（SSO）** 登录。
 
-3. 常用功能演示
+3. ==常用功能演示==
 
     ![图 9](../images/Web3-working-habits/image%206.png)
 
@@ -293,11 +294,11 @@ permalink: /web3-handbook/iwic3itt/
 :::
 ### 8. Calendly
 ::: steps
-1. 工具介绍
+1. ==工具介绍==
 
     Calendly 是一款智能日程调度工具，通过自动化预约流程消除邮件往返，让用户轻松共享个人可用时间并同步管理多平台日历，适用于跨团队协调会议、对外交流（如合作方、客户）、面试安排等场景，能够满足 Web3 远程工作的一些需求。
 
-2. 操作指南
+2. ==操作指南==
 
     - 访问[官网：https://calendly.com/](https://calendly.com/)，用邮箱或 Google/Microsoft 账号注册（公司用户建议使用公共邮箱）。
     - 验证邮箱后进入仪表盘，系统会引导完成基础配置。
@@ -310,7 +311,7 @@ permalink: /web3-handbook/iwic3itt/
     - 自动生成预约链接，可分享给对方
         ![图 15](../images/Web3-working-habits/image%2010.png)
 
-3. 使用建议
+3. ==使用建议==
 
     - 预约前自动检查冲突，避免双重预订
     - 支持时区自动转换，对方看到的是自己的本地时间
@@ -320,11 +321,11 @@ permalink: /web3-handbook/iwic3itt/
 
 ### 9. Figma
 ::: steps   
-1. 工具介绍
+1. ==工具介绍==
 
     Figma 是一款基于浏览器的矢量设计工具，支持 UI/UX 设计、原型制作与团队实时协作。支持实时协作，可多人同时编辑同一文件，设计稿自动保存云端。同时附带 AI 增强功能，支持通过自然语言生成交互原型（Figma Make），自动生成响应式代码。
 
-2. 使用指南
+2. ==使用指南==
 
     - Figma 全指南：[https://zhuanlan.zhihu.com/p/266781187](https://zhuanlan.zhihu.com/p/266781187)
     - 官方下载：[https://www.figma.com/downloads/](https://www.figma.com/downloads/)
@@ -333,11 +334,11 @@ permalink: /web3-handbook/iwic3itt/
 
 ### 10. GitHub
 ::: steps
-1. 工具介绍
+1. ==工具介绍==
 
     GitHub 是一种基于云的平台，可在其中存储、共享并与他人一起编写代码。通过将代码存储在 GitHub 上的"存储库"中，你可以："展示或共享"你的工作；持续"跟踪和管理"对代码的更改；让其他人"审查"你的代码，并提出改进建议；在共享的项目中开展"协作"，无需担心这些更改会在准备好集成更改之前影响协作者的工作。协作式工作是 GitHub 最基本的功能之一，该功能由开源软件 Git 实现，而 GitHub 是以该软件为基础进行构建的。
 
-2.  安装注册指南
+2. ==安装注册指南==
 
     - GitHub 安装超详细介绍：[https://blog.csdn.net/black_sneak/article/details/139600633](https://blog.csdn.net/black_sneak/article/details/139600633)
     ![图 18](../images/Web3-working-habits/image%2013.png)
