@@ -8,7 +8,7 @@ permalink: /web3-handbook/2vi8xbb1/
 
 > 想踏入 Web3，却被“信息混杂、渠道分散、岗位真假难辨”吓退？别担心，本章为你拆解求职全流程：先用“及时、真实、准确”三大维度教你筛选招聘信息，再甄选五个优质平台与多元信息渠道；接着提供 12 项“项目可靠度打分表”，帮你避开骗局；随后梳理运营、技术两大职业路径，从大使计划到核心开发者，配套任务清单与成长方法；最后给出实用的面试与成长建议，让你的第一份 Web3 工作不再靠运气，而是靠策略与实践拿下！
 
-![_- visual selection (1).png](../images/job-platform/_-_visual_selection_(1).png)
+![图 1](../images/job-platform/_-_visual_selection_(1).png)
 
 ## 一、选对招聘平台：Web3求职的黄金法则
 
@@ -60,7 +60,7 @@ permalink: /web3-handbook/2vi8xbb1/
 11. **项目方获得了哪些投资机构的支持：** 0-10分
 12. **项目方的社区运营情况（是否有官方推特/Discord，更新频率如何，多少人关注，是否积极互动）：** 0-10分
 
-![_- visual selection (2).png](../images/job-platform/_-_visual_selection_(2).png)
+![图 2](../images/job-platform/_-_visual_selection_(2).png)
 
 **评估建议：** 每一条的评分标准为0-10分，在你的认知范围内对这个项目进行打分。如果总分没有达到及格线（例如，低于60分），那你可能就要多加小心。特别是如果你发现你想要投递的项目仅仅是套一个壳（例如AI概念），并且业务模式以拉人头为主，并没有实际落地业务（例如借助Telegram小程序发展下线），且在领英、CoinGlass、非小号等数据库中名不见经传，甚至都没有官方推特，那你可能就要警惕了，你可能并不是在找Web3工作，而是在给诈骗团伙**助纣为虐**。但是，这并不意味着分数低的项目方一定不行，对于0经验的求职者来说，直接投递优质项目可能会被拒，可以考虑从分数稍低但有潜力的项目开始积累经验。
 
@@ -114,7 +114,7 @@ permalink: /web3-handbook/2vi8xbb1/
 
 **常见的Web3技术岗位包括：**
 
-![_- visual selection (3).png](../images/job-platform/_-_visual_selection_(3).png)
+![图 3](../images/job-platform/_-_visual_selection_(3).png)
 
 - **区块链核心开发者（Blockchain Core Developer）：** 负责底层区块链协议的设计、开发和维护，如共识机制、P2P网络等。通常需要精通Go、Rust、C++等语言。
 - **智能合约工程师（Smart Contract Engineer）：** 负责在区块链上编写、测试和部署智能合约，如DeFi协议、NFT合约等。主要使用Solidity、Rust（for Solana/Polkadot）等语言。
