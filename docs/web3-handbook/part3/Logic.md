@@ -1,5 +1,5 @@
 ---
-title: Logic
+title: Logic：Bybit 前端先锋的链上闯关之路
 createTime: 2025/06/15 18:33:58
 permalink: /web3-handbook/6ma3dube/
 ---

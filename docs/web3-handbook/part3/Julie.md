@@ -1,5 +1,5 @@
 ---
-title: Julie
+title: Julie：从 0 到 1 的00后 Web3 社区增长专家
 createTime: 2025/06/15 18:36:55
 permalink: /web3-handbook/6ak64nbh/
 ---
