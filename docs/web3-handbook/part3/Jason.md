@@ -1,7 +1,7 @@
 ---
-title: Jason：Web2 资深工程师的 Web3 转型之路
-createTime: "2025/06/12 00:30:37"
-permalink: /web3-handbook/0f2y6b90/
+title: Jason
+createTime: 2025/06/15 18:35:28
+permalink: /web3-handbook/403qbqz2/
 ---
 ## Jason：Web2 资深工程师的 Web3 转型之路
 

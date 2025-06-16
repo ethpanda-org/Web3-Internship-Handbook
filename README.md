@@ -25,13 +25,13 @@
     - 以太坊生态概览：L1、L2、Rollup、EVM 等
     - 以太坊文化（核心价值观、密码朋克）
     - 关键组件介绍（以太坊虚拟机 EVM、账户系统、Gas 模型）
-3. **行业知识模块**（涵盖 DeFi、NFT、DAO、MEME 等）
+3. [**行业知识模块**（涵盖 DeFi、NFT、DAO、MEME 等）](docs\web3-handbook\part1\industry-knowledge.md)
     - DeFi：Uniswap、Compound、MakerDAO 案例
     - NFT：CryptoPunks、OpenSea 案例
     - DAO：LXDAO、NounsDAO 案例
     - MEME：MEME 文化与风险
     - 延伸阅读（推荐优秀文章、报告）
-4. **基础工作习惯**
+4. [**基础工作习惯**](docs\web3-handbook\part1\Web3-working-habits.md)
     - 行业黑话
     - Web3 常用工具：Twitter / Telegram / Discord / 使用教程
     - 以太坊钱包（Metamask）安装与安全
@@ -40,7 +40,7 @@
     - 职场知识（排版、汇报进展、沟通等）
 
 
-### [第二部分：Web3 行业知识](./docs/web3-handbook/part2.md)
+### [第二部分：Web3 行业知识]
 
 1. **区块链岗位类型与职能简介**
     - 技术岗：区块链开发、智能合约开发
@@ -68,8 +68,7 @@
     - 常见法律风险与规避方式
     - 安全防钓鱼建议
 
-
-### [第三部分：行业前辈访谈录](./docs/web3-handbook/part3.md)
+### [第三部分：行业前辈访谈录]
 
 1. **Logic：Bybit 前端先锋的链上闯关之路**
 
@@ -78,7 +77,7 @@
 3. **Julie：从 0 到 1 的00后 Web3 社区增长专家**
 
 
-### [第四部分：面试准备与行业岗位推荐](./docs/web3-handbook/part4.md)
+### [第四部分：面试准备与行业岗位推荐]
 
 1. **Web3 行业简历撰写指导**
     - 岗位简历结构模板（技术岗 / 非技术岗）
@@ -93,7 +92,7 @@
     - 国内外 Web3 求职平台
 
 
-### [第五部分：附录](./docs/web3-handbook/part5.md)
+### [第五部分：附录]
 
 1. 区块链/以太坊术语表
 2. 推荐资料清单（文档、书籍、技术博客、视频课程等）

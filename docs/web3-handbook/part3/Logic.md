@@ -1,7 +1,7 @@
 ---
-title: Logic：Bybit 前端先锋的链上闯关之路
-createTime: "2025/06/12 00:30:37"
-permalink: /web3-handbook/0f2y6b90/
+title: Logic
+createTime: 2025/06/15 18:33:58
+permalink: /web3-handbook/6ma3dube/
 ---
 > 在本章，我们聚焦三位 00 后代表——Bybit 前端 Logic、Web2 转 Web3 工程师 Jason、ZetaChain 社区负责人 Julie——透视他们在链上开发、转型实践与社区增长中的关键方法；归纳他们面对机会与挑战时的思维框架与行动路径；最后提炼适合学生、Web2 技术人与运营新人的可复用经验，帮助读者在 Web3 宇宙中快速定位下一步成长方向。
 
