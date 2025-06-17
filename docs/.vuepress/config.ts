@@ -18,7 +18,7 @@ export default defineUserConfig({
   lang: 'zh-CN',
   locales: {
     '/': {
-      title: 'Internship Handbook',
+      title: 'Web3 实习手册',
       lang: 'zh-CN',
       description: '',
     },

@@ -50,7 +50,7 @@ const handbookNote = defineNoteConfig({
   dir: 'web3-handbook',
   link: '/web3-handbook',
   sidebar: [
-    { text: '内容大纲', link: 'README.md' },
+    { text: 'Web3 实习手册', link: 'README.md' },
     {
       text: '入门导读',
       items: [
@@ -67,7 +67,7 @@ const handbookNote = defineNoteConfig({
         { text: '区块链岗位类型与职能简介', link: 'part2/position-introduction.md' },
         { text: '智能合约实习岗位知识模块', link: 'part2/tec-intern.md' },
         { text: '社区运营实习岗位知识模块', link: 'part2/community-intern.md' },
-        { text: '合规和网络安全', link: 'part2/security.md' },
+        { text: '合规和网络安全', link: 'part2/security.md', badge: { text: '待更新', type: 'info' },  },
       ],
       collapsed: true,
     },
@@ -88,6 +88,7 @@ const handbookNote = defineNoteConfig({
       ],
     },
     { text: '附录', link: 'part5/part5.md',collapsed: true,
+      badge: { text: '新', type: 'danger' }, 
       items: [
         { text: 'Twitter Space 执行模版', link: 'part5/twitterSpace.md' },
         { text: '线上活动执行模板', link: 'part5/online.md' },

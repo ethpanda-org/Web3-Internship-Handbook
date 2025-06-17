@@ -86,7 +86,7 @@ config:
           height: 45px
         details: ETHpanda 是一个由华语建设者组成的以太坊社区，致力于通过教育、公共服务、活动和技术创新，连接华语建设者与国际以太坊生态，共同推动以太坊的持续发展与创新。
         link: https://ethpanda.org
-        linkText: 访问官网
+        linkText: 加入我们
       -
         title: LXDAO
         icon: 
@@ -95,9 +95,42 @@ config:
           height: 45px
         details: LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品进入可持续发展的无限循环（Infinite Cycle）。
         link: https://lxdao.io
-        linkText: 访问官网
+        linkText: 加入我们
 
 ---
 
 <!-- 这里是自定义区域的内容，会插入到 type: custom 区域的位置 -->
-# 加入我们
+# 贡献者们
+
+:::: card-masonry
+
+  ::: card title="Bruce"
+  ![Bruce](./images/contributor/bruce.png)
+  Web3 实习手册发起人
+  :::
+
+  ::: card title="Echo"
+  ![Echo](./images/contributor/Echo.jpg)
+  Web3 实习手册制作人、负责人
+  :::
+
+  ::: card title="吃汤圆"
+  ![吃汤圆](./images/contributor/tangyuan.png)
+  Web3 实习手册制作人、负责人
+  :::
+
+  ::: card title="Alex"
+  ![Alex](./web3-handbook/images/640.png)
+  Web3 实习手册制作人
+  :::
+
+  ::: card title="Luna"
+  ![Luna](./web3-handbook/images/640.png)
+  Web3 实习手册制作人
+  :::
+
+  ::: card title="Jason"
+  ![Jason](./web3-handbook/images/640.png)
+  Web3 实习手册制作人
+  :::
+::::
