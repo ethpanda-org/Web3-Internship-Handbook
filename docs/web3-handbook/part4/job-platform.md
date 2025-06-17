@@ -123,8 +123,7 @@ permalink: /web3-handbook/2vi8xbb1/
 
 - ==**区块链核心开发者（Blockchain Core Developer）：**== 负责底层区块链协议的设计、开发和维护，如共识机制、P2P 网络等。通常需要精通 Go、Rust、C++ 等语言。
 - ==**智能合约工程师（Smart Contract Engineer）：**== 负责在区块链上编写、测试和部署智能合约，如 DeFi 协议、NFT 合约等。主要使用 Solidity、Rust（for Solana/Polkadot）等语言。
-- ==**DApp 前端开发者（DApp Frontend Developer）：**== 负责去中心化应用（DApp）的用户界面开发，与智能合约进行交互。需要熟悉 React、Vue 等前端框架，以及 Web3.js、Ethers.js 等库。
-- ==**DApp 后端开发者（DApp Backend Developer）：**== 负责 DApp 的后端服务开发，如数据索引、API 接口等。可能涉及 Node.js、Python、Go 等语言，以及 IPFS、The Graph 等技术。
+- ==**Dapp 后端开发者（Dapp Backend Developer）：**== 负责 Dapp 的后端服务开发，如数据索引、API 接口等。可能涉及 Node.js、Python、Go 等语言，以及 IPFS、The Graph 等技术。
 - ==**Web3 安全审计师（Web3 Security Auditor）：**== 负责对智能合约和区块链项目进行安全审计，发现并修复潜在漏洞。需要深入理解区块链安全原理和常见攻击模式。
 - ==**密码学工程师（Cryptography Engineer）：**== 专注于密码学算法的设计和实现，应用于零知识证明（ZKP）、同态加密等领域。
 - ==**DevOps 工程师（DevOps Engineer）：**== 负责 Web3 项目的部署、自动化、监控和运维，确保系统的稳定性和效率。
@@ -133,7 +132,7 @@ permalink: /web3-handbook/2vi8xbb1/
 
 - **参与开源项目：** 贡献代码到 GitHub 上的 Web3 开源项目，是学习和展示能力的好方式。
 - **参加黑客松（Hackathon）：** 在短时间内与团队协作开发 Web3 项目，快速学习新知识并获得实践经验。
-- **构建个人项目：** 从简单的 DApp 开始，逐步构建更复杂的项目，例如一个 DeFi 协议、一个 NFT 市场或一个链上游戏，并上传到自己的 GitHub。
+- **构建个人项目：** 从简单的 Dapp 开始，逐步构建更复杂的项目，例如一个 DeFi 协议、一个 NFT 市场或一个链上游戏，并上传到自己的 GitHub。
 - **学习在线课程和教程：** 掌握 Solidity、Rust 等核心编程语言，以及区块链基础知识和相关工具，推荐项目：LXDAO 残酷共学 [https://x.com/LXDAO_Official/status/1867486214410138068](https://x.com/LXDAO_Official/status/1867486214410138068)
 - **阅读白皮书和技术文档：** 深入理解不同区块链协议和项目的技术细节。
 
