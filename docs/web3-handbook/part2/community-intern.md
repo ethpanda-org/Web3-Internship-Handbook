@@ -80,3 +80,8 @@ Web3 世界的数据是开放的，以下工具是日常分析和监控项目的
 
 ### 3. 线下活动策划与执行
 [附录：线下活动执行模板](../part5/offline.md)
+
+## ::ep:avatar::文章贡献者  
+作者：[Luna](/)  
+排版：[Echo](https://x.com/Echo_liuchan)
+

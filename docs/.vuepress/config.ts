@@ -129,7 +129,8 @@ export default defineUserConfig({
       //   audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)
       icon: { 
         provider: 'iconify',
-        prefix: 'carbon',
+        // provider: 'iconfont',
+        // prefix: 'iconfont icon-',
       },        // 启用内置图标语法  ::icon-name::
       //   codepen: true,      // 启用嵌入 codepen 语法 @[codepen](user/slash)
       //   replit: true,       // 启用嵌入 replit 语法 @[replit](user/repl-name)

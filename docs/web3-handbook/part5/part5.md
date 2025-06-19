@@ -25,3 +25,7 @@ permalink: /web3-handbook/6to8vqys/
 - 例如："区块链开发需要数学很强吗？"、"如何跟进行业最新进展？"、"遇到智能合约黑客攻击案例应该如何学习？"等
 
 ## 四. 工具清单与 GitHub 推荐列表 
+
+## ::ep:avatar::文章贡献者  
+作者：[Echo](https://x.com/Echo_liuchan)
+排版：[Echo](https://x.com/Echo_liuchan)

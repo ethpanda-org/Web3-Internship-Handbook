@@ -20,7 +20,7 @@ permalink: /web3-handbook/blockchain-basic/
 - 每一个区块只有有限的存储容量。
 - 每个区块会在一定时间内打包，例如大概 10 分钟打包生成一个。  
 
-![block](../images/区块链基础概念/block.png)
+![block](../images/blockchainBasic/block.png)
 :::
 ::: card
 ==**这是一条链**=={.warning}  
@@ -30,7 +30,7 @@ permalink: /web3-handbook/blockchain-basic/
 <br>
 <br>  
 
-![chain](../images/区块链基础概念/chain.png)
+![chain](../images/blockchainBasic/chain.png)
 :::
 ::::
 
@@ -38,7 +38,7 @@ permalink: /web3-handbook/blockchain-basic/
 ==**合并在一起就是： 区块链**=={.danger}
 <br>  
 
-![blockchain](../images/区块链基础概念/blockchian.png)
+![blockchain](../images/blockchainBasic/blockchian.png)
 :::
 
 <br>
@@ -65,7 +65,7 @@ permalink: /web3-handbook/blockchain-basic/
 <br>
 
 
-![分布式记账](../images/区块链基础概念/decentralize.png)
+![分布式记账](../images/blockchainBasic/decentralize.png)
 
 一个区块链网络中有非常多的节点（矿机）来记账，每个节点都会记录完整的、相同的区块链信息！
 
@@ -97,7 +97,7 @@ permalink: /web3-handbook/blockchain-basic/
 
 网络节点服务提供商（以下简称为网络服务提供商）可以得到奖励。不同的网络服务提供商可以得到不同的代币奖励，比如：比特币。
 
-![reward](../images/区块链基础概念/reward.png)
+![reward](../images/blockchainBasic/reward.png)
 :::
 
 ::: card 
@@ -105,7 +105,7 @@ permalink: /web3-handbook/blockchain-basic/
 
 根据比特币的设计，它仅有有限的供应量，而且可以自由转账。因此具备了货币的特性，成为了加密货币。  
 
-![currency](../images/区块链基础概念/currency.png)
+![currency](../images/blockchainBasic/currency.png)
 :::
 ::::
 
@@ -143,7 +143,7 @@ permalink: /web3-handbook/blockchain-basic/
 区块链将会有一条链来记录全部的信息，这条链将存在对应的去中心化网络中。
 去中心化的网络，将由无数节点提供服务来维持网络运行。这种操作称之为挖矿。
 
-![去中心化的网络](../images/区块链基础概念/decentralize.png)
+![去中心化的网络](../images/blockchainBasic/decentralize.png)
 :::
 :::card
 ==**维持网络运行的代币激励**==
@@ -151,13 +151,13 @@ permalink: /web3-handbook/blockchain-basic/
 去中心化的网络由无数节点提供服务来维持网络运行，这种操作称之为挖矿。维持这些服务的人一般称之为矿工。矿工们维持网络运行需要奖励，就像你工作需要工资，在区块链中对矿工的奖励一般是代币，你经常听说的 Gas Fee 就是矿工们的「工资」。
 你使用这个网络进行交易、转账、铸造 NFT等等，均需要支付代币。如果你没有代币又想使用这个区块链网络服务，则需要进行代币之间交换或者法币交换。
 
-![代币激励](../images/区块链基础概念/tokenlist.png)
+![代币激励](../images/blockchainBasic/tokenlist.png)
 :::
 
 <br>
 
 ### ==一条区块链如何运行起来呢？=={.important}
-![图 1](../images/区块链基础概念/ecosystem.png)
+![图 1](../images/blockchainBasic/ecosystem.png)
 
 ::: steps
 1. ==**数据从哪来？（交易生成）**==
@@ -179,11 +179,11 @@ permalink: /web3-handbook/blockchain-basic/
 
     - **Merkle 树**：所有交易先两两哈希计算，形成树结构，最终生成一个根哈希（Merkle Root），只要任意一笔交易（叶节点）被篡改，根哈希就会变！
 
-    ![图 1](../images/区块链基础概念/image.png)
+    ![图 1](../images/blockchainBasic/image.png)
 
     - **链式结构**：新区块会记录前一个区块的哈希值（类似「上一箱快递的编号」），这样所有区块首尾相连，形成「区块链」。
     
-    ![图 2](../images/区块链基础概念/Screenshot_2025-04-16_at_14.22.53.png)
+    ![图 2](../images/blockchainBasic/Screenshot_2025-04-16_at_14.22.53.png)
     
  3. ==**数据怎么传？（P2P 网络传播）**==
     ::: card 
@@ -220,7 +220,7 @@ permalink: /web3-handbook/blockchain-basic/
 
 区块链根据访问权限与治理模式，大致可分为三类。按照去中心化程度从高到低排列。
 
-![图 3](../images/区块链基础概念/f0b96a1d-5b0c-4775-a54f-f7e6b8a0d453.png)
+![图 3](../images/blockchainBasic/f0b96a1d-5b0c-4775-a54f-f7e6b8a0d453.png)
 
 ### 1. 公链（Public Blockchain） = 公共公园
 ::: card 
@@ -438,6 +438,6 @@ Python + RDFLib + TensorFlow
 :::
 
 
-::: info 文章贡献者
-[Bruce](https://x.com/brucexu_eth)、[吃汤圆](/)、[Echo](https://x.com/Echo_liuchan)
-:::
+## ::ep:avatar::文章贡献者  
+作者：[Bruce](https://x.com/brucexu_eth)、[吃汤圆](/)  
+排版：[Echo](https://x.com/Echo_liuchan)

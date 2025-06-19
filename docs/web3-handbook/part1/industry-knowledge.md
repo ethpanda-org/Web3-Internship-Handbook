@@ -123,3 +123,8 @@ MEME 币波动极大，极易受社交媒体情绪驱动。一条马斯克的推
 2. **NFT**：ERC-721 标准 → 动态 NFT 技术栈 → 全链游戏开发
 3. **DAO**：参与 Gitcoin Grants → 分析 Aragon 案例 → 实践 SubDAO 治理
 4. **MEME**：监控 DEXTools 热榜 → 分析链上大户行为 → 模拟 meme 传播
+
+## ::ep:avatar::文章贡献者  
+作者：[吃汤圆](/)  
+排版：[Echo](https://x.com/Echo_liuchan)
+

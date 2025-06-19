@@ -137,3 +137,7 @@ permalink: /web3-handbook/2vi8xbb1/
 - **阅读白皮书和技术文档：** 深入理解不同区块链协议和项目的技术细节。
 
 希望这份指南能帮助Web3新人更好地规划求职之路！
+
+## ::ep:avatar::文章贡献者  
+作者：[Alex](/)  
+排版：[Echo](https://x.com/Echo_liuchan)、[吃汤圆](/) 

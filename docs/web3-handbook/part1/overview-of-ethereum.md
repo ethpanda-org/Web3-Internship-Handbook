@@ -16,7 +16,7 @@ permalink: /web3-handbook/overview-of-ethereum/
 以太坊的定位是“区块链 2.0 ”的代表。如果说比特币是区块链 1.0 的象征（专注于货币属性），那么以太坊则通过智能合约和可编程性，推动区块链技术向更广泛的应用场景拓展。==其目标是成为全球范围内的“世界计算机”== ，为开发者提供构建复杂应用的工具和环境。
 
 <!-- ::: card -->
-![ETH](../images/以太坊概览/ethereum.png)
+![ETH](../images/ethereum/ethereum.png)
 
 以太币（ETH）是其代币
 在以太坊上进行的任何操作或者交易，需要使用以太币（ETH）来支付相关费用。
@@ -42,8 +42,8 @@ permalink: /web3-handbook/overview-of-ethereum/
 
 以太坊的灵活性使其能够支持更多应用场景，例如 DeFi（借贷、交易）、NFT（数字艺术品）、DAO（去中心化自治组织）等，而比特币则更专注于作为“数字黄金”存储价值。
 
-<!-- ![图 1](../images/以太坊概览/_-_visual_selection_(4).png) -->
-<!-- ![图 1](../images/以太坊概览/ChatGPT_Image_2025年6月2日_15_02_01.png) -->
+<!-- ![图 1](../images/ethereum/_-_visual_selection_(4).png) -->
+<!-- ![图 1](../images/ethereum/ChatGPT_Image_2025年6月2日_15_02_01.png) -->
 
 ## 三. 以太坊的定位与演进（从 PoW 到 PoS，合并事件 The Merge）
 
@@ -160,7 +160,7 @@ The Merge 只是起点，以太坊的“进化”还在继续！接下来的升�
 
 ::: 
 
-![图 2](../images/以太坊概览/图片1.png)
+![图 2](../images/ethereum/图片1.png)
 
 ## **四、以太坊生态概览：L1、L2、Sidechains 等**
 
@@ -178,7 +178,7 @@ The Merge 只是起点，以太坊的“进化”还在继续！接下来的升�
 4. **以太坊协议分层结构及代表性生态项目**
 :::
 
-![图 3](../images/以太坊概览/ChatGPT_Image_2025年6月2日_15_02_01.png)
+![图 3](../images/ethereum/ChatGPT_Image_2025年6月2日_15_02_01.png)
 
 ## **五、以太坊文化（核心价值观、密码朋克）**
 
@@ -222,7 +222,7 @@ The Merge 只是起点，以太坊的“进化”还在继续！接下来的升�
 - **CodeHash**：EOA 为空，CA 存储代码哈希。
 - **StorageRoot**：记录账户数据的 Merkle 树根哈希（如 NFT 归属）。
 
-![图 4](../images/以太坊概览/56fbff76-158a-4ee6-9b7f-49c4c48ba1a3.png)
+![图 4](../images/ethereum/56fbff76-158a-4ee6-9b7f-49c4c48ba1a3.png)
 
 
 ### 2. Gas 模型：交易的燃料费
@@ -292,3 +292,7 @@ Gas 的存在有两个目的：
     - Gas Price：每公里的收费单价。
     - 如果你设置“100 公里 × 1 元 / 公里”，实际只走了 80 公里，退还 20 元。
 - **EVM = 自动售货机**：你投入硬币（Gas 费），按下按钮（调用函数），机器执行预设逻辑（出货）。
+
+## ::ep:avatar::文章贡献者  
+作者：[Bruce](https://x.com/brucexu_eth)、[吃汤圆](/)  
+排版：[Echo](https://x.com/Echo_liuchan)

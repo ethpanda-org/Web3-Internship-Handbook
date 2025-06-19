@@ -539,3 +539,7 @@ permalink: /web3-handbook/iwic3itt/
             ::: card
             上次您提到重点控成本，这次营销预算超标是否意味着策略调整？求确认方向
             :::
+
+## ::ep:avatar::文章贡献者  
+作者：[Echo](https://x.com/Echo_liuchan)  
+排版：[Echo](https://x.com/Echo_liuchan)
