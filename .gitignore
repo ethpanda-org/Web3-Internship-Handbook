@@ -1,0 +1,7 @@
+docs/.vuepress/.cache
+docs/.vuepress/.temp
+docs/.vuepress/dist
+deploy.sh
+node_modules
+.DS_Store
+*.log
