@@ -104,7 +104,6 @@ permalink: /web3-handbook/blockchain-basic/
 ==**比特币具备了货币属性**=={.warning}  
 
 根据比特币的设计，它仅有有限的供应量，而且可以自由转账。因此具备了货币的特性，成为了加密货币。  
-<br>
 
 ![currency](../images/区块链基础概念/currency.png)
 :::
@@ -436,4 +435,9 @@ Python + RDFLib + TensorFlow
 4. **法律与合规风险**
     
     去中心化和匿名特性与现行法规存在冲突，跨境监管和合规要求尚未完善，给项目方和用户带来不确定性。
+:::
+
+
+::: info 文章贡献者
+[Bruce](https://x.com/brucexu_eth)、[吃汤圆](/)、[Echo](https://x.com/Echo_liuchan)
 :::
