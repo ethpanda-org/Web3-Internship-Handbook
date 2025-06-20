@@ -16,7 +16,7 @@ config:
         -
           theme: brand
           text: 开始阅读
-          link: ./handbook/README.md
+          link: ./web3-handbook/README.md
         -
           theme: alt
           text: Github →
