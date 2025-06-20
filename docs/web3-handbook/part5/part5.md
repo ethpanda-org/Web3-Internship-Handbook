@@ -26,6 +26,9 @@ permalink: /web3-handbook/6to8vqys/
 
 ## 四. 工具清单与 GitHub 推荐列表 
 
-## ::ep:avatar::文章贡献者  
+## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+[1] 
+
+## ::ep:avatar /#32b2f0::文章贡献者  
 作者：[Echo](https://x.com/Echo_liuchan)
 排版：[Echo](https://x.com/Echo_liuchan)

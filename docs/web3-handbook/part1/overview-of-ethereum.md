@@ -293,6 +293,9 @@ Gas 的存在有两个目的：
     - 如果你设置"100 公里 × 1 元 / 公里"，实际只走了 80 公里，退还 20 元。
 - **EVM = 自动售货机**：你投入硬币（Gas 费），按下按钮（调用函数），机器执行预设逻辑（出货）。
 
-## ::ep:avatar::文章贡献者  
+## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+[1] 
+
+## ::ep:avatar /#32b2f0::文章贡献者  
 作者：[Bruce](https://x.com/brucexu_eth)、[吃汤圆](/)  
 排版：[Echo](https://x.com/Echo_liuchan)

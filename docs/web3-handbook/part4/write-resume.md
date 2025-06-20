@@ -91,6 +91,9 @@ permalink: /web3-handbook/ssm02wu3/
 :::
 Web3 简历不仅仅是找工作的敲门砖，更是你个人在去中心化世界中贡献和影响力的体现。掌握这些撰写技巧，祝让你的简历在众多求职者中脱颖而出！
 
-## ::ep:avatar::文章贡献者  
+## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+[1] 
+
+## ::ep:avatar /#32b2f0::文章贡献者    
 作者：[Alex](/)  
 排版：[Echo](https://x.com/Echo_liuchan)、[吃汤圆](/) 

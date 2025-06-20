@@ -93,7 +93,10 @@ AI 解决的主要是 30% 的机械劳动——生成简单 CSS、解析错误�
     
 谢谢邀请！鼓励大家勇敢迈出第一步，从小项目、小社区开始积累，很快就能在更大的舞台上发光。
 
-## ::ep:avatar::文章贡献者  
+## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+[1] 
+
+## ::ep:avatar /#32b2f0::文章贡献者   
 作者：[Alex](/)  
 排版：[Echo](https://x.com/Echo_liuchan)、[吃汤圆](/) 
     

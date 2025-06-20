@@ -57,6 +57,9 @@ permalink: /web3-handbook/403qbqz2/
     
 Web3 仍在早期，机会很多。从小处切入、快速试错，比盲目追风更重要。祝每位同学都能找到适合自己的切口，在链上世界开花结果！
     
-## ::ep:avatar::文章贡献者  
+## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+[1] 
+
+## ::ep:avatar /#32b2f0::文章贡献者  
 作者：[Alex](/)  
 排版：[Echo](https://x.com/Echo_liuchan)、[吃汤圆](/) 

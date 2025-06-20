@@ -69,6 +69,9 @@ permalink: /web3-handbook/vrgj9iaz/
     2. 需要反思的点
 :::
 
-## ::ep:avatar::文章贡献者  
+## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+[1] 
+
+## ::ep:avatar /#32b2f0::文章贡献者   
 作者：[Luna](/)  
 排版：[Echo](https://x.com/Echo_liuchan)

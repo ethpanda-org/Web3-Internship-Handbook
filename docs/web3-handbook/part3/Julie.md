@@ -58,6 +58,9 @@ permalink: /web3-handbook/6ak64nbh/
 - **「主动连接」** 多和项目团队沟通，给反馈、做贡献；被看见的前提是先出现。
 - **「保持谦逊与好奇」** Web3 最公平，真正的门槛是学习与输出的持续性，而非资源。
 
-## ::ep:avatar::文章贡献者  
+## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+[1] 
+
+## ::ep:avatar /#32b2f0::文章贡献者  
 作者：[Alex](/)  
 排版：[Echo](https://x.com/Echo_liuchan)、[吃汤圆](/) 
