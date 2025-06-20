@@ -265,3 +265,5 @@ icon:
 details: 感谢所有为本项目提供支持的社区伙伴，你们是生态繁荣的基石。
 link: https://ethpanda.org
 linkText: 查看伙伴
+
+</rewritten_file>
