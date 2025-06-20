@@ -9,10 +9,14 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 export const zhNavbar = defineNavbarConfig([
   // 页面跳转已移除
   { text: '开始阅读', link: '/handbook/README.md' },
+  { text: '关于我们', link: '/handbook/README.md' },
+  { text: '参与和支持', link: '/handbook/README.md' },
 ])
 
 export const enNavbar = defineNavbarConfig([
   // 页面跳转已移除
   { text: 'Start Reading', link: '/handbook/README.md' },
+  { text: 'About Us', link: '/handbook/README.md' },
+  { text: 'Contact Us', link: '/handbook/README.md' },
 ])
 
