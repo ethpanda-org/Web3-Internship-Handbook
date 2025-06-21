@@ -139,7 +139,7 @@ permalink: /web3-handbook/blockchain-basic/
 区块链将会有一条链来记录全部的信息，这条链将存在对应的去中心化网络中。
 去中心化的网络，将由无数节点提供服务来维持网络运行。这种操作称之为挖矿。
 
-![去中心化的网络](../images/blockchainBasic/decentralize.png)
+![去中心化的网络](../images/blockchainBasic/decentralize.png){.full-width width="50%"}
 :::
 :::card
 ==**维持网络运行的代币激励**==
@@ -147,13 +147,13 @@ permalink: /web3-handbook/blockchain-basic/
 去中心化的网络由无数节点提供服务来维持网络运行，这种操作称之为挖矿。维持这些服务的人一般称之为矿工。矿工们维持网络运行需要奖励，就像你工作需要工资，在区块链中对矿工的奖励一般是代币，你经常听说的 Gas Fee 就是矿工们的「工资」。
 你使用这个网络进行交易、转账、铸造 NFT等等，均需要支付代币。如果你没有代币又想使用这个区块链网络服务，则需要进行代币之间交换或者法币交换。
 
-![代币激励](../images/blockchainBasic/tokenlist.png)
+![代币激励](../images/blockchainBasic/tokenlist.png){.full-width width="40%"}
 :::
 
 <br>
 
 ### ==一条区块链如何运行起来呢？=={.important}
-![图 1](../images/blockchainBasic/ecosystem.png)
+![图 1](../images/blockchainBasic/ecosystem.png){.full-width width="80%"}
 
 ::: steps
 1. ==**数据从哪来？（交易生成）**==

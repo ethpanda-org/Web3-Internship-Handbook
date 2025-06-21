@@ -11,8 +11,7 @@
 <p>我们会在实习季开始前启动为期 <mark>3 个月</mark>的练习生计划，围绕手册内容进行共学、答疑和模拟面试，并为你对接真实的实习机会。</p>
 <div style="text-align:right"><p><a href="/" target="_blank" rel="noopener noreferrer">了解详情</a></p>
 </div></VPCard><VPCard><h2 id="生态伙伴计划" tabindex="-1"><a class="header-anchor" href="#生态伙伴计划"><span><VPIcon provider="iconify" name="emojione-v1:left-speech-bubble" /> 生态伙伴计划</span></a></h2>
-<p><mark class="info">共建 Web3 人才生态</mark></p>
-<p>我们欢迎各类 Web3 项目方、社区、媒体与我们合作，共同建设实习生生态。如果你希望参与我们的实习生计划，为行业培养人才，请联系我们。</p>
+<p>我们欢迎各类 <mark class="warning">Web3 项目方、社区、媒体</mark>与我们合作，共同建设实习生生态。如果你希望参与我们的实习生计划，为行业培养人才，请联系我们。</p>
 <div style="text-align:right"><p><a href="/" target="_blank" rel="noopener noreferrer">联系我们</a></p>
 </div></VPCard><VPCard><h2 id="社群入口" tabindex="-1"><a class="header-anchor" href="#社群入口"><span><VPIcon provider="iconify" name="emojione-v1:busts-in-silhouette" /> 社群入口</span></a></h2>
 <p>加入我们的开发者和学习者社群，共同探讨 Web3 技术，分享学习心得。</p>
