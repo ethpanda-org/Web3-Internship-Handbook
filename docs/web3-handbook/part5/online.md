@@ -54,7 +54,7 @@ permalink: /web3-handbook/vrgj9iaz/
     ::: card
     [海报]
 
-    以太坊 Pectra 升级分叉成功！EIP Fun 网页也同步焕新！🌟 为庆祝这一历史性突破，EIP Fun 特别推出「Pectra 升级纪念版动态NFT」！
+    以太坊 Pectra 升级分叉成功！EIP Fun 网页也同步焕新！🌟 为庆祝这一历史性突破，EIP Fun 特别推出「Pectra 升级纪念版动态 NFT」！
 
     完成 Galxe 任务，解锁额外奖励机会 👉🏻 [Galxe Link]
 
@@ -69,9 +69,9 @@ permalink: /web3-handbook/vrgj9iaz/
     2. 需要反思的点
 :::
 
-## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+## ::eos-icons:application-outlined /#32b2f0:: 扩展阅读
 [1] 
 
-## ::ep:avatar /#32b2f0::文章贡献者   
+## ::ep:avatar /#32b2f0:: 文章贡献者   
 作者：[Luna](/)  
 排版：[Echo](https://x.com/Echo_liuchan)

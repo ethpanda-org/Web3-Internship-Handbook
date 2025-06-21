@@ -22,7 +22,7 @@ permalink: /web3-handbook/iwic3itt/
         - 在浏览器中打开 Twitter 官网：[https://twitter.com](https://twitter.com/)。
         - 点击页面上的「注册」或「Sign up」按钮开始新用户注册。
         - 填写姓名和电子邮件（或手机号）及出生日期，然后按提示点击「下一步」。
-        - Twitter 会向所填邮箱 / 手机号发送验证码，输入验证码后点击「下一步」。
+        - Twitter 会向所填邮箱/手机号发送验证码，输入验证码后点击「下一步」。
         - 设置账户密码并完成注册。如果提示通过手机号验证，可稍后在账号设置中添加手机号。
     - Mac (网页版)
         - Mac 用户通过 Safari 或 Chrome 打开 [twitter.com](https://twitter.com/) 进行注册，流程与 Windows 相同，可参照上述步骤完成。
@@ -37,7 +37,7 @@ permalink: /web3-handbook/iwic3itt/
 
     **解决方法**：  
     - **检查用户名和密码**：确认输入的用户名和密码正确无误。
-    - **重置密码**：如果您忘记密码，可以使用"忘记密码"功能，通过[邮箱](https://www.52by.com/tag/youxiang)或手机重置密码。
+    - **重置密码**：如果您忘记密码，可以使用「忘记密码」功能，通过[邮箱](https://www.52by.com/tag/youxiang)或手机重置密码。
     - **检查网络连接**：确保您的设备连接到稳定的互联网。    
     - **更新应用程序**：前往应用商店，确保您使用的是最新版本的 Twitter。
     - **清除缓存和数据**：在设备的应用[管理](https://www.52by.com/tag/guanli)中清除 Twitter 的缓存和数据，然后重新尝试登录。
@@ -154,9 +154,9 @@ permalink: /web3-handbook/iwic3itt/
 ::: steps
 1. ==工具介绍==
 
-    ::token-branded:metamask::  MetaMask（小狐狸钱包）是一款常用的加密货币钱包浏览器扩展，使用户能够在浏览器中安全地访问以太坊等区块链网络中的去中心化应用。安装MetaMask后，你可以在浏览器工具栏中看到其图标，用于管理数字资产和身份。
+    ::token-branded:metamask:: MetaMask（小狐狸钱包）是一款常用的加密货币钱包浏览器扩展，使用户能够在浏览器中安全地访问以太坊等区块链网络中的去中心化应用。安装 MetaMask 后，你可以在浏览器工具栏中看到其图标，用于管理数字资产和身份。
 
-    **注意安全**：务必通过官网或浏览器插件商店安装MetaMask，不要从第三方渠道下载，避免安装到恶意伪装的克隆版。
+    **注意安全**：务必通过官网或浏览器插件商店安装 MetaMask，不要从第三方渠道下载，避免安装到恶意伪装的克隆版。
 
 2. ==安装注册指南==
 
@@ -178,12 +178,12 @@ permalink: /web3-handbook/iwic3itt/
 
     - [2025 年 LinkedIn 新账号注册官方教程](https://www.linkedin.com/help/learning/answer/a1338223?lang=zh-CN)
 
-    ![](../images/Web3-working-habits/image%203.png)
+    ![图 6](../images/Web3-working-habits/image%203.png)
 3. ==Linkedin 常见的使用问题==
     ::: tabs
     @tab 邮箱已被注册
-    如收到“邮箱已被使用”的报错信息，表明您输入的邮箱地址已分配至现有的领英帐号。可能是因为:
-    - 您选择了“立即加入”链接，而不是“登录”链接访问现有帐号。
+    如收到「邮箱已被使用」的报错信息，表明您输入的邮箱地址已分配至现有的领英帐号。可能是因为:
+    - 您选择了「立即加入」链接，而不是「登录」链接访问现有帐号。
     - 您以前接受过领英邀请和/或创建过帐号。
     - 您的雇主或互联网提供商把其他用户使用过的邮箱地址重新分配给您了。
     - 您使用了标准格式的 Gmail 邮箱，此类邮箱地址前半部分含有句点或其他符号，例如 a.bc@gmail.com 或 a.b.c@gmail.com，而不是 abc@gmail.com 格式。
@@ -195,7 +195,7 @@ permalink: /web3-handbook/iwic3itt/
     
     要在忘记密码的情况下访问帐号:
 
-    - 点击“忘记密码？”链接。我们将向该邮箱发送信息，帮助您访问帐号。
+    - 点击「忘记密码？」链接。我们将向该邮箱发送信息，帮助您访问帐号。
     - 重设密码后，点击登录并输入邮箱和新密码。
         ::: info 温馨提示:
         - 如果您怀疑自己的邮箱是已回收的邮箱，请联系[领英客服](https://www.linkedin.com/help/learning/answer/1187)获取帮助，将此邮箱添加至您的帐号。  
@@ -204,7 +204,7 @@ permalink: /web3-handbook/iwic3itt/
     @tab 严格规避老号关联痕迹
     领英当前风控系统可识别设备、IP、浏览器指纹等信息。若新号与已封老号使用同一设备/IP/浏览器登录，即使更换邮箱和手机号，仍可能因关联被封。下面给大家提供几点建议：
 
-    IP隔离：选择干净的住宅 IP，可以先通过IP地址查询工具检查当前 IP 地址是否被有效隐藏。
+    IP 隔离：选择干净的住宅 IP，可以先通过 IP 地址查询工具检查当前 IP 地址是否被有效隐藏。
     设备隔离：使用全新设备或从未登录过老号的电脑，同一设备避免登录多个领英账号。
     浏览器隔离：如果不想更换设备，建议使用 AdsPower 指纹浏览器去注册，它能够模拟各种硬件和软件指纹，为每个账号创建独立浏览器环境，AdsPower 再搭配上新的 IP，可以有效避免新旧账号关联。
 
@@ -231,7 +231,7 @@ permalink: /web3-handbook/iwic3itt/
     ![图 7](../images/Web3-working-habits/image%204.png)
 
     - 在浏览器中访问 [https://www.notion.com/desktop](https://www.notion.com/desktop)。
-    - 点击「Download for macOS」下载Mac版安装包。
+    - 点击「Download for macOS」下载 Mac 版安装包。
     - 下载后，打开 `.dmg` 文件并将 Notion 应用拖动到「应用程序」文件夹中完成安装。
     - 具体安装细节请参考：[http://xhslink.com/a/T0PXHI5iBEkcb，复制本条信息，打开【小红书】App查看精彩内容！](http://xhslink.com/a/T0PXHI5iBEkcb%EF%BC%8C%E5%A4%8D%E5%88%B6%E6%9C%AC%E6%9D%A1%E4%BF%A1%E6%81%AF%EF%BC%8C%E6%89%93%E5%BC%80%E3%80%90%E5%B0%8F%E7%BA%A2%E4%B9%A6%E3%80%91App%E6%9F%A5%E7%9C%8B%E7%B2%BE%E5%BD%A9%E5%86%85%E5%AE%B9%EF%BC%81)
     - 具体的工具指南请阅读：[https://www.notion.com/zh-cn/help/guides](https://www.notion.com/zh-cn/help/guides)

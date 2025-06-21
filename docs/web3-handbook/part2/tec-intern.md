@@ -85,7 +85,7 @@ Dapp 的开发流程从需求分析、智能合约编写、前端开发，到最
 
 开发 Dapp 时，区块链技术的透明性、不可篡改性以及智能合约的自动执行能力为应用提供了去中心化的基础，但与此同时，开发者需要应对与传统 Web 应用不同的挑战，如用户体验、交易处理以及安全性问题。掌握这些技术和概念，能够帮助开发者构建更强大和可靠的去中心化应用。
 
-## 二、**以太坊开发环境搭建**
+## 二、以太坊开发环境搭建
 
 以太坊开发环境的搭建主要有以下几种常用方式，适合不同的开发需求：
 
@@ -146,7 +146,7 @@ mkdir eth-dev && cd eth-dev
 npx hardhat
 ```
 
-选择"创建一个基本示例项目"，会自动生成合约、测试和配置。
+选择「创建一个基本示例项目」，会自动生成合约、测试和配置。
 
 **启动本地节点**
 
@@ -180,368 +180,368 @@ npx hardhat run scripts/deploy.js --network localhost
 Solidity 是一种面向合约的高级编程语言，专门用于在以太坊虚拟机（EVM）上编写智能合约。它具有静态类型、支持继承、库和复杂的用户定义类型等特性。
 
 ### 1. 基础语法与开发范式
+::: steps
+1. **版本声明**
 
-#### 1.1 版本声明
+    每个 Solidity 文件必须以版本声明开始：
 
-每个 Solidity 文件必须以版本声明开始：
-
-```solidity
-pragma solidity ^0.8.0;
-```
-
-
-
-#### 1.2 数据类型
-
-基本数据类型
-
-| 类型 | 描述 | 示例 | 默认值 |
-| --- | --- | --- | --- |
-| bool | 布尔值 | true / false | false |
-| uint8 | 8 位无符号整数 | 0 ~ 255 | 0 |
-| uint16 | 16 位无符号整数 | 0 ~ 65535 | 0 |
-| uint256 / unit | 256 位无符号整数 | 0 ~ (2^256 - 1) | 0 |
-| int8 | 8 位有符号整数 | -128 - 127 | 0 |
-| int256 / int | 256 位有符号整数 | -2^255 ~ (2^255 - 1) | 0 |
-| address | 以太坊地址 | 0x…. | 0 |
-| bytes1 ~ bytes32 | 固定长度字节数组 | bytes32 data = "Hello" | 0x00 |
-| bytes | 动态字节数组 | bytes memory data = "Hello World" | "" |
-| string | UTF-8 编码字符串 | string name = "Alice" | "" |
+    ```solidity
+    pragma solidity ^0.8.0;
+    ```
 
 
 
-复合数据类型
+2. **数据类型**
 
-| 类型 | 语法 | 描述 | 示例 |
-| --- | --- | --- | --- |
-| 静态数组 | T[k] | 固定长度数组 | uint[5] numbers |
-| 动态数组 | T[] | 可变长度数组 | uint[] memory list |
-| 映射 | mapping(K => V) | 键值对存储 | mapping(address => uint256) balances |
-| 结构体 | struct | 自定义数据结构 | `struct Person { string name; uint age; }` |
-| 枚举 | enum | 枚举类型 | `enum Status { Pending, Active, Inactive }` |
+    基本数据类型
+
+    | 类型 | 描述 | 示例 | 默认值 |
+    | --- | --- | --- | --- |
+    | bool | 布尔值 | true / false | false |
+    | uint8 | 8 位无符号整数 | 0 ~ 255 | 0 |
+    | uint16 | 16 位无符号整数 | 0 ~ 65535 | 0 |
+    | uint256 / unit | 256 位无符号整数 | 0 ~ (2^256 - 1) | 0 |
+    | int8 | 8 位有符号整数 | -128 - 127 | 0 |
+    | int256 / int | 256 位有符号整数 | -2^255 ~ (2^255 - 1) | 0 |
+    | address | 以太坊地址 | 0x…. | 0 |
+    | bytes1 ~ bytes32 | 固定长度字节数组 | bytes32 data = "Hello" | 0x00 |
+    | bytes | 动态字节数组 | bytes memory data = "Hello World" | "" |
+    | string | UTF-8 编码字符串 | string name = "Alice" | "" |
 
 
+    复合数据类型
+
+    | 类型 | 语法 | 描述 | 示例 |
+    | --- | --- | --- | --- |
+    | 静态数组 | T[k] | 固定长度数组 | uint[5] numbers |
+    | 动态数组 | T[] | 可变长度数组 | uint[] memory list |
+    | 映射 | mapping(K => V) | 键值对存储 | mapping(address => uint256) balances |
+    | 结构体 | struct | 自定义数据结构 | `struct Person { string name; uint age; }` |
+    | 枚举 | enum | 枚举类型 | `enum Status { Pending, Active, Inactive }` |
 
 
-#### 1.3 函数修饰符
+3. **函数修饰符**
 
-可见性修饰符表
+    可见性修饰符表
 
-| 修饰符 | 可见范围 | 描述 | 使用场景 |
-| --- | --- | --- | --- |
-| public | 内部 + 外部 | 任何地方都可以调用 | 对外提供的公共接口 |
-| external | 仅外部 | 只能从合约外部调用 | 外部用户接口，gas 效率更高 |
-| internal | 内部 + 继承 | 当前合约和子合约可调用 | 内部逻辑函数，需要被继承 |
-| private | 仅内部 | 只有当前合约可调用 | 私有实现细节 |
-    
+    | 修饰符 | 可见范围 | 描述 | 使用场景 |
+    | --- | --- | --- | --- |
+    | public | 内部 + 外部 | 任何地方都可以调用 | 对外提供的公共接口 |
+    | external | 仅外部 | 只能从合约外部调用 | 外部用户接口，gas 效率更高 |
+    | internal | 内部 + 继承 | 当前合约和子合约可调用 | 内部逻辑函数，需要被继承 |
+    | private | 仅内部 | 只有当前合约可调用 | 私有实现细节 |
+        
 
-状态修饰符表
+    状态修饰符表
 
-| 修饰符 | 状态读取 | 状态修改 | Gas 消耗 | 描述 |
-| --- | --- | --- | --- | --- |
-| pure | ❌ | ❌ | 低 | 不读取也不修改状态的函数 |
-| view | ✅ | ❌ | 低 | 只读取状态，不修改状态 |
-| payable | ✅ | ✅ | 正常 | 可以接收以太币的函数 |
-| 无修饰符 | ✅ | ✅ | 正常 | 可以读取和修改状态 |
+    | 修饰符 | 状态读取 | 状态修改 | Gas 消耗 | 描述 |
+    | --- | --- | --- | --- | --- |
+    | pure | ❌ | ❌ | 低 | 不读取也不修改状态的函数 |
+    | view | ✅ | ❌ | 低 | 只读取状态，不修改状态 |
+    | payable | ✅ | ✅ | 正常 | 可以接收以太币的函数 |
+    | 无修饰符 | ✅ | ✅ | 正常 | 可以读取和修改状态 |
 
-#### 1.4 开发范式
+4. **开发范式**
 
-- **状态机模式**
-    
-    智能合约本质上是一个状态机，通过交易改变合约状态。
-    
-- **事件驱动编程**
-    
-    使用事件（Events）记录重要的状态变化，便于前端监听和日志记录。
-    
-- **模块化设计**
-    
-    通过继承和库（Library）实现代码复用和模块化。
-
+    - **状态机模式**
+        
+        智能合约本质上是一个状态机，通过交易改变合约状态。
+        
+    - **事件驱动编程**
+        
+        使用事件（Events）记录重要的状态变化，便于前端监听和日志记录。
+        
+    - **模块化设计**
+        
+        通过继承和库（Library）实现代码复用和模块化。
+:::
 
 ### 2. 合约结构详解
 
-#### 2.1 基本结构
+::: steps
 
-1. `//` 是 Solidity 中的单行注释符号，例如：`// SPDX-License-Identifier: MIT` 用于指定源代码的许可证类型。
-2. `pragma` 关键字用于声明 Solidity 源代码所需的编译器版本，确保合约在兼容的编译器环境中正确编译。
-3. `contract` 关键字用于定义一个智能合约，其语法格式为：`contract 合约名 { ... }`。
-4. 一个智能合约的基本结构通常由以下三部分组成：状态变量、构造函数和普通函数。
+1. **基本结构**
 
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+    1. `//` 是 Solidity 中的单行注释符号，例如：`// SPDX-License-Identifier: MIT` 用于指定源代码的许可证类型。
+    2. `pragma` 关键字用于声明 Solidity 源代码所需的编译器版本，确保合约在兼容的编译器环境中正确编译。
+    3. `contract` 关键字用于定义一个智能合约，其语法格式为：`contract 合约名 { ... }`。
+    4. 一个智能合约的基本结构通常由以下三部分组成：状态变量、构造函数和普通函数。
 
-contract MyContract {
-    // 状态变量
-    uint256 public myNumber;
+    ```solidity
+    // SPDX-License-Identifier: MIT
+    pragma solidity ^0.8.0;
 
-    // 构造函数
-    constructor() {
-        myNumber = 100;
+    contract MyContract {
+        // 状态变量
+        uint256 public myNumber;
+
+        // 构造函数
+        constructor() {
+            myNumber = 100;
+        }
+
+        // 函数
+        function setNumber(uint256 _number) public {
+            myNumber = _number;
+        }
+    }
+    ```
+
+2. **状态变量（State Variables）**
+
+    状态变量是指在合约中定义的、其值永久存储在区块链上的变量。它们用于记录合约的持久化数据，构成了合约的整体状态。当合约被部署后，这些变量将被写入区块链，并在合约的整个生命周期中保持可访问性和可追踪性。
+
+    ```solidity
+    contract MyContract {
+        /*
+        * 可以通过内部与外部函数更改变量
+        * public可以通过前端代码访问
+        */
+        uint256 public totalSupply;
+        mapping(address => uint256) private balances;
+        address public owner;
+        
+        // 常量
+        uint256 public constant MAX_SUPPLY = 1000000;
+        
+        // 不可变量（构造函数中设置一次）
+        uint256 public immutable deploymentTime;
+        
+        constructor() {
+            owner = msg.sender;
+            deploymentTime = block.timestamp;
+            totalSupply = 0;
+        }
+    }
+    ```
+
+3. **函数（Functions）**
+
+    函数是 Solidity 智能合约中执行具体逻辑操作的核心组成部分。通过函数，可以实现对状态变量的读取、修改，或执行特定业务逻辑。
+
+    **函数声明格式**
+
+    Solidity 中函数的标准声明格式如下所示：
+
+    ```solidity
+    function <函数名>(<参数列表>)
+        <可见性>
+        <状态可变性>
+        <修饰符列表>
+        <虚拟/重写关键字>
+        returns (<返回值列表>)
+    {
+        // 函数体
+    }
+    ```
+
+    各部分含义如下：
+
+    - `<函数名>`：函数的名称；
+    - `<参数列表>`：传入函数的参数；
+    - `<可见性修饰符>`：如 `public`、`private`、`internal`、`external`；
+    - `<状态可变性修饰符>`：如 `view`、`pure`、`payable`；
+    - `<函数修饰符>`：如 `onlyOwner` 等自定义逻辑控制；
+    - `virtual/override`：用于支持继承与函数重写；
+    - `returns`：定义返回值及其类型。
+
+    **函数可见性（Function Visibility）**
+
+    函数可见性决定了函数在何种上下文中可以被调用
+
+    ```solidity
+    contract VisibilityExample {	
+            // 仅当前合约可访问
+        function privateFunc() private pure returns(uint) { return 1; }
+        // 当前合约和继承合约可访问
+        function internalFunc() internal pure returns(uint) { return 2; }
+        // 所有人可访问
+        function publicFunc() public pure returns(uint) { return 3; }
+        // 仅外部调用
+        function externalFunc() external pure returns(uint) { return 4; }
+    }
+    ```
+
+    **函数状态修饰符**（State Mutability Modifiers）
+
+    用于指明函数是否修改或读取合约状态：
+
+    ```solidity
+    contract StateModifiers {
+        uint public count = 0;
+
+        // view: 只读函数，不修改状态
+        function getCount() public view returns(uint) {
+            return count;
+        }
+
+        // pure: 纯函数，不读取也不修改状态
+        function add(uint a, uint b) public pure returns(uint) {
+            return a + b;
+        }
+
+        // payable: 可接收以太币
+        function deposit() public payable {
+            // msg.value 是发送的以太币数量
+        }
+
+        // 默认：可修改状态
+        function increment() public {
+            count++;
+        }
+    }
+    ```
+
+    **函数参数和返回值**
+
+    Solidity 支持多参数与多返回值，以及命名返回值：
+
+    ```solidity
+    // 多个返回值
+    function getPersonInfo() public pure returns(string memory name, uint age) {
+        name = "Alice";
+        age = 25;
     }
 
-    // 函数
-    function setNumber(uint256 _number) public {
-        myNumber = _number;
-    }
-}
-```
-
-#### 2.2 状态变量（State Variables）
-
-状态变量是指在合约中定义的、其值永久存储在区块链上的变量。它们用于记录合约的持久化数据，构成了合约的整体状态。当合约被部署后，这些变量将被写入区块链，并在合约的整个生命周期中保持可访问性和可追踪性。
-
-```solidity
-contract MyContract {
-    /*
-    * 可以通过内部与外部函数更改变量
-    * public可以通过前端代码访问
-    */
-    uint256 public totalSupply;
-    mapping(address => uint256) private balances;
-    address public owner;
-    
-    // 常量
-    uint256 public constant MAX_SUPPLY = 1000000;
-    
-    // 不可变量（构造函数中设置一次）
-    uint256 public immutable deploymentTime;
-    
-    constructor() {
-        owner = msg.sender;
-        deploymentTime = block.timestamp;
-        totalSupply = 0;
-    }
-}
-```
-
-#### 2.3 函数（Functions）
-
-函数是 Solidity 智能合约中执行具体逻辑操作的核心组成部分。通过函数，可以实现对状态变量的读取、修改，或执行特定业务逻辑。
-
-**函数声明格式**
-
-Solidity 中函数的标准声明格式如下所示：
-
-```solidity
-function <函数名>(<参数列表>)
-    <可见性>
-    <状态可变性>
-    <修饰符列表>
-    <虚拟/重写关键字>
-    returns (<返回值列表>)
-{
-    // 函数体
-}
-```
-
-各部分含义如下：
-
-- `<函数名>`：函数的名称；
-- `<参数列表>`：传入函数的参数；
-- `<可见性修饰符>`：如 `public`、`private`、`internal`、`external`；
-- `<状态可变性修饰符>`：如 `view`、`pure`、`payable`；
-- `<函数修饰符>`：如 `onlyOwner` 等自定义逻辑控制；
-- `virtual/override`：用于支持继承与函数重写；
-- `returns`：定义返回值及其类型。
-
-**函数可见性（Function Visibility）**
-
-函数可见性决定了函数在何种上下文中可以被调用
-
-```solidity
-contract VisibilityExample {	
-		// 仅当前合约可访问
-    function privateFunc() private pure returns(uint) { return 1; }
-    // 当前合约和继承合约可访问
-    function internalFunc() internal pure returns(uint) { return 2; }
-    // 所有人可访问
-    function publicFunc() public pure returns(uint) { return 3; }
-    // 仅外部调用
-    function externalFunc() external pure returns(uint) { return 4; }
-}
-```
-
-**函数状态修饰符**（State Mutability Modifiers）
-
-用于指明函数是否修改或读取合约状态：
-
-```solidity
-contract StateModifiers {
-    uint public count = 0;
-
-    // view: 只读函数，不修改状态
-    function getCount() public view returns(uint) {
-        return count;
+    // 命名返回值
+    function calculate(uint a, uint b) public pure returns(uint sum, uint product) {
+        sum = a + b;
+        product = a * b;
+        // 自动返回命名变量
     }
 
-    // pure: 纯函数，不读取也不修改状态
-    function add(uint a, uint b) public pure returns(uint) {
-        return a + b;
+    // 调用带多返回值的函数
+    function callExample() public pure {
+        (string memory name, uint age) = getPersonInfo();
+        // 或者忽略某些返回值
+        (, uint productOnly) = calculate(5, 3);
+    }
+    ```
+
+    **修饰符（Function Modifiers）**
+
+    修饰符允许在函数执行前插入额外逻辑，常用于权限控制与前置检查：
+
+    ```solidity
+    contract ModifierExample {
+        address public owner;
+        bool public paused = false;
+
+        constructor() {
+            owner = msg.sender;
+        }
+
+        // 自定义修饰符
+        modifier onlyOwner() {
+            require(msg.sender == owner, "Not the owner");
+            _;  // 继续执行被修饰的函数
+        }
+
+        modifier whenNotPaused() {
+            require(!paused, "Contract is paused");
+            _;
+        }
+
+        function togglePause() public onlyOwner {
+            paused = !paused;
+        }
+        
+        // 使用多个修饰符
+        function criticalFunction() public onlyOwner whenNotPaused {
+            // 函数逻辑
+        }
+    }
+    ```
+
+    **继承与函数重写（Inheritance and Override）**
+
+    Solidity 支持单继承与多继承，子合约可重写父合约中的虚函数：
+
+    ```solidity
+    // 基础合约
+    contract Animal {
+        string public name;
+
+        constructor(string memory _name) {
+            name = _name;
+        }
+
+        function speak() public virtual returns(string memory) {
+            return "Some sound";
+        }
     }
 
-    // payable: 可接收以太币
-    function deposit() public payable {
-        // msg.value 是发送的以太币数量
+    // 继承合约
+    contract Dog is Animal {
+        constructor(string memory _name) Animal(_name) {}
+
+        // 重写父类函数
+        function speak() public pure override returns(string memory) {
+            return "Woof!";
+        }
     }
 
-    // 默认：可修改状态
-    function increment() public {
-        count++;
-    }
-}
-```
+    // 多重继承
+    contract Pet is Animal {
+        address public owner;
 
-**函数参数和返回值**
-
-Solidity 支持多参数与多返回值，以及命名返回值：
-
-```solidity
-// 多个返回值
-function getPersonInfo() public pure returns(string memory name, uint age) {
-    name = "Alice";
-    age = 25;
-}
-
-// 命名返回值
-function calculate(uint a, uint b) public pure returns(uint sum, uint product) {
-    sum = a + b;
-    product = a * b;
-    // 自动返回命名变量
-}
-
-// 调用带多返回值的函数
-function callExample() public pure {
-    (string memory name, uint age) = getPersonInfo();
-    // 或者忽略某些返回值
-    (, uint productOnly) = calculate(5, 3);
-}
-```
-
-**修饰符（Function Modifiers）**
-
-修饰符允许在函数执行前插入额外逻辑，常用于权限控制与前置检查：
-
-```solidity
-contract ModifierExample {
-    address public owner;
-    bool public paused = false;
-
-    constructor() {
-        owner = msg.sender;
+        constructor(string memory _name, address _owner) Animal(_name) {
+            owner = _owner;
+        }
     }
 
-    // 自定义修饰符
-    modifier onlyOwner() {
-        require(msg.sender == owner, "Not the owner");
-        _;  // 继续执行被修饰的函数
+    contract Labrador is Dog, Pet {
+        constructor(string memory _name, address _owner)
+            Dog(_name)
+            Pet(_name, _owner) {}
+    }
+    ```
+
+    **接口与抽象合约（Interfaces & Abstract Contracts）**
+
+    接口与抽象合约用于定义规范与继承框架：
+
+    ```solidity
+    // 接口定义
+    interface IERC20 {
+        function transfer(address to, uint256 amount) external returns (bool);
+        function balanceOf(address account) external view returns (uint256);
     }
 
-    modifier whenNotPaused() {
-        require(!paused, "Contract is paused");
-        _;
+    // 抽象合约
+    abstract contract AbstractToken {
+        string public name;
+
+        // 抽象函数，必须在子类中实现
+        function totalSupply() public virtual returns (uint256);
     }
+    ```
 
-    function togglePause() public onlyOwner {
-        paused = !paused;
+    **事件机制（Events）**
+
+    事件用于在链上记录重要状态变化，并可由外部监听器（如前端应用）捕捉：
+
+    ```solidity
+    contract EventExample {
+        // 定义事件
+        event Transfer(address indexed from, address indexed to, uint256 amount);
+        event Approval(address indexed owner, address indexed spender, uint256 amount);
+
+        mapping(address => uint256) public balances;
+
+        function transfer(address to, uint256 amount) public {
+            require(balances[msg.sender] >= amount, "Insufficient balance");
+
+            balances[msg.sender] -= amount;
+            balances[to] += amount;
+
+            // 触发事件
+            // 可以在区块链浏览器查找到当前事件记录
+            emit Transfer(msg.sender, to, amount);
+        }
     }
-    
-    // 使用多个修饰符
-    function criticalFunction() public onlyOwner whenNotPaused {
-        // 函数逻辑
-    }
-}
-```
-
-**继承与函数重写（Inheritance and Override）**
-
-Solidity 支持单继承与多继承，子合约可重写父合约中的虚函数：
-
-```solidity
-// 基础合约
-contract Animal {
-    string public name;
-
-    constructor(string memory _name) {
-        name = _name;
-    }
-
-    function speak() public virtual returns(string memory) {
-        return "Some sound";
-    }
-}
-
-// 继承合约
-contract Dog is Animal {
-    constructor(string memory _name) Animal(_name) {}
-
-    // 重写父类函数
-    function speak() public pure override returns(string memory) {
-        return "Woof!";
-    }
-}
-
-// 多重继承
-contract Pet is Animal {
-    address public owner;
-
-    constructor(string memory _name, address _owner) Animal(_name) {
-        owner = _owner;
-    }
-}
-
-contract Labrador is Dog, Pet {
-    constructor(string memory _name, address _owner)
-        Dog(_name)
-        Pet(_name, _owner) {}
-}
-```
-
-**接口与抽象合约（Interfaces & Abstract Contracts）**
-
-接口与抽象合约用于定义规范与继承框架：
-
-```solidity
-// 接口定义
-interface IERC20 {
-    function transfer(address to, uint256 amount) external returns (bool);
-    function balanceOf(address account) external view returns (uint256);
-}
-
-// 抽象合约
-abstract contract AbstractToken {
-    string public name;
-
-    // 抽象函数，必须在子类中实现
-    function totalSupply() public virtual returns (uint256);
-}
-```
-
-**事件机制（Events）**
-
-事件用于在链上记录重要状态变化，并可由外部监听器（如前端应用）捕捉：
-
-```solidity
-contract EventExample {
-    // 定义事件
-    event Transfer(address indexed from, address indexed to, uint256 amount);
-    event Approval(address indexed owner, address indexed spender, uint256 amount);
-
-    mapping(address => uint256) public balances;
-
-    function transfer(address to, uint256 amount) public {
-        require(balances[msg.sender] >= amount, "Insufficient balance");
-
-        balances[msg.sender] -= amount;
-        balances[to] += amount;
-
-        // 触发事件
-        // 可以在区块链浏览器查找到当前事件记录
-        emit Transfer(msg.sender, to, amount);
-    }
-}
-```
+    ```
+::: 
 
 ### 3. 安全实践
 
@@ -553,230 +553,233 @@ contract EventExample {
 | 访问控制 (Access Control) | 未受保护的管理函数可被任何人调用 | 1. `Ownable`：`onlyOwner` 修饰符 <br> 2. `AccessControl`：基于角色的权限（`DEFAULT_ADMIN_ROLE`, `MINTER_ROLE` 等）<br> 3. 及时转移 / 多签管理 |
 | 整数溢出 (Integer Overflow / Underflow) | 旧版本 `<0.8` 加法/减法越界产生错误数值 | 1. Solidity 0.8+ 默认内置溢出检查 <br> 2. 对老版本使用 `SafeMath` 库 <br> 3. 精简不必要的 `unchecked` 区块 |
 
-#### 3.1 重入攻击（Reentrancy）防护
+::: steps
 
-重入攻击（Reentrancy Attack）是智能合约中最常见且危害极大的安全漏洞之一。该攻击方式通常发生在合约向外部地址发送以太币或调用外部合约函数时，攻击者利用回调机制在合约状态更新之前重复调用受影响的函数，从而多次提取资金或重复执行某些操作，造成资产损失或逻辑混乱。
+1. **重入攻击（Reentrancy）防护**
 
-**攻击原理简述**
+    重入攻击（Reentrancy Attack）是智能合约中最常见且危害极大的安全漏洞之一。该攻击方式通常发生在合约向外部地址发送以太币或调用外部合约函数时，攻击者利用回调机制在合约状态更新之前重复调用受影响的函数，从而多次提取资金或重复执行某些操作，造成资产损失或逻辑混乱。
 
-典型的重入攻击流程如下：
+    **攻击原理简述**
 
-1. 合约调用外部合约或地址（如 `call` 发送以太币）；
-2. 外部合约在其回调函数中重新调用原合约尚未更新状态的函数；
-3. 原合约在状态尚未变更的前提下再次执行逻辑；
-4. 攻击者反复进入该函数，实现多次提现等恶意操作。
+    典型的重入攻击流程如下：
 
-**典型示例（易受攻击版本）**
+    1. 合约调用外部合约或地址（如 `call` 发送以太币）；
+    2. 外部合约在其回调函数中重新调用原合约尚未更新状态的函数；
+    3. 原合约在状态尚未变更的前提下再次执行逻辑；
+    4. 攻击者反复进入该函数，实现多次提现等恶意操作。
 
-```solidity
-contract VulnerableContract {
-    mapping(address => uint256) public balances;
-    
-    function withdraw() external {
-        uint256 amount = balances[msg.sender];
-        require(amount > 0, "No balance");
+    **典型示例（易受攻击版本）**
+
+    ```solidity
+    contract VulnerableContract {
+        mapping(address => uint256) public balances;
         
-        // 危险：先转账，后更新状态
-        (bool success,) = msg.sender.call{value: amount}("");
-        require(success, "Transfer failed");
+        function withdraw() external {
+            uint256 amount = balances[msg.sender];
+            require(amount > 0, "No balance");
+            
+            // 危险：先转账，后更新状态
+            (bool success,) = msg.sender.call{value: amount}("");
+            require(success, "Transfer failed");
+            
+            balances[msg.sender] = 0; // 状态更新在转账之后
+        }
+    }
+    ```
+
+    **防护措施**
+
+    1. 检查-生效-交互模式（CEI Pattern）
+
+    ```solidity
+    contract SecureContract {
+        mapping(address => uint256) public balances;
         
-        balances[msg.sender] = 0; // 状态更新在转账之后
+        function withdraw() external {
+            uint256 amount = balances[msg.sender];
+            require(amount > 0, "No balance");
+            
+            // 先更新状态
+            balances[msg.sender] = 0;
+            
+            // 后进行外部调用
+            (bool success,) = msg.sender.call{value: amount}("");
+            require(success, "Transfer failed");
+        }
     }
-}
-```
+    ```
 
-**防护措施**
+    2. 重入锁（Reentrancy Guard）
 
-1. 检查-生效-交互模式（CEI Pattern）
-
-```solidity
-contract SecureContract {
-    mapping(address => uint256) public balances;
-    
-    function withdraw() external {
-        uint256 amount = balances[msg.sender];
-        require(amount > 0, "No balance");
+    ```solidity
+    contract ReentrancyGuard {
+        bool private locked;
         
-        // 先更新状态
-        balances[msg.sender] = 0;
+        modifier noReentrant() {
+            require(!locked, "Reentrant call");
+            locked = true;
+            _;
+            locked = false;
+        }
+    }
+
+    contract SecureWithGuard is ReentrancyGuard {
+        mapping(address => uint256) public balances;
         
-        // 后进行外部调用
-        (bool success,) = msg.sender.call{value: amount}("");
-        require(success, "Transfer failed");
+        function withdraw() external noReentrant {
+            uint256 amount = balances[msg.sender];
+            require(amount > 0, "No balance");
+            
+            balances[msg.sender] = 0;
+            (bool success,) = msg.sender.call{value: amount}("");
+            require(success, "Transfer failed");
+        }
     }
-}
-```
+    ```
 
-2. 重入锁（Reentrancy Guard）
+2. **访问控制（Access Control）**
 
-```solidity
-contract ReentrancyGuard {
-    bool private locked;
-    
-    modifier noReentrant() {
-        require(!locked, "Reentrant call");
-        locked = true;
-        _;
-        locked = false;
+    访问控制是保障智能合约安全性的核心机制之一。通过对关键函数设置访问权限，可以有效防止未经授权的用户执行敏感操作，从而避免资金被盗、状态被篡改等严重安全风险。
+
+    **缺乏访问控制的风险示例**
+
+    以下为一个存在严重安全漏洞的合约示例，任何地址均可提取合约内全部资金：
+
+    ```solidity
+    /**
+    * @title BadVault
+    * @dev 缺少访问控制，任何人都能调用 withdraw() 取走全部 ETH
+    */
+    contract BadVault {
+        mapping(address => uint256) public balance;
+
+        // 用户存钱
+        function deposit() external payable {
+            balance[msg.sender] += msg.value;
+        }
+
+        // ❌ anyone can withdraw ALL funds!
+        function withdraw() public {
+            payable(msg.sender).transfer(address(this).balance);
+        }
     }
-}
 
-contract SecureWithGuard is ReentrancyGuard {
-    mapping(address => uint256) public balances;
-    
-    function withdraw() external noReentrant {
-        uint256 amount = balances[msg.sender];
-        require(amount > 0, "No balance");
+    ```
+
+    **问题题说明**：
+    该合约未对 withdraw 函数设置访问权限，攻击者可通过简单调用提取合约内所有以太币，造成资金全部流失。
+
+    **安全的访问控制示例**
+
+    通过引入显式权限判断，限制敏感操作的调用者，可以提升合约的安全性：
+
+    ```solidity
+    /**
+    * @title SafeVault
+    * @dev 仅部署者 (owner) 可以提取资金，简单显式访问控制
+    */
+    contract SafeVault {
+        address public immutable owner;           // 部署者地址
+        mapping(address => uint256) public balance;
+
+        // 构造函数：在部署时确定所有者地址
+        constructor() {
+            owner = msg.sender;
+        }
+
+        // 存款函数：允许所有用户调用
+        function deposit() external payable {
+            balance[msg.sender] += msg.value;
+        }
+
+        // ✔️ 提款函数：仅限所有者调用
+        function withdraw() external {
+            // 进行访问权限判断
+            require(msg.sender == owner, "Not owner");
+            uint256 amount = address(this).balance;
+            require(amount > 0, "Nothing to withdraw");
+
+            // 注意 Checks-Effects-Interactions 顺序
+            (bool ok, ) = owner.call{value: amount}("");
+            require(ok, "Transfer failed");
+        }
+    }
+    ```
+
+3. **整数溢出防护（Integer Overflow Protection）**
+
+    在早期版本的 Solidity（v0.8.0 之前），算术运算默认**不进行溢出检查**。这意味着当整数变量超出其最大值或最小值时，数值将**环绕（wrap around）**，导致严重的逻辑漏洞和安全隐患。
+
+    **受攻击的示例：无溢出检测的合约（< v0.8.0）：**
+
+    ```solidity
+    pragma solidity ^0.7.6;          // ⚠️ 0.7 版本不会自动检查溢出
+
+    /**
+    * @title BadCounter
+    * @dev 用户每调用一次 `inc()`，计数器加 1；当计数器达到 10 停止奖励。
+    *      但整数溢出可让攻击者将计数器绕回 0，再无限领奖。
+    */
+    contract BadCounter {
+        mapping(address => uint256) public counter;
+        mapping(address => bool)    public rewarded;
+
+        // 计数 +1
+        function inc() external {
         
-        balances[msg.sender] = 0;
-        (bool success,) = msg.sender.call{value: amount}("");
-        require(success, "Transfer failed");
+            counter[msg.sender] += 1;        // 若已 2**256-1 则回到 0
+        }
+
+        // 满 10 次领取 1 wei
+        function claim() external {
+            require(counter[msg.sender] >= 10, "not enough actions");
+            require(!rewarded[msg.sender],    "already claimed");
+            rewarded[msg.sender] = true;
+            msg.sender.transfer(1);           // 为演示简化为 1 wei
+        }
+
+        // 向合约注入少量 ETH 供演示
+        receive() external payable {}
     }
-}
-```
+    ```
 
-#### 3.2 访问控制（Access Control）
+    **问题说明：**
+    在该合约中，如果攻击者的 counter 达到最大值 2^256 - 1，再次调用 inc() 会使计数器绕回 0，从而绕过 >=10 的检查条件，并再次触发奖励逻辑，实现无限循环领取。
 
-访问控制是保障智能合约安全性的核心机制之一。通过对关键函数设置访问权限，可以有效防止未经授权的用户执行敏感操作，从而避免资金被盗、状态被篡改等严重安全风险。
+    **安全方案：限制上限 + 使用最新编译器版本**
 
-**缺乏访问控制的风险示例**
+    自 Solidity 0.8.0 起，所有算术运算默认开启溢出/下溢检查，若发生异常会自动 `revert`。除此之外，也建议通过逻辑限制控制最大值，防止边界绕回。
 
-以下为一个存在严重安全漏洞的合约示例，任何地址均可提取合约内全部资金：
+    ```solidity
+    /**
+    * @title SafeCounter
+    * @dev 方案：在 inc() 中直接固定「最高 11」，超过即拒绝。
+    *      溢出永远不会发生，也杜绝了重复领奖。
+    */
+    contract SafeCounter {
+        mapping(address => uint256) public counter;
 
-```solidity
-/**
- * @title BadVault
- * @dev 缺少访问控制，任何人都能调用 withdraw() 取走全部 ETH
- */
-contract BadVault {
-    mapping(address => uint256) public balance;
+        uint8 constant MAX_ACTIONS = 11;   // 上限 11，留 1 个缓冲
 
-    // 用户存钱
-    function deposit() external payable {
-        balance[msg.sender] += msg.value;
+        /// 受控递增：达到 10 后就不准再加
+        function inc() external {
+            require(counter[msg.sender] < MAX_ACTIONS, "limit reached");
+            counter[msg.sender] += 1;
+        }
+
+        /// 领取奖励
+        function claim() external {
+            require(counter[msg.sender] >= 10, "≥10 actions required");
+            counter[msg.sender] = 0;                   // 重置为 0
+            (bool ok, ) = msg.sender.call{value: 1}("");
+            require(ok, "transfer failed");
+        }
+
+        /// 注资
+        receive() external payable {}
     }
-
-    // ❌ anyone can withdraw ALL funds!
-    function withdraw() public {
-        payable(msg.sender).transfer(address(this).balance);
-    }
-}
-
-```
-
-**问题题说明**：
-该合约未对 withdraw 函数设置访问权限，攻击者可通过简单调用提取合约内所有以太币，造成资金全部流失。
-
-**安全的访问控制示例**
-
-通过引入显式权限判断，限制敏感操作的调用者，可以提升合约的安全性：
-
-```solidity
-/**
- * @title SafeVault
- * @dev 仅部署者 (owner) 可以提取资金，简单显式访问控制
- */
-contract SafeVault {
-    address public immutable owner;           // 部署者地址
-    mapping(address => uint256) public balance;
-
-    // 构造函数：在部署时确定所有者地址
-    constructor() {
-        owner = msg.sender;
-    }
-
-    // 存款函数：允许所有用户调用
-    function deposit() external payable {
-        balance[msg.sender] += msg.value;
-    }
-
-    // ✔️ 提款函数：仅限所有者调用
-    function withdraw() external {
-        // 进行访问权限判断
-        require(msg.sender == owner, "Not owner");
-        uint256 amount = address(this).balance;
-        require(amount > 0, "Nothing to withdraw");
-
-        // 注意 Checks-Effects-Interactions 顺序
-        (bool ok, ) = owner.call{value: amount}("");
-        require(ok, "Transfer failed");
-    }
-}
-```
-
-#### 3.3 整数溢出防护（Integer Overflow Protection）
-
-在早期版本的 Solidity（v0.8.0 之前），算术运算默认**不进行溢出检查**。这意味着当整数变量超出其最大值或最小值时，数值将**环绕（wrap around）**，导致严重的逻辑漏洞和安全隐患。
-
-**受攻击的示例：无溢出检测的合约（< v0.8.0）：**
-
-```solidity
-pragma solidity ^0.7.6;          // ⚠️ 0.7 版本不会自动检查溢出
-
-/**
- * @title BadCounter
- * @dev 用户每调用一次 `inc()`，计数器加 1；当计数器达到 10 停止奖励。
- *      但整数溢出可让攻击者将计数器绕回 0，再无限领奖。
- */
-contract BadCounter {
-    mapping(address => uint256) public counter;
-    mapping(address => bool)    public rewarded;
-
-    // 计数 +1
-    function inc() external {
-    
-        counter[msg.sender] += 1;        // 若已 2**256-1 则回到 0
-    }
-
-    // 满 10 次领取 1 wei
-    function claim() external {
-        require(counter[msg.sender] >= 10, "not enough actions");
-        require(!rewarded[msg.sender],    "already claimed");
-        rewarded[msg.sender] = true;
-        msg.sender.transfer(1);           // 为演示简化为 1 wei
-    }
-
-    // 向合约注入少量 ETH 供演示
-    receive() external payable {}
-}
-```
-
-**问题说明：**
-在该合约中，如果攻击者的 counter 达到最大值 2^256 - 1，再次调用 inc() 会使计数器绕回 0，从而绕过 >=10 的检查条件，并再次触发奖励逻辑，实现无限循环领取。
-
-**安全方案：限制上限 + 使用最新编译器版本**
-
-自 Solidity 0.8.0 起，所有算术运算默认开启溢出/下溢检查，若发生异常会自动 `revert`。除此之外，也建议通过逻辑限制控制最大值，防止边界绕回。
-
-```solidity
-/**
- * @title SafeCounter
- * @dev 方案：在 inc() 中直接固定「最高 11」，超过即拒绝。
- *      溢出永远不会发生，也杜绝了重复领奖。
- */
-contract SafeCounter {
-    mapping(address => uint256) public counter;
-
-    uint8 constant MAX_ACTIONS = 11;   // 上限 11，留 1 个缓冲
-
-    /// 受控递增：达到 10 后就不准再加
-    function inc() external {
-        require(counter[msg.sender] < MAX_ACTIONS, "limit reached");
-        counter[msg.sender] += 1;
-    }
-
-    /// 领取奖励
-    function claim() external {
-        require(counter[msg.sender] >= 10, "≥10 actions required");
-        counter[msg.sender] = 0;                   // 重置为 0
-        (bool ok, ) = msg.sender.call{value: 1}("");
-        require(ok, "transfer failed");
-    }
-
-    /// 注资
-    receive() external payable {}
-}
-```
+    ```
+:::
 
 ## 四、智能合约实战项目
 

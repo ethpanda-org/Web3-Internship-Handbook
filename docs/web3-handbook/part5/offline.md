@@ -35,7 +35,7 @@ permalink: /web3-handbook/rb6ofi2n/
 4. **法律与许可（如有）**
 ::: 
 
-## ==筹备阶段（～ 4 周==）
+## ==筹备阶段（～ 4 周）==
 ::: steps
 1. 活动流程设计与嘉宾邀请
     1. 确定基本活动安排 Agenda（多少 Panel、Keynote 等），以及各个环节需要的时间（安排）
@@ -72,9 +72,9 @@ permalink: /web3-handbook/rb6ofi2n/
 2. 效果评估与反馈、数据分析与总结报告
 :::
 
-## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+## ::eos-icons:application-outlined /#32b2f0:: 扩展阅读
 [1] 
 
-## ::ep:avatar /#32b2f0::文章贡献者    
+## ::ep:avatar /#32b2f0:: 文章贡献者    
 作者：[Luna](/)  
 排版：[Echo](https://x.com/Echo_liuchan)

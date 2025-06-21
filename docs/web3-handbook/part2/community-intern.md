@@ -37,7 +37,7 @@ Web3 的叙事传播和社交活动主要发生在下列平台：
 
 | 渠道 | 用途 | 示例链接 |
 | --- | --- | --- |
-| **Twitter (X)** | 项目更新、KOL扩散、活动传播主阵地 | [推特账号 示例](https://x.com/ETHPanda_Org) |
+| **Twitter (X)** | 项目更新、KOL 扩散、活动传播主阵地 | [推特账号示例](https://x.com/ETHPanda_Org) |
 | **微信公众号** | 中文市场的信息更新与活动推广 | [微信公众号 示例](https://mp.weixin.qq.com/s/en8CeulLNRiWDVc8A94R1w) |
 | **Medium/Substack** | 长文、项目理念、开发进展发布 | [Medium 示例](http://medium.com/) [Substack  示例](https://ethpanda.substack.com/) |
 | **Mirror** | 支持写作上链、发行 NFT 与众筹功能 | [Mirror 示例](https://mirror.xyz/) |
@@ -45,11 +45,11 @@ Web3 的叙事传播和社交活动主要发生在下列平台：
 ### 2. 社群沟通平台
 社区建设和成员维护大多通过以下工具进行：
 
-| 平台           | 用途                                     | 链接                                             |
-| ------------ | -------------------------------------- | ---------------------------------------------- |
-| **Discord**  | 项目 Discord 是社区运营主阵地，分频道管理，支持 Bot 与权限管理 | [Discord 官网](https://discord.com/)   |
-| **Telegram** | 更轻量的群聊工具，适合 AMA、用户支持                   | [Telegram 官网](https://telegram.org/) |
-| **微信群**      | 中国用户常用渠道，适合组织活动和日常互动                   |                                                |
+| 平台 | 用途 | 链接 |
+| --- | --- | --- |
+| **Discord** | 项目 Discord 是社区运营主阵地，分频道管理，支持 Bot 与权限管理 | [Discord 官网](https://discord.com/) |
+| **Telegram** | 更轻量的群聊工具，适合 AMA、用户支持 | [Telegram 官网](https://telegram.org/) |
+| **微信群** | 中国用户常用渠道，适合组织活动和日常互动 | |
 
 ### 3. 内容创作工具
 社区运营人员常常需要快速生成内容、设计视觉、记录文档等，推荐以下工具：
@@ -82,10 +82,10 @@ Web3 世界的数据是开放的，以下工具是日常分析和监控项目的
 [附录：线下活动执行模板](../part5/offline.md)
 
 
-## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+## ::eos-icons:application-outlined /#32b2f0:: 扩展阅读
 [1] 
 
-## ::ep:avatar /#32b2f0::文章贡献者   
+## ::ep:avatar /#32b2f0:: 文章贡献者   
 作者：[Luna](/)  
 排版：[Echo](https://x.com/Echo_liuchan)
 

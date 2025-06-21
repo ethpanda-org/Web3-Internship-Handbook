@@ -13,7 +13,7 @@ permalink: /web3-handbook/6to8vqys/
 - Ethereum 官方学习文档：[https://ethereum.org/en/learn/](https://ethereum.org/en/learn/)
 - Solidity 官方文档：[https://docs.soliditylang.org/zh-cn/latest/index.html](https://docs.soliditylang.org/zh-cn/latest/index.html)
 - 以太坊研究院：[https://ethresear.ch/](https://ethresear.ch/)
-- Stack Exchange：[https://stackexchange.com/](ttps://stackexchange.com/)
+- Stack Exchange：[https://stackexchange.com/](https://stackexchange.com/)
 - Reddit：[https://www.reddit.com/](https://www.reddit.com/)
 - 《Mastering Ethereum》：
 - 《深入理解以太坊》：
@@ -22,13 +22,13 @@ permalink: /web3-handbook/6to8vqys/
 - L2 详细介绍：[https://layer2.myfirst.io/](https://layer2.myfirst.io/)
 
 ## 三. 常见问题解答（FAQ）
-- 例如："区块链开发需要数学很强吗？"、"如何跟进行业最新进展？"、"遇到智能合约黑客攻击案例应该如何学习？"等
+- 例如：「区块链开发需要数学很强吗？」、「如何跟进行业最新进展？」、「遇到智能合约黑客攻击案例应该如何学习？」等
 
 ## 四. 工具清单与 GitHub 推荐列表 
 
-## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+## ::eos-icons:application-outlined /#32b2f0:: 扩展阅读
 [1] 
 
-## ::ep:avatar /#32b2f0::文章贡献者  
+## ::ep:avatar /#32b2f0:: 文章贡献者  
 作者：[Echo](https://x.com/Echo_liuchan)
 排版：[Echo](https://x.com/Echo_liuchan)
