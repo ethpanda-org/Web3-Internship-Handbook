@@ -278,7 +278,6 @@ permalink: /web3-handbook/iwic3itt/
     - 在浏览器中访问 [https://www.notion.com/desktop](https://www.notion.com/desktop)。
     - 点击「Download for macOS」下载 Mac 版安装包。
     - 下载后，打开 `.dmg` 文件并将 Notion 应用拖动到「应用程序」文件夹中完成安装。
-    - 具体安装细节请参考：[http://xhslink.com/a/T0PXHI5iBEkcb，复制本条信息，打开【小红书】App查看精彩内容！](http://xhslink.com/a/T0PXHI5iBEkcb%EF%BC%8C%E5%A4%8D%E5%88%B6%E6%9C%AC%E6%9D%A1%E4%BF%A1%E6%81%AF%EF%BC%8C%E6%89%93%E5%BC%80%E3%80%90%E5%B0%8F%E7%BA%A2%E4%B9%A6%E3%80%91App%E6%9F%A5%E7%9C%8B%E7%B2%BE%E5%BD%A9%E5%86%85%E5%AE%B9%EF%BC%81)
     - 具体的工具指南请阅读：[https://www.notion.com/zh-cn/help/guides](https://www.notion.com/zh-cn/help/guides)
 
     ![图 8](../images/Web3-working-habits/image%205.png)
@@ -403,9 +402,9 @@ permalink: /web3-handbook/iwic3itt/
     **Objective** : 提升协议安全性至机构级标准
 
     **Key Results** : 
-    1. [ ] 通过 Certora 形式化验证（主网部署前）
-    2. [ ] 漏洞赏金计划覆盖率 100%（Immunefi 平台）
-    3. [ ] 平均审计发现项 ≤2 个（对比 OpenZeppelin 基准）
+    - [ ] 通过 Certora 形式化验证（主网部署前）
+    - [ ] 漏洞赏金计划覆盖率 100%（Immunefi 平台）
+    - [ ] 平均审计发现项 ≤2 个（对比 OpenZeppelin 基准）
     :::
 
 ### 2. 远程会议注意事项
