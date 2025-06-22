@@ -29,7 +29,7 @@ permalink: /web3-handbook/2vi8xbb1/
 1. [**LXDAO**](https://lxdao.io)
     - **简介：** LXDAO 是一个由开发者、研究员、设计师等组成的去中心化自治组织（DAO），致力于通过社区协作和项目孵化，推动 Web3 技术的发展和应用。他们不仅有自己的项目，也常常发布社区成员或合作项目的招聘信息，尤其适合技术和研究背景的求职者。LXDAO实习生社区：https://t.me/LXDAO
 2. [**ETHPanda**](https://ethpanda.org/)
-    - **简介：** ETHPanda 是一个由以太坊开发者、研究者与运营者等组成的 非营利 社区组织，致力于通过公共服务、教育资源和开源基础设施工具，连接华语区与全球以太坊生态，推动网络的长期可持续发展。微信公众号：ETHPanda，ETHPanda中文社区：https://t.me/ETHPandaOrg，
+    - **简介：** ETHPanda 是一个由以太坊开发者、研究者与运营者等组成的 非营利 社区组织，致力于通过公共服务、教育资源和开源基础设施工具，连接华语区与全球以太坊生态，推动网络的长期可持续发展。微信公众号：ETHPanda，ETHPanda中文社区：https://t.me/ETHPandaOrg
 3. [**Web3.career**](web3.career)
     - **简介：** Web3.career 是一个专注于 Web3 领域的全球性招聘平台，汇集了大量来自区块链、加密货币、DeFi、NFT、元宇宙等领域的职位。其特点是职位更新及时，覆盖面广，且提供了详细的职位描述和公司信息，是 Web3 求职者的重要资源。
 4. [**DeJob**](https://www.dejob.top/)
