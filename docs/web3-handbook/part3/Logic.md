@@ -5,6 +5,15 @@ permalink: /web3-handbook/6ma3dube/
 ---
 > 在本章，我们追踪 Logic 从校园黑客松踏入 LXDAO，再到入职 Bybit 的链上闯关历程。他以运营助攻到前端架构师，强调业务洞察与质量体系的重要性，分享了“小项目-社区-开源-Hackathon”渐进式成长路径，并点明 Web3 前端需熟悉钱包交互与风险逻辑；AI 可解放重复劳动却难取代核心判断。对初学者，他建议先做 Testnet 实操、贡献 PR，积累软硬实力。
 
+<br>  
+
+::: card
+
+![Logic](../images/Industry-veteran/WechatIMG73.jpg){.full-width width="20%"}
+
+Logic，Bybit 前端开发工程师，曾供职于 Artela 与 Rooch Network ，主导核心 DApp 与基础设施的前端实现，亦曾在 LXDAO MyFirstLayer2 担任产品经理，推特 [@Logicdevlife](https://x.com/Logicdevlife)
+:::
+
 ## 技术向前端 Logic：Bybit 先锋的前端取经之路
 
 ### 1. 我们邀请到 Bybit 前端开发老师 Logic，非常感谢您抽出宝贵时间参与到 Panda 与 LXDAO 共同开展的访谈。请您先做一个简单的自我介绍。

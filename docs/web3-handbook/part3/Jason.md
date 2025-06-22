@@ -6,6 +6,15 @@ permalink: /web3-handbook/403qbqz2/
 
 > 在本章，我们追溯 Jason 从大厂 C/C++ 开发者转向 Web3 的路径：研二自建以太坊节点、内推与线下社群获取岗位，靠多段实习与扎实底层基础拿下顶级交易所面试；强调 CPU/IO 原理对链上系统优化的必要，指出前端迁移最易、底层开发需补产品思维；建议小白按专业优势切入，实践—补基础形成闭环，牢记理解业务才是 AI 难以替代的核心竞争力。
 
+<br>  
+
+::: card
+
+![Jason](../images/Industry-veteran/WechatIMG69.jpg){.full-width width="20%"}
+
+Jason，现任某互联网大厂 C/C++ 开发，深大硕士毕业，曾斩获阿里，华为全职 Offer，推特 [@fxxkmystyle](https://x.com/fxxkmystyle)
+:::
+
 ## 技术后端向 Jason：资深 Web2 开发者的转型之路
 
 

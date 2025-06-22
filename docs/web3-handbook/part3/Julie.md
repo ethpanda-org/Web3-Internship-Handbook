@@ -6,6 +6,14 @@ permalink: /web3-handbook/6ak64nbh/
 
 > 在本章，我们走近ZetaChain社区负责人Julie，记录她18岁入圈从翻译等“Dirty work”起步，借多元内容与社群试验洞察VC与项目增长差异，终掌舵中美社区运营。她强调社区共识即生产力，分享0→1冷启动:任务可感知、简化叙事、大使激励、高频互动；并奉上AMA选题结合热点与复盘扩散法，以及00/05后以长板定位、持续输出、主动连接、好奇驱动的成长路线。
 
+<br>  
+
+::: card
+
+![Julie](../images/Industry-veteran/WechatIMG71.jpg){.full-width width="20%"}
+
+Julie Chen，ZetaChain 华语及美国社区负责人，宾夕法尼亚大学毕业，全美华人 30 岁以下青年精英，曾供职于 SevenXVentures，A&T Capital 等知名投资机构，推特 [@0xJuliechen](https://x.com/0xJuliechen)
+:::
 
 ## 运营增长向 Julie：00 后社区增长专家
 

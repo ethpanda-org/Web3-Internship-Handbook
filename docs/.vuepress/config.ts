@@ -129,6 +129,7 @@ export default defineUserConfig({
       //   youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
       //   artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
       //   audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)
+      chat: true, 
       icon: { 
         provider: 'iconify',
         // provider: 'iconfont',
