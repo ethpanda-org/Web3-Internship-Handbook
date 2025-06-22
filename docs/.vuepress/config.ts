@@ -49,7 +49,9 @@ export default defineUserConfig({
     /* 页内信息 */
     // editLink: true,
     lastUpdated: false,
-    // contributors: true,
+    // contributors: {
+    //   mode: 'block',
+    // },
     changelog: false,
 
     /**
@@ -194,5 +196,6 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/guide/features/encryption/
      */
     // encrypt: {},
+
   }),
 })
