@@ -7,7 +7,7 @@ permalink: /web3-handbook/6ma3dube/
 
 ## 技术向前端 Logic：Bybit 先锋的前端取经之路
 
-### 1. 欢迎来到以太坊实习生手册前辈访谈。本期技术采访了 Bybit 前端开发老师 Logic，非常感谢您抽出宝贵时间参与到 Panda 与 LXDAO 共同开展的访谈。请您先做一个简单的自我介绍。
+### 1. 我们邀请到 Bybit 前端开发老师 Logic，非常感谢您抽出宝贵时间参与到 Panda 与 LXDAO 共同开展的访谈。请您先做一个简单的自我介绍。
     
 Hello Alex，我叫 Logic。我的本科学的是软件工程，大一到大四一直把「英文＋编程」当作两大爱好。早期在 LXDAO 担任「My First Layer‑2」项目的 PM；后来利用业余时间给入取团队做比特币二层的前端；再之后加入 Bybit，负责交易工具（Trade GPT、交易机器人、Copy Trade 跟单等）的前端开发与架构落地。
     
