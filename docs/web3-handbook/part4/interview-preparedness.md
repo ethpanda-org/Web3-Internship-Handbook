@@ -120,3 +120,9 @@ permalink: /web3-handbook/xow0pv4o/
 面试不是背题，而是用真实经历证明「你 = 目标岗位的最佳解」。以上清单与题库不是让你记答案，而是帮助你**提前把答案写在链上、写进社区、写进代码库**。祝你下一场 Web3 面试旗开得胜！
 :::
 
+## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+[1] 
+
+## ::ep:avatar /#32b2f0::文章贡献者  
+作者：[Alex](/)  
+排版：[Echo](https://x.com/Echo_liuchan)
