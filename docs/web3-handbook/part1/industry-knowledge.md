@@ -125,13 +125,13 @@ NFT 背后的另一项重要技术是**智能合约**。智能合约是一种自
 
 下面介绍两个实际的 NFT 案例：
 
-### 4. **CryptoPunks：NFT 的先锋**
+### 3. **CryptoPunks：NFT 的先锋**
 
 CryptoPunks 可以被看作是 NFT 历史中的“先驱者”。由 Larva Labs 于 2017 年创建，CryptoPunks 是一系列由 10,000 个像素风格的头像组成，每个头像都有其独特的属性（如不同的发型、眼睛、面部特征等）。这些头像一开始并未得到广泛重视，但随着 NFT 和加密货币市场的崛起，CryptoPunks 成为了最早的 NFT 收藏品之一，并且逐渐形成了专属的社群和文化。
 
 通过区块链，这些 CryptoPunks 的所有权和历史交易都得到了记录，任何人都可以验证某个 Punk 是否属于你，也能看到它的历史交易价格、所有者等信息。
 
-### 5. **OpenSea：NFT 交易的中心**
+### 4. **OpenSea：NFT 交易的中心**
 
 OpenSea 是目前全球最大的 NFT 交易平台，基本上覆盖了所有主流 NFT 的交易。它与传统的艺术品拍卖平台（如 Sotheby’s）不同，OpenSea 通过区块链技术让任何人都能轻松买卖 NFT。用户不仅可以在 OpenSea 上买卖 CryptoPunks、Bored Ape Yacht Club（另一大知名 NFT 项目）等，还能创建自己的 NFT 并发布在平台上。
 
