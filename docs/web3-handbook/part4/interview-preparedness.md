@@ -10,11 +10,11 @@ permalink: /web3-handbook/xow0pv4o/
 
 | 模块                | 关键动作                                               | 小贴士                                   |
 | ----------------- | -------------------------------------------------------- | ------------------------------------- |
-| **🔍 项目调研**       | 阅读白皮书 / 官网 / Discord 固定帖，拉取 GitHub 最新 commit，抓三条近期推文     | 生成「一句话简介 + 三个数字」：==核心卖点、生态规模、技术亮点== |
-| **📊 量化资历**       | 把简历里每条经历再拆成「问题—动作—结果」                                    | 结果一定要==链上或社区数据==：Tx 数、新增用户、PR 数…      |
-| **🧩 案例库**        | 为每项技能准备 ≥2 个可验证案例 (Tx Hash / Pull Request / Snapshot ID) | 用 Notion 或 Obsidian 建立「案例卡片」随时复习    |
-| **🎤 行为题 STAR**   | Situation / Task / Action / Result                       | 结尾加一句「If I did it again…」显示复盘意识       |
-| **🛠️ Demo / 作品** | 将最能代表自己的 Repo / Dashboard / 运营报告放在面试设备本地                 | 断网也能演示，尤其是现场 Coding 环节                |
+| **项目调研**       | 阅读白皮书 / 官网 / Discord 固定帖，拉取 GitHub 最新 commit，抓三条近期推文     | 生成「一句话简介 + 三个数字」：==核心卖点、生态规模、技术亮点== |
+| **量化资历**       | 把简历里每条经历再拆成「问题—动作—结果」                                    | 结果一定要==链上或社区数据==：Tx 数、新增用户、PR 数…      |
+| **案例库**        | 为每项技能准备 ≥2 个可验证案例 (Tx Hash / Pull Request / Snapshot ID) | 用 Notion 或 Obsidian 建立「案例卡片」随时复习    |
+| **行为题 STAR**   | Situation / Task / Action / Result                       | 结尾加一句「If I did it again…」显示复盘意识       |
+| **Demo / 作品** | 将最能代表自己的 Repo / Dashboard / 运营报告放在面试设备本地                 | 断网也能演示，尤其是现场 Coding 环节                |
 
 
 ## 二、运营向（Community / Growth / BD）
