@@ -346,16 +346,19 @@ EVM（Ethereum Virtual Machine）是 **以太坊的“大脑”**，是专门用
     - 如果你设置"100 公里 × 1 元 / 公里"，实际只走了 80 公里，退还 20 元。
 - **EVM = 自动售货机**：你投入硬币（Gas 费），按下按钮（调用函数），机器执行预设逻辑（出货）。
 
+
+
+
+## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+[1]
+
+
+## ::ep:avatar /#32b2f0::文章贡献者  
+作者：[Bruce](https://x.com/brucexu_eth)、[吃汤圆](/)  
+排版：[Echo](https://x.com/Echo_liuchan)
+
 [^1]: Ethereum Foundation. (2023). *What is Ethereum?* Retrieved from https://ethereum.org/en/what-is-ethereum/
 
 [^2]: Buterin, V. (2014). *Ethereum Whitepaper: A Next-Generation Smart Contract and Decentralized Application Platform*. Retrieved from https://ethereum.org/en/whitepaper/
 
 [^3]: Ethereum Foundation. (2023). *EIP-4844: Shard Blob Transactions*. Retrieved from https://eips.ethereum.org/EIPS/eip-4844
-
-
-## ::eos-icons:application-outlined /#32b2f0::扩展阅读
-[1] 
-
-## ::ep:avatar /#32b2f0::文章贡献者  
-作者：[Bruce](https://x.com/brucexu_eth)、[吃汤圆](/)  
-排版：[Echo](https://x.com/Echo_liuchan)

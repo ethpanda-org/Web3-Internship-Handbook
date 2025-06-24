@@ -85,6 +85,7 @@ const handbookNote = defineNoteConfig({
       items: [
         { text: '招聘平台与职位推荐', link: 'part4/job-platform.md' },
         { text: 'Web3 行业简历撰写指导', link: 'part4/write-resume.md' },
+        { text: '面试准备与典型面试题', link: 'part4/interview-preparedness.md' },
       ],
     },
     { text: '附录',collapsed: true,
