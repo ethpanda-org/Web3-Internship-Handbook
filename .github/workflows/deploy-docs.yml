@@ -1,10 +1,8 @@
-
-name: 部署文档
+name: Deploy Docs
 
 on:
   push:
     branches:
-      # 确保这是你正在使用的分支名称
       - main
 
 permissions:
@@ -18,30 +16,25 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # 如果你文档需要 Git 子模块，取消注释下一行
-          # submodules: true
 
-
-
-      - name: 设置 Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
 
-      - name: 安装依赖
+      - name: Install dependencies
         run: npm ci
 
-      - name: 构建文档
+      - name: Build documentation
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           npm run docs:build
           > docs/.vuepress/dist/.nojekyll
 
-      - name: 部署文档
+      - name: Deploy documentation
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # 这是文档部署到的分支名称
           branch: gh-pages
           folder: docs/.vuepress/dist
