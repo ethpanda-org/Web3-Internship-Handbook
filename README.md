@@ -19,13 +19,13 @@
     - 以太坊生态概览：L1、L2、Rollup、EVM 等
     - 以太坊文化（核心价值观、密码朋克）
     - 关键组件介绍（以太坊虚拟机 EVM、账户系统、Gas 模型）
-3. [**行业知识模块**（涵盖 DeFi、NFT、DAO、MEME 等）](docs\web3-handbook\part1\industry-knowledge.md)
+3. [**行业知识模块**（涵盖 DeFi、NFT、DAO、MEME 等）](./docs/web3-handbook/part1/industry-knowledge.md)
     - DeFi：Uniswap、Compound、MakerDAO 案例
     - NFT：CryptoPunks、OpenSea 案例
     - DAO：LXDAO、NounsDAO 案例
     - MEME：MEME 文化与风险
     - 延伸阅读（推荐优秀文章、报告）
-4. [**基础工作习惯**](docs\web3-handbook\part1\Web3-working-habits.md)
+4. [**基础工作习惯**](./docs/web3-handbook/part1/Web3-working-habits.md)
     - 行业黑话
     - Web3 常用工具：Twitter / Telegram / Discord / 使用教程
     - 以太坊钱包（Metamask）安装与安全
