@@ -14,11 +14,11 @@ permalink: /web3-handbook/iwic3itt/
 
 ::: steps
 
-1.  ==工具介绍==
+1. ==工具介绍==
 
     Twitter（现名 X）是一家美国的社交媒体平台和微型博客服务，它允许用户发布并互动「推文」（短文本、图片或视频）。Twitter 是世界上访问量最高的社交网站之一，区块链和 Web3 相关项目常利用 Twitter 发布最新动态和公告，因此成为生态交流的重要渠道。
 
-2.  ==安装注册指南==
+2. ==安装注册指南==
 
     - Windows (网页版)
       - 在浏览器中打开 Twitter 官网：[https://twitter.com](https://twitter.com/)。
@@ -35,77 +35,77 @@ permalink: /web3-handbook/iwic3itt/
     ::: tabs
     @tab **无法登录账户**
 
-        **问题描述**：您无法登录您的 Twitter 账户。
+    **问题描述**：您无法登录您的 Twitter 账户。
 
-        **解决方法**：
-        - **检查用户名和密码**：确认输入的用户名和密码正确无误。
-        - **重置密码**：如果您忘记密码，可以使用「忘记密码」功能，通过[邮箱](https://www.52by.com/tag/youxiang)或手机重置密码。
-        - **检查网络连接**：确保您的设备连接到稳定的互联网。
-        - **更新应用程序**：前往应用商店，确保您使用的是最新版本的 Twitter。
-        - **清除缓存和数据**：在设备的应用[管理](https://www.52by.com/tag/guanli)中清除 Twitter 的缓存和数据，然后重新尝试登录。
-        - **联系支持团队**：如果问题持续，请联系 Twitter 支持团队寻求帮助。
+    **解决方法**：
+    - **检查用户名和密码**：确认输入的用户名和密码正确无误。
+    - **重置密码**：如果您忘记密码，可以使用「忘记密码」功能，通过[邮箱](https://www.52by.com/tag/youxiang)或手机重置密码。
+    - **检查网络连接**：确保您的设备连接到稳定的互联网。
+    - **更新应用程序**：前往应用商店，确保您使用的是最新版本的 Twitter。
+    - **清除缓存和数据**：在设备的应用[管理](https://www.52by.com/tag/guanli)中清除 Twitter 的缓存和数据，然后重新尝试登录。
+    - **联系支持团队**：如果问题持续，请联系 Twitter 支持团队寻求帮助。
 
-        @tab **无法发送推文**
+    @tab **无法发送推文**
 
-        **问题描述**：您无法发送新的推文。
+    **问题描述**：您无法发送新的推文。
 
-        **解决方法**：
+    **解决方法**：
 
-        - **检查字符限制**：确保推文字符数未超过 280 个字符。
-        - **检查网络连接**：确保网络连接正常。
-        - **更新应用程序**：确认您使用的是最新版本的 Twitter。
-        - **清除应用缓存**：通过设备设置清除 Twitter 缓存。
-        - **检查账户状态**：确认您的账户未被限制或封禁。
-        - **重新启动应用**：关闭并重新启动 Twitter 应用。
+    - **检查字符限制**：确保推文字符数未超过 280 个字符。
+    - **检查网络连接**：确保网络连接正常。
+    - **更新应用程序**：确认您使用的是最新版本的 Twitter。
+    - **清除应用缓存**：通过设备设置清除 Twitter 缓存。
+    - **检查账户状态**：确认您的账户未被限制或封禁。
+    - **重新启动应用**：关闭并重新启动 Twitter 应用。
 
-        @tab **推文显示异常**
+    @tab **推文显示异常**
 
-        **问题描述**：推文内容无法正常显示，或显示错误。
+    **问题描述**：推文内容无法正常显示，或显示错误。
 
-        **解决方法**：
+    **解决方法**：
 
-        - **检查网络连接**：确保设备连接到互联网。
-        - **更新应用程序**：前往应用商店，确保使用的是最新版本的 Twitter。
-        - **清除缓存和数据**：在设备的应用管理中清除 Twitter 的缓存和数据。
-        - **重新安装应用**：卸载并重新安装 Twitter 应用。
-        - **联系支持团队**：如果问题持续，请联系 Twitter 支持团队。
+    - **检查网络连接**：确保设备连接到互联网。
+    - **更新应用程序**：前往应用商店，确保使用的是最新版本的 Twitter。
+    - **清除缓存和数据**：在设备的应用管理中清除 Twitter 的缓存和数据。
+    - **重新安装应用**：卸载并重新安装 Twitter 应用。
+    - **联系支持团队**：如果问题持续，请联系 Twitter 支持团队。
 
-        @tab **无法接收通知**
+    @tab **无法接收通知**
 
-        **问题描述**：您无法接收来自 Twitter 的通知。
+    **问题描述**：您无法接收来自 Twitter 的通知。
 
-        **解决方法**：
+    **解决方法**：
 
-        - **检查通知设置**：在 Twitter 设置中确保通知已开启。
-        - **检查设备通知设置**：在设备设置中确保 Twitter 通知已开启。
-        - **更新应用程序**：前往应用商店，确保使用的是最新版本的 Twitter。
-        - **重新启动应用**：关闭并重新启动 Twitter 应用。
-        - **清除缓存和数据**：在设备的应用管理中清除 Twitter 的缓存和数据。
+    - **检查通知设置**：在 Twitter 设置中确保通知已开启。
+    - **检查设备通知设置**：在设备设置中确保 Twitter 通知已开启。
+    - **更新应用程序**：前往应用商店，确保使用的是最新版本的 Twitter。
+    - **重新启动应用**：关闭并重新启动 Twitter 应用。
+    - **清除缓存和数据**：在设备的应用管理中清除 Twitter 的缓存和数据。
 
-        @tab **无法关注用户**
+    @tab **无法关注用户**
 
-        **问题描述**：您无法关注其他 Twitter 用户。
+    **问题描述**：您无法关注其他 Twitter 用户。
 
-        **解决方法**：
+    **解决方法**：
 
-        - **检查关注限制**：Twitter 对每个账号每天关注用户的数量有限制，确保您未超过限制。
-        - **检查网络连接**：确保设备连接到互联网。
-        - **更新应用程序**：前往应用商店，确保使用的是最新版本的 Twitter。
-        - **重新启动应用**：关闭并重新启动 Twitter 应用。
-        - **联系支持团队**：如果问题持续，请联系 Twitter 支持团队。
+    - **检查关注限制**：Twitter 对每个账号每天关注用户的数量有限制，确保您未超过限制。
+    - **检查网络连接**：确保设备连接到互联网。
+    - **更新应用程序**：前往应用商店，确保使用的是最新版本的 Twitter。
+    - **重新启动应用**：关闭并重新启动 Twitter 应用。
+    - **联系支持团队**：如果问题持续，请联系 Twitter 支持团队。
 
-        @tab **账户被封禁**
+    @tab **账户被封禁**
 
-        **问题描述**：您的 Twitter 账户被封禁，无法使用。
+    **问题描述**：您的 Twitter 账户被封禁，无法使用。
 
-        **解决方法**：
+    **解决方法**：
 
-        - **了解封禁原因**：通常，封禁是由于违反 Twitter 的使用政策。
-         **联系支持团队**：如果您认为封禁是错误的，请联系 Twitter 支持团队申诉。
-        - **创建新账户**：如果封禁无法解除，考虑创建一个新账户，并遵守相关规定。
-        :::
-
+    - **了解封禁原因**：通常，封禁是由于违反 Twitter 的使用政策。
+      **联系支持团队**：如果您认为封禁是错误的，请联系 Twitter 支持团队申诉。
+    - **创建新账户**：如果封禁无法解除，考虑创建一个新账户，并遵守相关规定。
     :::
+
+:::
 
 ### 2. Telegram
 
@@ -182,7 +182,7 @@ permalink: /web3-handbook/iwic3itt/
    使用 Telegram 是需要科学上网的，所以你需要开代理，并且还要在 Telegram 里设置下代理服务器，这样 Telegram 的数据才会全部走代理那边。
    :::
 
-:::
+
 
 ### 3. Discord
 
@@ -194,13 +194,13 @@ permalink: /web3-handbook/iwic3itt/
 
 2.  ==操作指南==
 
-        - 打开浏览器，访问 Discord 官网下载页面：[https://discord.com](https://discord.com/)。
-        - 安装完成后打开 Discord，创建新账户或使用已有邮箱/手机号登录。
-        - 官方新手指南：[https://support.discord.com/hc/zh-tw/articles/360045138571-Discord-新手指南](https://support.discord.com/hc/zh-tw/articles/360045138571-Discord-%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)
+    - 打开浏览器，访问 Discord 官网下载页面：[https://discord.com](https://discord.com/)。
+    - 安装完成后打开 Discord，创建新账户或使用已有邮箱/手机号登录。
+    - 官方新手指南：[https://support.discord.com/hc/zh-tw/articles/360045138571-Discord-新手指南](https://support.discord.com/hc/zh-tw/articles/360045138571-Discord-%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)
 
-        ![图 4](../images/Web3-working-habits/3f78e27e-3e7c-4ef9-b0b4-0f185fddb166.png)
+    ![图 4](../images/Web3-working-habits/3f78e27e-3e7c-4ef9-b0b4-0f185fddb166.png)
 
-    :::
+:::
 
 ### 4. MetaMask
 
@@ -214,14 +214,14 @@ permalink: /web3-handbook/iwic3itt/
 
 2.  ==安装注册指南==
 
-        - 详细安装、操作指南： [https://blog.csdn.net/m0_73094011/article/details/135854126](https://blog.csdn.net/m0_73094011/article/details/135854126)
-        - macOS 用户安装流程与 Windows 类似：打开 Chrome 浏览器，同样通过 MetaMask 官网下载安装扩展。
-        - 安装完成后登录 MetaMask 账号，或按提示创建并备份新的助记词钱包（与 Windows 流程相同）。
-        - 如果使用 Safari 浏览器，请注意 MetaMask 暂无 Safari 版本，需使用支持的 Chromium 内核浏览器。
+    - 详细安装、操作指南： [https://blog.csdn.net/m0_73094011/article/details/135854126](https://blog.csdn.net/m0_73094011/article/details/135854126)
+    - macOS 用户安装流程与 Windows 类似：打开 Chrome 浏览器，同样通过 MetaMask 官网下载安装扩展。
+    - 安装完成后登录 MetaMask 账号，或按提示创建并备份新的助记词钱包（与 Windows 流程相同）。
+    - 如果使用 Safari 浏览器，请注意 MetaMask 暂无 Safari 版本，需使用支持的 Chromium 内核浏览器。
 
-        ![图 5](../images/Web3-working-habits/image%202.png)
+    ![图 5](../images/Web3-working-habits/image%202.png)
 
-    :::
+:::
 
 ### 5. Linkedin
 
@@ -238,42 +238,42 @@ permalink: /web3-handbook/iwic3itt/
    ![图 6](../images/Web3-working-habits/image%203.png)
 
 3. ==Linkedin 常见的使用问题==
-   ::: tabs
-   @tab 邮箱已被注册
-   如收到「邮箱已被使用」的报错信息，表明您输入的邮箱地址已分配至现有的领英帐号。可能是因为:
+  ::: tabs
+  @tab 邮箱已被注册
+  如收到「邮箱已被使用」的报错信息，表明您输入的邮箱地址已分配至现有的领英帐号。可能是因为:
 
-   - 您选择了「立即加入」链接，而不是「登录」链接访问现有帐号。
-   - 您以前接受过领英邀请和/或创建过帐号。
-   - 您的雇主或互联网提供商把其他用户使用过的邮箱地址重新分配给您了。
-   - 您使用了标准格式的 Gmail 邮箱，此类邮箱地址前半部分含有句点或其他符号，例如 a.bc@gmail.com 或 a.b.c@gmail.com，而不是 abc@gmail.com 格式。
+  - 您选择了「立即加入」链接，而不是「登录」链接访问现有帐号。
+  - 您以前接受过领英邀请和/或创建过帐号。
+  - 您的雇主或互联网提供商把其他用户使用过的邮箱地址重新分配给您了。
+  - 您使用了标准格式的 Gmail 邮箱，此类邮箱地址前半部分含有句点或其他符号，例如 a.bc@gmail.com 或 a.b.c@gmail.com，而不是 abc@gmail.com 格式。
 
-   要访问帐号:
+  要访问帐号:
 
-   - 点击登录。
-   - 输入邮箱地址和密码。如果您使用的是标准格式的邮箱地址，在输入邮箱地址前半部分时请不要输入句点或其他符号。
+  - 点击登录。
+  - 输入邮箱地址和密码。如果您使用的是标准格式的邮箱地址，在输入邮箱地址前半部分时请不要输入句点或其他符号。
 
-   要在忘记密码的情况下访问帐号:
+  要在忘记密码的情况下访问帐号:
 
-   - 点击「忘记密码？」链接。我们将向该邮箱发送信息，帮助您访问帐号。
-   - 重设密码后，点击登录并输入邮箱和新密码。
-     ::: info 温馨提示: - 如果您怀疑自己的邮箱是已回收的邮箱，请联系[领英客服](https://www.linkedin.com/help/learning/answer/1187)获取帮助，将此邮箱添加至您的帐号。 - 如果此邮箱已被其他帐号注册，邮箱添加至您的帐号可能会有延迟。在某些情况下，邮箱可能无法添加至您的帐号。
-     :::
-     @tab 严格规避老号关联痕迹
-     领英当前风控系统可识别设备、IP、浏览器指纹等信息。若新号与已封老号使用同一设备/IP/浏览器登录，即使更换邮箱和手机号，仍可能因关联被封。下面给大家提供几点建议：
+  - 点击「忘记密码？」链接。我们将向该邮箱发送信息，帮助您访问帐号。
+  - 重设密码后，点击登录并输入邮箱和新密码。
+      ::: info 温馨提示: - 如果您怀疑自己的邮箱是已回收的邮箱，请联系[领英客服](https://www.linkedin.com/help/learning/answer/1187)获取帮助，将此邮箱添加至您的帐号。 - 如果此邮箱已被其他帐号注册，邮箱添加至您的帐号可能会有延迟。在某些情况下，邮箱可能无法添加至您的帐号。  
+      :::
+    
+  @tab 严格规避老号关联痕迹
+  领英当前风控系统可识别设备、IP、浏览器指纹等信息。若新号与已封老号使用同一设备/IP/浏览器登录，即使更换邮箱和手机号，仍可能因关联被封。下面给大家提供几点建议：
 
-   IP 隔离：选择干净的住宅 IP，可以先通过 IP 地址查询工具检查当前 IP 地址是否被有效隐藏。
-   设备隔离：使用全新设备或从未登录过老号的电脑，同一设备避免登录多个领英账号。
-   浏览器隔离：如果不想更换设备，建议使用 AdsPower 指纹浏览器去注册，它能够模拟各种硬件和软件指纹，为每个账号创建独立浏览器环境，AdsPower 再搭配上新的 IP，可以有效避免新旧账号关联。
+  - IP 隔离：选择干净的住宅 IP，可以先通过 IP 地址查询工具检查当前 IP 地址是否被有效隐藏。
+  - 设备隔离：使用全新设备或从未登录过老号的电脑，同一设备避免登录多个领英账号。
+  - 浏览器隔离：如果不想更换设备，建议使用 AdsPower 指纹浏览器去注册，它能够模拟各种硬件和软件指纹，为每个账号创建独立浏览器环境，AdsPower 再搭配上新的 IP，可以有效避免新旧账号关联。
 
-   @tab 使用全新且真实的注册资料
+   
+  @tab 使用全新且真实的注册资料
 
-   为了确保新账号的独立性，注册时不要使用和旧账号相似的信息，这包括：
+  为了确保新账号的独立性，注册时不要使用和旧账号相似的信息，这包括：
 
-   - 邮箱：注册一个新的国外邮箱如 Gmail、Outlook，使用国内邮箱易触发风控。
-   - 手机号：使用新的手机号，建议用国外的号码以便接收验证码。
-   - 真实身份信息：使用真实姓名、公司名称、职位，虚假信息也容易触发审核，不要用之前的名字、公司信息，个人资料做适当调整。
-
-   :::
+  - 邮箱：注册一个新的国外邮箱如 Gmail、Outlook，使用国内邮箱易触发风控。
+  - 手机号：使用新的手机号，建议用国外的号码以便接收验证码。
+  - 真实身份信息：使用真实姓名、公司名称、职位，虚假信息也容易触发审核，不要用之前的名字、公司信息，个人资料做适当调整。
 
 :::
 
@@ -287,16 +287,16 @@ permalink: /web3-handbook/iwic3itt/
 
 2.  ==安装注册指南（以 Mac 系统为例）==
 
-        ![图 7](../images/Web3-working-habits/image%204.png)
+    ![图 7](../images/Web3-working-habits/image%204.png)
 
-        - 在浏览器中访问 [https://www.notion.com/desktop](https://www.notion.com/desktop)。
-        - 点击「Download for macOS」下载 Mac 版安装包。
-        - 下载后，打开 `.dmg` 文件并将 Notion 应用拖动到「应用程序」文件夹中完成安装。
-        - 具体的工具指南请阅读：[https://www.notion.com/zh-cn/help/guides](https://www.notion.com/zh-cn/help/guides)
+    - 在浏览器中访问 [https://www.notion.com/desktop](https://www.notion.com/desktop)。
+    - 点击「Download for macOS」下载 Mac 版安装包。
+    - 下载后，打开 `.dmg` 文件并将 Notion 应用拖动到「应用程序」文件夹中完成安装。
+    - 具体的工具指南请阅读：[https://www.notion.com/zh-cn/help/guides](https://www.notion.com/zh-cn/help/guides)
 
-        ![图 8](../images/Web3-working-habits/image%205.png)
+    ![图 8](../images/Web3-working-habits/image%205.png)
 
-    :::
+:::
 
 ### 7. Zoom
 
@@ -313,15 +313,15 @@ permalink: /web3-handbook/iwic3itt/
 
 3.  ==常用功能演示==
 
-        ![图 9](../images/Web3-working-habits/image%206.png)
+    ![图 9](../images/Web3-working-habits/image%206.png)
 
-        ![图 10](../images/Web3-working-habits/123c0d37-378c-4433-82b3-f0db4c5d93cb.png)
+    ![图 10](../images/Web3-working-habits/123c0d37-378c-4433-82b3-f0db4c5d93cb.png)
 
-        ![图 11](../images/Web3-working-habits/image%207.png)
+    ![图 11](../images/Web3-working-habits/image%207.png)
 
-        ![图 12](../images/Web3-working-habits/02d8be86-6eb0-40e7-92d1-0a872b69296b.png)
+    ![图 12](../images/Web3-working-habits/02d8be86-6eb0-40e7-92d1-0a872b69296b.png)
 
-    :::
+:::
 
 ### 8. Calendly
 
@@ -346,12 +346,12 @@ permalink: /web3-handbook/iwic3itt/
 
 3.  ==使用建议==
 
-        - 预约前自动检查冲突，避免双重预订
-        - 支持时区自动转换，对方看到的是自己的本地时间
-        - 可集成 Zoom / Google Meet 自动生成会议链接
-            ![图 16](../images/Web3-working-habits/image%2011.png)
+    - 预约前自动检查冲突，避免双重预订
+    - 支持时区自动转换，对方看到的是自己的本地时间
+    - 可集成 Zoom / Google Meet 自动生成会议链接
+        ![图 16](../images/Web3-working-habits/image%2011.png)
 
-    :::
+:::
 
 ### 9. Figma
 
@@ -363,11 +363,11 @@ permalink: /web3-handbook/iwic3itt/
 
 2.  ==使用指南==
 
-        - Figma 全指南：[https://zhuanlan.zhihu.com/p/266781187](https://zhuanlan.zhihu.com/p/266781187)
-        - 官方下载：[https://www.figma.com/downloads/](https://www.figma.com/downloads/)
-        ![图 17](../images/Web3-working-habits/image%2012.png)
+    - Figma 全指南：[https://zhuanlan.zhihu.com/p/266781187](https://zhuanlan.zhihu.com/p/266781187)
+    - 官方下载：[https://www.figma.com/downloads/](https://www.figma.com/downloads/)
+    ![图 17](../images/Web3-working-habits/image%2012.png)
 
-    :::
+:::
 
 ### 10. GitHub
 
@@ -379,10 +379,10 @@ permalink: /web3-handbook/iwic3itt/
 
 2.  ==安装注册指南==
 
-        - GitHub 安装超详细介绍：[https://blog.csdn.net/black_sneak/article/details/139600633](https://blog.csdn.net/black_sneak/article/details/139600633)
-        ![图 18](../images/Web3-working-habits/image%2013.png)
+    - GitHub 安装超详细介绍：[https://blog.csdn.net/black_sneak/article/details/139600633](https://blog.csdn.net/black_sneak/article/details/139600633)
+    ![图 18](../images/Web3-working-habits/image%2013.png)
 
-    :::
+:::
 
 ## 二、远程协作习惯
 
@@ -548,11 +548,11 @@ permalink: /web3-handbook/iwic3itt/
       ::: card
       【项目 xxx 进度】
 
-    ✅ 已完成：A 模块上线（比计划提前 1 天）
-    🚧 进行中：B 测试（完成 70%，明天下班前交付）
-    ⚠️ 卡点：C 接口权限未获批（已联系 `@李四`，最晚周四答复）
-    🔜 下一步：周四同步测试报告（初稿已发附件）
-    :::
+      ✅ 已完成：A 模块上线（比计划提前 1 天）  
+      🚧 进行中：B 测试（完成 70%，明天下班前交付）  
+      ⚠️ 卡点：C 接口权限未获批（已联系 `@李四`，最晚周四答复）  
+      🔜 下一步：周四同步测试报告（初稿已发附件）
+      :::
 
 - **埋点式复盘**
   - 建立**个人 SOP 库**（如：用 Notion 存"活动策划检查清单"），尽量详细记录每一个步骤
@@ -568,13 +568,13 @@ permalink: /web3-handbook/iwic3itt/
     - ✅ 结构化回应：
       ::: card
 
-    - 理解需求：您需要解决 X 问题，对么？（确认真实诉求）
-    - 给选项：
-      - Option A：简化版周五交付（缺 Y 功能）
-      - Option B：完整版下周三交付
-    - 建议：如果急用推荐 A，我能协调资源加急
+      - 理解需求：您需要解决 X 问题，对么？（确认真实诉求）
+      - 给选项：
+        - Option A：简化版周五交付（缺 Y 功能）
+        - Option B：完整版下周三交付
+      - 建议：如果急用推荐 A，我能协调资源加急
 
-    :::
+      :::
 
   - 冲突化解话术
     - 当被甩锅时：
@@ -668,5 +668,5 @@ permalink: /web3-handbook/iwic3itt/
 
 ## ::ep:avatar /#32b2f0::文章贡献者
 
-作者：[Echo](https://x.com/Echo_liuchan)
+作者：[Echo](https://x.com/Echo_liuchan)  
 排版：[Echo](https://x.com/Echo_liuchan)
