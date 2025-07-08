@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./app-B3NahMcu.js";const r={};function n(o,s){return a(),e("div")}const l=t(r,[["render",n]]),i=JSON.parse('{"path":"/blog/tags/","title":"标签","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"标签","draft":true},"readingTime":{"minutes":0,"words":0},"git":{},"filePathRelative":null,"headers":[],"type":"blog-tags"}');export{l as comp,i as data};
