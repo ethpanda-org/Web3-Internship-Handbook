@@ -348,7 +348,7 @@ EVM（Ethereum Virtual Machine）是 **以太坊的“大脑”**，是专门用
 
 ## ::eos-icons:application-outlined /#32b2f0::扩展阅读
 
-[1]
+[1] [MyFirstLayer2](https://layer2.myfirst.io/)：使用图文、动画的方式，帮助 Web3 的用户更好、更安全的理解 Layer 2 是什么。
 
 ## ::ep:avatar /#32b2f0::文章贡献者
 

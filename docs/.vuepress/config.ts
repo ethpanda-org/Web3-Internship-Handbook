@@ -42,8 +42,8 @@ export default defineUserConfig({
     // hostname: 'https://your_site_url',
     copyright: 'CC-BY-NC-SA-4.0',
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: '',
-    // docsDir: 'docs',
+    docsRepo: 'https://github.com/ethpanda-org/Web3-Internship-Handbook',
+    docsDir: 'docs',
     // docsBranch: '',
 
     /* 页内信息 */
