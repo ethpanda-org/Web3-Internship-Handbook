@@ -662,9 +662,9 @@ permalink: /web3-handbook/iwic3itt/
 ::: note 更多行业黑话请查看附录
 :::
 
-## ::eos-icons:application-outlined /#32b2f0::扩展阅读
+<!-- ## ::eos-icons:application-outlined /#32b2f0::扩展阅读
 
-[1]
+[1] -->
 
 ## ::ep:avatar /#32b2f0::文章贡献者
 
