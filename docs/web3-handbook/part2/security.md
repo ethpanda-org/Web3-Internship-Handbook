@@ -64,7 +64,9 @@ permalink: /web3-handbook/6xear0kx/
 
 
 ## ::eos-icons:application-outlined /#32b2f0:: 扩展阅读
-[1] 
+1. 区块链安全红手册（项目方）：[https://www.slowmist.com/redhandbook/](https://www.slowmist.com/redhandbook/)  
+2. 区块链安全黑手册（用户）：[https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md#%E5%BC%95%E5%AD%90](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md#%E5%BC%95%E5%AD%90) 
 
 ## ::ep:avatar /#32b2f0:: 文章贡献者  
-<!-- [Bruce](https://x.com/brucexu_eth)、[吃汤圆](/)、[Echo](https://x.com/Echo_liuchan) -->
+作者：[吃汤圆](/)
+排版：
