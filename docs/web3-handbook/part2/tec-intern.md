@@ -1599,5 +1599,5 @@ async function queryMessages() {
 [1]  -->
 
 ## ::ep:avatar /#32b2f0::文章贡献者  
-作者：[Jason](/)、[Echo](https://x.com/Echo_liuchan)
+作者：[Jason](https://x.com/fxxkmystyle)、[Echo](https://x.com/Echo_liuchan)
 排版：[Echo](https://x.com/Echo_liuchan)
