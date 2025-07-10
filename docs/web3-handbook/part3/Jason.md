@@ -74,5 +74,5 @@ Web3 仍在早期，机会很多。从小处切入、快速试错，比盲目追
 [1] 
 
 ## ::ep:avatar /#32b2f0:: 文章贡献者  
-作者：[Alex](/)  
+作者：[Alex](https://x.com/0xAlexWu)  
 排版：[Echo](https://x.com/Echo_liuchan)、[吃汤圆](/) 

@@ -144,9 +144,9 @@ permalink: /web3-handbook/2vi8xbb1/
 
 希望这份指南能帮助 Web3 新人更好地规划求职之路！
 
-## ::eos-icons:application-outlined /#32b2f0:: 扩展阅读
-[1] 
+<!-- ## ::eos-icons:application-outlined /#32b2f0:: 扩展阅读
+[1]  -->
 
 ## ::ep:avatar /#32b2f0:: 文章贡献者    
-作者：[Alex](/)  
+作者：[Alex](https://x.com/0xAlexWu)  
 排版：[Echo](https://x.com/Echo_liuchan)、[吃汤圆](/) 

@@ -146,8 +146,8 @@ config:
           width: 45px
           height: 45px
         details: 内容编写
-        # link: ./web3-handbook/part2/position-introduction.md
-        # linkText: 了解详情
+        link: https://x.com/0xAlexWu
+        linkText:  联系方式
       -
         title: Luna
         icon:

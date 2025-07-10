@@ -272,6 +272,6 @@ Web3 世界的数据是开放的，以下工具是日常分析和监控项目的
 [1]  -->
 
 ## ::ep:avatar /#32b2f0:: 文章贡献者   
-作者：[Luna](/)  
+作者：[Luna](https://x.com/nanakodesuu)  
 排版：[Echo](https://x.com/Echo_liuchan)
 
