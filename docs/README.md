@@ -142,16 +142,16 @@ config:
       -
         title: Alex
         icon:
-          src: ./web3-handbook/images/logo/640.png
+          src: ./web3-handbook/images/contributor/Alex.jpg
           width: 45px
           height: 45px
         details: 内容编写
-        link: https://x.com/0xAlexWu
-        linkText:  联系方式
+        # link: https://x.com/0xAlexWu
+        # linkText:  联系方式
       -
         title: Luna
         icon:
-          src: ./web3-handbook/images/logo/640.png
+          src: ./web3-handbook/images/contributor/Luna.jpg
           width: 45px
           height: 45px
         details: 内容编写
@@ -160,21 +160,21 @@ config:
       -
         title: Jason
         icon:
-          src: ./web3-handbook/images/logo/640.png
+          src: ./web3-handbook/images/Industry-veteran/WechatIMG69.jpg
           width: 45px
           height: 45px
         details: 内容编写
         # link: ./web3-handbook/part2/position-introduction.md
         # linkText: 了解详情
-      -
-        title: 模版
-        icon:
-          src: ./web3-handbook/images/logo/640.png
-          width: 45px
-          height: 45px
-        details: Web3 实习手册 XXX
-        link: ./web3-handbook/part2/position-introduction.md
-        linkText: 联系方式
+      # -
+      #   title: 模版
+      #   icon:
+      #     src: ./web3-handbook/images/logo/640.png
+      #     width: 45px
+      #     height: 45px
+      #   details: Web3 实习手册 XXX
+      #   link: ./web3-handbook/part2/position-introduction.md
+      #   linkText: 联系方式
   -
     type: custom
       # 社区
