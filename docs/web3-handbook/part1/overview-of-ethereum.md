@@ -352,7 +352,7 @@ EVM（Ethereum Virtual Machine）是 **以太坊的“大脑”**，是专门用
 
 ## ::ep:avatar /#32b2f0::文章贡献者
 
-作者：[Bruce](https://x.com/brucexu_eth)、[吃汤圆](/)  
+作者：[Bruce](https://x.com/brucexu_eth)、[吃汤圆](https://x.com/web3_cty)  
 排版：[Echo](https://x.com/Echo_liuchan)
 
 [^1]: Ethereum Foundation. (2023). _What is Ethereum?_ Retrieved from https://ethereum.org/en/what-is-ethereum/

@@ -68,5 +68,5 @@ permalink: /web3-handbook/6xear0kx/
 2. 区块链安全黑手册（用户）：[https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md#%E5%BC%95%E5%AD%90](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md#%E5%BC%95%E5%AD%90) 
 
 ## ::ep:avatar /#32b2f0:: 文章贡献者  
-作者：[吃汤圆](/)
+作者：[吃汤圆](https://x.com/web3_cty)
 排版：

@@ -96,4 +96,4 @@ Web3 简历不仅仅是找工作的敲门砖，更是你个人在去中心化世
 
 ## ::ep:avatar /#32b2f0:: 文章贡献者    
 作者：[Alex](https://x.com/0xAlexWu)  
-排版：[Echo](https://x.com/Echo_liuchan)、[吃汤圆](/) 
+排版：[Echo](https://x.com/Echo_liuchan)、[吃汤圆](https://x.com/web3_cty) 

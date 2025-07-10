@@ -263,5 +263,5 @@ PEPE 基于「悲伤青蛙」形象，发行总量高达 420.69 万亿枚。2024
 
 ## ::ep:avatar /#32b2f0::文章贡献者
 
-作者：[吃汤圆](/)  
+作者：[吃汤圆](https://x.com/web3_cty)  
 排版：[Echo](https://x.com/Echo_liuchan)
