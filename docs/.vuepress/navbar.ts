@@ -13,8 +13,8 @@ export const zhNavbar = defineNavbarConfig([
 ])
 
 export const enNavbar = defineNavbarConfig([
-  { text: 'Start Reading', link: '/web3-handbook/README.md' },
+  { text: 'Chinese Version', link: '/web3-handbook/README.md' },
   { text: 'About Us', link: '/notes/aboutUs.md' },
-  { text: 'Contact Us', link: '/notes/joinUs.md' },
+  { text: 'Join Development', link: '/notes/joinUs.md' },
 ])  
 

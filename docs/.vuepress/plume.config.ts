@@ -87,7 +87,7 @@ export default defineThemeConfig({
       profile: {
         avatar: '/640.png',
         name: 'Web3 Internship Handbook',
-        description: '',
+        description: 'English version coming soon. Currently perfecting Chinese content.',
         // circle: true,
         // location: '',
         // organization: '',

@@ -23,9 +23,9 @@ export default defineUserConfig({
       description: '',
     },
     '/en/': {
-      title: 'Internship Handbook',
+      title: 'Web3 Internship Handbook (English Coming Soon)',
       lang: 'en-US',
-      description: '',
+      description: 'English version is under development. Please check the Chinese version for complete content.',
     },
   },
 

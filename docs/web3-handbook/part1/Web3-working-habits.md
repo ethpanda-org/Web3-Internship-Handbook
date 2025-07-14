@@ -8,7 +8,7 @@ permalink: /web3-handbook/iwic3itt/
 
 ## 一、Web3 常用工具及远程办公软件
 
-![图 2](../images/Web3-working-habits/image.png)
+![图 2](../images/Web3-working-habits/twitter_main-interface_01.png)
 
 ### 1. Twitter
 
@@ -122,7 +122,7 @@ permalink: /web3-handbook/iwic3itt/
    - 打开下载的 `.dmg` 文件，将 Telegram 拖入「应用程序」文件夹中进行安装。
    - 安装完成后打开 Telegram 应用，使用手机号登录并按照界面提示输入验证码完成注册。具体操作指南可查看：[https://kerrynotes.com/telegram-tutorial/#google_vignett](https://kerrynotes.com/telegram-tutorial/#google_vignette) （带常见问题回答）
 
-   ![图 3](../images/Web3-working-habits/image%201.png)
+   ![图 3](../images/Web3-working-habits/twitter_registration-flow_01.png)
 
 3. ==Telegram 常见的使用问题==
    ::: tabs
@@ -219,7 +219,7 @@ permalink: /web3-handbook/iwic3itt/
     - 安装完成后登录 MetaMask 账号，或按提示创建并备份新的助记词钱包（与 Windows 流程相同）。
     - 如果使用 Safari 浏览器，请注意 MetaMask 暂无 Safari 版本，需使用支持的 Chromium 内核浏览器。
 
-    ![图 5](../images/Web3-working-habits/image%202.png)
+    ![图 5](../images/Web3-working-habits/twitter_settings-privacy_01.png)
 
 :::
 
@@ -235,7 +235,7 @@ permalink: /web3-handbook/iwic3itt/
 
    - [2025 年 LinkedIn 新账号注册官方教程](https://www.linkedin.com/help/learning/answer/a1338223?lang=zh-CN)
 
-   ![图 6](../images/Web3-working-habits/image%203.png)
+   ![图 6](../images/Web3-working-habits/twitter_profile-setup_01.png)
 
 3. ==Linkedin 常见的使用问题==
   ::: tabs
@@ -287,14 +287,14 @@ permalink: /web3-handbook/iwic3itt/
 
 2.  ==安装注册指南（以 Mac 系统为例）==
 
-    ![图 7](../images/Web3-working-habits/image%204.png)
+    ![图 7](../images/Web3-working-habits/discord_server-setup_01.png)
 
     - 在浏览器中访问 [https://www.notion.com/desktop](https://www.notion.com/desktop)。
     - 点击「Download for macOS」下载 Mac 版安装包。
     - 下载后，打开 `.dmg` 文件并将 Notion 应用拖动到「应用程序」文件夹中完成安装。
     - 具体的工具指南请阅读：[https://www.notion.com/zh-cn/help/guides](https://www.notion.com/zh-cn/help/guides)
 
-    ![图 8](../images/Web3-working-habits/image%205.png)
+    ![图 8](../images/Web3-working-habits/discord_channel-management_01.png)
 
 :::
 
@@ -313,11 +313,11 @@ permalink: /web3-handbook/iwic3itt/
 
 3.  ==常用功能演示==
 
-    ![图 9](../images/Web3-working-habits/image%206.png)
+    ![图 9](../images/Web3-working-habits/discord_user-interface_01.png)
 
     ![图 10](../images/Web3-working-habits/123c0d37-378c-4433-82b3-f0db4c5d93cb.png)
 
-    ![图 11](../images/Web3-working-habits/image%207.png)
+    ![图 11](../images/Web3-working-habits/discord_voice-chat_01.png)
 
     ![图 12](../images/Web3-working-habits/02d8be86-6eb0-40e7-92d1-0a872b69296b.png)
 
@@ -336,20 +336,20 @@ permalink: /web3-handbook/iwic3itt/
     - 访问[官网：https://calendly.com/](https://calendly.com/)，用邮箱或 Google/Microsoft 账号注册（公司用户建议使用公共邮箱）。
     - 验证邮箱后进入仪表盘，系统会引导完成基础配置。
     - 设置你的可预约时间段（如：工作日 9:00–17:00）
-      ![图 13](../images/Web3-working-habits/image%208.png)
+      ![图 13](../images/Web3-working-habits/metamask_installation_01.png)
 
     - 可选择会议类型：如 15 / 30 分钟通话、产品演示、一对一会议、组群会议等
-      ![图 14](../images/Web3-working-habits/image%209.png)
+      ![图 14](../images/Web3-working-habits/metamask_wallet-creation_01.png)
 
     - 自动生成预约链接，可分享给对方
-      ![图 15](../images/Web3-working-habits/image%2010.png)
+      ![图 15](../images/Web3-working-habits/metamask_seed-phrase_01.png)
 
 3.  ==使用建议==
 
     - 预约前自动检查冲突，避免双重预订
     - 支持时区自动转换，对方看到的是自己的本地时间
     - 可集成 Zoom / Google Meet 自动生成会议链接
-        ![图 16](../images/Web3-working-habits/image%2011.png)
+        ![图 16](../images/Web3-working-habits/metamask_network-setup_01.png)
 
 :::
 
@@ -365,7 +365,7 @@ permalink: /web3-handbook/iwic3itt/
 
     - Figma 全指南：[https://zhuanlan.zhihu.com/p/266781187](https://zhuanlan.zhihu.com/p/266781187)
     - 官方下载：[https://www.figma.com/downloads/](https://www.figma.com/downloads/)
-    ![图 17](../images/Web3-working-habits/image%2012.png)
+    ![图 17](../images/Web3-working-habits/notion_workspace-setup_01.png)
 
 :::
 
@@ -380,7 +380,7 @@ permalink: /web3-handbook/iwic3itt/
 2.  ==安装注册指南==
 
     - GitHub 安装超详细介绍：[https://blog.csdn.net/black_sneak/article/details/139600633](https://blog.csdn.net/black_sneak/article/details/139600633)
-    ![图 18](../images/Web3-working-habits/image%2013.png)
+    ![图 18](../images/Web3-working-habits/notion_collaboration_01.png)
 
 :::
 
@@ -509,7 +509,7 @@ permalink: /web3-handbook/iwic3itt/
     - 包含海量图标、矢量插画、动态特性、可变字体等，是职场汇报的好帮手。
   - SmartArt 一键图表化
     - 在 Word / PPT 中选中文字 → 插入「智能图形」 → 自动生成流程图 / 组织架构图。
-      ![图 20](../images/Web3-working-habits/image%2014.png)
+      ![图 20](../images/Web3-working-habits/notion_templates_01.png)
   - 秀米：<https://xiumi.us/#/>
     - 图文排版、H5 制作、图片设计，原创模板素材，精选风格排版，独一无二的排版方式，设计出只属于你的图文，打动你的人群。
   - MD2Card：<https://md2card.com/zh>
