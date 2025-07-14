@@ -96,7 +96,7 @@ const handbookNote = defineNoteConfig({
         // { text: '线下活动执行模板', link: 'part5/offline.md' },
       ],
     },
-    { text: '致谢名单', link: '致谢名单.md'},
+    { text: '致谢名单', link: 'acknowledgments.md'},
     // {text: '获取更多', link: 'get-started.md', collapsed: true}
   ],
 
