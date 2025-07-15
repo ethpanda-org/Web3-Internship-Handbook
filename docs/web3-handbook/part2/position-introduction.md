@@ -31,7 +31,7 @@ createTime: '2025/06/12 00:30:37'
 
    - 本科及以上学历，计算机科学或相关专业，具备扎实的计算机基础。
    - 精通 HTML、CSS、JavaScript，熟悉 React、Vue 等前端框架，能够独立构建复杂的 UI 界面。
-   - 熟悉 Web3.js、Viem、Metamask 等 Web3 技术栈，能够与智能合约进行交互。（现在 Ethers.js / Web3.js 已经不怎么使用了，大家现在基本上都是用的 viem）
+   - 熟悉 Web3.js、Viem、Metamask 等 Web3 技术栈，能够与智能合约进行交互。（现在 Ethers.js / Web3.js 已经不怎么使用了，大家现在基本上都是用的 Viem）
    - 了解常用的区块链网络，如以太坊、Solana 等，具备 DApp 开发经验者优先。
    - 熟悉 Git 版本管理工具，具备良好的代码编写规范，注重代码可维护性。
    - 良好的沟通能力和团队协作精神，能够在快速发展的环境中高效工作。
@@ -46,7 +46,7 @@ createTime: '2025/06/12 00:30:37'
    - React / Vue
    - TypeScript
    - Next.js
-   - Ethers.js / Web3.js / viem
+   - Ethers.js / Web3.js / Viem
    ```
 
 :::
