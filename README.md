@@ -57,7 +57,7 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
    - DAO：组织形态创新
    - 2025 年新兴趋势
 
-4. [**Web3 工作方式**](./docs/web3-handbook/part1/Web3-working-habits.md)
+4. [**Web3 工作方式**](./docs/web3-handbook/part1/remote-work-guide.md)
    - 必备工具与平台使用
    - 远程协作最佳实践
    - 社区文化与行业黑话

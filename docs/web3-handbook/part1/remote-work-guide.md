@@ -1,14 +1,16 @@
 ---
 title: Web3 工作方式
 createTime: '2025/06/11 20:18:18'
-permalink: /web3-handbook/iwic3itt/
+permalink: /web3-handbook/remote-work-guide/
 ---
 
 > 远程办公是 Web3 世界的生存法则，去中心化组织的基因决定了远程协作的必然性。典型 Web3 团队可能由美国的技术极客、新加坡的合规专家、东欧的智能合约开发者组成，这种地理分布要求成员必须具备远程协作能力。全球顶尖的 Web3 加速器如 Seed Club，其核心团队分布在 12 个时区，却通过异步沟通工具完成每周千万美元级项目的孵化。所以提前掌握一些基础的 Web3 工作习惯、方式会帮助你更好的适应这个行业。
 
 ## 一、Web3 常用工具及远程办公软件
 
-![图 2](../images/Web3-working-habits/twitter_main-interface_01.png)
+TODO 图片有点糊，麻烦设计师制作
+
+![常见 Web3 办公软件](../images/remote-work-guide/web3-software.png)
 
 ### 1. Twitter
 
@@ -20,91 +22,12 @@ permalink: /web3-handbook/iwic3itt/
 
 2. ==安装注册指南==
 
-   - Windows (网页版)
-     - 在浏览器中打开 Twitter 官网：[https://twitter.com](https://twitter.com/)。
-     - 点击页面上的「注册」或「Sign up」按钮开始新用户注册。
-     - 填写姓名和电子邮件（或手机号）及出生日期，然后按提示点击「下一步」。
-     - Twitter 会向所填邮箱/手机号发送验证码，输入验证码后点击「下一步」。
-     - 设置账户密码并完成注册。如果提示通过手机号验证，可稍后在账号设置中添加手机号。
-   - Mac (网页版)
-     - Mac 用户通过 Safari 或 Chrome 打开 [twitter.com](https://twitter.com/) 进行注册，流程与 Windows 相同，可参照上述步骤完成。
-     - Twitter 官网也提供官方桌面应用（Windows 商店或 Mac App Store），下载安装后使用同一账户登录，可获得类似网页版的使用体验。
-       <br>
-
-3. ==Twitter 常见的使用问题==
-   ::: tabs
-   @tab **无法登录账户**
-
-   **问题描述**：您无法登录您的 Twitter 账户。
-
-   **解决方法**：
-
-   - **检查用户名和密码**：确认输入的用户名和密码正确无误。
-   - **重置密码**：如果您忘记密码，可以使用「忘记密码」功能，通过邮箱或手机重置密码。
-   - **检查网络连接**：确保您的设备连接到稳定的互联网。
-   - **更新应用程序**：前往应用商店，确保您使用的是最新版本的 Twitter。
-   - **清除缓存和数据**：在设备的应用管理中清除 Twitter 的缓存和数据，然后重新尝试登录。
-   - **联系支持团队**：如果问题持续，请联系 Twitter 支持团队寻求帮助。
-
-   @tab **无法发送推文**
-
-   **问题描述**：您无法发送新的推文。
-
-   **解决方法**：
-
-   - **检查字符限制**：确保推文字符数未超过 280 个字符。
-   - **检查网络连接**：确保网络连接正常。
-   - **更新应用程序**：确认您使用的是最新版本的 Twitter。
-   - **清除应用缓存**：通过设备设置清除 Twitter 缓存。
-   - **检查账户状态**：确认您的账户未被限制或封禁。
-   - **重新启动应用**：关闭并重新启动 Twitter 应用。
-
-   @tab **推文显示异常**
-
-   **问题描述**：推文内容无法正常显示，或显示错误。
-
-   **解决方法**：
-
-   - **检查网络连接**：确保设备连接到互联网。
-   - **更新应用程序**：前往应用商店，确保使用的是最新版本的 Twitter。
-   - **清除缓存和数据**：在设备的应用管理中清除 Twitter 的缓存和数据。
-   - **重新安装应用**：卸载并重新安装 Twitter 应用。
-   - **联系支持团队**：如果问题持续，请联系 Twitter 支持团队。
-
-   @tab **无法接收通知**
-
-   **问题描述**：您无法接收来自 Twitter 的通知。
-
-   **解决方法**：
-
-   - **检查通知设置**：在 Twitter 设置中确保通知已开启。
-   - **检查设备通知设置**：在设备设置中确保 Twitter 通知已开启。
-   - **更新应用程序**：前往应用商店，确保使用的是最新版本的 Twitter。
-   - **重新启动应用**：关闭并重新启动 Twitter 应用。
-   - **清除缓存和数据**：在设备的应用管理中清除 Twitter 的缓存和数据。
-
-   @tab **无法关注用户**
-
-   **问题描述**：您无法关注其他 Twitter 用户。
-
-   **解决方法**：
-
-   - **检查关注限制**：Twitter 对每个账号每天关注用户的数量有限制，确保您未超过限制。
-   - **检查网络连接**：确保设备连接到互联网。
-   - **更新应用程序**：前往应用商店，确保使用的是最新版本的 Twitter。
-   - **重新启动应用**：关闭并重新启动 Twitter 应用。
-   - **联系支持团队**：如果问题持续，请联系 Twitter 支持团队。
-
-   @tab **账户被封禁**
-
-   **问题描述**：您的 Twitter 账户被封禁，无法使用。
-
-   **解决方法**：
-
-   - **了解封禁原因**：通常，封禁是由于违反 Twitter 的使用政策。
-     **联系支持团队**：如果您认为封禁是错误的，请联系 Twitter 支持团队申诉。
-   - **创建新账户**：如果封禁无法解除，考虑创建一个新账户，并遵守相关规定。
-     :::
+   - 打开浏览器，访问 Twitter 官网：[https://twitter.com](https://twitter.com/)
+   - 点击页面上的「注册」或「Sign up」按钮开始新用户注册
+   - 填写姓名和电子邮件（或手机号）及出生日期，然后按提示点击「下一步」
+   - Twitter 会向所填邮箱/手机号发送验证码，输入验证码后点击「下一步」
+   - 设置账户密码并完成注册。如果提示通过手机号验证，可稍后在账号设置中添加手机号
+   - Twitter 官网也提供官方桌面应用（Windows 商店或 Mac App Store），下载安装后使用同一账户登录，可获得类似网页版的使用体验
 
 :::
 
@@ -123,8 +46,6 @@ permalink: /web3-handbook/iwic3itt/
    - 打开下载的 `.dmg` 文件，将 Telegram 拖入「应用程序」文件夹中进行安装。
    - 安装完成后打开 Telegram 应用，使用手机号登录并按照界面提示输入验证码完成注册。具体操作指南可查看：[https://kerrynotes.com/telegram-tutorial/#google_vignett](https://kerrynotes.com/telegram-tutorial/#google_vignette) （带常见问题回答）
 
-   ![图 3](../images/Web3-working-habits/twitter_registration-flow_01.png)
-
 3. ==Telegram 常见的使用问题==
    ::: tabs
 
@@ -140,27 +61,27 @@ permalink: /web3-handbook/iwic3itt/
    ​ 防范：​​
 
    - ​ 立即检查并设置隐私权限：​​ 进入 设置 > 隐私和安全 > 手机号码。
-     - 将`谁能看到我的手机号码`设置为 ​**无人 ​ 或 ​ 我的联系人**​ (根据你的信任级别谨慎选择)。
-     - ​ 关键设置：​​ 将`谁能通过手机号码找到我`设置为 ​**我的联系人 ​ (强烈推荐)。这意味着只有你主动保存在手机通讯录中并同时是 Telegram 联系人的人**才能通过手机号关联到你的账号。阻止了陌生人利用你的手机号搜索你。
+     - 将`谁能看到我的手机号码`设置为 ​**无人 或 我的联系人**​ (根据你的信任级别谨慎选择)。
+     - ​ 关键设置：​​ 将`谁能通过手机号码找到我`设置为 ​**我的联系人 (强烈推荐)。这意味着只有你主动保存在手机通讯录中并同时是 Telegram 联系人的人**才能通过手机号关联到你的账号。阻止了陌生人利用你的手机号搜索你。
    - 警惕共享二维码或用户名链接时可能间接暴露信息 (尽量使用用户名)。
 
    @tab ​ 钓鱼信息/诈骗 (极其常见且危险)​​
 
-   ​ 问题：​​ 攻击者伪装成可信来源（Telegram 官方、朋友、招聘方、客服、投资专家等），发送包含恶意链接或要求敏感信息的消息。常见诱饵：
+   ​ 问题：攻击者伪装成可信来源（Telegram 官方、朋友、招聘方、客服、投资专家等），发送包含恶意链接或要求敏感信息的消息。常见诱饵：
 
-   - ​ 账户安全问题:​​ “您的账号存在异常活动/风险即将被封禁/需要验证身份，请立即点击此链接登录...”。
-   - ​ 虚假福利/中奖：​​ “恭喜您被选中获得 Telegram 会员/礼品卡/奖金... 点击链接领取”。
-   - ​ 虚假招聘/兼职：​​ 主动联系你提供“高薪工作机会”，诱导你点击链接“填写资料/面试/培训”或下载有问题的应用。
-   - ​ 虚假好友求助：​​ 冒充你的联系人，声称需要验证码、金钱帮助等（通常会说手机坏了/丢了）。
-   - ​ 虚假客服：​​ 声称解决你的账号问题（你根本没提出过），索要验证码、密码等。
-   - ​ 恶意文件/应用：​​ 发送伪装成文档、图片、安装包的文件，内含病毒或木马。
+   - 账户安全问题：“您的账号存在异常活动/风险即将被封禁/需要验证身份，请立即点击此链接登录...”。
+   - 虚假福利/中奖：“恭喜您被选中获得 Telegram 会员/礼品卡/奖金... 点击链接领取”。
+   - 虚假招聘/兼职：主动联系你提供“高薪工作机会”，诱导你点击链接“填写资料/面试/培训”或下载有问题的应用。
+   - 虚假好友求助：冒充你的联系人，声称需要验证码、金钱帮助等（通常会说手机坏了/丢了）。
+   - 虚假客服：声称解决你的账号问题（你根本没提出过），索要验证码、密码等。
+   - 恶意文件/应用：发送伪装成文档、图片、安装包的文件，内含病毒或木马。
 
-   ​ 风险：​​ 导致账号被盗、资金损失、恶意软件感染、个人信息被窃。
+   风险：导致账号被盗、资金损失、恶意软件感染、个人信息被窃。
 
-   ​ 防范 (核心原则：保持怀疑，永远不轻信，不随意点击或提供信息)：​​
+   防范 (核心原则：保持怀疑，永远不轻信，不随意点击或提供信息)：​​
 
-   - ​ 官方永不私聊：​​ ​Telegram 官方 (@telegram 或 Telegram Support) 绝不会主动通过私聊消息联系用户讨论账户问题、发送奖品或招聘！​​ 所有官方通知只会通过系统通知频道 (带蓝色勾认证) 发布。
-   - ​ 警惕“需要立即行动”的消息：​​ 钓鱼信息惯用制造紧迫感（“账号将在 1 小时后关闭！”、“限时领取！”）让你来不及思考。
+   - 官方永不私聊：​Telegram 官方 (@telegram 或 Telegram Support) 绝不会主动通过私聊消息联系用户讨论账户问题、发送奖品或招聘！​​ 所有官方通知只会通过系统通知频道 (带蓝色勾认证) 发布。
+   - 警惕“需要立即行动”的消息：钓鱼信息惯用制造紧迫感（“账号将在 1 小时后关闭！”、“限时领取！”）让你来不及思考。
    - ​ 仔细检查发件人身份：​​
      - 查看对方用户名是否可疑？是真好友的常用账号吗？
      - 对方有`​蓝色官方认证勾`吗？（注意：普通蓝勾是付费订阅标记，​ 真正的官方账号旁边会明确标注为 Telegram 团队或 Telegram Tips/Security 等）。
@@ -174,14 +95,7 @@ permalink: /web3-handbook/iwic3itt/
    - 不相信天上掉馅饼：​​ 对主动送上门的“高薪兼职”、“巨额奖金”、“免费会员”保持极度警惕。
    - ​ 注意文件后缀：​​ 不要随意打开或下载陌生人发来的 .exe, .apk, .bat, .scr, .jar 等可执行文件或脚本文件，即使看起来像文档（如 .doc.exe）。
 
-   @tab 注册失败
-
-   Telegram 注册时有一定几率注册不上，可以过几天再次尝试，不要上网买 tg 号，很容易被骗
-
-   @tab 我的 Telegram 一直在转圈，连不上服务器
-
-   使用 Telegram 是需要科学上网的，所以你需要开代理，并且还要在 Telegram 里设置下代理服务器，这样 Telegram 的数据才会全部走代理那边。
-   :::
+:::
 
 ### 3. Discord
 
@@ -197,7 +111,7 @@ permalink: /web3-handbook/iwic3itt/
     - 安装完成后打开 Discord，创建新账户或使用已有邮箱/手机号登录。
     - 官方新手指南：[https://support.discord.com/hc/zh-tw/articles/360045138571-Discord-新手指南](https://support.discord.com/hc/zh-tw/articles/360045138571-Discord-%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)
 
-    ![图 4](../images/Web3-working-habits/3f78e27e-3e7c-4ef9-b0b4-0f185fddb166.png)
+    ![Discord 界面讲解](../images/remote-work-guide/discord-interface.png)
 
 :::
 
@@ -213,16 +127,16 @@ permalink: /web3-handbook/iwic3itt/
 
 2.  ==安装注册指南==
 
-    - 详细安装、操作指南： [https://blog.csdn.net/m0_73094011/article/details/135854126](https://blog.csdn.net/m0_73094011/article/details/135854126)
+    - 详细安装、操作指南：<https://support.metamask.io/zh-cn/start/getting-started-with-metamask/>
     - macOS 用户安装流程与 Windows 类似：打开 Chrome 浏览器，同样通过 MetaMask 官网下载安装扩展。
     - 安装完成后登录 MetaMask 账号，或按提示创建并备份新的助记词钱包（与 Windows 流程相同）。
     - 如果使用 Safari 浏览器，请注意 MetaMask 暂无 Safari 版本，需使用支持的 Chromium 内核浏览器。
 
-    ![图 5](../images/Web3-working-habits/twitter_settings-privacy_01.png)
+    ![MetaMask 安装界面](../images/remote-work-guide/metamask-installation.png)
 
 :::
 
-### 5. Linkedin
+### 5. LinkedIn
 
 ::: steps
 
@@ -234,46 +148,7 @@ permalink: /web3-handbook/iwic3itt/
 
    - [2025 年 LinkedIn 新账号注册官方教程](https://www.linkedin.com/help/learning/answer/a1338223?lang=zh-CN)
 
-   ![图 6](../images/Web3-working-habits/twitter_profile-setup_01.png)
-
-3. ==Linkedin 常见的使用问题==
-   ::: tabs
-   @tab 邮箱已被注册
-   如收到「邮箱已被使用」的报错信息，表明您输入的邮箱地址已分配至现有的领英帐号。可能是因为:
-
-- 您选择了「立即加入」链接，而不是「登录」链接访问现有帐号。
-- 您以前接受过领英邀请和/或创建过帐号。
-- 您的雇主或互联网提供商把其他用户使用过的邮箱地址重新分配给您了。
-- 您使用了标准格式的 Gmail 邮箱，此类邮箱地址前半部分含有句点或其他符号，例如 a.bc@gmail.com 或 a.b.c@gmail.com，而不是 abc@gmail.com 格式。
-
-要访问帐号:
-
-- 点击登录。
-- 输入邮箱地址和密码。如果您使用的是标准格式的邮箱地址，在输入邮箱地址前半部分时请不要输入句点或其他符号。
-
-要在忘记密码的情况下访问帐号:
-
-- 点击「忘记密码？」链接。我们将向该邮箱发送信息，帮助您访问帐号。
-- 重设密码后，点击登录并输入邮箱和新密码。
-  ::: info 温馨提示: - 如果您怀疑自己的邮箱是已回收的邮箱，请联系[领英客服](https://www.linkedin.com/help/learning/answer/1187)获取帮助，将此邮箱添加至您的帐号。 - 如果此邮箱已被其他帐号注册，邮箱添加至您的帐号可能会有延迟。在某些情况下，邮箱可能无法添加至您的帐号。
-  :::
-
-@tab 严格规避老号关联痕迹
-领英当前风控系统可识别设备、IP、浏览器指纹等信息。若新号与已封老号使用同一设备/IP/浏览器登录，即使更换邮箱和手机号，仍可能因关联被封。下面给大家提供几点建议：
-
-- IP 隔离：选择干净的住宅 IP，可以先通过 IP 地址查询工具检查当前 IP 地址是否被有效隐藏。
-- 设备隔离：使用全新设备或从未登录过老号的电脑，同一设备避免登录多个领英账号。
-- 浏览器隔离：如果不想更换设备，建议使用 AdsPower 指纹浏览器去注册，它能够模拟各种硬件和软件指纹，为每个账号创建独立浏览器环境，AdsPower 再搭配上新的 IP，可以有效避免新旧账号关联。
-
-@tab 使用全新且真实的注册资料
-
-为了确保新账号的独立性，注册时不要使用和旧账号相似的信息，这包括：
-
-- 邮箱：注册一个新的国外邮箱如 Gmail、Outlook，使用国内邮箱易触发风控。
-- 手机号：使用新的手机号，建议用国外的号码以便接收验证码。
-- 真实身份信息：使用真实姓名、公司名称、职位，虚假信息也容易触发审核，不要用之前的名字、公司信息，个人资料做适当调整。
-
-:::
+   ![LinkedIn 注册界面](../images/remote-work-guide/linkedin-registration.png)
 
 ### 6. Notion
 
@@ -285,14 +160,10 @@ permalink: /web3-handbook/iwic3itt/
 
 2.  ==安装注册指南（以 Mac 系统为例）==
 
-    ![图 7](../images/Web3-working-habits/discord_server-setup_01.png)
-
     - 在浏览器中访问 [https://www.notion.com/desktop](https://www.notion.com/desktop)。
     - 点击「Download for macOS」下载 Mac 版安装包。
     - 下载后，打开 `.dmg` 文件并将 Notion 应用拖动到「应用程序」文件夹中完成安装。
     - 具体的工具指南请阅读：[https://www.notion.com/zh-cn/help/guides](https://www.notion.com/zh-cn/help/guides)
-
-    ![图 8](../images/Web3-working-habits/discord_channel-management_01.png)
 
 :::
 
@@ -302,22 +173,22 @@ permalink: /web3-handbook/iwic3itt/
 
 1.  ==工具介绍==
 
-    **Zoom** 是一款广泛使用的在线视频会议软件，类似于国内的腾讯会议，支持视频会议、语音通话、屏幕共享、聊天、录制等功能。它适用于远程办公、在线教育、团队会议等多种场景。由于其使用便捷、画面清晰、功能丰富，Zoom 被广泛应用于全球企业和组织中。
+    **Zoom** 是一款广泛使用的在线视频会议软件，类似于国内的腾讯会议，支持视频会议、语音通话、屏幕共享、聊天、录制等功能。它适用于远程办公、在线教育、团队会议等多种场景。
 
 2.  ==安装注册指南==
 
     - 具体安装细节请参考：[https://zoom.us/zh-cn/download](https://zoom.us/zh-cn/download)
-    - 安装完成后，打开 Zoom 客户端：如果已有 Zoom 账号，可点击"登录"输入邮箱和密码；也可使用 **Google、Apple、Facebook 或企业邮箱（SSO）** 登录。
+    - 安装完成后，打开 Zoom 客户端：如果已有 Zoom 账号，可点击「登录」输入邮箱和密码；也可使用 **Google、Apple、Facebook 或企业邮箱（SSO）** 登录。
 
 3.  ==常用功能演示==
 
-    ![图 9](../images/Web3-working-habits/discord_user-interface_01.png)
+    ![Zoom 主界面](../images/remote-work-guide/zoom-main-interface.png)
 
-    ![图 10](../images/Web3-working-habits/123c0d37-378c-4433-82b3-f0db4c5d93cb.png)
+    ![Zoom 会议界面](../images/remote-work-guide/zoom-meeting-interface.png)
 
-    ![图 11](../images/Web3-working-habits/discord_voice-chat_01.png)
+    ![Zoom 会议笔记](../images/remote-work-guide/zoom-meeting-notes.png)
 
-    ![图 12](../images/Web3-working-habits/02d8be86-6eb0-40e7-92d1-0a872b69296b.png)
+    ![Zoom 会议记录](../images/remote-work-guide/zoom-meeting-notes2.png)
 
 :::
 
@@ -327,27 +198,27 @@ permalink: /web3-handbook/iwic3itt/
 
 1.  ==工具介绍==
 
-    Calendly 是一款智能日程调度工具，通过自动化预约流程消除邮件往返，让用户轻松共享个人可用时间并同步管理多平台日历，适用于跨团队协调会议、对外交流（如合作方、客户）、面试安排等场景，能够满足 Web3 远程工作的一些需求。
+    Calendly 是一款智能日程调度工具，通过自动化预约流程提高约会效率，让用户轻松共享个人可用时间并同步管理多平台日历，适用于跨团队协调会议、对外交流（如合作方、客户）、面试安排等场景，能够满足 Web3 远程工作的一些需求。
 
 2.  ==操作指南==
 
-    - 访问[官网：https://calendly.com/](https://calendly.com/)，用邮箱或 Google/Microsoft 账号注册（公司用户建议使用公共邮箱）。
-    - 验证邮箱后进入仪表盘，系统会引导完成基础配置。
+    - 访问官网：<https://calendly.com/>，用邮箱或 Google / Microsoft 账号注册（公司用户建议使用公共邮箱）
+    - 验证邮箱后进入仪表盘，系统会引导完成基础配置
     - 设置你的可预约时间段（如：工作日 9:00–17:00）
-      ![图 13](../images/Web3-working-habits/metamask_installation_01.png)
+      ![Calendly 时间设置](../images/remote-work-guide/calendly-time-setup.png)
 
     - 可选择会议类型：如 15 / 30 分钟通话、产品演示、一对一会议、组群会议等
-      ![图 14](../images/Web3-working-habits/metamask_wallet-creation_01.png)
+      ![Calendly 会议类型](../images/remote-work-guide/calendly-meeting-types.png)
 
     - 自动生成预约链接，可分享给对方
-      ![图 15](../images/Web3-working-habits/metamask_seed-phrase_01.png)
+      ![Calendly 分享链接](../images/remote-work-guide/calendly-share-link.png)
 
 3.  ==使用建议==
 
     - 预约前自动检查冲突，避免双重预订
     - 支持时区自动转换，对方看到的是自己的本地时间
     - 可集成 Zoom / Google Meet 自动生成会议链接
-      ![图 16](../images/Web3-working-habits/metamask_network-setup_01.png)
+      ![Calendly 集成设置](../images/remote-work-guide/calendly-integration.png)
 
 :::
 
@@ -361,9 +232,9 @@ permalink: /web3-handbook/iwic3itt/
 
 2.  ==使用指南==
 
-    - Figma 全指南：[https://zhuanlan.zhihu.com/p/266781187](https://zhuanlan.zhihu.com/p/266781187)
-    - 官方下载：[https://www.figma.com/downloads/](https://www.figma.com/downloads/)
-      ![图 17](../images/Web3-working-habits/notion_workspace-setup_01.png)
+    - Figma 官方入门指南：<https://help.figma.com/hc/en-us/sections/4403932712087-Getting-started>
+    - 官方下载：<https://www.figma.com/downloads/>
+      ![Figma 界面介绍](../images/remote-work-guide/figma-interface.png)
 
 :::
 
@@ -373,12 +244,19 @@ permalink: /web3-handbook/iwic3itt/
 
 1.  ==工具介绍==
 
-    GitHub 是一种基于云的平台，可在其中存储、共享并与他人一起编写代码。通过将代码存储在 GitHub 上的"存储库"中，你可以："展示或共享"你的工作；持续"跟踪和管理"对代码的更改；让其他人"审查"你的代码，并提出改进建议；在共享的项目中开展"协作"，无需担心这些更改会在准备好集成更改之前影响协作者的工作。协作式工作是 GitHub 最基本的功能之一，该功能由开源软件 Git 实现，而 GitHub 是以该软件为基础进行构建的。
+    GitHub 是全球最大的代码托管平台，基于 Git 版本控制系统构建。它为开发者提供了一个集中的地方来存储、管理和协作开发代码项目。通过 GitHub，你可以：
+
+    - **版本控制**：追踪代码的每次修改，轻松回滚到之前的版本
+    - **协作开发**：多人同时参与项目开发，通过分支（branch）和合并（merge）功能实现并行开发
+    - **代码审查**：通过 Pull Request 功能让团队成员审查代码变更
+    - **项目管理**：使用 Issues 追踪 bug 和功能请求，使用 Projects 管理开发进度
+    - **开源贡献**：参与全球开源项目，贡献代码并学习最佳实践
 
 2.  ==安装注册指南==
 
-    - GitHub 安装超详细介绍：[https://blog.csdn.net/black_sneak/article/details/139600633](https://blog.csdn.net/black_sneak/article/details/139600633)
-      ![图 18](../images/Web3-working-habits/notion_collaboration_01.png)
+    - GitHub 官方入门指南：<https://docs.github.com/zh/get-started/quickstart>
+    - Git 官方安装指南：<https://git-scm.com/book/zh/v2/起步-安装-Git>
+      ![GitHub 界面介绍](../images/remote-work-guide/github-interface.png)
 
 :::
 
@@ -386,14 +264,14 @@ permalink: /web3-handbook/iwic3itt/
 
 ### 1. OKR 写法与最佳实践
 
-在远程工作中使用 OKR（目标与关键结果）不仅是一种管理工具，更是解决分布式团队核心痛点的系统性方案。远程团队因缺乏物理接触易陷入目标碎片化。OKR 要求目标（Objectives）全团队公开可见，关键结果（Key Results）量化可追踪，例如字节跳动 5 万员工通过 OKR 系统实时查看公司级目标到个人 KR 的完整链路，避免远程协作中"各自为战"。并且在远程办公中常引发管理者"失控焦虑"，而 OKR 聚焦结果产出而非工作时长。例如携程远程团队设定 KR "客户满意度达 92% "而非" 每日在线 8 小时"，员工可自主安排工作节奏，效率反提升 40%。
+在远程工作中使用 OKR（目标与关键结果）不仅是一种管理工具，更是解决分布式团队核心痛点的系统性方案。远程团队因缺乏物理接触易陷入目标碎片化。OKR 要求目标（Objectives）全团队公开可见，关键结果（Key Results）量化可追踪，例如字节跳动 5 万员工通过 OKR 系统实时查看公司级目标到个人 KR 的完整链路，避免远程协作中「各自为战」。并且在远程办公中常引发管理者「失控焦虑」，而 OKR 聚焦结果产出而非工作时长。例如携程远程团队设定 KR 「客户满意度达 92% 」而非「 每日在线 8 小时」，员工可自主安排工作节奏，效率反提升 40%。
 ::: steps
 
 1. **目标设定原则**
 
    - **聚焦关键目标**：每季度设定 3-5 个目标，避免分散精力。
-   - **野心与可行平衡**：目标应"令人不适但可达"，理想完成率在 60%-70%（Google 标准）。
-   - **结果导向**：聚焦成果而非产出（例："提升客户留存率" 而非 "发送 10 份调研"）。
+   - **野心与可行平衡**：目标应「令人不适但可达」，理想完成率在 60%-70%（Google 标准）。
+   - **结果导向**：聚焦成果而非产出（例：「提升客户留存率」 而非 「发送 10 份调研」）。
 
 2. **关键结果（KR）设计**
 
@@ -410,7 +288,7 @@ permalink: /web3-handbook/iwic3itt/
 
      :::
 
-   - **SMART 标准**：确保 KR 可衡量、有时限（例："Q3 北美市场营收增长 15%"）。
+   - **SMART 标准**：确保 KR 可衡量、有时限（例：「Q3 北美市场营收增长 15%」）。
 
 3. **评分与复盘**
 
@@ -434,7 +312,8 @@ permalink: /web3-handbook/iwic3itt/
    - [ ] 通过 Certora 形式化验证（主网部署前）
    - [ ] 漏洞赏金计划覆盖率 100%（Immunefi 平台）
    - [ ] 平均审计发现项 ≤2 个（对比 OpenZeppelin 基准）
-         :::
+
+:::
 
 ### 2. 远程会议注意事项
 
@@ -442,10 +321,8 @@ permalink: /web3-handbook/iwic3itt/
 
 1. **明确目标**
    - 会议目的：明确会议议题、期望输出（如：决策、同步信息、头脑风暴等）
-   - 参与人：邀请关键决策者或信息相关人，避免冗余参会
-     - 明确回复的截止时间，允许参与者按生物钟高效工作（如：24 小时内回复）。
+   - 参与人：邀请关键决策者或信息相关人，避免冗余参会；明确回复的截止时间（如：24 小时内回复）
    - 预计时长：根据议程合理控制会议时长（15/30/60 分钟）
-     <br>
 2. **使用日历工具（Google Calendar / Outlook Calendar）**
    - 创建事件：
      - 标题应简洁明了（如：Weekly Sync、产品评审会）
@@ -453,21 +330,17 @@ permalink: /web3-handbook/iwic3itt/
      - 设置提醒（提前 10~30 分钟）
    - 添加参与者邮箱：自动发送会议邀请与提醒
    - 注意时区设定：确认所有与会者的时区正确识别
-   - 嵌入视频会议链接（如 Google Meet、Zoom）
-     <br>
+   - 嵌入视频会议链接（如 Google Meet、Zoom）方便直接在 Calendar 上面打开
 3. **推荐时间的技巧**
    - 避开：中午用餐时间、当地清晨或深夜
    - 尽量安排在团队 "工作核心时段"（Overlapping Hours）
    - 使用"建议时间"功能：Google Calendar 会自动匹配参会人的可用时间
 
-![图 19](../images/Web3-working-habits/2a6a4b62-5a36-4575-835e-cc70a795638d.png)
-
 #### 2.2 会议中的注意事项
 
 1. **沟通禁忌**
-   - ❌ 发送模糊需求（如"请尽快处理"）；
-   - ✅ 改为："需在 **6 月 10 日 18:00 UTC+8 前**提交方案，参考**附件 A 数据模板**"
-     <br>
+   - ❌ 发送模糊需求（如「请尽快处理」）；
+   - ✅ 改为：「需在 **6 月 10 日 18:00 UTC+8 前**提交方案，参考**附件 A 数据模板**」
 2. **决策痕迹留存**
    - 准备会议纪要，关键结论标红加粗
    - ✅ 决策事项 + 行动项明确 **DRI**（直接责任人）+ **Deadline**（精确到时区）
@@ -477,12 +350,12 @@ permalink: /web3-handbook/iwic3itt/
 #### 3.1 排版的知识
 
 1. **字体选择**
+
    - **数量控制**：全文不超过 3 种字体（标题+正文+强调），否则显乱。
    - **场景匹配**：
-     - 正式报告 → 黑体/宋体
+     - 正式报告 → 黑体
      - 轻松文案 → 微软雅黑/思源柔黑
-   - **字号标准**：正文 10.5-12 磅，标题放大 1.5 倍（如正文 12 磅，标题用 18 磅）。
-     <br>
+
 2. **间距是呼吸感的关键**
    - **行间距**：1.5 倍行距（12 磅字用 18 磅行距），避免文字窒息。
    - **段落间距**：段前段后空 0.5 行（约 6-8 磅），用按`Enter`空一行太粗暴。
@@ -490,24 +363,24 @@ permalink: /web3-handbook/iwic3itt/
      <br>
 3. **标点与空格（细节控必备）**
    - 中英文混排时加空格：
-     - ✅ "在 LeanCloud 上创建 AVObject"
-     - ❌ "在 LeanCloud 上创建 AVObject"。
-   - 全角中文标点：用""代替""，用。代替.。
-   - 数字用半角：写"500 元"而非"５００元"。
+     - ✅ 「在 LeanCloud 上创建 AVObject」
+     - ❌ 「在 LeanCloud 上创建 AVObject」。
+   - 全角中文标点：用「」代替 ""，用。代替.。
+   - 数字用半角：写「500 元」而非「５００元」。
    - 详细排版规则请参考：[https://github.com/sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)
 
 #### 3.2 效率翻倍工具技巧
 
 - **AI 工具：**
-  - DeepSeek：<https://chat.deepseek.com/>
   - ChatGPT：<https://chatgpt.com/>
+  - DeepSeek：<https://chat.deepseek.com/>
   - 豆包：<https://www.doubao.com/chat/>
 - **媒体工具：**
   - Iconfont 阿里巴巴矢量图标库：<https://www.iconfont.cn/>
     - 包含海量图标、矢量插画、动态特性、可变字体等，是职场汇报的好帮手。
   - SmartArt 一键图表化
     - 在 Word / PPT 中选中文字 → 插入「智能图形」 → 自动生成流程图 / 组织架构图。
-      ![图 20](../images/Web3-working-habits/notion_templates_01.png)
+      ![SmartArt 图表化](../images/remote-work-guide/smartart-diagram.png)
   - 秀米：<https://xiumi.us/#/>
     - 图文排版、H5 制作、图片设计，原创模板素材，精选风格排版，独一无二的排版方式，设计出只属于你的图文，打动你的人群。
   - MD2Card：<https://md2card.com/zh>
@@ -546,23 +419,22 @@ permalink: /web3-handbook/iwic3itt/
       ::: card
       【项目 xxx 进度】
 
-      ✅ 已完成：A 模块上线（比计划提前 1 天）
-      🚧 进行中：B 测试（完成 70%，明天下班前交付）
-      ⚠️ 卡点：C 接口权限未获批（已联系 `@李四`，最晚周四答复）
-      🔜 下一步：周四同步测试报告（初稿已发附件）
+      ✅ 已完成：A 模块上线（比计划提前 1 天）<br />
+      🚧 进行中：B 测试（完成 70%，明天下班前交付）<br />
+      ⚠️ 卡点：C 接口权限未获批（已联系 `@李四`，最晚周四答复）<br />
+      🔜 下一步：周四同步测试报告（初稿已发附件）<br />
       :::
 
 - **埋点式复盘**
   - 建立**个人 SOP 库**（如：用 Notion 存"活动策划检查清单"），尽量详细记录每一个步骤
   - 对工作留痕
   - 交接文件包：含操作指南 / 联系方式 / 踩坑记录
-    <br>
 - **沟通案例**
 
   - 需求沟通模板
 
-    - 当同事说："这个功能尽快做出来！"
-    - ❌ 回答："现在排期满了" → 制造对立
+    - 当同事说：「这个功能尽快做出来！」
+    - ❌ 回答：「现在排期满了」 → 制造对立
     - ✅ 结构化回应：
       ::: card
 
@@ -576,22 +448,16 @@ permalink: /web3-handbook/iwic3itt/
 
   - 冲突化解话术
     - 当被甩锅时：
-    - ❌ "这明明是你的责任！"
-    - ✅ "从流程看我这部分周三已完成（附邮件截图），目前卡在 QA 环节，咱们一起找测试负责人碰下？"
-    - → 要点：用事实代替情绪，拉对方成"战友"而非对手
+    - ❌ 「这明明是你的责任！」
+    - ✅ 「从流程看我这部分周三已完成（附邮件截图），目前卡在 QA 环节，咱们一起找测试负责人碰下？」
+    - 要点：用事实代替情绪，拉对方成「战友」而非对手
   - 向上沟通技巧
-    - 接收模糊任务时：
-      ::: card
-      您希望优先保证速度还是质量？如果有参考案例更好~
-      :::
-    - 领导意见矛盾时：
-      ::: card
-      上次您提到重点控成本，这次营销预算超标是否意味着策略调整？求确认方向
-      :::
+    - 接收模糊任务时：您希望优先保证速度还是质量？如果有参考案例更好~
+    - 领导意见矛盾时：上次您提到重点控成本，这次营销预算超标是否意味着策略调整？求确认方向
 
 ## 三、行业黑话
 
-![图 1](../images/Web3-working-habits/f32371c1-fc6e-44a9-8622-31c096c51f7b.png)
+![Web3 行业黑话概览](../images/remote-work-guide/web3-slang-overview.png)
 
 ### 1. 基础类
 
@@ -604,7 +470,7 @@ permalink: /web3-handbook/iwic3itt/
 | **NGMI**      | Not Gonna Make It，讽刺某人/项目做法不行                           |
 | **REKT**      | 被"爆锤"，损失惨重，如投资失败、合约被黑等                         |
 | **Airdrop**   | 空投，免费发放代币以激励用户参与项目                               |
-| **Whale**     | 加密大户，能影响市场价格的人                                       |
+| **Whale**     | 加密大户、巨鲸，能影响市场价格的人                                 |
 | **Degen**     | "投机狗"，不问项目质量只冲高风险高回报机会的人                     |
 | **Shill**     | 宣传、推销（常含贬义），如"shill 项目"指恶意安利                   |
 | **Exit Scam** | 项目方跑路，携款失联                                               |
@@ -621,7 +487,7 @@ permalink: /web3-handbook/iwic3itt/
 | **Fork**           | 分叉，指复制已有代码的项目，或区块链协议分裂                         |
 | **Mint**           | 铸造，生成新的 NFT 或代币                                            |
 | **Burn**           | 销毁代币，减少总量，用于通缩机制                                     |
-| **Rugpull**        | 地毯式骗局，项目方卷款跑路（尤其在 DeFi 项目）                       |
+| **Rugpull**        | 抽地毯，项目方卷款跑路（尤其在 DeFi 项目）                           |
 
 ### 3. 投资类
 
@@ -668,3 +534,4 @@ permalink: /web3-handbook/iwic3itt/
 
 作者：[Echo](https://x.com/Echo_liuchan)
 排版：[Echo](https://x.com/Echo_liuchan)
+校对：[Bruce](https://x.com/brucexu_eth)
