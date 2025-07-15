@@ -33,7 +33,7 @@ Dapp 的架构主要由三个核心部分组成：
 
 Dapp 的开发流程可以分为以下几个阶段：
 
-![DApp 开发流程图](../images/solidity-intern/dapp_development-workflow_01.png)
+![Dapp 开发流程图](../images/solidity-intern/dapp_development-workflow_01.png)
 ::: steps
 
 1.  **需求分析与规划**
@@ -1159,7 +1159,7 @@ contract MessageBoard {
 
 在第六章中，我们已成功将智能合约部署至测试网络。然而，仅部署合约并不足以实现用户交互。为此，本章节将通过构建一个基于 Web 的前端页面，使用户可以通过网页界面与区块链上的合约进行交互（如留言等操作），从而实现完整的链上功能闭环。
 
-![DApp 全栈架构图](../images/solidity-intern/dapp_fullstack-architecture_01.png)
+![Dapp 全栈架构图](../images/solidity-intern/dapp_fullstack-architecture_01.png)
 
 #### ==2.1 关键代码==
 

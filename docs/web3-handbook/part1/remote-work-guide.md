@@ -364,7 +364,7 @@ TODO 图片有点糊，麻烦设计师制作
 3. **标点与空格（细节控必备）**
    - 中英文混排时加空格：
      - ✅ 「在 LeanCloud 上创建 AVObject」
-     - ❌ 「在 LeanCloud 上创建 AVObject」。
+     - ❌ 「在LeanCloud上创建AVObject」。
    - 全角中文标点：用「」代替 ""，用。代替.。
    - 数字用半角：写「500 元」而非「５００元」。
    - 详细排版规则请参考：[https://github.com/sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)

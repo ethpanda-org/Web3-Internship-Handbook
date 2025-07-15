@@ -73,7 +73,7 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
 2. [**智能合约开发**](./docs/web3-handbook/part2/smart-contract-development.md)
 
    - Solidity 从入门到精通
-   - DApp 架构设计
+   - Dapp 架构设计
    - 安全审计要点
 
 3. [**社区运营指南**](./docs/web3-handbook/part2/community-intern.md)

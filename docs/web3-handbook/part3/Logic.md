@@ -10,7 +10,7 @@ permalink: /web3-handbook/logic-frontend-journey/
 
 ![Logic](../images/Industry-veteran/WechatIMG73.jpg){.full-width width="20%"}
 
-Logic，Bybit 前端开发工程师，曾供职于 Artela 与 Rooch Network ，主导核心 DApp 与基础设施的前端实现，亦曾在 LXDAO MyFirstLayer2 担任产品经理，推特 [@Logicdevlife](https://x.com/Logicdevlife)
+Logic，Bybit 前端开发工程师，曾供职于 Artela 与 Rooch Network ，主导核心 Dapp 与基础设施的前端实现，亦曾在 LXDAO MyFirstLayer2 担任产品经理，推特 [@Logicdevlife](https://x.com/Logicdevlife)
 :::
 
 ### 1. 我们邀请到 Bybit 前端开发老师 Logic，非常感谢您抽出宝贵时间参与到 ETHPanda 与 LXDAO 共同开展的访谈。请您先做一个简单的自我介绍。
