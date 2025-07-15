@@ -4,23 +4,23 @@ createTime: '2025/06/11 21:04:39'
 permalink: /web3-handbook/6xear0kx/
 ---
 
-## 一、 **合规性要求与常见法律风险**
+## 一、 **Web3 合规性要求与常见法律风险**
+
+TODO 这里主要想给学生们分析一下常见的法律风险，比如哪些行为是不能碰的，哪些是没有问题的，消除一些模糊的认知，建立正确的行业底线。避免未来触碰。所以最好是常见的问题（比如 cx、发币等） + 典型实际案例的分析。可能需要专业法律人士来写。
 
 - **法律风险概述**
 
   - Web3 项目涉及的常见法律领域：如数据隐私（GDPR）、反洗钱（AML）、反恐怖融资（CFT）、证券法等
-
   - 全球不同地区的法律差异：美国、欧盟、中国等的合规要求
-
   - Web3 项目的合法性问题：如去中心化项目是否涉及证券发行、代币是否属于证券等
 
 - **合规性操作**
-
   - 保持透明与合规的运营：如何确保项目符合相关法规要求
-
   - 合规性学习资料推荐
 
 ## 二、 **常见网络安全风险与防护措施**
+
+TODO 这里主要想给学生们分析一下常见的网络安全风险，比如常见的攻击方式、攻击手段、攻击后果等，最好配上一些典型案例。可以以钓鱼攻击、虚假面试安装软件为例，给出实际的场景，增加学生的警惕性。很多学生会安装不明的软件或者面试会议，然后被钓鱼。受限于篇幅，可以推荐继续阅读黑手册。最好联系一些安全专家来写。
 
 - **网络安全的基本概念**
 
@@ -63,9 +63,8 @@ permalink: /web3-handbook/6xear0kx/
 ## ::eos-icons:application-outlined /#32b2f0:: 扩展阅读
 
 1. 区块链安全红手册（项目方）：[https://www.slowmist.com/redhandbook/](https://www.slowmist.com/redhandbook/)
-2. 区块链安全黑手册（用户）：[https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md#%E5%BC%95%E5%AD%90](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md#%E5%BC%95%E5%AD%90)
+2. 区块链安全黑手册（用户）：[https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md)
 
 ## ::ep:avatar /#32b2f0:: 文章贡献者
 
 作者：[吃汤圆](https://x.com/web3_cty)
-排版：
