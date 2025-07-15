@@ -64,7 +64,7 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
 
 ### 第二部分：职业发展
 
-1. [**岗位全景图**](./docs/web3-handbook/part2/position-introduction.md)
+1. [**区块链岗位全景图**](./docs/web3-handbook/part2/position-introduction.md)
 
    - 技术岗 vs 非技术岗
    - 各岗位技能要求
