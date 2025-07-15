@@ -1,7 +1,7 @@
 ---
 title: 社区运营指南
 createTime: '2025/06/11 20:30:21'
-permalink: /web3-handbook/jsyscy5o/
+permalink: /web3-handbook/community-intern/
 ---
 
 > 在 Web3 项目中，社区运营是连接用户与项目的重要桥梁。本模块将梳理社区运营的核心职责，包括内容发布、社群维护、活动组织和对外协作等日常工作，同时介绍常用的工具和平台，涵盖社交媒体、沟通协作、内容创作和数据分析等方面，帮助你快速掌握实操技能，建立高效的工作流程。
@@ -64,9 +64,9 @@ Web3 的叙事传播和社交活动主要发生在下列平台：
 | 工具 | 功能 | 链接 |
 | --- | --- | --- |
 | **Notion / Notion AI** | 文档整理、活动计划、项目管理 | [Notion 官网](https://www.notion.com/) |
-| **ChatGPT** | 快速生成社交文案、翻译技术内容 | [开始 chatgpt 一下](https://openai.com/index/chatgpt/) |
+| **ChatGPT** | 快速生成社交文案、翻译技术内容 | [ChatGPT 官网](https://openai.com/index/chatgpt/) |
 | **Figma / Canva** | 活动海报、推文视觉设计 | [Figma 官网](https://www.figma.com/) [Canva 官网](https://www.canva.com/) |
-| **Tally / Typeform** | 调研问卷、活动报名表单制作 |[Tally 官网](https://tally.so/) [Typeform 官网](https://www.typeform.com/) |
+| **Tally / Typeform** | 调研问卷、活动报名表单制作 | [Tally 官网](https://tally.so/) [Typeform 官网](https://www.typeform.com/) |
 
 ### 4. 数据与行业调研工具
 
@@ -76,14 +76,14 @@ Web3 世界的数据是开放的，以下工具是日常分析和监控项目的
 | **Etherscan** | 查看交易、合约、地址活动 | [Etherscan 官网](https://etherscan.io/) |
 | **Dune Analytics** | 可视化仪表盘，SQL 查询链上数据 | [Dune 官网](https://dune.com/home) |
 | **CoinGecko / CoinMarketCap** | 币价监控与基本信息查询 | [CoinGecko 官网](https://www.coingecko.com/) [CoinMarketCap 官网](https://coinmarketcap.com/) |
-| **Token Terminal** | 项目财务表现与用户增长分析 | [https://tokenterminal.com/](https://tokenterminal.com/) |
+| **Token Terminal** | 项目财务表现与用户增长分析 | [Token Terminal 官网](https://tokenterminal.com/) |
 
 ## 三、常见任务案例模板
 
 ### 1. 线上活动执行模板
 
 ::: card
-为了让大家在策划 Twitter Space 或 Web3 线上活动时有清晰参考，此模板将按活动准备的时间节点，梳理出各个关键环节与注意事项。因为希望给到大家具体的参考案例，此处以 ETHPanda 在 Pectra 升级节点组织的线上 Space 为例。
+为了让大家在策划 Twitter Space 或 Web3 线上活动时有清晰参考，此模板将按活动准备的时间节点，梳理出各个关键环节与注意事项。因为希望给到大家更好的参考，此处以 ETHPanda 在 Pectra 升级节点组织的线上 Space 的真实案例来展示。
 :::
 
 ### ::emojione-v1:direct-hit:: ==确定活动背景与目标=={.warning}
@@ -160,7 +160,7 @@ Web3 世界的数据是开放的，以下工具是日常分析和监控项目的
 
       **嘉宾问答（每题 15 分钟轮流）**
 
-      1. Pectra 升级对以太坊生态/通缩/ETH 价格的影响？
+      1. Pectra 升级对以太坊生态 / 通缩 / ETH 价格的影响？
       2. 普通用户能直观看到哪些变化？
       3. 账户抽象对钱包体验和使用行为的潜在影响？
       4. 哪些赛道项目将从中受益最大？
@@ -171,8 +171,17 @@ Web3 世界的数据是开放的，以下工具是日常分析和监控项目的
       - 每位提问者可获得 10U 奖励，活动后 24h 内提交地址
         <br>
 
-4. 活动 Review（T+7 日内完成） 1. 数据回顾 - 首条推文浏览数： - Space 在线人数峰值： - 小宇宙收听量： 2. 可优化项 - 嘉宾确认效率 - 宣发节奏是否合理 - Space 节奏 &问题设计反馈
-   :::
+4. **活动 Review（T+7 日内完成）**
+   1. 数据回顾
+      - 首条推文浏览数：
+      - Space 在线人数峰值：
+      - 小宇宙收听量：
+   2. 可优化项
+      - 嘉宾确认效率
+      - 宣发节奏是否合理
+      - Space 节奏 & 问题设计反馈
+
+:::
 
 ### 2. 线下活动策划与执行
 
@@ -259,7 +268,7 @@ Web3 世界的数据是开放的，以下工具是日常分析和监控项目的
 
 1. **场地布置与技术支持**
    - 背板搭建、签到台、摄影区、设备调试
-   - 提前 2 小时以上完成全部布置，设立应急设备/电源方案
+   - 提前 2 小时以上完成全部布置，设立应急设备 / 电源方案
      <br>
 2. **嘉宾接待与观众签到**
    - 准备嘉宾接待手册与签到礼袋
@@ -267,13 +276,13 @@ Web3 世界的数据是开放的，以下工具是日常分析和监控项目的
      <br>
 3. **现场执行协调**
    - 分配每个模块负责人的职责卡（签到、灯光、摄影、控场等）
-   - 设立应急联系人 + 群组（若突发断电/嘉宾迟到/物资延误等）
+   - 设立应急联系人 + 群组（若突发断电 / 嘉宾迟到 / 物资延误等）
 
 ### ::emojione-v1:counterclockwise-arrows-button:: ==活动复盘阶段（活动后 1 周内）=={.warning}
 
 1. **活动 Recap 内容产出（建议 2 天内完成）**
    - 推特 thread / 公众号文章 / 图片合集 / 小红书图文
-   - 可将嘉宾金句/精彩瞬间剪辑为 15s 视频
+   - 可将嘉宾金句 / 精彩瞬间剪辑为 15s 视频
      <br>
 2. **数据与效果分析**
    - 到场人数 vs 注册人数
@@ -283,7 +292,7 @@ Web3 世界的数据是开放的，以下工具是日常分析和监控项目的
 3. **总结报告**
    - 成功要素 & 待优化事项
    - 嘉宾反馈、观众建议
-   - 项目合作/PR 机会记录
+   - 项目合作 / PR 机会记录
 
 :::
 
@@ -294,3 +303,4 @@ Web3 世界的数据是开放的，以下工具是日常分析和监控项目的
 
 作者：[Luna](https://x.com/nanakodesuu)
 排版：[Echo](https://x.com/Echo_liuchan)
+校对：[Bruce](https://x.com/brucexu_eth)
