@@ -70,7 +70,7 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
    - 各岗位技能要求
    - 职业发展路径
 
-2. [**智能合约开发**](./docs/web3-handbook/part2/tec-intern.md)
+2. [**智能合约开发**](./docs/web3-handbook/part2/smart-contract-development.md)
 
    - Solidity 从入门到精通
    - DApp 架构设计

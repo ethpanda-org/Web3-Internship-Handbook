@@ -1,7 +1,7 @@
 ---
 title: 智能合约开发
 createTime: '2025/06/12 00:30:37'
-permalink: /web3-handbook/cmbn9gfu/
+permalink: /web3-handbook/smart-contract-development/
 ---
 
 > 本章将围绕 Web3 行业中的智能合约工程师所需的技能进行介绍，首先介绍去中心化应用（Dapp）的基本架构，重点分析其与传统应用的不同之处。接着，我们将详细讨论开发 Dapp 的流程，从需求分析、智能合约的编写、前端与后端的设计，到最终部署和上线，帮助读者理解整个开发生命周期。
@@ -14,7 +14,7 @@ permalink: /web3-handbook/cmbn9gfu/
 
 Dapp 的架构主要由三个核心部分组成：
 
-![图 1](../images/solidity-intern/dapp_architecture-diagram_01.png)
+![DApp 架构图](../images/solidity-intern/dapp_architecture-diagram_01.png)
 
 ==1. **前端（User Interface）**：==
 
@@ -35,7 +35,7 @@ Dapp 的架构主要由三个核心部分组成：
 
 Dapp 的开发流程可以分为以下几个阶段：
 
-![图 2](../images/solidity-intern/dapp_development-workflow_01.png)
+![DApp 开发流程图](../images/solidity-intern/dapp_development-workflow_01.png)
 ::: steps
 
 1.  **需求分析与规划**
@@ -118,13 +118,13 @@ npm install -g yarn
 
 ### 2. 以太坊本地开发链
 
-**方式一：Ganache（Truffle 团队出品，适合初学者）**
+**方式一：Ganache（适合初学者）**
 
 - 下载网址：[https://archive.trufflesuite.com/ganache/](https://archive.trufflesuite.com/ganache/)
 
-![图 3](../images/solidity-intern/dapp_architecture-overview_01.png)
+![Ganache 界面展示](../images/solidity-intern/dapp_architecture-overview_01.png)
 
-![图 4](../images/solidity-intern/dapp_frontend-backend_01.png)
+![DApp 前后端架构图](../images/solidity-intern/dapp_frontend-backend_01.png)
 
 ---
 
@@ -792,7 +792,7 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
 
 推荐使用 [Remix IDE](https://remix.ethereum.org/)，它是一个基于浏览器的在线集成开发环境，提供完整的 Solidity 编写、编译、部署与调试功能，适合初学者快速上手。
 
-![图 5](../images/solidity-intern/solidity_contract-structure_01.png)
+![Remix IDE 界面展示](../images/solidity-intern/solidity_contract-structure_01.png)
 
 ### 2. 合约代码
 
@@ -839,7 +839,7 @@ contract MessageBoard {
 
 在 Remix IDE 左侧文件管理面板（File Explorer）中，点击"新建文件"按钮，创建一个名为 `messageboard.sol` 的 Solidity 合约文件，并将合约代码粘贴至该文件中。
 
-![图 6](../images/solidity-intern/ethereum_development-flow_01.png)
+![Remix 新建文件](../images/solidity-intern/ethereum_development-flow_01.png)
 
 ### 4. 编译
 
@@ -851,23 +851,23 @@ contract MessageBoard {
 
 如需重新组织项目结构，可点击 **FILE EXPLORER** 创建文件夹以便分类管理文件。
 
-![图 7](../images/solidity-intern/smart-contract_deployment_01.png)
+![Remix 编译界面](../images/solidity-intern/smart-contract_deployment_01.png)
 
 ### 5. 部署
 
 - 在 Remix 右侧面板中选择 **Deploy & Run Transactions**，进入部署与交互界面；
 - 默认环境选择为 JavaScript VM，本地虚拟区块链，系统将自动为多个账户分配初始余额（每个账户默认 100 ETH），可用于部署与调用合约时支付 Gas 费用；
 
-![图 8](../images/solidity-intern/remix_ide-interface_01.png)
+![Remix 部署界面](../images/solidity-intern/remix_ide-interface_01.png)
 
 - 确认部署合约的合约名无误后，点击 **Deploy** 按钮，即可完成部署；
 - 部署成功后，在下方面板将显示合约部署地址、可调用函数列表及状态变量
 
-![图 9](../images/solidity-intern/truffle_project-setup_01.png)
+![Remix 部署成功](../images/solidity-intern/truffle_project-setup_01.png)
 
 - 展开底部命令终端可查看部署日志及构造函数的执行信息，验证合约初始化情况与留言功能的准备状态。
 
-![图 10](../images/solidity-intern/hardhat_configuration_01.png)
+![Remix 部署日志](../images/solidity-intern/hardhat_configuration_01.png)
 
 ### 6. 调用函数
 
@@ -878,7 +878,7 @@ contract MessageBoard {
 3. 点击 **leaveMessage** 按钮，发起交易调用；
 4. 右侧命令终端将显示一条新的交易记录，点击该记录可查看交易详情与链上存储的留言信息。
 
-![图 11](../images/solidity-intern/web3js_integration_01.png)
+![Remix 函数调用](../images/solidity-intern/web3js_integration_01.png)
 
 ## 五、以太坊技术基础
 
@@ -980,10 +980,10 @@ contract MessageBoard {
    3. 此时，您将获得一个以 `0x` 开头的以太坊地址，用于接收 Sepolia 测试币。
       :::: card-grid
       ::: card
-      ![图 12](../images/solidity-intern/solidity_unit-testing_01.png)
+      ![MetaMask 网络选择](../images/solidity-intern/solidity_unit-testing_01.png)
       :::
       ::: card
-      ![图 13](../images/solidity-intern/contract_debugging_01.png)
+      ![MetaMask 地址显示](../images/solidity-intern/contract_debugging_01.png)
       :::
       ::::
 
@@ -1010,10 +1010,10 @@ contract MessageBoard {
    - 若该 Faucet 不可用，也可尝试其他公开的 Sepolia 水龙头服务
      :::: card-grid
      ::: card
-     ![图 14](../images/solidity-intern/metamask_wallet-connection_01.png)
+     ![Sepolia 水龙头使用](../images/solidity-intern/metamask_wallet-connection_01.png)
      :::
      ::: card
-     ![图 15](../images/solidity-intern/web3_frontend-integration_01.png)
+     ![Sepolia 水龙头界面](../images/solidity-intern/web3_frontend-integration_01.png)
      :::
      ::::
 
@@ -1040,13 +1040,13 @@ contract MessageBoard {
 
     :::
 
-    ![图 16](../images/solidity-intern/blockchain_transaction-flow_01.png)
+    ![Remix 连接 MetaMask](../images/solidity-intern/blockchain_transaction-flow_01.png)
 
     ==**编译合约**=={.note}
 
     切换至**Solidity Compiler**面板，点击**Compile messageboard.sol**对合约进行编译，确保无错误提示。
 
-    ![图 17](../images/solidity-intern/smart-contract_events-logs_01.png)
+    ![Remix 编译合约](../images/solidity-intern/smart-contract_events-logs_01.png)
 
     ==**部署合约**=={.note}
 
@@ -1057,7 +1057,7 @@ contract MessageBoard {
     - MetaMask 会弹出交易确认窗口，展示 Gas 费用等信息；
     - 点击 **确认** 提交交易。
 
-    ![图 18](../images/solidity-intern/metamask_wallet-connection_01.png)
+    ![MetaMask 确认交易](../images/solidity-intern/metamask_wallet-connection_01.png)
 
     ==**查看部署结果**=={.note}
 
@@ -1068,7 +1068,7 @@ contract MessageBoard {
     - 构造函数的执行信息；
     - 可调用的函数与状态变量接口
 
-    ![图 19](../images/solidity-intern/web3_frontend-integration_01.png)
+    ![Remix 部署结果](../images/solidity-intern/web3_frontend-integration_01.png)
 
 2.  ==Etherscan 查看合约==
 
@@ -1079,7 +1079,7 @@ contract MessageBoard {
     1. 打开 [Etherscan](https://etherscan.io/)；
     2. 在页面顶部的网络切换器中选择 **Sepolia** 测试网，或直接访问 [https://sepolia.etherscan.io](https://sepolia.etherscan.io)。
 
-    ![图 20](../images/solidity-intern/blockchain_transaction-flow_01.png)
+    ![Etherscan 网络选择](../images/solidity-intern/blockchain_transaction-flow_01.png)
 
     ==**通过交易哈希查看部署信息**=={.note}
 
@@ -1091,7 +1091,7 @@ contract MessageBoard {
     - 区块确认数；
     - 输入的合约字节码（Input Data）等。
 
-    ![图 21](../images/solidity-intern/smart-contract_events-logs_01.png)
+    ![Etherscan 交易详情](../images/solidity-intern/smart-contract_events-logs_01.png)
 
     ==**通过合约地址查看合约详情**=={.note}
 
@@ -1104,13 +1104,13 @@ contract MessageBoard {
        - 发布者地址（Creator）；
        - 合约代码（若已验证）等
 
-    ![图 22](../images/solidity-intern/dapp_user-experience_01.png)
+    ![Etherscan 合约详情](../images/solidity-intern/dapp_user-experience_01.png)
 
     ==**查看合约事件日志（Events）**=={.note}
 
     即使该合约尚未发生函数调用或转账交易，也可以通过 Etherscan 的 **Events** 标签页查看部署过程中由构造函数或初始设置触发的事件。该功能有助于调试初始化逻辑和验证合约状态。
 
-    ![图 23](../images/solidity-intern/ethereum_gas-fees_01.png)
+    ![Etherscan 事件日志](../images/solidity-intern/ethereum_gas-fees_01.png)
 
 3.  ==合约交互==
 
@@ -1125,7 +1125,7 @@ contract MessageBoard {
     5. MetaMask 将弹出交易确认窗口，确认后即可发送交易；
     6. Remix 下方的终端将显示交易成功日志，包括交易哈希（Tx Hash）。
 
-    ![图 24](../images/solidity-intern/defi_protocol-interaction_01.png)
+    ![Remix 合约交互](../images/solidity-intern/defi_protocol-interaction_01.png)
 
     ==**通过 Etherscan 验证交互结果**=={.note}
 
@@ -1135,9 +1135,9 @@ contract MessageBoard {
     4. 点击该交易进入交易详情页；
     5. 在页面下方的 **Logs** 或 **Event Logs** 标签页中，可看到刚刚触发的事件日志，其中包含输入的留言内容等参数信息。
 
-    ![图 25](../images/solidity-intern/nft_smart-contract_01.png)
+    ![Etherscan 交易记录](../images/solidity-intern/nft_smart-contract_01.png)
 
-    ![图 26](../images/solidity-intern/dao_governance-contract_01.png)
+    ![Etherscan 事件日志显示](../images/solidity-intern/dao_governance-contract_01.png)
 
 :::
 
@@ -1155,7 +1155,7 @@ contract MessageBoard {
 6. **广播交易**：将签名交易发送到区块链网络
 7. **状态更新**：获取交易结果并更新前端界面
 
-![图 27](../images/solidity-intern/web3_development-tools_01.png)
+![Web3 开发工具流程](../images/solidity-intern/web3_development-tools_01.png)
 
 #### ==1.2 关键技术栈==
 
@@ -1171,7 +1171,7 @@ contract MessageBoard {
 
 在第六章中，我们已成功将智能合约部署至测试网络。然而，仅部署合约并不足以实现用户交互。为此，本章节将通过构建一个基于 Web 的前端页面，使用户可以通过网页界面与区块链上的合约进行交互（如留言等操作），从而实现完整的链上功能闭环。
 
-![图 28](../images/solidity-intern/blockchain_deployment-process_01.png)
+![DApp 全栈架构图](../images/solidity-intern/blockchain_deployment-process_01.png)
 
 #### ==2.1 关键代码==
 
@@ -1467,7 +1467,7 @@ async function queryMessages() {
 
 #### 3.2 审计标准流程
 
-![图 29](../images/solidity-intern/solidity_basics-tutorial_01.png)
+![Solidity 审计流程](../images/solidity-intern/solidity_basics-tutorial_01.png)
 
 1. **静态分析（Static Analysis）**：使用工具如 Slither、Mythril 扫描代码缺陷
 2. **动态测试（Fuzzing/Property Testing）**：模拟攻击行为和极限条件
@@ -1487,7 +1487,7 @@ async function queryMessages() {
 
 #### 4.1 GitHub 工作流
 
-![图 30](../images/solidity-intern/ethereum_account-types_01.png)
+![GitHub 工作流程](../images/solidity-intern/ethereum_account-types_01.png)
 ::: steps
 
 - 分支策略：
@@ -1542,7 +1542,7 @@ async function queryMessages() {
 
 #### 4.2 Issue 管理
 
-![图 31](../images/solidity-intern/remix_smart-contract-editor_01.png)
+![Issue 管理流程](../images/solidity-intern/remix_smart-contract-editor_01.png)
 
 - 描述 Issue 结构推荐：背景 + 问题 + 尝试过的方法 + 环境信息
 
@@ -1587,7 +1587,7 @@ async function queryMessages() {
    - 特点：ZK Rollup，开发体验佳
 3. **Arbitrum**
    - Optimistic 架构
-   - 特点：兼容 EVM 工具链，如 Hardhat/Foudnry
+   - 特点：兼容 EVM 工具链，如 Hardhat/Foundry
 4. **Base**
    - Coinbase 推出，构建于 OP Stack 上
    - 特点：强生态支持，开发成本低
@@ -1625,3 +1625,4 @@ async function queryMessages() {
 
 作者：[Jason](https://x.com/fxxkmystyle)、[Echo](https://x.com/Echo_liuchan)
 排版：[Echo](https://x.com/Echo_liuchan)
+校对：[Bruce](https://x.com/brucexu_eth)
