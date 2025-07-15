@@ -1,4 +1,4 @@
----
+![Black and White Simple Infographic Resume 副本 副本](https://github.com/user-attachments/assets/d9f3e440-d015-40de-9ba5-70d239418698)---
 title: Web3 行业简历撰写指导
 createTime: 2025/06/11 20:49:34
 permalink: /web3-handbook/ssm02wu3/
@@ -90,6 +90,14 @@ permalink: /web3-handbook/ssm02wu3/
 - **格式统一：** 统一使用动词开头，并高亮重要的数字和量化结果。
 :::
 Web3 简历不仅仅是找工作的敲门砖，更是你个人在去中心化世界中贡献和影响力的体现。掌握这些撰写技巧，祝让你的简历在众多求职者中脱颖而出！
+
+## 六、简历模版参考
+ **智能合约工程师：陈大文**
+ ![Black and White Simple Infographic Resume](https://github.com/user-attachments/assets/3d627aec-eb21-4e79-a2a4-09291763742e)
+**研究分析师：王美丽**
+ ![Black and White Simple Infographic Resume 副本](https://github.com/user-attachments/assets/c73388df-8772-4d94-9922-a8d4e920c9d7)
+**社区运营师：姚大锤**
+![Black and White Simple Infographic Resume 副本 副本](https://github.com/user-attachments/assets/ab20a708-1f60-4bc6-ab5f-85121ee073f8)
 
 <!-- ## ::eos-icons:application-outlined /#32b2f0:: 扩展阅读
 [1]  -->
