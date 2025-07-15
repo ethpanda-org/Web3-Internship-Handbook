@@ -19,7 +19,7 @@
  *
  * 通过 `defineNoteConfig` 定义的 note 配置，应该填入 `defineNotesConfig` 的 notes 数组中
  */
-import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
+import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume';
 
 /* =================== locale: zh-CN ======================= */
 
@@ -33,7 +33,7 @@ const zhDemoNote = defineNoteConfig({
   sidebar: ['', 'foo', 'bar'],
   // 根据文件结构自动生成侧边栏
   // sidebar: 'auto',
-})
+});
 
 /**
  * 导出所有的 note
@@ -57,17 +57,24 @@ const handbookNote = defineNoteConfig({
         { text: '区块链基础概念', link: 'part1/blockchain-basic.md' },
         { text: '以太坊概览', link: 'part1/overview-of-ethereum.md' },
         { text: '行业知识', link: 'part1/industry-knowledge.md' },
-        { text: 'Web3 基础工作习惯', link: 'part1/Web3-working-habits.md' },
+        { text: 'Web3 工作方式', link: 'part1/remote-work-guide.md' },
       ],
-      collapsed: true
+      collapsed: true,
     },
     {
       text: 'Web3 行业知识',
       items: [
-        { text: '区块链岗位类型与职能简介', link: 'part2/position-introduction.md' },
+        {
+          text: '区块链岗位类型与职能简介',
+          link: 'part2/position-introduction.md',
+        },
         { text: '智能合约实习岗位知识模块', link: 'part2/tec-intern.md' },
         { text: '社区运营实习岗位知识模块', link: 'part2/community-intern.md' },
-        { text: '合规和网络安全', link: 'part2/security.md', badge: { text: '待更新', type: 'info' },  },
+        {
+          text: '合规和网络安全',
+          link: 'part2/security.md',
+          badge: { text: '待更新', type: 'info' },
+        },
       ],
       collapsed: true,
     },
@@ -81,34 +88,36 @@ const handbookNote = defineNoteConfig({
       collapsed: true,
     },
     {
-      text: '面试准备与行业岗位推荐', collapsed: true,
+      text: '面试准备与行业岗位推荐',
+      collapsed: true,
       items: [
         { text: '招聘平台与职位推荐', link: 'part4/job-platform.md' },
         { text: 'Web3 行业简历撰写指导', link: 'part4/write-resume.md' },
-        { text: '面试准备与典型面试题', link: 'part4/interview-preparedness.md' },
+        {
+          text: '面试准备与典型面试题',
+          link: 'part4/interview-preparedness.md',
+        },
       ],
     },
-    { text: '附录',collapsed: true,
-      badge: { text: '新', type: 'danger' }, 
+    {
+      text: '附录',
+      collapsed: true,
       items: [
         { text: '附录一', link: 'part5/part5.md' },
         // { text: '线上活动执行模板', link: 'part5/online.md' },
         // { text: '线下活动执行模板', link: 'part5/offline.md' },
       ],
     },
-    { text: '致谢名单', link: 'acknowledgments.md'},
+    { text: '致谢名单', link: 'acknowledgments.md' },
     // {text: '获取更多', link: 'get-started.md', collapsed: true}
   ],
-
-})
+});
 
 export const zhNotes = defineNotesConfig({
   dir: '/',
   link: '/',
-  notes: [
-    handbookNote
-  ],
-})
+  notes: [handbookNote],
+});
 
 /* =================== locale: en-US ======================= */
 
@@ -122,7 +131,7 @@ const enDemoNote = defineNoteConfig({
   sidebar: ['', 'foo', 'bar'],
   // 根据文件结构自动生成侧边栏
   // sidebar: 'auto',
-})
+});
 
 /**
  * 导出所有的 note
@@ -133,4 +142,4 @@ export const enNotes = defineNotesConfig({
   dir: 'en/notes',
   link: '/en/',
   notes: [enDemoNote],
-})
+});
