@@ -1,8 +1,8 @@
 # Web3 实习手册 🚀
 
-**为高校学生量身打造的第一本 Web3 行业入门读物**
-
 <div align="center">
+
+**为高校学生和 Web3 新人量身打造的第一本 Web3 行业入门读物**
 
 [![GitHub stars](https://img.shields.io/github/stars/ethpanda-org/Web3-Internship-Handbook?style=social)](https://github.com/ethpanda-org/Web3-Internship-Handbook)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
