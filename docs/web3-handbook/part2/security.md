@@ -1,7 +1,7 @@
 ---
 title: 安全与合规
 createTime: '2025/06/11 21:04:39'
-permalink: /web3-handbook/6xear0kx/
+permalink: /web3-handbook/security/
 ---
 
 ## 一、 **Web3 合规性要求与常见法律风险**
