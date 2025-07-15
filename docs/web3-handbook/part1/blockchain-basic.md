@@ -21,7 +21,7 @@ permalink: /web3-handbook/blockchain-basic/
 - 每一个区块只有有限的存储容量。
 - 每个区块会在一定时间内打包，例如大概 10 分钟打包生成一个。
 
-![区块结构示意图](../images/blockchainBasic/block.png)
+![区块结构示意图](../images/blockchain-basic/block.png)
 :::
 ::: card
 ==**这是一条链**=={.warning}
@@ -32,7 +32,7 @@ permalink: /web3-handbook/blockchain-basic/
   <br>
   <br>
 
-![区块链连接示意图](../images/blockchainBasic/chain.png)
+![区块链连接示意图](../images/blockchain-basic/chain.png)
 :::
 ::::
 
@@ -40,7 +40,7 @@ permalink: /web3-handbook/blockchain-basic/
 ==**合并在一起就是：区块链**=={.danger}
 <br>
 
-![完整区块链结构](../images/blockchainBasic/blockchian.png)
+![完整区块链结构](../images/blockchain-basic/blockchian.png)
 :::
 
 <br>
@@ -67,7 +67,7 @@ permalink: /web3-handbook/blockchain-basic/
 
 <br>
 
-![分布式网络记账模式](../images/blockchainBasic/decentralize.png)
+![分布式网络记账模式](../images/blockchain-basic/decentralize.png)
 
 一个区块链网络中有非常多的节点（矿机）来记账，每个节点都会记录完整的、相同的区块链信息！
 
@@ -100,7 +100,7 @@ permalink: /web3-handbook/blockchain-basic/
 
 网络节点服务提供商（以下简称为网络服务提供商）可以得到奖励。不同的网络服务提供商可以得到不同的代币奖励，比如：比特币。
 
-![节点激励机制](../images/blockchainBasic/reward.png)
+![节点激励机制](../images/blockchain-basic/reward.png)
 :::
 
 ::: card
@@ -108,7 +108,7 @@ permalink: /web3-handbook/blockchain-basic/
 
 根据比特币的设计，它仅有有限的供应量，而且可以自由转账。因此具备了货币的特性，成为了加密货币。
 
-![数字货币属性](../images/blockchainBasic/currency.png)
+![数字货币属性](../images/blockchain-basic/currency.png)
 :::
 ::::
 
@@ -142,7 +142,7 @@ permalink: /web3-handbook/blockchain-basic/
 区块链将会有一条链来记录全部的信息，这条链将存在对应的去中心化网络中。
 去中心化的网络，将由无数节点提供服务来维持网络运行。节点通过计算验证交易获得代币奖励。
 
-![去中心化网络架构](../images/blockchainBasic/decentralize.png){.full-width width="50%"}
+![去中心化网络架构](../images/blockchain-basic/decentralize.png){.full-width width="50%"}
 :::
 :::card
 ==**维持网络运行的代币激励**==
@@ -150,7 +150,7 @@ permalink: /web3-handbook/blockchain-basic/
 去中心化的网络由无数节点提供服务来维持网络运行，这些操作统称为挖矿。维持这些服务的人一般称之为矿工。矿工们维持网络运行需要奖励，就像你工作需要工资，在区块链中对矿工的奖励一般是代币，你经常听说的燃料费（Gas Fee）就是矿工们的「工资」。
 你使用这个网络进行交易、转账、铸造 NFT 等等，均需要支付代币。如果你没有代币又想使用这个区块链网络服务，则需要进行代币之间交换或者法币交换。
 
-![区块链代币激励机制](../images/blockchainBasic/tokenlist.png){.full-width width="40%"}
+![区块链代币激励机制](../images/blockchain-basic/tokenlist.png){.full-width width="40%"}
 :::
 
 <br>
@@ -166,13 +166,13 @@ permalink: /web3-handbook/blockchain-basic/
 5. **链接上链**：新区块被添加到区块链上，更新全网的账本状态
 6. **奖励发放**：成功打包区块的矿工获得代币奖励和交易手续费
 
-![区块链生态系统运行流程](../images/blockchainBasic/ecosystem.png){.full-width width="80%"}
+![区块链生态系统运行流程](../images/blockchain-basic/ecosystem.png){.full-width width="80%"}
 
 ## 四、公链 vs 私链 vs 联盟链
 
 区块链根据访问权限与治理模式，大致可分为三类。按照去中心化程度从高到低排列。
 
-![公链、联盟链、私链对比图](../images/blockchainBasic/f0b96a1d-5b0c-4775-a54f-f7e6b8a0d453.png)
+![公链、联盟链、私链对比图](../images/blockchain-basic/f0b96a1d-5b0c-4775-a54f-f7e6b8a0d453.png)
 
 ### 1. 公链（Public Blockchain） = 公共公园
 
@@ -399,6 +399,6 @@ Python + RDFLib + SPARQL
 
 ## ::ep:avatar /#32b2f0::文章贡献者
 
-作者：[吃汤圆](https://x.com/web3_cty)  
-排版：[Echo](https://x.com/Echo_liuchan)  
+作者：[吃汤圆](https://x.com/web3_cty)
+排版：[Echo](https://x.com/Echo_liuchan)
 校对：[Bruce](https://x.com/brucexu_eth)
