@@ -1,11 +1,10 @@
 ---
-title: 智能合约实习岗位知识模块
-createTime: "2025/06/12 00:30:37"
+title: 智能合约开发
+createTime: '2025/06/12 00:30:37'
 permalink: /web3-handbook/cmbn9gfu/
 ---
 
 > 本章将围绕 Web3 行业中的智能合约工程师所需的技能进行介绍，首先介绍去中心化应用（Dapp）的基本架构，重点分析其与传统应用的不同之处。接着，我们将详细讨论开发 Dapp 的流程，从需求分析、智能合约的编写、前端与后端的设计，到最终部署和上线，帮助读者理解整个开发生命周期。
-
 
 ## 一、Dapp 架构和开发流程
 
@@ -18,16 +17,19 @@ Dapp 的架构主要由三个核心部分组成：
 ![图 1](../images/solidity-intern/a979e8e0-3547-4f54-a9b9-bd308ff25776.png)
 
 ==1. **前端（User Interface）**：==
-  - 前端是 Dapp 与用户交互的界面，通常由 HTML、CSS 和 JavaScript（如 React、Vue 等框架）构建。与传统 Web 应用不同，Dapp 前端会连接区块链来调用智能合约，呈现数据和执行交易。
-  - 前端还需要集成区块链钱包（如 MetaMask）来进行身份验证和签署交易，确保用户的隐私和安全。
+
+- 前端是 Dapp 与用户交互的界面，通常由 HTML、CSS 和 JavaScript（如 React、Vue 等框架）构建。与传统 Web 应用不同，Dapp 前端会连接区块链来调用智能合约，呈现数据和执行交易。
+- 前端还需要集成区块链钱包（如 MetaMask）来进行身份验证和签署交易，确保用户的隐私和安全。
 
 ==2. **智能合约（Smart Contracts）**：==
-  - 智能合约是 Dapp 的核心，它定义了应用的业务逻辑，并部署在区块链上。智能合约通过执行自动化的规则来确保交易和操作的透明性与不可篡改性。
-  - 在以太坊平台上，智能合约通常使用 **Solidity** 编程语言编写，并通过 **Ethereum Virtual Machine (EVM)** 执行。  
+
+- 智能合约是 Dapp 的核心，它定义了应用的业务逻辑，并部署在区块链上。智能合约通过执行自动化的规则来确保交易和操作的透明性与不可篡改性。
+- 在以太坊平台上，智能合约通常使用 **Solidity** 编程语言编写，并通过 **Ethereum Virtual Machine (EVM)** 执行。
 
 ==3. **区块链和去中心化存储（Blockchain & Decentralized Storage）**：==
-  - 区块链用于存储智能合约的状态数据及交易记录。去中心化存储如 **IPFS**（InterPlanetary File System）或 **Arweave**，用于存储大规模的非结构化数据（如图片、文档等），确保数据不易丢失和篡改。
-  - 通过使用去中心化存储，Dapp 确保所有数据在多个节点上备份，保证数据的持久性和去中心化特性。
+
+- 区块链用于存储智能合约的状态数据及交易记录。去中心化存储如 **IPFS**（InterPlanetary File System）或 **Arweave**，用于存储大规模的非结构化数据（如图片、文档等），确保数据不易丢失和篡改。
+- 通过使用去中心化存储，Dapp 确保所有数据在多个节点上备份，保证数据的持久性和去中心化特性。
 
 ### 2. Dapp 开发流程
 
@@ -35,50 +37,53 @@ Dapp 的开发流程可以分为以下几个阶段：
 
 ![图 2](../images/solidity-intern/0970775d-49eb-4b9d-9c8c-927ee2adddd9.png)
 ::: steps
-1. **需求分析与规划**
+
+1.  **需求分析与规划**
 
     在开发 Dapp 之前，首先需要进行需求分析和规划，明确应用的目标和功能。此阶段包括：
 
     - **确定功能需求**：需要定义用户可以进行的操作，比如转账、查询余额、创建投票等。
     - **选择区块链平台**：决定在哪个平台上构建 Dapp（如以太坊、Solana、Polygon 等），这通常取决于目标用户群、交易成本、可扩展性等因素。
-    - **设计用户体验（UX）**：定义 Dapp 的界面设计和交互流程，确保用户能够轻松使用应用并与区块链交互。  
-    <br>
+    - **设计用户体验（UX）**：定义 Dapp 的界面设计和交互流程，确保用户能够轻松使用应用并与区块链交互。
+      <br>
 
-2. **智能合约开发**
+2.  **智能合约开发**
 
     智能合约是 Dapp 的核心，负责执行去中心化的业务逻辑和存储重要的数据。在这一阶段，开发者需要：
 
     - **编写智能合约**：使用 **Solidity** 或其他智能合约语言编写合约，确保合约的功能满足需求分析中定义的要求。
     - **编写测试用例**：为智能合约编写单元测试，确保合约逻辑正确、无漏洞。
-    - **审计和优化**：对合约进行安全审计，确保合约的安全性，避免常见漏洞（如重入攻击、整数溢出等）。  
-    <br>
+    - **审计和优化**：对合约进行安全审计，确保合约的安全性，避免常见漏洞（如重入攻击、整数溢出等）。
+      <br>
 
-3. **前端开发**
+3.  **前端开发**
 
     前端是用户与 Dapp 交互的主要界面，因此开发前端时需要：
 
     - **选择前端框架**：可以使用现代前端框架（如 **React**、**Vue**）来构建 UI。前端将通过 JavaScript 与智能合约进行交互。
     - **连接钱包**：通过集成 **MetaMask** 等 Web3 钱包，用户可以连接到 Dapp，并授权其与智能合约交互。
     - **显示区块链数据**：前端需要从区块链获取数据（如账户余额、交易记录），并通过用户界面展示。
-    - **处理交易签名与确认**：当用户发起交易时，前端需要与钱包进行交互，获取用户的签名并将交易发送到区块链。  
-    <br>
+    - **处理交易签名与确认**：当用户发起交易时，前端需要与钱包进行交互，获取用户的签名并将交易发送到区块链。
+      <br>
 
-4. **与区块链交互**
+4.  **与区块链交互**
 
-    前端和智能合约通过 **Viem**（推荐）、**Ethers.js** 或 **Wagmi** 等现代化库进行交互。这些库提供更好的TypeScript支持和性能优化：
+    前端和智能合约通过 **Viem**（推荐）、**Ethers.js** 或 **Wagmi** 等现代化库进行交互。这些库提供更好的 TypeScript 支持和性能优化：
 
     - **读取数据**：前端通过智能合约的公共函数读取区块链上的状态数据（如余额、合约信息）。
-    - **发送交易**：当用户发起交易时，前端需要通过钱包签署交易并发送到区块链，执行合约中的某个功能（如转账）。  
-    <br>
+    - **发送交易**：当用户发起交易时，前端需要通过钱包签署交易并发送到区块链，执行合约中的某个功能（如转账）。
+      <br>
 
-5. **部署与上线**
+5.  **部署与上线**
 
-    一旦开发完成，Dapp 进入部署阶段。具体步骤包括：
+        一旦开发完成，Dapp 进入部署阶段。具体步骤包括：
 
-    - **部署智能合约**：推荐使用 **Hardhat** 或 **Foundry**（现代化开发工具）将智能合约部署到测试网（如 **Sepolia**、**Holesky**）或主网。
-    - **前端部署**：将前端应用部署到去中心化平台（如 **IPFS**、**Fleek**）或传统的 Web 主机。
-    - **发布和维护**：将 Dapp 上线，进行用户反馈收集，定期更新合约和前端，修复潜在问题。
-:::
+        - **部署智能合约**：推荐使用 **Hardhat** 或 **Foundry**（现代化开发工具）将智能合约部署到测试网（如 **Sepolia**、**Holesky**）或主网。
+        - **前端部署**：将前端应用部署到去中心化平台（如 **IPFS**、**Fleek**）或传统的 Web 主机。
+        - **发布和维护**：将 Dapp 上线，进行用户反馈收集，定期更新合约和前端，修复潜在问题。
+
+    :::
+
 ### 3. 小结
 
 Dapp 的开发流程从需求分析、智能合约编写、前端开发，到最终部署，涵盖了多个技术栈的综合应用。通过了解 Dapp 的架构和开发流程，开发者可以更好地把握去中心化应用的核心概念，并有效地进行开发和部署。
@@ -178,8 +183,10 @@ npx hardhat run scripts/deploy.js --network localhost
 Solidity 是一种面向合约的高级编程语言，专门用于在以太坊虚拟机（EVM）上编写智能合约。它具有静态类型、支持继承、库和复杂的用户定义类型等特性。
 
 ### 1. 基础语法与开发范式
+
 ::: steps
-1. **版本声明**
+
+1.  **版本声明**
 
     每个 Solidity 文件必须以版本声明开始：
 
@@ -187,78 +194,74 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
     pragma solidity ^0.8.0;
     ```
 
-
-
-2. **数据类型**
+2.  **数据类型**
 
     基本数据类型
 
-    | 类型 | 描述 | 示例 | 默认值 |
-    | --- | --- | --- | --- |
-    | bool | 布尔值 | true / false | false |
-    | uint8 | 8 位无符号整数 | 0 ~ 255 | 0 |
-    | uint16 | 16 位无符号整数 | 0 ~ 65535 | 0 |
-    | uint256 / unit | 256 位无符号整数 | 0 ~ (2^256 - 1) | 0 |
-    | int8 | 8 位有符号整数 | -128 - 127 | 0 |
-    | int256 / int | 256 位有符号整数 | -2^255 ~ (2^255 - 1) | 0 |
-    | address | 以太坊地址 | 0x…. | 0 |
-    | bytes1 ~ bytes32 | 固定长度字节数组 | bytes32 data = "Hello" | 0x00 |
-    | bytes | 动态字节数组 | bytes memory data = "Hello World" | "" |
-    | string | UTF-8 编码字符串 | string name = "Alice" | "" |
-
+    | 类型             | 描述             | 示例                              | 默认值 |
+    | ---------------- | ---------------- | --------------------------------- | ------ |
+    | bool             | 布尔值           | true / false                      | false  |
+    | uint8            | 8 位无符号整数   | 0 ~ 255                           | 0      |
+    | uint16           | 16 位无符号整数  | 0 ~ 65535                         | 0      |
+    | uint256 / unit   | 256 位无符号整数 | 0 ~ (2^256 - 1)                   | 0      |
+    | int8             | 8 位有符号整数   | -128 - 127                        | 0      |
+    | int256 / int     | 256 位有符号整数 | -2^255 ~ (2^255 - 1)              | 0      |
+    | address          | 以太坊地址       | 0x….                              | 0      |
+    | bytes1 ~ bytes32 | 固定长度字节数组 | bytes32 data = "Hello"            | 0x00   |
+    | bytes            | 动态字节数组     | bytes memory data = "Hello World" | ""     |
+    | string           | UTF-8 编码字符串 | string name = "Alice"             | ""     |
 
     复合数据类型
 
-    | 类型 | 语法 | 描述 | 示例 |
-    | --- | --- | --- | --- |
-    | 静态数组 | T[k] | 固定长度数组 | uint[5] numbers |
-    | 动态数组 | T[] | 可变长度数组 | uint[] memory list |
-    | 映射 | mapping(K => V) | 键值对存储 | mapping(address => uint256) balances |
-    | 结构体 | struct | 自定义数据结构 | `struct Person { string name; uint age; }` |
-    | 枚举 | enum | 枚举类型 | `enum Status { Pending, Active, Inactive }` |
+    | 类型     | 语法            | 描述           | 示例                                        |
+    | -------- | --------------- | -------------- | ------------------------------------------- |
+    | 静态数组 | T[k]            | 固定长度数组   | uint[5] numbers                             |
+    | 动态数组 | T[]             | 可变长度数组   | uint[] memory list                          |
+    | 映射     | mapping(K => V) | 键值对存储     | mapping(address => uint256) balances        |
+    | 结构体   | struct          | 自定义数据结构 | `struct Person { string name; uint age; }`  |
+    | 枚举     | enum            | 枚举类型       | `enum Status { Pending, Active, Inactive }` |
 
-
-3. **函数修饰符**
+3.  **函数修饰符**
 
     可见性修饰符表
 
-    | 修饰符 | 可见范围 | 描述 | 使用场景 |
-    | --- | --- | --- | --- |
-    | public | 内部 + 外部 | 任何地方都可以调用 | 对外提供的公共接口 |
-    | external | 仅外部 | 只能从合约外部调用 | 外部用户接口，gas 效率更高 |
-    | internal | 内部 + 继承 | 当前合约和子合约可调用 | 内部逻辑函数，需要被继承 |
-    | private | 仅内部 | 只有当前合约可调用 | 私有实现细节 |
-        
+    | 修饰符   | 可见范围    | 描述                   | 使用场景                   |
+    | -------- | ----------- | ---------------------- | -------------------------- |
+    | public   | 内部 + 外部 | 任何地方都可以调用     | 对外提供的公共接口         |
+    | external | 仅外部      | 只能从合约外部调用     | 外部用户接口，gas 效率更高 |
+    | internal | 内部 + 继承 | 当前合约和子合约可调用 | 内部逻辑函数，需要被继承   |
+    | private  | 仅内部      | 只有当前合约可调用     | 私有实现细节               |
 
     状态修饰符表
 
-    | 修饰符 | 状态读取 | 状态修改 | Gas 消耗 | 描述 |
-    | --- | --- | --- | --- | --- |
-    | pure | ❌ | ❌ | 低 | 不读取也不修改状态的函数 |
-    | view | ✅ | ❌ | 低 | 只读取状态，不修改状态 |
-    | payable | ✅ | ✅ | 正常 | 可以接收以太币的函数 |
-    | 无修饰符 | ✅ | ✅ | 正常 | 可以读取和修改状态 |
+    | 修饰符   | 状态读取 | 状态修改 | Gas 消耗 | 描述                     |
+    | -------- | -------- | -------- | -------- | ------------------------ |
+    | pure     | ❌       | ❌       | 低       | 不读取也不修改状态的函数 |
+    | view     | ✅       | ❌       | 低       | 只读取状态，不修改状态   |
+    | payable  | ✅       | ✅       | 正常     | 可以接收以太币的函数     |
+    | 无修饰符 | ✅       | ✅       | 正常     | 可以读取和修改状态       |
 
-4. **开发范式**
+4.  **开发范式**
 
-    - **状态机模式**
-        
-        智能合约本质上是一个状态机，通过交易改变合约状态。
-        
-    - **事件驱动编程**
-        
-        使用事件（Events）记录重要的状态变化，便于前端监听和日志记录。
-        
-    - **模块化设计**
-        
-        通过继承和库（Library）实现代码复用和模块化。
-:::
+        - **状态机模式**
+
+            智能合约本质上是一个状态机，通过交易改变合约状态。
+
+        - **事件驱动编程**
+
+            使用事件（Events）记录重要的状态变化，便于前端监听和日志记录。
+
+        - **模块化设计**
+
+            通过继承和库（Library）实现代码复用和模块化。
+
+    :::
 
 ### 2. 合约结构详解
 
 ::: steps
 
-1. **基本结构**
+1.  **基本结构**
 
     1. `//` 是 Solidity 中的单行注释符号，例如：`// SPDX-License-Identifier: MIT` 用于指定源代码的许可证类型。
     2. `pragma` 关键字用于声明 Solidity 源代码所需的编译器版本，确保合约在兼容的编译器环境中正确编译。
@@ -285,7 +288,7 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
     }
     ```
 
-2. **状态变量（State Variables）**
+2.  **状态变量（State Variables）**
 
     状态变量是指在合约中定义的、其值永久存储在区块链上的变量。它们用于记录合约的持久化数据，构成了合约的整体状态。当合约被部署后，这些变量将被写入区块链，并在合约的整个生命周期中保持可访问性和可追踪性。
 
@@ -298,13 +301,13 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
         uint256 public totalSupply;
         mapping(address => uint256) private balances;
         address public owner;
-        
+
         // 常量
         uint256 public constant MAX_SUPPLY = 1000000;
-        
+
         // 不可变量（构造函数中设置一次）
         uint256 public immutable deploymentTime;
-        
+
         constructor() {
             owner = msg.sender;
             deploymentTime = block.timestamp;
@@ -313,247 +316,248 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
     }
     ```
 
-3. **函数（Functions）**
+3.  **函数（Functions）**
 
-    函数是 Solidity 智能合约中执行具体逻辑操作的核心组成部分。通过函数，可以实现对状态变量的读取、修改，或执行特定业务逻辑。
+        函数是 Solidity 智能合约中执行具体逻辑操作的核心组成部分。通过函数，可以实现对状态变量的读取、修改，或执行特定业务逻辑。
 
-    **函数声明格式**
+        **函数声明格式**
 
-    Solidity 中函数的标准声明格式如下所示：
+        Solidity 中函数的标准声明格式如下所示：
 
-    ```solidity
-    function <函数名>(<参数列表>)
-        <可见性>
-        <状态可变性>
-        <修饰符列表>
-        <虚拟/重写关键字>
-        returns (<返回值列表>)
-    {
-        // 函数体
-    }
-    ```
+        ```solidity
+        function <函数名>(<参数列表>)
+            <可见性>
+            <状态可变性>
+            <修饰符列表>
+            <虚拟/重写关键字>
+            returns (<返回值列表>)
+        {
+            // 函数体
+        }
+        ```
 
-    各部分含义如下：
+        各部分含义如下：
 
-    - `<函数名>`：函数的名称；
-    - `<参数列表>`：传入函数的参数；
-    - `<可见性修饰符>`：如 `public`、`private`、`internal`、`external`；
-    - `<状态可变性修饰符>`：如 `view`、`pure`、`payable`；
-    - `<函数修饰符>`：如 `onlyOwner` 等自定义逻辑控制；
-    - `virtual/override`：用于支持继承与函数重写；
-    - `returns`：定义返回值及其类型。
+        - `<函数名>`：函数的名称；
+        - `<参数列表>`：传入函数的参数；
+        - `<可见性修饰符>`：如 `public`、`private`、`internal`、`external`；
+        - `<状态可变性修饰符>`：如 `view`、`pure`、`payable`；
+        - `<函数修饰符>`：如 `onlyOwner` 等自定义逻辑控制；
+        - `virtual/override`：用于支持继承与函数重写；
+        - `returns`：定义返回值及其类型。
 
-    **函数可见性（Function Visibility）**
+        **函数可见性（Function Visibility）**
 
-    函数可见性决定了函数在何种上下文中可以被调用
+        函数可见性决定了函数在何种上下文中可以被调用
 
-    ```solidity
-    contract VisibilityExample {	
-            // 仅当前合约可访问
-        function privateFunc() private pure returns(uint) { return 1; }
-        // 当前合约和继承合约可访问
-        function internalFunc() internal pure returns(uint) { return 2; }
-        // 所有人可访问
-        function publicFunc() public pure returns(uint) { return 3; }
-        // 仅外部调用
-        function externalFunc() external pure returns(uint) { return 4; }
-    }
-    ```
+        ```solidity
+        contract VisibilityExample {
+                // 仅当前合约可访问
+            function privateFunc() private pure returns(uint) { return 1; }
+            // 当前合约和继承合约可访问
+            function internalFunc() internal pure returns(uint) { return 2; }
+            // 所有人可访问
+            function publicFunc() public pure returns(uint) { return 3; }
+            // 仅外部调用
+            function externalFunc() external pure returns(uint) { return 4; }
+        }
+        ```
 
-    **函数状态修饰符**（State Mutability Modifiers）
+        **函数状态修饰符**（State Mutability Modifiers）
 
-    用于指明函数是否修改或读取合约状态：
+        用于指明函数是否修改或读取合约状态：
 
-    ```solidity
-    contract StateModifiers {
-        uint public count = 0;
+        ```solidity
+        contract StateModifiers {
+            uint public count = 0;
 
-        // view: 只读函数，不修改状态
-        function getCount() public view returns(uint) {
-            return count;
+            // view: 只读函数，不修改状态
+            function getCount() public view returns(uint) {
+                return count;
+            }
+
+            // pure: 纯函数，不读取也不修改状态
+            function add(uint a, uint b) public pure returns(uint) {
+                return a + b;
+            }
+
+            // payable: 可接收以太币
+            function deposit() public payable {
+                // msg.value 是发送的以太币数量
+            }
+
+            // 默认：可修改状态
+            function increment() public {
+                count++;
+            }
+        }
+        ```
+
+        **函数参数和返回值**
+
+        Solidity 支持多参数与多返回值，以及命名返回值：
+
+        ```solidity
+        // 多个返回值
+        function getPersonInfo() public pure returns(string memory name, uint age) {
+            name = "Alice";
+            age = 25;
         }
 
-        // pure: 纯函数，不读取也不修改状态
-        function add(uint a, uint b) public pure returns(uint) {
-            return a + b;
+        // 命名返回值
+        function calculate(uint a, uint b) public pure returns(uint sum, uint product) {
+            sum = a + b;
+            product = a * b;
+            // 自动返回命名变量
         }
 
-        // payable: 可接收以太币
-        function deposit() public payable {
-            // msg.value 是发送的以太币数量
+        // 调用带多返回值的函数
+        function callExample() public pure {
+            (string memory name, uint age) = getPersonInfo();
+            // 或者忽略某些返回值
+            (, uint productOnly) = calculate(5, 3);
+        }
+        ```
+
+        **修饰符（Function Modifiers）**
+
+        修饰符允许在函数执行前插入额外逻辑，常用于权限控制与前置检查：
+
+        ```solidity
+        contract ModifierExample {
+            address public owner;
+            bool public paused = false;
+
+            constructor() {
+                owner = msg.sender;
+            }
+
+            // 自定义修饰符
+            modifier onlyOwner() {
+                require(msg.sender == owner, "Not the owner");
+                _;  // 继续执行被修饰的函数
+            }
+
+            modifier whenNotPaused() {
+                require(!paused, "Contract is paused");
+                _;
+            }
+
+            function togglePause() public onlyOwner {
+                paused = !paused;
+            }
+
+            // 使用多个修饰符
+            function criticalFunction() public onlyOwner whenNotPaused {
+                // 函数逻辑
+            }
+        }
+        ```
+
+        **继承与函数重写（Inheritance and Override）**
+
+        Solidity 支持单继承与多继承，子合约可重写父合约中的虚函数：
+
+        ```solidity
+        // 基础合约
+        contract Animal {
+            string public name;
+
+            constructor(string memory _name) {
+                name = _name;
+            }
+
+            function speak() public virtual returns(string memory) {
+                return "Some sound";
+            }
         }
 
-        // 默认：可修改状态
-        function increment() public {
-            count++;
-        }
-    }
-    ```
+        // 继承合约
+        contract Dog is Animal {
+            constructor(string memory _name) Animal(_name) {}
 
-    **函数参数和返回值**
-
-    Solidity 支持多参数与多返回值，以及命名返回值：
-
-    ```solidity
-    // 多个返回值
-    function getPersonInfo() public pure returns(string memory name, uint age) {
-        name = "Alice";
-        age = 25;
-    }
-
-    // 命名返回值
-    function calculate(uint a, uint b) public pure returns(uint sum, uint product) {
-        sum = a + b;
-        product = a * b;
-        // 自动返回命名变量
-    }
-
-    // 调用带多返回值的函数
-    function callExample() public pure {
-        (string memory name, uint age) = getPersonInfo();
-        // 或者忽略某些返回值
-        (, uint productOnly) = calculate(5, 3);
-    }
-    ```
-
-    **修饰符（Function Modifiers）**
-
-    修饰符允许在函数执行前插入额外逻辑，常用于权限控制与前置检查：
-
-    ```solidity
-    contract ModifierExample {
-        address public owner;
-        bool public paused = false;
-
-        constructor() {
-            owner = msg.sender;
+            // 重写父类函数
+            function speak() public pure override returns(string memory) {
+                return "Woof!";
+            }
         }
 
-        // 自定义修饰符
-        modifier onlyOwner() {
-            require(msg.sender == owner, "Not the owner");
-            _;  // 继续执行被修饰的函数
+        // 多重继承
+        contract Pet is Animal {
+            address public owner;
+
+            constructor(string memory _name, address _owner) Animal(_name) {
+                owner = _owner;
+            }
         }
 
-        modifier whenNotPaused() {
-            require(!paused, "Contract is paused");
-            _;
+        contract Labrador is Dog, Pet {
+            constructor(string memory _name, address _owner)
+                Dog(_name)
+                Pet(_name, _owner) {}
+        }
+        ```
+
+        **接口与抽象合约（Interfaces & Abstract Contracts）**
+
+        接口与抽象合约用于定义规范与继承框架：
+
+        ```solidity
+        // 接口定义
+        interface IERC20 {
+            function transfer(address to, uint256 amount) external returns (bool);
+            function balanceOf(address account) external view returns (uint256);
         }
 
-        function togglePause() public onlyOwner {
-            paused = !paused;
+        // 抽象合约
+        abstract contract AbstractToken {
+            string public name;
+
+            // 抽象函数，必须在子类中实现
+            function totalSupply() public virtual returns (uint256);
         }
-        
-        // 使用多个修饰符
-        function criticalFunction() public onlyOwner whenNotPaused {
-            // 函数逻辑
+        ```
+
+        **事件机制（Events）**
+
+        事件用于在链上记录重要状态变化，并可由外部监听器（如前端应用）捕捉：
+
+        ```solidity
+        contract EventExample {
+            // 定义事件
+            event Transfer(address indexed from, address indexed to, uint256 amount);
+            event Approval(address indexed owner, address indexed spender, uint256 amount);
+
+            mapping(address => uint256) public balances;
+
+            function transfer(address to, uint256 amount) public {
+                require(balances[msg.sender] >= amount, "Insufficient balance");
+
+                balances[msg.sender] -= amount;
+                balances[to] += amount;
+
+                // 触发事件
+                // 可以在区块链浏览器查找到当前事件记录
+                emit Transfer(msg.sender, to, amount);
+            }
         }
-    }
-    ```
+        ```
 
-    **继承与函数重写（Inheritance and Override）**
-
-    Solidity 支持单继承与多继承，子合约可重写父合约中的虚函数：
-
-    ```solidity
-    // 基础合约
-    contract Animal {
-        string public name;
-
-        constructor(string memory _name) {
-            name = _name;
-        }
-
-        function speak() public virtual returns(string memory) {
-            return "Some sound";
-        }
-    }
-
-    // 继承合约
-    contract Dog is Animal {
-        constructor(string memory _name) Animal(_name) {}
-
-        // 重写父类函数
-        function speak() public pure override returns(string memory) {
-            return "Woof!";
-        }
-    }
-
-    // 多重继承
-    contract Pet is Animal {
-        address public owner;
-
-        constructor(string memory _name, address _owner) Animal(_name) {
-            owner = _owner;
-        }
-    }
-
-    contract Labrador is Dog, Pet {
-        constructor(string memory _name, address _owner)
-            Dog(_name)
-            Pet(_name, _owner) {}
-    }
-    ```
-
-    **接口与抽象合约（Interfaces & Abstract Contracts）**
-
-    接口与抽象合约用于定义规范与继承框架：
-
-    ```solidity
-    // 接口定义
-    interface IERC20 {
-        function transfer(address to, uint256 amount) external returns (bool);
-        function balanceOf(address account) external view returns (uint256);
-    }
-
-    // 抽象合约
-    abstract contract AbstractToken {
-        string public name;
-
-        // 抽象函数，必须在子类中实现
-        function totalSupply() public virtual returns (uint256);
-    }
-    ```
-
-    **事件机制（Events）**
-
-    事件用于在链上记录重要状态变化，并可由外部监听器（如前端应用）捕捉：
-
-    ```solidity
-    contract EventExample {
-        // 定义事件
-        event Transfer(address indexed from, address indexed to, uint256 amount);
-        event Approval(address indexed owner, address indexed spender, uint256 amount);
-
-        mapping(address => uint256) public balances;
-
-        function transfer(address to, uint256 amount) public {
-            require(balances[msg.sender] >= amount, "Insufficient balance");
-
-            balances[msg.sender] -= amount;
-            balances[to] += amount;
-
-            // 触发事件
-            // 可以在区块链浏览器查找到当前事件记录
-            emit Transfer(msg.sender, to, amount);
-        }
-    }
-    ```
-::: 
+    :::
 
 ### 3. 安全实践
 
 常见攻击手段
 
-| 风险点 | 攻击机理 | 典型防护措施 |
-| --- | --- | --- |
-| Reentrancy | 恶意合约在 transfer / call 回调中再次进入受害函数，导致重复提款 | 1. Checks-Effects-Interactions <br> 2. `ReentrancyGuard`（OpenZeppelin）<br> 3. 使用 `transfer`/`send` 或限制 gas（已不推荐，仅旧代码） |
-| 访问控制 (Access Control) | 未受保护的管理函数可被任何人调用 | 1. `Ownable`：`onlyOwner` 修饰符 <br> 2. `AccessControl`：基于角色的权限（`DEFAULT_ADMIN_ROLE`, `MINTER_ROLE` 等）<br> 3. 及时转移 / 多签管理 |
-| 整数溢出 (Integer Overflow / Underflow) | 旧版本 `<0.8` 加法/减法越界产生错误数值 | 1. Solidity 0.8+ 默认内置溢出检查 <br> 2. 对老版本使用 `SafeMath` 库 <br> 3. 精简不必要的 `unchecked` 区块 |
+| 风险点                                  | 攻击机理                                                        | 典型防护措施                                                                                                                                  |
+| --------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Reentrancy                              | 恶意合约在 transfer / call 回调中再次进入受害函数，导致重复提款 | 1. Checks-Effects-Interactions <br> 2. `ReentrancyGuard`（OpenZeppelin）<br> 3. 使用 `transfer`/`send` 或限制 gas（已不推荐，仅旧代码）       |
+| 访问控制 (Access Control)               | 未受保护的管理函数可被任何人调用                                | 1. `Ownable`：`onlyOwner` 修饰符 <br> 2. `AccessControl`：基于角色的权限（`DEFAULT_ADMIN_ROLE`, `MINTER_ROLE` 等）<br> 3. 及时转移 / 多签管理 |
+| 整数溢出 (Integer Overflow / Underflow) | 旧版本 `<0.8` 加法/减法越界产生错误数值                         | 1. Solidity 0.8+ 默认内置溢出检查 <br> 2. 对老版本使用 `SafeMath` 库 <br> 3. 精简不必要的 `unchecked` 区块                                    |
 
 ::: steps
 
-1. **重入攻击（Reentrancy）防护**
+1.  **重入攻击（Reentrancy）防护**
 
     重入攻击（Reentrancy Attack）是智能合约中最常见且危害极大的安全漏洞之一。该攻击方式通常发生在合约向外部地址发送以太币或调用外部合约函数时，攻击者利用回调机制在合约状态更新之前重复调用受影响的函数，从而多次提取资金或重复执行某些操作，造成资产损失或逻辑混乱。
 
@@ -571,15 +575,15 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
     ```solidity
     contract VulnerableContract {
         mapping(address => uint256) public balances;
-        
+
         function withdraw() external {
             uint256 amount = balances[msg.sender];
             require(amount > 0, "No balance");
-            
+
             // 危险：先转账，后更新状态
             (bool success,) = msg.sender.call{value: amount}("");
             require(success, "Transfer failed");
-            
+
             balances[msg.sender] = 0; // 状态更新在转账之后
         }
     }
@@ -592,14 +596,14 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
     ```solidity
     contract SecureContract {
         mapping(address => uint256) public balances;
-        
+
         function withdraw() external {
             uint256 amount = balances[msg.sender];
             require(amount > 0, "No balance");
-            
+
             // 先更新状态
             balances[msg.sender] = 0;
-            
+
             // 后进行外部调用
             (bool success,) = msg.sender.call{value: amount}("");
             require(success, "Transfer failed");
@@ -612,7 +616,7 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
     ```solidity
     contract ReentrancyGuard {
         bool private locked;
-        
+
         modifier noReentrant() {
             require(!locked, "Reentrant call");
             locked = true;
@@ -623,11 +627,11 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
 
     contract SecureWithGuard is ReentrancyGuard {
         mapping(address => uint256) public balances;
-        
+
         function withdraw() external noReentrant {
             uint256 amount = balances[msg.sender];
             require(amount > 0, "No balance");
-            
+
             balances[msg.sender] = 0;
             (bool success,) = msg.sender.call{value: amount}("");
             require(success, "Transfer failed");
@@ -635,7 +639,7 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
     }
     ```
 
-2. **访问控制（Access Control）**
+2.  **访问控制（Access Control）**
 
     访问控制是保障智能合约安全性的核心机制之一。通过对关键函数设置访问权限，可以有效防止未经授权的用户执行敏感操作，从而避免资金被盗、状态被篡改等严重安全风险。
 
@@ -704,80 +708,81 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
     }
     ```
 
-3. **整数溢出防护（Integer Overflow Protection）**
+3.  **整数溢出防护（Integer Overflow Protection）**
 
-    在早期版本的 Solidity（v0.8.0 之前），算术运算默认**不进行溢出检查**。这意味着当整数变量超出其最大值或最小值时，数值将**环绕（wrap around）**，导致严重的逻辑漏洞和安全隐患。
+        在早期版本的 Solidity（v0.8.0 之前），算术运算默认**不进行溢出检查**。这意味着当整数变量超出其最大值或最小值时，数值将**环绕（wrap around）**，导致严重的逻辑漏洞和安全隐患。
 
-    **受攻击的示例：无溢出检测的合约（< v0.8.0）：**
+        **受攻击的示例：无溢出检测的合约（< v0.8.0）：**
 
-    ```solidity
-    pragma solidity ^0.7.6;          // ⚠️ 0.7 版本不会自动检查溢出
+        ```solidity
+        pragma solidity ^0.7.6;          // ⚠️ 0.7 版本不会自动检查溢出
 
-    /**
-    * @title BadCounter
-    * @dev 用户每调用一次 `inc()`，计数器加 1；当计数器达到 10 停止奖励。
-    *      但整数溢出可让攻击者将计数器绕回 0，再无限领奖。
-    */
-    contract BadCounter {
-        mapping(address => uint256) public counter;
-        mapping(address => bool)    public rewarded;
+        /**
+        * @title BadCounter
+        * @dev 用户每调用一次 `inc()`，计数器加 1；当计数器达到 10 停止奖励。
+        *      但整数溢出可让攻击者将计数器绕回 0，再无限领奖。
+        */
+        contract BadCounter {
+            mapping(address => uint256) public counter;
+            mapping(address => bool)    public rewarded;
 
-        // 计数 +1
-        function inc() external {
-        
-            counter[msg.sender] += 1;        // 若已 2**256-1 则回到 0
+            // 计数 +1
+            function inc() external {
+
+                counter[msg.sender] += 1;        // 若已 2**256-1 则回到 0
+            }
+
+            // 满 10 次领取 1 wei
+            function claim() external {
+                require(counter[msg.sender] >= 10, "not enough actions");
+                require(!rewarded[msg.sender],    "already claimed");
+                rewarded[msg.sender] = true;
+                msg.sender.transfer(1);           // 为演示简化为 1 wei
+            }
+
+            // 向合约注入少量 ETH 供演示
+            receive() external payable {}
         }
+        ```
 
-        // 满 10 次领取 1 wei
-        function claim() external {
-            require(counter[msg.sender] >= 10, "not enough actions");
-            require(!rewarded[msg.sender],    "already claimed");
-            rewarded[msg.sender] = true;
-            msg.sender.transfer(1);           // 为演示简化为 1 wei
+        **问题说明：**
+        在该合约中，如果攻击者的 counter 达到最大值 2^256 - 1，再次调用 inc() 会使计数器绕回 0，从而绕过 >=10 的检查条件，并再次触发奖励逻辑，实现无限循环领取。
+
+        **安全方案：限制上限 + 使用最新编译器版本**
+
+        自 Solidity 0.8.0 起，所有算术运算默认开启溢出/下溢检查，若发生异常会自动 `revert`。除此之外，也建议通过逻辑限制控制最大值，防止边界绕回。
+
+        ```solidity
+        /**
+        * @title SafeCounter
+        * @dev 方案：在 inc() 中直接固定「最高 11」，超过即拒绝。
+        *      溢出永远不会发生，也杜绝了重复领奖。
+        */
+        contract SafeCounter {
+            mapping(address => uint256) public counter;
+
+            uint8 constant MAX_ACTIONS = 11;   // 上限 11，留 1 个缓冲
+
+            /// 受控递增：达到 10 后就不准再加
+            function inc() external {
+                require(counter[msg.sender] < MAX_ACTIONS, "limit reached");
+                counter[msg.sender] += 1;
+            }
+
+            /// 领取奖励
+            function claim() external {
+                require(counter[msg.sender] >= 10, "≥10 actions required");
+                counter[msg.sender] = 0;                   // 重置为 0
+                (bool ok, ) = msg.sender.call{value: 1}("");
+                require(ok, "transfer failed");
+            }
+
+            /// 注资
+            receive() external payable {}
         }
+        ```
 
-        // 向合约注入少量 ETH 供演示
-        receive() external payable {}
-    }
-    ```
-
-    **问题说明：**
-    在该合约中，如果攻击者的 counter 达到最大值 2^256 - 1，再次调用 inc() 会使计数器绕回 0，从而绕过 >=10 的检查条件，并再次触发奖励逻辑，实现无限循环领取。
-
-    **安全方案：限制上限 + 使用最新编译器版本**
-
-    自 Solidity 0.8.0 起，所有算术运算默认开启溢出/下溢检查，若发生异常会自动 `revert`。除此之外，也建议通过逻辑限制控制最大值，防止边界绕回。
-
-    ```solidity
-    /**
-    * @title SafeCounter
-    * @dev 方案：在 inc() 中直接固定「最高 11」，超过即拒绝。
-    *      溢出永远不会发生，也杜绝了重复领奖。
-    */
-    contract SafeCounter {
-        mapping(address => uint256) public counter;
-
-        uint8 constant MAX_ACTIONS = 11;   // 上限 11，留 1 个缓冲
-
-        /// 受控递增：达到 10 后就不准再加
-        function inc() external {
-            require(counter[msg.sender] < MAX_ACTIONS, "limit reached");
-            counter[msg.sender] += 1;
-        }
-
-        /// 领取奖励
-        function claim() external {
-            require(counter[msg.sender] >= 10, "≥10 actions required");
-            counter[msg.sender] = 0;                   // 重置为 0
-            (bool ok, ) = msg.sender.call{value: 1}("");
-            require(ok, "transfer failed");
-        }
-
-        /// 注资
-        receive() external payable {}
-    }
-    ```
-:::
+    :::
 
 ## 四、智能合约实战项目
 
@@ -879,43 +884,43 @@ contract MessageBoard {
 
 ### 1. 帐户模型
 
-| 对比维度 | 外部拥有账户 **EOA** | 合约账户 **Contract Account** |
-| --- | --- | --- |
-| 地址来源 | `keccak256(pubKey)[12:]`   (公钥→地址) | 创建时由 `CREATE/CREATE2` 计算 |
-| 控制方式 | **私钥签名**（用户、钱包） | **合约代码**（EVM 字节码） |
-| 状态字段 | `nonce`、`balance` | `nonce`、`balance`、`codeHash`、`storageRoot` |
-| 能否发起交易 | ✅ 必须用私钥签名 | ❌ 只能由 EOA 触发或合约内部调用 |
-| Gas 费用支付 | 由账户本身 ETH 余额承担 | 从调用者余额扣除 |
-| 典型场景 | 钱包地址、热冷账户 | ERC-20/721 Token、DeFi 协议、DAO |
+| 对比维度     | 外部拥有账户 **EOA**                     | 合约账户 **Contract Account**                 |
+| ------------ | ---------------------------------------- | --------------------------------------------- |
+| 地址来源     | `keccak256(pubKey)[12:]`   (公钥 → 地址) | 创建时由 `CREATE/CREATE2` 计算                |
+| 控制方式     | **私钥签名**（用户、钱包）               | **合约代码**（EVM 字节码）                    |
+| 状态字段     | `nonce`、`balance`                       | `nonce`、`balance`、`codeHash`、`storageRoot` |
+| 能否发起交易 | ✅  必须用私钥签名                       | ❌  只能由 EOA 触发或合约内部调用             |
+| Gas 费用支付 | 由账户本身 ETH 余额承担                  | 从调用者余额扣除                              |
+| 典型场景     | 钱包地址、热冷账户                       | ERC-20/721 Token、DeFi 协议、DAO              |
 
 ### 2. Gas 机制
 
-| 术语 | 含义 | 备注 |
-| --- | --- | --- |
-| **Gas** | 执行 1 条 EVM 指令的抽象工作量单位 | 汇编级别价格表见黄皮书 |
-| **Gas Limit (Tx)** | 发送者愿为本笔交易消耗的 Gas 上限 | 防止死循环耗尽余额 |
-| **Gas Used** | 实际执行指令花费的 Gas 总和 | 多退少不补 |
-| **Base Fee** | 随区块动态调整的基础费用（EIP-1559） | 全网销毁，抑制拍卖狂飙 |
-| **Priority Fee / Tip** | 发送者给出以激励打包者的附加费 | 给矿工 / 验证者 |
-| **Max Fee Per Gas** | `maxFee = baseFee + priorityFee` 上限 | 钱包通常自动估算 |
+| 术语                   | 含义                                  | 备注                   |
+| ---------------------- | ------------------------------------- | ---------------------- |
+| **Gas**                | 执行 1 条 EVM 指令的抽象工作量单位    | 汇编级别价格表见黄皮书 |
+| **Gas Limit (Tx)**     | 发送者愿为本笔交易消耗的 Gas 上限     | 防止死循环耗尽余额     |
+| **Gas Used**           | 实际执行指令花费的 Gas 总和           | 多退少不补             |
+| **Base Fee**           | 随区块动态调整的基础费用（EIP-1559）  | 全网销毁，抑制拍卖狂飙 |
+| **Priority Fee / Tip** | 发送者给出以激励打包者的附加费        | 给矿工 / 验证者        |
+| **Max Fee Per Gas**    | `maxFee = baseFee + priorityFee` 上限 | 钱包通常自动估算       |
 
 ### 3. 交易生命周期
 
 - **签名构造**
-    - 钱包收集字段：`nonce, to, value, data, gasLimit, maxFeePerGas, priorityFeePerGas, chainId`
-    - 使用私钥生成 `v, r, s` 签名 → **序列化 RLP**
+  - 钱包收集字段：`nonce, to, value, data, gasLimit, maxFeePerGas, priorityFeePerGas, chainId`
+  - 使用私钥生成 `v, r, s` 签名 → **序列化 RLP**
 - **广播到 P2P 网络**
-    - 交易进入本地 & 邻居节点的 **mempool**
-    - 节点根据 `maxFeePerGas`、`gasLimit`、`nonce` 做基本筛查
+  - 交易进入本地 & 邻居节点的 **mempool**
+  - 节点根据 `maxFeePerGas`、`gasLimit`、`nonce` 做基本筛查
 - **打包 / 提议区块**
-    - 验证者（PoS）或矿工（PoW 时代）挑选利润最高、合法顺序的交易
-    - 执行 EVM → 产生 **交易收据**（`status, gasUsed, logsBloom, logs[]`）
+  - 验证者（PoS）或矿工（PoW 时代）挑选利润最高、合法顺序的交易
+  - 执行 EVM → 产生 **交易收据**（`status, gasUsed, logsBloom, logs[]`）
 - **区块传播与共识**
-    - 区块头包含新 **stateRoot**、**receiptsRoot**
-    - 超 2⁄3 质押者签名后在共识层定案（PoS Finality ≈ 2 Epoch ≈ 64 slot ≈ ~12 min）
+  - 区块头包含新 **stateRoot**、**receiptsRoot**
+  - 超 2⁄3 质押者签名后在共识层定案（PoS Finality ≈ 2 Epoch ≈ 64 slot ≈ ~12 min）
 - **确认数 & Finality**
-    - 客户端/前端常以 `n ≥ 12` 作"概率足够低"确认
-    - 完全终结在 PoS 下由 **Finality Gadget**（Casper FFG）给出
+  - 客户端/前端常以 `n ≥ 12` 作"概率足够低"确认
+  - 完全终结在 PoS 下由 **Finality Gadget**（Casper FFG）给出
 
 ## 六、部署合约
 
@@ -927,12 +932,13 @@ contract MessageBoard {
 
 测试网络是与主网结构一致的区块链网络，由真实的去中心化节点共同维护。与主网不同的是，测试网中的代币不具有实际经济价值，适用于：
 ::: card
+
 - 验证合约功能是否符合预期；
 - 检查合约在不同场景下的行为稳定性；
 - 发现并修复潜在的安全漏洞；
 - 避免在主网部署时产生高额 Gas 费用或造成实际损失。
-:::
-一旦在测试链中部署成功且运行稳定，才建议将合约迁移至以太坊主网，以降低研发与运维成本。
+  :::
+  一旦在测试链中部署成功且运行稳定，才建议将合约迁移至以太坊主网，以降低研发与运维成本。
 
 ==**浏览器可见性**==
 
@@ -940,92 +946,98 @@ contract MessageBoard {
 
 您可以在浏览器中查看：
 ::: card
+
 - 合约部署地址；
 - 所属交易哈希（Transaction Hash）；
 - 发起者地址；
 - 合约代码及 ABI；
 - 状态变量和函数调用记录等。
-::: 
+  :::
+
 ### 1. 测试链
 
 以太坊测试网（Ethereum Testnets）是用于开发、测试和部署智能合约的网络环境，它们模拟主网功能但使用无价值的测试代币，让开发者可以安全地进行实验而无需承担真实的经济成本。
 
-| 名称 | 共识机制 | 状态 | 主要特点 | 适用场景 |
-| --- | --- | --- | --- | --- |
-| Sepolia | PoS (权益证明) | 活跃 |  长期支持的主要测试网，与主网最相似，稳定性高。 | 最终部署前测试，生产环境模拟，Dapp 集成测试 |
-| Goerli | PoS (权益证明) | 即将弃用 |  曾经的主要测试网，2024 年开始逐步淘汰，仍有部分服务支持。 | 遗留项目测试，不建议新项目使用。 |
-| Holesky | PoS (权益证明) | 活跃 | 专为验证者测试设计，大型网络规模，质押功能完整。 | 验证者节点测试， 质押协议开发，大规模网络测试。 |
-| Ropsten | PoW (工作量证明) | 已弃用 | 历史上重要的测试网，2022 年已关闭，曾模拟主网 PoW 环境。 | ❌ 已停用 |
-| Rinkeby | PoA (权威证明) | 已弃用 | 基于权威证明，2022 年已关闭，曾经较为稳定。 | ❌ 已停用 |
-| Kovan | PoA (权威证明) | 已弃用 | 快速出块，2022 年已关闭，社区维护。 | ❌ 已停用 |
+| 名称    | 共识机制         | 状态     | 主要特点                                                  | 适用场景                                        |
+| ------- | ---------------- | -------- | --------------------------------------------------------- | ----------------------------------------------- |
+| Sepolia | PoS (权益证明)   | 活跃     | 长期支持的主要测试网，与主网最相似，稳定性高。            | 最终部署前测试，生产环境模拟，Dapp 集成测试     |
+| Goerli  | PoS (权益证明)   | 即将弃用 | 曾经的主要测试网，2024 年开始逐步淘汰，仍有部分服务支持。 | 遗留项目测试，不建议新项目使用。                |
+| Holesky | PoS (权益证明)   | 活跃     | 专为验证者测试设计，大型网络规模，质押功能完整。          | 验证者节点测试， 质押协议开发，大规模网络测试。 |
+| Ropsten | PoW (工作量证明) | 已弃用   | 历史上重要的测试网，2022 年已关闭，曾模拟主网 PoW 环境。  | ❌ 已停用                                       |
+| Rinkeby | PoA (权威证明)   | 已弃用   | 基于权威证明，2022 年已关闭，曾经较为稳定。               | ❌ 已停用                                       |
+| Kovan   | PoA (权威证明)   | 已弃用   | 快速出块，2022 年已关闭，社区维护。                       | ❌ 已停用                                       |
 
 ### 2. 领取 Sepolia 代币
 
 在将合约部署至 Sepolia 测试网之前，需确保部署地址拥有足够的测试用 ETH（Sepolia ETH），以支付部署与调用智能合约所需的 Gas 费用。
 
 ::: steps
+
 1. ==获取 Sepolia 地址==
 
-    1. 打开 [MetaMask 钱包](https://metamask.io/)，创建或导入钱包账户；
-    2. 在网络选择栏中切换至 **Sepolia 测试网络**；
-    3. 此时，您将获得一个以 `0x` 开头的以太坊地址，用于接收 Sepolia 测试币。
-    :::: card-grid
-    ::: card
-    ![图 12](../images/solidity-intern/solidity_unit-testing_01.png)
-    :::
-    ::: card
-    ![图 13](../images/solidity-intern/contract_debugging_01.png)
-    :::
-    ::::
+   1. 打开 [MetaMask 钱包](https://metamask.io/)，创建或导入钱包账户；
+   2. 在网络选择栏中切换至 **Sepolia 测试网络**；
+   3. 此时，您将获得一个以 `0x` 开头的以太坊地址，用于接收 Sepolia 测试币。
+      :::: card-grid
+      ::: card
+      ![图 12](../images/solidity-intern/solidity_unit-testing_01.png)
+      :::
+      ::: card
+      ![图 13](../images/solidity-intern/contract_debugging_01.png)
+      :::
+      ::::
+
 2. ==申请测试币==
 
-    可以通过以下水龙头（Faucet）网址申请 Sepolia 测试代币：
+   可以通过以下水龙头（Faucet）网址申请 Sepolia 测试代币：
 
-    - [https://sepolia-faucet.pk910.de/](https://sepolia-faucet.pk910.de/)
+   - [https://sepolia-faucet.pk910.de/](https://sepolia-faucet.pk910.de/)
 
-    ==**操作步骤如下：**=={.note}
+   ==**操作步骤如下：**=={.note}
 
-    1. 打开上述网址；
-    2. 在输入框中粘贴您的 **Sepolia 测试地址**；
-    3. 点击 **Start Mining** 按钮，平台将自动为您启动工作量证明（Proof of Work）过程；
-    4. 几分钟后，您将收到一定数量的 Sepolia ETH，自动打入对应地址。
+   1. 打开上述网址；
+   2. 在输入框中粘贴您的 **Sepolia 测试地址**；
+   3. 点击 **Start Mining** 按钮，平台将自动为您启动工作量证明（Proof of Work）过程；
+   4. 几分钟后，您将收到一定数量的 Sepolia ETH，自动打入对应地址。
 
-    ==**注意事项**=={.note}
+   ==**注意事项**=={.note}
 
-    - 某些水龙头服务可能会对申请者的主网余额、GitHub 账号或 Twitter 活跃度进行校验；
-    - 若在上述网站申请时出现 IP 相关错误提示，请按照以下步骤操作：
-        - 先完成网站的真人验证（Captcha）；
-        - 关闭 VPN 或代理服务；
-        - 重新点击 **Start Mining**；
-    - 若该 Faucet 不可用，也可尝试其他公开的 Sepolia 水龙头服务
-    :::: card-grid
-    ::: card
-    ![图 14](../images/solidity-intern/image%2011.png)
-    :::
-    ::: card
-    ![图 15](../images/solidity-intern/image%2012.png)
-    :::
-    ::::
+   - 某些水龙头服务可能会对申请者的主网余额、GitHub 账号或 Twitter 活跃度进行校验；
+   - 若在上述网站申请时出现 IP 相关错误提示，请按照以下步骤操作：
+     - 先完成网站的真人验证（Captcha）；
+     - 关闭 VPN 或代理服务；
+     - 重新点击 **Start Mining**；
+   - 若该 Faucet 不可用，也可尝试其他公开的 Sepolia 水龙头服务
+     :::: card-grid
+     ::: card
+     ![图 14](../images/solidity-intern/image%2011.png)
+     :::
+     ::: card
+     ![图 15](../images/solidity-intern/image%2012.png)
+     :::
+     ::::
 
 :::
+
 ### 3. Remix 部署到 Sepolia
 
 在完成合约编写、编译和测试币领取等准备工作后，接下来可通过 Remix IDE 将合约正式部署到 Sepolia 测试网络，实现"上链"操作。
 
 ::: steps
 
-1. ==Remix 编译部署==
+1.  ==Remix 编译部署==
 
     ==**连接钱包**=={.note}
 
     打开 Remix IDE，点击右侧面板中的 **Deploy & Run Transactions** 模块，在 **Environment** 下拉菜单中选择：
     ::: card
+
     ```
     Injected Provider - MetaMask
     ```
-     
+
     Remix 将自动调用浏览器中的 MetaMask 钱包，并连接到当前所选网络（确保已切换至 Sepolia 测试网）。
-     
+
     :::
 
     ![图 16](../images/solidity-intern/image%2013.png)
@@ -1058,7 +1070,7 @@ contract MessageBoard {
 
     ![图 19](../images/solidity-intern/image%2016.png)
 
-2. ==Etherscan查看合约==
+2.  ==Etherscan 查看合约==
 
     部署成功后，我们可以借助 [Etherscan](https://sepolia.etherscan.io) （已默认选择测试网）区块浏览器 对部署过程及合约状态进行进一步验证与分析。
 
@@ -1074,7 +1086,7 @@ contract MessageBoard {
     部署合约时，MetaMask 会生成一条交易记录，其 **Transaction Hash** 可在 Remix 的命令终端或 MetaMask 历史记录中找到。将该哈希值粘贴到 Etherscan 的搜索框中，即可查看部署交易的详细信息，包括：
 
     - 交易发起地址（From）；
-    - 合约部署地址（To 会显示为 *Contract Creation*）；
+    - 合约部署地址（To 会显示为 _Contract Creation_）；
     - Gas 使用量及费用；
     - 区块确认数；
     - 输入的合约字节码（Input Data）等。
@@ -1086,11 +1098,11 @@ contract MessageBoard {
     1. 在 Remix 中复制合约部署成功后的地址（如示例地址：`0xfaC4dF6aA3b8265A96a7B269a55A88E2009F34Be`）；
     2. 在 Etherscan 搜索框中粘贴该地址并进入合约页面；
     3. 页面中将显示如下信息：
-        - 当前余额（Balance）；
-        - 合约创建交易；
-        - 交互记录（若无交互，则显示为"暂无 Transactions"）；
-        - 发布者地址（Creator）；
-        - 合约代码（若已验证）等
+       - 当前余额（Balance）；
+       - 合约创建交易；
+       - 交互记录（若无交互，则显示为"暂无 Transactions"）；
+       - 发布者地址（Creator）；
+       - 合约代码（若已验证）等
 
     ![图 22](../images/solidity-intern/image%2019.png)
 
@@ -1100,40 +1112,42 @@ contract MessageBoard {
 
     ![图 23](../images/solidity-intern/image%2020.png)
 
-3. ==合约交互==
+3.  ==合约交互==
 
-    完成部署后，我们可以使用 Remix 提供的图形界面与已部署的智能合约进行函数调用测试，实现链上交互，并通过 Etherscan 验证交易与日志记录。
+        完成部署后，我们可以使用 Remix 提供的图形界面与已部署的智能合约进行函数调用测试，实现链上交互，并通过 Etherscan 验证交易与日志记录。
 
-    ==**通过 Remix 调用合约函数**=={.note}
+        ==**通过 Remix 调用合约函数**=={.note}
 
-    1. 回到 Remix 的 **Deploy & Run Transactions** 面板；
-    2. 在已部署合约实例下，找到函数 `leaveMessage`；
-    3. 在输入框中输入一条测试信息（例如：`Hello ETH`）；
-    4. 点击 `leaveMessage` 按钮发起函数调用；
-    5. MetaMask 将弹出交易确认窗口，确认后即可发送交易；
-    6. Remix 下方的终端将显示交易成功日志，包括交易哈希（Tx Hash）。
+        1. 回到 Remix 的 **Deploy & Run Transactions** 面板；
+        2. 在已部署合约实例下，找到函数 `leaveMessage`；
+        3. 在输入框中输入一条测试信息（例如：`Hello ETH`）；
+        4. 点击 `leaveMessage` 按钮发起函数调用；
+        5. MetaMask 将弹出交易确认窗口，确认后即可发送交易；
+        6. Remix 下方的终端将显示交易成功日志，包括交易哈希（Tx Hash）。
 
-    ![图 24](../images/solidity-intern/image%2021.png)
+        ![图 24](../images/solidity-intern/image%2021.png)
 
-    ==**通过 Etherscan 验证交互结果**=={.note}
+        ==**通过 Etherscan 验证交互结果**=={.note}
 
-    1. 复制合约地址，再次访问 Sepolia Etherscan；
-    2. 在搜索框粘贴合约地址，进入合约详情页面；
-    3. 此时页面中将显示新增的一条交易（Transaction），即刚刚执行的函数调用记录；
-    4. 点击该交易进入交易详情页；
-    5. 在页面下方的 **Logs** 或 **Event Logs** 标签页中，可看到刚刚触发的事件日志，其中包含输入的留言内容等参数信息。
+        1. 复制合约地址，再次访问 Sepolia Etherscan；
+        2. 在搜索框粘贴合约地址，进入合约详情页面；
+        3. 此时页面中将显示新增的一条交易（Transaction），即刚刚执行的函数调用记录；
+        4. 点击该交易进入交易详情页；
+        5. 在页面下方的 **Logs** 或 **Event Logs** 标签页中，可看到刚刚触发的事件日志，其中包含输入的留言内容等参数信息。
 
-    ![图 25](../images/solidity-intern/image%2022.png)
+        ![图 25](../images/solidity-intern/image%2022.png)
 
-    ![图 26](../images/solidity-intern/image%2023.png)
-:::
+        ![图 26](../images/solidity-intern/image%2023.png)
+
+    :::
+
 ## 七、区块链前端整合
 
 ### 1. 前端与合约交互工作流程概览
 
 #### ==1.2 交互流程==
 
-1. **初始化连接**：前端检测并连接 Web 3提供者
+1. **初始化连接**：前端检测并连接 Web3 提供者
 2. **用户授权**：请求用户授权访问钱包账户
 3. **合约实例化**：使用 ABI 和合约地址创建合约实例
 4. **函数调用**：通过合约实例调用智能合约函数
@@ -1176,20 +1190,21 @@ contract MessageBoard {
 
 ```jsx
 async function connectWallet() {
-    // 1. 请求用户授权账户访问
-    const accounts = await window.ethereum.request({ 
-        method: 'eth_requestAccounts' 
-    });
-    
-    // 2. 创建 Web3 实例
-    web3 = new Web3(window.ethereum);
-    account = accounts[0];
-    
-    // 3. 验证网络,本示例使用Sepolia 测试网
-    const chainId = await web3.eth.getChainId();
-    if (chainId !== 11155111) { // Sepolia 测试网
-        // 网络错误处理
-    }
+  // 1. 请求用户授权账户访问
+  const accounts = await window.ethereum.request({
+    method: 'eth_requestAccounts',
+  });
+
+  // 2. 创建 Web3 实例
+  web3 = new Web3(window.ethereum);
+  account = accounts[0];
+
+  // 3. 验证网络,本示例使用Sepolia 测试网
+  const chainId = await web3.eth.getChainId();
+  if (chainId !== 11155111) {
+    // Sepolia 测试网
+    // 网络错误处理
+  }
 }
 ```
 
@@ -1235,16 +1250,16 @@ const contractABI = [
 
 ```jsx
 function setContract() {
-    const address = document.getElementById('contractAddress').value.trim();
-    
-    // 地址有效性验证
-    if (!web3.utils.isAddress(address)) {
-        // 错误处理
-        return;
-    }
-    
-    // 创建合约实例
-    contract = new web3.eth.Contract(contractABI, address);
+  const address = document.getElementById('contractAddress').value.trim();
+
+  // 地址有效性验证
+  if (!web3.utils.isAddress(address)) {
+    // 错误处理
+    return;
+  }
+
+  // 创建合约实例
+  contract = new web3.eth.Contract(contractABI, address);
 }
 ```
 
@@ -1261,20 +1276,19 @@ function setContract() {
 
 ```jsx
 async function leaveMessage() {
-    const message = document.getElementById('messageInput').value.trim();
-    
-    try {
-        // 调用合约的写入方法
-        const tx = await contract.methods.leaveMessage(message).send({ 
-            from: account 
-        });
-        
-        // 获取交易哈希
-        console.log('交易哈希:', tx.transactionHash);
-        
-    } catch (error) {
-        // 错误处理
-    }
+  const message = document.getElementById('messageInput').value.trim();
+
+  try {
+    // 调用合约的写入方法
+    const tx = await contract.methods.leaveMessage(message).send({
+      from: account,
+    });
+
+    // 获取交易哈希
+    console.log('交易哈希:', tx.transactionHash);
+  } catch (error) {
+    // 错误处理
+  }
 }
 ```
 
@@ -1286,21 +1300,20 @@ async function leaveMessage() {
 
 ```jsx
 async function queryMessages() {
-    const address = document.getElementById('queryAddress').value.trim();
-    
-    try {
-        // 调用只读方法获取留言数量
-        const count = await contract.methods.getMessageCount(address).call();
-        
-        // 批量获取留言内容
-        for (let i = 0; i < count; i++) {
-            const message = await contract.methods.getMessage(address, i).call();
-            // 处理消息内容
-        }
-        
-    } catch (error) {
-        // 错误处理
+  const address = document.getElementById('queryAddress').value.trim();
+
+  try {
+    // 调用只读方法获取留言数量
+    const count = await contract.methods.getMessageCount(address).call();
+
+    // 批量获取留言内容
+    for (let i = 0; i < count; i++) {
+      const message = await contract.methods.getMessage(address, i).call();
+      // 处理消息内容
     }
+  } catch (error) {
+    // 错误处理
+  }
 }
 ```
 
@@ -1314,58 +1327,64 @@ async function queryMessages() {
 
 - Gas 是 EVM 执行操作的单位。每条指令消耗固定的 gas。
 - 优化目标是减少交易所需的总 gas，提高用户体验并降低成本。
-:::
+  :::
+
 #### ==常见优化技巧==
+
 ::: steps
+
 1. **减少存储操作（Storage Write）**
-    - 读取存储第一次需 2100 gas（后续 100 gas），而内存读取仅3 gas。推荐多次访问同一存储数据时，将其缓存到内存以减少 SLOAD 次数
-    - 每次写入 `storage` 的成本高达 20,000 gas；优先使用 `memory`。
-    - 示例：
-        
-        ```
-        // ❌ 非优化写法
-        mapping(address => uint256) public balances;
-        function deposit() public payable {
-            balances[msg.sender] += msg.value;
-        }
-        
-        // ✅ 优化写法（一次读，一次写）
-        function deposit() public payable {
-            uint256 current = balances[msg.sender];
-            balances[msg.sender] = current + msg.value;
-        }
-        ```
-        
+
+   - 读取存储第一次需 2100 gas（后续 100 gas），而内存读取仅 3 gas。推荐多次访问同一存储数据时，将其缓存到内存以减少 SLOAD 次数
+   - 每次写入 `storage` 的成本高达 20,000 gas；优先使用 `memory`。
+   - 示例：
+
+     ```
+     // ❌ 非优化写法
+     mapping(address => uint256) public balances;
+     function deposit() public payable {
+         balances[msg.sender] += msg.value;
+     }
+
+     // ✅ 优化写法（一次读，一次写）
+     function deposit() public payable {
+         uint256 current = balances[msg.sender];
+         balances[msg.sender] = current + msg.value;
+     }
+     ```
+
 2. **使用位压缩（Bit Packing）**
-    - 将多个变量压缩到一个 `uint256` 中以节省存储空间。
-    - 示例：
-        
-        ```
-        struct Packed {
-            uint128 a;
-            uint128 b;
-        }
-        ```
-        
+
+   - 将多个变量压缩到一个 `uint256` 中以节省存储空间。
+   - 示例：
+
+     ```
+     struct Packed {
+         uint128 a;
+         uint128 b;
+     }
+     ```
+
 3. **循环优化**
-    - 减少不必要的运算，如 `array.length` 缓存到变量中。
-    - 示例：
-        
-        ```
-        // ❌ 非优化
-        for (uint i = 0; i < arr.length; i++) {
-            ...
-        }
-        // ✅ 优化
-        uint len = arr.length;
-        for (uint i = 0; i < len; i++) {
-            ...
-        }
-        ```
-        
-4. **函数可见性选择**
-    - `external` 比 `public` 更节省 gas，适用于仅被外部调用的函数。
-::: 
+
+   - 减少不必要的运算，如 `array.length` 缓存到变量中。
+   - 示例：
+
+     ```
+     // ❌ 非优化
+     for (uint i = 0; i < arr.length; i++) {
+         ...
+     }
+     // ✅ 优化
+     uint len = arr.length;
+     for (uint i = 0; i < len; i++) {
+         ...
+     }
+     ```
+
+4. **函数可见性选择** - `external` 比 `public` 更节省 gas，适用于仅被外部调用的函数。
+   :::
+
 ### 2. 合约安全
 
 <!-- - 安全漏洞库（reentrancy、oracle manipulation） -->
@@ -1375,53 +1394,56 @@ async function queryMessages() {
 - 最小权限原则（Least Privilege）
 - 模块化结构便于审计
 - 显式错误处理与事件记录
-:::
+  :::
+
 #### ==常见漏洞类型与防护==
+
 ::: steps
+
 1. **重入攻击 Reentrancy**
-    - 利用外部合约在 fallback 中重新调用原函数。历史上最著名的 The DAO 事件便因重入漏洞导致约 6000 万美元 ETH 被盗，最终造成以太坊社区分裂（形成 ETH/ETC 链）。
-    - 防护方法：先更新状态，再转账。
-    - 示例：
-        
-        ```
-        // ❌ 有漏洞
-        function withdraw() public {
-            require(balance[msg.sender] > 0);
-            (bool sent,) = msg.sender.call{value: balance[msg.sender]}("");
-            require(sent);
-            balance[msg.sender] = 0;
-        }
-        
-        // ✅ 修复后
-        function withdraw() public {
-            uint amount = balance[msg.sender];
-            balance[msg.sender] = 0;
-            (bool sent,) = msg.sender.call{value: amount}("");
-            require(sent);
-        }
-        ```  
-        <br>
+
+   - 利用外部合约在 fallback 中重新调用原函数。历史上最著名的 The DAO 事件便因重入漏洞导致约 6000 万美元 ETH 被盗，最终造成以太坊社区分裂（形成 ETH/ETC 链）。
+   - 防护方法：先更新状态，再转账。
+   - 示例：
+
+     ```
+     // ❌ 有漏洞
+     function withdraw() public {
+         require(balance[msg.sender] > 0);
+         (bool sent,) = msg.sender.call{value: balance[msg.sender]}("");
+         require(sent);
+         balance[msg.sender] = 0;
+     }
+
+     // ✅ 修复后
+     function withdraw() public {
+         uint amount = balance[msg.sender];
+         balance[msg.sender] = 0;
+         (bool sent,) = msg.sender.call{value: amount}("");
+         require(sent);
+     }
+     ```
+
+       <br>
+
 2. **预言机操纵 Oracle Manipulation**
-    - 依赖外部价格源的不可信更新。
-    - 解决方法：
-        - 使用 Chainlink 等权威价格源。
-        - 增加时序约束和多源验证。  
-    <br>
+   - 依赖外部价格源的不可信更新。
+   - 解决方法： - 使用 Chainlink 等权威价格源。 - 增加时序约束和多源验证。
+     <br>
 3. **整数溢出/下溢**
-    - 使用 `unchecked {}` 时需确保逻辑安全。
-    - 推荐使用 `SafeMath` 或 Solidity 0.8+ 的内建溢出检查。  
-    <br>
+   - 使用 `unchecked {}` 时需确保逻辑安全。
+   - 推荐使用 `SafeMath` 或 Solidity 0.8+ 的内建溢出检查。
+     <br>
 4. **权限控制缺失**
-    - 所有管理函数应使用 `onlyOwner` 或 `AccessControl` 修饰符保护。  
-    <br>
+   - 所有管理函数应使用 `onlyOwner` 或 `AccessControl` 修饰符保护。
+     <br>
 5. **未初始化代理**
-    - 基于代理模式的合约若未正确执行初始化函数，可能被任意人初始化并接管合约。
-    - 著名的例子包括 Harvest Finance 其在使用 Uniswap V3 做市策略的 Vault 合约中存在未初始化漏洞，如果被利用攻击者可销毁实现合约。该团队曾为此漏洞支付高额赏金修复。  
-    <br>
-6. **前置交易/三明治攻击**
-    - 攻击者在交易执行前后分别发送交易，以不利滑点或套利为目的。
-    - 例如 2025 年 3 月，一名用户在 Uniswap V3 的稳定币兑换中遭遇三明治攻击，约 21.5 万美元的 USDC 兑换几乎被抢跑，损失了 98% 的资金
-:::
+   - 基于代理模式的合约若未正确执行初始化函数，可能被任意人初始化并接管合约。
+   - 著名的例子包括 Harvest Finance 其在使用 Uniswap V3 做市策略的 Vault 合约中存在未初始化漏洞，如果被利用攻击者可销毁实现合约。该团队曾为此漏洞支付高额赏金修复。
+     <br>
+6. **前置交易/三明治攻击** - 攻击者在交易执行前后分别发送交易，以不利滑点或套利为目的。 - 例如 2025 年 3 月，一名用户在 Uniswap V3 的稳定币兑换中遭遇三明治攻击，约 21.5 万美元的 USDC 兑换几乎被抢跑，损失了 98% 的资金
+   :::
+
 ### 3. 智能合约审计
 
 ::: note 审计必要性
@@ -1429,18 +1451,19 @@ async function queryMessages() {
 - 智能合约一旦部署无法修改，审计是风险控制关键手段。
 - 资金安全：避免用户资产被盗。
 - 法律合规：一些监管要求必须审计证明。
-:::
+  :::
+
 #### 3.1 常见的合约审计工具
 
 - **Slither**：以 Python 编写的静态分析工具，可检测安全漏洞和代码规范问题
-    - 常用命令为 `slither MyContract.sol`（也可指定合约地址）来扫描合约代码
-    - 使用方式：[learnblockchain.cn](https://learnblockchain.cn/article/6069#:~:text=02.slither%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%20,solidity%20cfg)
+  - 常用命令为 `slither MyContract.sol`（也可指定合约地址）来扫描合约代码
+  - 使用方式：[learnblockchain.cn](https://learnblockchain.cn/article/6069#:~:text=02.slither%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%20,solidity%20cfg)
 - **MythX**：基于云平台的安全分析服务，支持命令行和 API 调用
-    - 使用CLI时，可执行类似 `mythx analyze MyContract.sol` 进行安全扫描
-    - 使用方式：[github.com](https://github.com/ConsenSysDiligence/mythx-cli#:~:text=%24%20mythx%20Usage%3A%20mythx%20,ARGS)[github.com](https://github.com/ConsenSysDiligence/mythx-cli#:~:text=analyze%20%20%20Analyze%20the,Display%20API%20version%20information)
-- **Foundry**：高效的Solidity开发测试框架，支持属性测试（模糊测试）。
-    - 可使用 `forge test` 运行所有测试（包括以 `testFuzz_` 开头的基于属性测试）
-    - 使用方式：[learnblockchain.cn](https://learnblockchain.cn/docs/foundry/i18n/zh/forge/fuzz-testing.html#:~:text=%E8%BF%90%E8%A1%8C%E6%B5%8B%E8%AF%95%EF%BC%8C%E6%88%91%E4%BB%AC%E7%9C%8B%E5%88%B0%E5%AE%83%E9%80%9A%E8%BF%87%E4%BA%86%EF%BC%9A)，或通过 `forge test --match-path <test 文件路径>` 定向运行特定测试文件。
+  - 使用 CLI 时，可执行类似 `mythx analyze MyContract.sol` 进行安全扫描
+  - 使用方式：[github.com](https://github.com/ConsenSysDiligence/mythx-cli#:~:text=%24%20mythx%20Usage%3A%20mythx%20,ARGS)[github.com](https://github.com/ConsenSysDiligence/mythx-cli#:~:text=analyze%20%20%20Analyze%20the,Display%20API%20version%20information)
+- **Foundry**：高效的 Solidity 开发测试框架，支持属性测试（模糊测试）。
+  - 可使用 `forge test` 运行所有测试（包括以 `testFuzz_` 开头的基于属性测试）
+  - 使用方式：[learnblockchain.cn](https://learnblockchain.cn/docs/foundry/i18n/zh/forge/fuzz-testing.html#:~:text=%E8%BF%90%E8%A1%8C%E6%B5%8B%E8%AF%95%EF%BC%8C%E6%88%91%E4%BB%AC%E7%9C%8B%E5%88%B0%E5%AE%83%E9%80%9A%E8%BF%87%E4%BA%86%EF%BC%9A)，或通过 `forge test --match-path <test 文件路径>` 定向运行特定测试文件。
 
 #### 3.2 审计标准流程
 
@@ -1453,12 +1476,12 @@ async function queryMessages() {
 
 #### 3.3 知名审计机构比较
 
-| 机构 | 特点 | 项目经验 |
-| --- | --- | --- |
-| 慢雾科技 | 国内领先，注重攻击复现 | EOS、币安、火币等 |
-| CertiK | 静态扫描 + 天网监控平台 | PancakeSwap、Aave |
-| OpenZeppelin | 社区信赖度高，基础库作者 | Compound、Balancer |
-| ConsenSys Diligence | 精通以太坊底层原理 | Uniswap、1inch |
+| 机构                | 特点                     | 项目经验           |
+| ------------------- | ------------------------ | ------------------ |
+| 慢雾科技            | 国内领先，注重攻击复现   | EOS、币安、火币等  |
+| CertiK              | 静态扫描 + 天网监控平台  | PancakeSwap、Aave  |
+| OpenZeppelin        | 社区信赖度高，基础库作者 | Compound、Balancer |
+| ConsenSys Diligence | 精通以太坊底层原理       | Uniswap、1inch     |
 
 ### 4. **开发协作规范**
 
@@ -1466,81 +1489,78 @@ async function queryMessages() {
 
 ![图 30](../images/solidity-intern/e12ee92b-1860-42a9-a1aa-89c29e0d131d.png)
 ::: steps
+
 - 分支策略：
-    - **主分支 (main/master)**：始终保持可部署状态，任何代码合并前必须经过测试与审查。
-    - **开发分支 (develop)**：用于日常功能开发，作为 feature 分支的合并目标。
-    - **功能分支 (feature/xxx)**：以 `feature/功能描述` 命名，完成后合并至 develop 分支。
-    - **修复分支 (fix/xxx)**：针对 bug 的修复，以 `fix/bug描述` 命名，优先合并到 develop 或 main。
-    - **发布分支 (release/xxx)**：用于发布前准备，如版本打包、测试等，合并后删除。
+  - **主分支 (main/master)**：始终保持可部署状态，任何代码合并前必须经过测试与审查。
+  - **开发分支 (develop)**：用于日常功能开发，作为 feature 分支的合并目标。
+  - **功能分支 (feature/xxx)**：以 `feature/功能描述` 命名，完成后合并至 develop 分支。
+  - **修复分支 (fix/xxx)**：针对 bug 的修复，以 `fix/bug描述` 命名，优先合并到 develop 或 main。
+  - **发布分支 (release/xxx)**：用于发布前准备，如版本打包、测试等，合并后删除。
 - 提交信息规范
-    - 使用简洁明确的提交信息，推荐格式：
-        
-        ```
-        类型: 简要描述
-        
-        说明：可选的详细信息、动机、对比等
-        Issue：关联的 Issue 编号（如有）
-        ```
-        
-    - 类型包括：
-        - `feat`: 新功能
-        - `fix`: 修复问题
-        - `docs`: 文档更新
-        - `refactor`: 代码重构
-        - `test`: 添加或修改测试
-        - `chore`: 构建过程或辅助工具变动
-- Pull Request（PR）流程
-    - 每个功能或修复应新建一个分支。
-    - 提交 PR 前需确保：
-        - 本地通过所有测试
-        - 通过 ESLint 或其他静态检查工具
-        - 包含必要的文档或注释
-    - PR 标题应简洁明了，描述改动内容。
-    - 不允许合并自己创建的 PR，需至少一位 reviewer 审查通过。
-    - 可在项目仓库中添加 `PULL_REQUEST_TEMPLATE.md` 文件，可统一 PR 描述格式，提升协作效率。例如：
-        
-        ```jsx
-        ## PR 说明  
-        - 变更内容：简要描述此次 PR 完成了哪些功能或修复了哪些问题。  
-        - 关联 Issue：填写相关 Issue 编号（如无可留空）。  
-        - 主要改动：列出代码改动的关键点，如新增哪些函数、修改哪些逻辑等。  
-        - 测试情况：说明已编写或执行了哪些测试来验证改动。  
-        - 影响评估：列出可能影响的模块或兼容性问题（如版本依赖）。  
-        ```
-        
-    - PR 标题应简洁表达功能，如 `feat: 添加 staking 功能`
-    - Code Review 检查清单（代码评审时可按以下要点逐项检查）：
-        
-        ```
-        - 代码是否符合风格规范，命名清晰、可读性高？
-        - 业务逻辑是否正确，边界情况和异常情况是否处理周全？
-        - 安全性检查：是否考虑重入、整数溢出、权限校验、外部调用等风险？
-        - Gas 消耗：是否避免了不必要的存储操作或大循环？
-        - 是否增加了足够的注释和文档说明？是否存在未使用的代码或死代码？
-        - 是否编写了充分的单元测试覆盖常见场景和极端情况？
-        ```
-:::
+
+  - 使用简洁明确的提交信息，推荐格式：
+
+    ```
+    类型: 简要描述
+
+    说明：可选的详细信息、动机、对比等
+    Issue：关联的 Issue 编号（如有）
+    ```
+
+  - 类型包括：
+    - `feat`: 新功能
+    - `fix`: 修复问题
+    - `docs`: 文档更新
+    - `refactor`: 代码重构
+    - `test`: 添加或修改测试
+    - `chore`: 构建过程或辅助工具变动
+
+- Pull Request（PR）流程 - 每个功能或修复应新建一个分支。 - 提交 PR 前需确保： - 本地通过所有测试 - 通过 ESLint 或其他静态检查工具 - 包含必要的文档或注释 - PR 标题应简洁明了，描述改动内容。 - 不允许合并自己创建的 PR，需至少一位 reviewer 审查通过。 - 可在项目仓库中添加 `PULL_REQUEST_TEMPLATE.md` 文件，可统一 PR 描述格式，提升协作效率。例如：
+
+          ```jsx
+          ## PR 说明
+          - 变更内容：简要描述此次 PR 完成了哪些功能或修复了哪些问题。
+          - 关联 Issue：填写相关 Issue 编号（如无可留空）。
+          - 主要改动：列出代码改动的关键点，如新增哪些函数、修改哪些逻辑等。
+          - 测试情况：说明已编写或执行了哪些测试来验证改动。
+          - 影响评估：列出可能影响的模块或兼容性问题（如版本依赖）。
+          ```
+
+      - PR 标题应简洁表达功能，如 `feat: 添加 staking 功能`
+      - Code Review 检查清单（代码评审时可按以下要点逐项检查）：
+
+          ```
+          - 代码是否符合风格规范，命名清晰、可读性高？
+          - 业务逻辑是否正确，边界情况和异常情况是否处理周全？
+          - 安全性检查：是否考虑重入、整数溢出、权限校验、外部调用等风险？
+          - Gas 消耗：是否避免了不必要的存储操作或大循环？
+          - 是否增加了足够的注释和文档说明？是否存在未使用的代码或死代码？
+          - 是否编写了充分的单元测试覆盖常见场景和极端情况？
+          ```
+
+  :::
 
 #### 4.2 Issue 管理
 
 ![图 31](../images/solidity-intern/cdb9939a-18e9-4dd8-80f6-b8cf22ccf0dc.png)
 
 - 描述 Issue 结构推荐：背景 + 问题 + 尝试过的方法 + 环境信息
-    - 示例：
-        
-        ```
-        ### 问题描述
-        执行 `forge test` 时出现 `out of gas` 错误
-        
-        ### 环境
-        - Foundry 版本: 0.2.0
-        - Solidity: 0.8.21
-        ```
-        
+
+  - 示例：
+
+    ```
+    ### 问题描述
+    执行 `forge test` 时出现 `out of gas` 错误
+
+    ### 环境
+    - Foundry 版本: 0.2.0
+    - Solidity: 0.8.21
+    ```
+
 - Issue 标签分类标准与自动化：
-    - 制定统一的 Issue 标签规则，例如使用 `bug`（缺陷）、`enhancement`（增强）、`security`（安全）、`documentation`（文档）、`question`（问题）等标签；
-    - 根据需求添加 `high-priority`、`low-priority`、`help wanted` 等。
-    - 通过 GitHub Actions 等自动化工具，还可自动为新 Issue 或 PR 添加标签（如根据文件路径、标题关键字匹配标签）、标记长期未更新的 Issue 为 `stale` 等，减少人工维护成本。
+  - 制定统一的 Issue 标签规则，例如使用 `bug`（缺陷）、`enhancement`（增强）、`security`（安全）、`documentation`（文档）、`question`（问题）等标签；
+  - 根据需求添加 `high-priority`、`low-priority`、`help wanted` 等。
+  - 通过 GitHub Actions 等自动化工具，还可自动为新 Issue 或 PR 添加标签（如根据文件路径、标题关键字匹配标签）、标记长期未更新的 Issue 为 `stale` 等，减少人工维护成本。
 
 #### 4.3 开源协作礼仪
 
@@ -1552,33 +1572,36 @@ async function queryMessages() {
 
 #### 5.1 Rollup 技术比较
 
-| 项目类型 | 原理 | 优点 | 缺点 |
-| --- | --- | --- | --- |
-| Optimistic Rollup | 设定欺诈证明期 | EVM 兼容性强，成本低 | 提现延迟（1~2 周） |
-| ZK Rollup | 零知识证明 | 安全性高，支持快速提现 | 开发难度大，不完全 EVM 兼容 |
+| 项目类型          | 原理           | 优点                   | 缺点                        |
+| ----------------- | -------------- | ---------------------- | --------------------------- |
+| Optimistic Rollup | 设定欺诈证明期 | EVM 兼容性强，成本低   | 提现延迟（1~2 周）          |
+| ZK Rollup         | 零知识证明     | 安全性高，支持快速提现 | 开发难度大，不完全 EVM 兼容 |
 
 #### 5.2 主流 L2 平台概览
 
 1. **Starknet**
-    - 语言：Cairo（非 Solidity）
-    - 特点：ZK-STARK，极高扩展性
+   - 语言：Cairo（非 Solidity）
+   - 特点：ZK-STARK，极高扩展性
 2. **zkSync**
-    - 工具链：支持 Solidity 合约
-    - 特点：ZK Rollup，开发体验佳
+   - 工具链：支持 Solidity 合约
+   - 特点：ZK Rollup，开发体验佳
 3. **Arbitrum**
-    - Optimistic 架构
-    - 特点：兼容 EVM 工具链，如 Hardhat/Foudnry
+   - Optimistic 架构
+   - 特点：兼容 EVM 工具链，如 Hardhat/Foudnry
 4. **Base**
-    - Coinbase 推出，构建于 OP Stack 上
-    - 特点：强生态支持，开发成本低
+   - Coinbase 推出，构建于 OP Stack 上
+   - 特点：强生态支持，开发成本低
 
 #### 5.3 开发入门指南
 
 1.  **环境准备**
+
 - 安装与配置：基于目标平台选择相应 SDK，如 zkSync CLI、Starknet CLI
 - 网络设置：区分 L1 与 L2 的 RPC 端点与钱包配置（如 MetaMask L2 网络）
 - Devnet 本地测试：如 Starknet Devnet、zkSync Dev Node、Hardhat L2 plugin
+
 1. **合约部署注意事项**
+
 - 部分平台不支持 `CREATE2` 或存在 gas 上限差异
 - 使用平台特定部署脚本，如 zkSync 的 `deploy()` 命令或 `hardhat starknet deploy`
 - 考虑合约地址推导方式变化（例如 zkRollup 平台不保证地址一致性）
@@ -1598,6 +1621,7 @@ async function queryMessages() {
 <!-- ## ::eos-icons:application-outlined /#32b2f0::扩展阅读
 [1]  -->
 
-## ::ep:avatar /#32b2f0::文章贡献者  
+## ::ep:avatar /#32b2f0::文章贡献者
+
 作者：[Jason](https://x.com/fxxkmystyle)、[Echo](https://x.com/Echo_liuchan)
 排版：[Echo](https://x.com/Echo_liuchan)
