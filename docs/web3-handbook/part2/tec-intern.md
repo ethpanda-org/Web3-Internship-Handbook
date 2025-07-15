@@ -14,7 +14,7 @@ permalink: /web3-handbook/cmbn9gfu/
 
 Dapp 的架构主要由三个核心部分组成：
 
-![图 1](../images/solidity-intern/a979e8e0-3547-4f54-a9b9-bd308ff25776.png)
+![图 1](../images/solidity-intern/dapp_architecture-diagram_01.png)
 
 ==1. **前端（User Interface）**：==
 
@@ -35,7 +35,7 @@ Dapp 的架构主要由三个核心部分组成：
 
 Dapp 的开发流程可以分为以下几个阶段：
 
-![图 2](../images/solidity-intern/0970775d-49eb-4b9d-9c8c-927ee2adddd9.png)
+![图 2](../images/solidity-intern/dapp_development-workflow_01.png)
 ::: steps
 
 1.  **需求分析与规划**
@@ -76,13 +76,13 @@ Dapp 的开发流程可以分为以下几个阶段：
 
 5.  **部署与上线**
 
-        一旦开发完成，Dapp 进入部署阶段。具体步骤包括：
+    一旦开发完成，Dapp 进入部署阶段。具体步骤包括：
 
-        - **部署智能合约**：推荐使用 **Hardhat** 或 **Foundry**（现代化开发工具）将智能合约部署到测试网（如 **Sepolia**、**Holesky**）或主网。
-        - **前端部署**：将前端应用部署到去中心化平台（如 **IPFS**、**Fleek**）或传统的 Web 主机。
-        - **发布和维护**：将 Dapp 上线，进行用户反馈收集，定期更新合约和前端，修复潜在问题。
+    - **部署智能合约**：推荐使用 **Hardhat** 或 **Foundry**（现代化开发工具）将智能合约部署到测试网（如 **Sepolia**、**Holesky**）或主网。
+    - **前端部署**：将前端应用部署到去中心化平台（如 **IPFS**、**Fleek**）或传统的 Web 主机。
+    - **发布和维护**：将 Dapp 上线，进行用户反馈收集，定期更新合约和前端，修复潜在问题。
 
-    :::
+:::
 
 ### 3. 小结
 
@@ -243,19 +243,19 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
 
 4.  **开发范式**
 
-        - **状态机模式**
+    - **状态机模式**
 
-            智能合约本质上是一个状态机，通过交易改变合约状态。
+      智能合约本质上是一个状态机，通过交易改变合约状态。
 
-        - **事件驱动编程**
+    - **事件驱动编程**
 
-            使用事件（Events）记录重要的状态变化，便于前端监听和日志记录。
+      使用事件（Events）记录重要的状态变化，便于前端监听和日志记录。
 
-        - **模块化设计**
+    - **模块化设计**
 
-            通过继承和库（Library）实现代码复用和模块化。
+      通过继承和库（Library）实现代码复用和模块化。
 
-    :::
+:::
 
 ### 2. 合约结构详解
 
@@ -318,232 +318,232 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
 
 3.  **函数（Functions）**
 
-        函数是 Solidity 智能合约中执行具体逻辑操作的核心组成部分。通过函数，可以实现对状态变量的读取、修改，或执行特定业务逻辑。
+    函数是 Solidity 智能合约中执行具体逻辑操作的核心组成部分。通过函数，可以实现对状态变量的读取、修改，或执行特定业务逻辑。
 
-        **函数声明格式**
+    **函数声明格式**
 
-        Solidity 中函数的标准声明格式如下所示：
+    Solidity 中函数的标准声明格式如下所示：
 
-        ```solidity
-        function <函数名>(<参数列表>)
-            <可见性>
-            <状态可变性>
-            <修饰符列表>
-            <虚拟/重写关键字>
-            returns (<返回值列表>)
-        {
-            // 函数体
-        }
-        ```
+    ```solidity
+    function <函数名>(<参数列表>)
+        <可见性>
+        <状态可变性>
+        <修饰符列表>
+        <虚拟/重写关键字>
+        returns (<返回值列表>)
+    {
+        // 函数体
+    }
+    ```
 
-        各部分含义如下：
+    各部分含义如下：
 
-        - `<函数名>`：函数的名称；
-        - `<参数列表>`：传入函数的参数；
-        - `<可见性修饰符>`：如 `public`、`private`、`internal`、`external`；
-        - `<状态可变性修饰符>`：如 `view`、`pure`、`payable`；
-        - `<函数修饰符>`：如 `onlyOwner` 等自定义逻辑控制；
-        - `virtual/override`：用于支持继承与函数重写；
-        - `returns`：定义返回值及其类型。
+    - `<函数名>`：函数的名称；
+    - `<参数列表>`：传入函数的参数；
+    - `<可见性修饰符>`：如 `public`、`private`、`internal`、`external`；
+    - `<状态可变性修饰符>`：如 `view`、`pure`、`payable`；
+    - `<函数修饰符>`：如 `onlyOwner` 等自定义逻辑控制；
+    - `virtual/override`：用于支持继承与函数重写；
+    - `returns`：定义返回值及其类型。
 
-        **函数可见性（Function Visibility）**
+    **函数可见性（Function Visibility）**
 
-        函数可见性决定了函数在何种上下文中可以被调用
+    函数可见性决定了函数在何种上下文中可以被调用
 
-        ```solidity
-        contract VisibilityExample {
-                // 仅当前合约可访问
-            function privateFunc() private pure returns(uint) { return 1; }
-            // 当前合约和继承合约可访问
-            function internalFunc() internal pure returns(uint) { return 2; }
-            // 所有人可访问
-            function publicFunc() public pure returns(uint) { return 3; }
-            // 仅外部调用
-            function externalFunc() external pure returns(uint) { return 4; }
-        }
-        ```
+    ```solidity
+    contract VisibilityExample {
+            // 仅当前合约可访问
+        function privateFunc() private pure returns(uint) { return 1; }
+        // 当前合约和继承合约可访问
+        function internalFunc() internal pure returns(uint) { return 2; }
+        // 所有人可访问
+        function publicFunc() public pure returns(uint) { return 3; }
+        // 仅外部调用
+        function externalFunc() external pure returns(uint) { return 4; }
+    }
+    ```
 
-        **函数状态修饰符**（State Mutability Modifiers）
+    **函数状态修饰符**（State Mutability Modifiers）
 
-        用于指明函数是否修改或读取合约状态：
+    用于指明函数是否修改或读取合约状态：
 
-        ```solidity
-        contract StateModifiers {
-            uint public count = 0;
+    ```solidity
+    contract StateModifiers {
+        uint public count = 0;
 
-            // view: 只读函数，不修改状态
-            function getCount() public view returns(uint) {
-                return count;
-            }
-
-            // pure: 纯函数，不读取也不修改状态
-            function add(uint a, uint b) public pure returns(uint) {
-                return a + b;
-            }
-
-            // payable: 可接收以太币
-            function deposit() public payable {
-                // msg.value 是发送的以太币数量
-            }
-
-            // 默认：可修改状态
-            function increment() public {
-                count++;
-            }
-        }
-        ```
-
-        **函数参数和返回值**
-
-        Solidity 支持多参数与多返回值，以及命名返回值：
-
-        ```solidity
-        // 多个返回值
-        function getPersonInfo() public pure returns(string memory name, uint age) {
-            name = "Alice";
-            age = 25;
+        // view: 只读函数，不修改状态
+        function getCount() public view returns(uint) {
+            return count;
         }
 
-        // 命名返回值
-        function calculate(uint a, uint b) public pure returns(uint sum, uint product) {
-            sum = a + b;
-            product = a * b;
-            // 自动返回命名变量
+        // pure: 纯函数，不读取也不修改状态
+        function add(uint a, uint b) public pure returns(uint) {
+            return a + b;
         }
 
-        // 调用带多返回值的函数
-        function callExample() public pure {
-            (string memory name, uint age) = getPersonInfo();
-            // 或者忽略某些返回值
-            (, uint productOnly) = calculate(5, 3);
-        }
-        ```
-
-        **修饰符（Function Modifiers）**
-
-        修饰符允许在函数执行前插入额外逻辑，常用于权限控制与前置检查：
-
-        ```solidity
-        contract ModifierExample {
-            address public owner;
-            bool public paused = false;
-
-            constructor() {
-                owner = msg.sender;
-            }
-
-            // 自定义修饰符
-            modifier onlyOwner() {
-                require(msg.sender == owner, "Not the owner");
-                _;  // 继续执行被修饰的函数
-            }
-
-            modifier whenNotPaused() {
-                require(!paused, "Contract is paused");
-                _;
-            }
-
-            function togglePause() public onlyOwner {
-                paused = !paused;
-            }
-
-            // 使用多个修饰符
-            function criticalFunction() public onlyOwner whenNotPaused {
-                // 函数逻辑
-            }
-        }
-        ```
-
-        **继承与函数重写（Inheritance and Override）**
-
-        Solidity 支持单继承与多继承，子合约可重写父合约中的虚函数：
-
-        ```solidity
-        // 基础合约
-        contract Animal {
-            string public name;
-
-            constructor(string memory _name) {
-                name = _name;
-            }
-
-            function speak() public virtual returns(string memory) {
-                return "Some sound";
-            }
+        // payable: 可接收以太币
+        function deposit() public payable {
+            // msg.value 是发送的以太币数量
         }
 
-        // 继承合约
-        contract Dog is Animal {
-            constructor(string memory _name) Animal(_name) {}
+        // 默认：可修改状态
+        function increment() public {
+            count++;
+        }
+    }
+    ```
 
-            // 重写父类函数
-            function speak() public pure override returns(string memory) {
-                return "Woof!";
-            }
+    **函数参数和返回值**
+
+    Solidity 支持多参数与多返回值，以及命名返回值：
+
+    ```solidity
+    // 多个返回值
+    function getPersonInfo() public pure returns(string memory name, uint age) {
+        name = "Alice";
+        age = 25;
+    }
+
+    // 命名返回值
+    function calculate(uint a, uint b) public pure returns(uint sum, uint product) {
+        sum = a + b;
+        product = a * b;
+        // 自动返回命名变量
+    }
+
+    // 调用带多返回值的函数
+    function callExample() public pure {
+        (string memory name, uint age) = getPersonInfo();
+        // 或者忽略某些返回值
+        (, uint productOnly) = calculate(5, 3);
+    }
+    ```
+
+    **修饰符（Function Modifiers）**
+
+    修饰符允许在函数执行前插入额外逻辑，常用于权限控制与前置检查：
+
+    ```solidity
+    contract ModifierExample {
+        address public owner;
+        bool public paused = false;
+
+        constructor() {
+            owner = msg.sender;
         }
 
-        // 多重继承
-        contract Pet is Animal {
-            address public owner;
-
-            constructor(string memory _name, address _owner) Animal(_name) {
-                owner = _owner;
-            }
+        // 自定义修饰符
+        modifier onlyOwner() {
+            require(msg.sender == owner, "Not the owner");
+            _;  // 继续执行被修饰的函数
         }
 
-        contract Labrador is Dog, Pet {
-            constructor(string memory _name, address _owner)
-                Dog(_name)
-                Pet(_name, _owner) {}
-        }
-        ```
-
-        **接口与抽象合约（Interfaces & Abstract Contracts）**
-
-        接口与抽象合约用于定义规范与继承框架：
-
-        ```solidity
-        // 接口定义
-        interface IERC20 {
-            function transfer(address to, uint256 amount) external returns (bool);
-            function balanceOf(address account) external view returns (uint256);
+        modifier whenNotPaused() {
+            require(!paused, "Contract is paused");
+            _;
         }
 
-        // 抽象合约
-        abstract contract AbstractToken {
-            string public name;
-
-            // 抽象函数，必须在子类中实现
-            function totalSupply() public virtual returns (uint256);
+        function togglePause() public onlyOwner {
+            paused = !paused;
         }
-        ```
 
-        **事件机制（Events）**
-
-        事件用于在链上记录重要状态变化，并可由外部监听器（如前端应用）捕捉：
-
-        ```solidity
-        contract EventExample {
-            // 定义事件
-            event Transfer(address indexed from, address indexed to, uint256 amount);
-            event Approval(address indexed owner, address indexed spender, uint256 amount);
-
-            mapping(address => uint256) public balances;
-
-            function transfer(address to, uint256 amount) public {
-                require(balances[msg.sender] >= amount, "Insufficient balance");
-
-                balances[msg.sender] -= amount;
-                balances[to] += amount;
-
-                // 触发事件
-                // 可以在区块链浏览器查找到当前事件记录
-                emit Transfer(msg.sender, to, amount);
-            }
+        // 使用多个修饰符
+        function criticalFunction() public onlyOwner whenNotPaused {
+            // 函数逻辑
         }
-        ```
+    }
+    ```
 
-    :::
+    **继承与函数重写（Inheritance and Override）**
+
+    Solidity 支持单继承与多继承，子合约可重写父合约中的虚函数：
+
+    ```solidity
+    // 基础合约
+    contract Animal {
+        string public name;
+
+        constructor(string memory _name) {
+            name = _name;
+        }
+
+        function speak() public virtual returns(string memory) {
+            return "Some sound";
+        }
+    }
+
+    // 继承合约
+    contract Dog is Animal {
+        constructor(string memory _name) Animal(_name) {}
+
+        // 重写父类函数
+        function speak() public pure override returns(string memory) {
+            return "Woof!";
+        }
+    }
+
+    // 多重继承
+    contract Pet is Animal {
+        address public owner;
+
+        constructor(string memory _name, address _owner) Animal(_name) {
+            owner = _owner;
+        }
+    }
+
+    contract Labrador is Dog, Pet {
+        constructor(string memory _name, address _owner)
+            Dog(_name)
+            Pet(_name, _owner) {}
+    }
+    ```
+
+    **接口与抽象合约（Interfaces & Abstract Contracts）**
+
+    接口与抽象合约用于定义规范与继承框架：
+
+    ```solidity
+    // 接口定义
+    interface IERC20 {
+        function transfer(address to, uint256 amount) external returns (bool);
+        function balanceOf(address account) external view returns (uint256);
+    }
+
+    // 抽象合约
+    abstract contract AbstractToken {
+        string public name;
+
+        // 抽象函数，必须在子类中实现
+        function totalSupply() public virtual returns (uint256);
+    }
+    ```
+
+    **事件机制（Events）**
+
+    事件用于在链上记录重要状态变化，并可由外部监听器（如前端应用）捕捉：
+
+    ```solidity
+    contract EventExample {
+        // 定义事件
+        event Transfer(address indexed from, address indexed to, uint256 amount);
+        event Approval(address indexed owner, address indexed spender, uint256 amount);
+
+        mapping(address => uint256) public balances;
+
+        function transfer(address to, uint256 amount) public {
+            require(balances[msg.sender] >= amount, "Insufficient balance");
+
+            balances[msg.sender] -= amount;
+            balances[to] += amount;
+
+            // 触发事件
+            // 可以在区块链浏览器查找到当前事件记录
+            emit Transfer(msg.sender, to, amount);
+        }
+    }
+    ```
+
+:::
 
 ### 3. 安全实践
 
@@ -710,79 +710,79 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
 
 3.  **整数溢出防护（Integer Overflow Protection）**
 
-        在早期版本的 Solidity（v0.8.0 之前），算术运算默认**不进行溢出检查**。这意味着当整数变量超出其最大值或最小值时，数值将**环绕（wrap around）**，导致严重的逻辑漏洞和安全隐患。
+    在早期版本的 Solidity（v0.8.0 之前），算术运算默认**不进行溢出检查**。这意味着当整数变量超出其最大值或最小值时，数值将**环绕（wrap around）**，导致严重的逻辑漏洞和安全隐患。
 
-        **受攻击的示例：无溢出检测的合约（< v0.8.0）：**
+    **受攻击的示例：无溢出检测的合约（< v0.8.0）：**
 
-        ```solidity
-        pragma solidity ^0.7.6;          // ⚠️ 0.7 版本不会自动检查溢出
+    ```solidity
+    pragma solidity ^0.7.6;          // ⚠️ 0.7 版本不会自动检查溢出
 
-        /**
-        * @title BadCounter
-        * @dev 用户每调用一次 `inc()`，计数器加 1；当计数器达到 10 停止奖励。
-        *      但整数溢出可让攻击者将计数器绕回 0，再无限领奖。
-        */
-        contract BadCounter {
-            mapping(address => uint256) public counter;
-            mapping(address => bool)    public rewarded;
+    /**
+    * @title BadCounter
+    * @dev 用户每调用一次 `inc()`，计数器加 1；当计数器达到 10 停止奖励。
+    *      但整数溢出可让攻击者将计数器绕回 0，再无限领奖。
+    */
+    contract BadCounter {
+        mapping(address => uint256) public counter;
+        mapping(address => bool)    public rewarded;
 
-            // 计数 +1
-            function inc() external {
+        // 计数 +1
+        function inc() external {
 
-                counter[msg.sender] += 1;        // 若已 2**256-1 则回到 0
-            }
-
-            // 满 10 次领取 1 wei
-            function claim() external {
-                require(counter[msg.sender] >= 10, "not enough actions");
-                require(!rewarded[msg.sender],    "already claimed");
-                rewarded[msg.sender] = true;
-                msg.sender.transfer(1);           // 为演示简化为 1 wei
-            }
-
-            // 向合约注入少量 ETH 供演示
-            receive() external payable {}
+            counter[msg.sender] += 1;        // 若已 2**256-1 则回到 0
         }
-        ```
 
-        **问题说明：**
-        在该合约中，如果攻击者的 counter 达到最大值 2^256 - 1，再次调用 inc() 会使计数器绕回 0，从而绕过 >=10 的检查条件，并再次触发奖励逻辑，实现无限循环领取。
-
-        **安全方案：限制上限 + 使用最新编译器版本**
-
-        自 Solidity 0.8.0 起，所有算术运算默认开启溢出/下溢检查，若发生异常会自动 `revert`。除此之外，也建议通过逻辑限制控制最大值，防止边界绕回。
-
-        ```solidity
-        /**
-        * @title SafeCounter
-        * @dev 方案：在 inc() 中直接固定「最高 11」，超过即拒绝。
-        *      溢出永远不会发生，也杜绝了重复领奖。
-        */
-        contract SafeCounter {
-            mapping(address => uint256) public counter;
-
-            uint8 constant MAX_ACTIONS = 11;   // 上限 11，留 1 个缓冲
-
-            /// 受控递增：达到 10 后就不准再加
-            function inc() external {
-                require(counter[msg.sender] < MAX_ACTIONS, "limit reached");
-                counter[msg.sender] += 1;
-            }
-
-            /// 领取奖励
-            function claim() external {
-                require(counter[msg.sender] >= 10, "≥10 actions required");
-                counter[msg.sender] = 0;                   // 重置为 0
-                (bool ok, ) = msg.sender.call{value: 1}("");
-                require(ok, "transfer failed");
-            }
-
-            /// 注资
-            receive() external payable {}
+        // 满 10 次领取 1 wei
+        function claim() external {
+            require(counter[msg.sender] >= 10, "not enough actions");
+            require(!rewarded[msg.sender],    "already claimed");
+            rewarded[msg.sender] = true;
+            msg.sender.transfer(1);           // 为演示简化为 1 wei
         }
-        ```
 
-    :::
+        // 向合约注入少量 ETH 供演示
+        receive() external payable {}
+    }
+    ```
+
+    **问题说明：**
+    在该合约中，如果攻击者的 counter 达到最大值 2^256 - 1，再次调用 inc() 会使计数器绕回 0，从而绕过 >=10 的检查条件，并再次触发奖励逻辑，实现无限循环领取。
+
+    **安全方案：限制上限 + 使用最新编译器版本**
+
+    自 Solidity 0.8.0 起，所有算术运算默认开启溢出/下溢检查，若发生异常会自动 `revert`。除此之外，也建议通过逻辑限制控制最大值，防止边界绕回。
+
+    ```solidity
+    /**
+    * @title SafeCounter
+    * @dev 方案：在 inc() 中直接固定「最高 11」，超过即拒绝。
+    *      溢出永远不会发生，也杜绝了重复领奖。
+    */
+    contract SafeCounter {
+        mapping(address => uint256) public counter;
+
+        uint8 constant MAX_ACTIONS = 11;   // 上限 11，留 1 个缓冲
+
+        /// 受控递增：达到 10 后就不准再加
+        function inc() external {
+            require(counter[msg.sender] < MAX_ACTIONS, "limit reached");
+            counter[msg.sender] += 1;
+        }
+
+        /// 领取奖励
+        function claim() external {
+            require(counter[msg.sender] >= 10, "≥10 actions required");
+            counter[msg.sender] = 0;                   // 重置为 0
+            (bool ok, ) = msg.sender.call{value: 1}("");
+            require(ok, "transfer failed");
+        }
+
+        /// 注资
+        receive() external payable {}
+    }
+    ```
+
+:::
 
 ## 四、智能合约实战项目
 
@@ -1010,10 +1010,10 @@ contract MessageBoard {
    - 若该 Faucet 不可用，也可尝试其他公开的 Sepolia 水龙头服务
      :::: card-grid
      ::: card
-     ![图 14](../images/solidity-intern/image%2011.png)
+     ![图 14](../images/solidity-intern/metamask_wallet-connection_01.png)
      :::
      ::: card
-     ![图 15](../images/solidity-intern/image%2012.png)
+     ![图 15](../images/solidity-intern/web3_frontend-integration_01.png)
      :::
      ::::
 
@@ -1040,13 +1040,13 @@ contract MessageBoard {
 
     :::
 
-    ![图 16](../images/solidity-intern/image%2013.png)
+    ![图 16](../images/solidity-intern/blockchain_transaction-flow_01.png)
 
     ==**编译合约**=={.note}
 
     切换至**Solidity Compiler**面板，点击**Compile messageboard.sol**对合约进行编译，确保无错误提示。
 
-    ![图 17](../images/solidity-intern/image%2014.png)
+    ![图 17](../images/solidity-intern/smart-contract_events-logs_01.png)
 
     ==**部署合约**=={.note}
 
@@ -1057,7 +1057,7 @@ contract MessageBoard {
     - MetaMask 会弹出交易确认窗口，展示 Gas 费用等信息；
     - 点击 **确认** 提交交易。
 
-    ![图 18](../images/solidity-intern/image%2015.png)
+    ![图 18](../images/solidity-intern/metamask_wallet-connection_01.png)
 
     ==**查看部署结果**=={.note}
 
@@ -1068,7 +1068,7 @@ contract MessageBoard {
     - 构造函数的执行信息；
     - 可调用的函数与状态变量接口
 
-    ![图 19](../images/solidity-intern/image%2016.png)
+    ![图 19](../images/solidity-intern/web3_frontend-integration_01.png)
 
 2.  ==Etherscan 查看合约==
 
@@ -1079,7 +1079,7 @@ contract MessageBoard {
     1. 打开 [Etherscan](https://etherscan.io/)；
     2. 在页面顶部的网络切换器中选择 **Sepolia** 测试网，或直接访问 [https://sepolia.etherscan.io](https://sepolia.etherscan.io)。
 
-    ![图 20](../images/solidity-intern/image%2017.png)
+    ![图 20](../images/solidity-intern/blockchain_transaction-flow_01.png)
 
     ==**通过交易哈希查看部署信息**=={.note}
 
@@ -1091,7 +1091,7 @@ contract MessageBoard {
     - 区块确认数；
     - 输入的合约字节码（Input Data）等。
 
-    ![图 21](../images/solidity-intern/image%2018.png)
+    ![图 21](../images/solidity-intern/smart-contract_events-logs_01.png)
 
     ==**通过合约地址查看合约详情**=={.note}
 
@@ -1104,42 +1104,42 @@ contract MessageBoard {
        - 发布者地址（Creator）；
        - 合约代码（若已验证）等
 
-    ![图 22](../images/solidity-intern/image%2019.png)
+    ![图 22](../images/solidity-intern/dapp_user-experience_01.png)
 
     ==**查看合约事件日志（Events）**=={.note}
 
     即使该合约尚未发生函数调用或转账交易，也可以通过 Etherscan 的 **Events** 标签页查看部署过程中由构造函数或初始设置触发的事件。该功能有助于调试初始化逻辑和验证合约状态。
 
-    ![图 23](../images/solidity-intern/image%2020.png)
+    ![图 23](../images/solidity-intern/ethereum_gas-fees_01.png)
 
 3.  ==合约交互==
 
-        完成部署后，我们可以使用 Remix 提供的图形界面与已部署的智能合约进行函数调用测试，实现链上交互，并通过 Etherscan 验证交易与日志记录。
+    完成部署后，我们可以使用 Remix 提供的图形界面与已部署的智能合约进行函数调用测试，实现链上交互，并通过 Etherscan 验证交易与日志记录。
 
-        ==**通过 Remix 调用合约函数**=={.note}
+    ==**通过 Remix 调用合约函数**=={.note}
 
-        1. 回到 Remix 的 **Deploy & Run Transactions** 面板；
-        2. 在已部署合约实例下，找到函数 `leaveMessage`；
-        3. 在输入框中输入一条测试信息（例如：`Hello ETH`）；
-        4. 点击 `leaveMessage` 按钮发起函数调用；
-        5. MetaMask 将弹出交易确认窗口，确认后即可发送交易；
-        6. Remix 下方的终端将显示交易成功日志，包括交易哈希（Tx Hash）。
+    1. 回到 Remix 的 **Deploy & Run Transactions** 面板；
+    2. 在已部署合约实例下，找到函数 `leaveMessage`；
+    3. 在输入框中输入一条测试信息（例如：`Hello ETH`）；
+    4. 点击 `leaveMessage` 按钮发起函数调用；
+    5. MetaMask 将弹出交易确认窗口，确认后即可发送交易；
+    6. Remix 下方的终端将显示交易成功日志，包括交易哈希（Tx Hash）。
 
-        ![图 24](../images/solidity-intern/image%2021.png)
+    ![图 24](../images/solidity-intern/defi_protocol-interaction_01.png)
 
-        ==**通过 Etherscan 验证交互结果**=={.note}
+    ==**通过 Etherscan 验证交互结果**=={.note}
 
-        1. 复制合约地址，再次访问 Sepolia Etherscan；
-        2. 在搜索框粘贴合约地址，进入合约详情页面；
-        3. 此时页面中将显示新增的一条交易（Transaction），即刚刚执行的函数调用记录；
-        4. 点击该交易进入交易详情页；
-        5. 在页面下方的 **Logs** 或 **Event Logs** 标签页中，可看到刚刚触发的事件日志，其中包含输入的留言内容等参数信息。
+    1. 复制合约地址，再次访问 Sepolia Etherscan；
+    2. 在搜索框粘贴合约地址，进入合约详情页面；
+    3. 此时页面中将显示新增的一条交易（Transaction），即刚刚执行的函数调用记录；
+    4. 点击该交易进入交易详情页；
+    5. 在页面下方的 **Logs** 或 **Event Logs** 标签页中，可看到刚刚触发的事件日志，其中包含输入的留言内容等参数信息。
 
-        ![图 25](../images/solidity-intern/image%2022.png)
+    ![图 25](../images/solidity-intern/nft_smart-contract_01.png)
 
-        ![图 26](../images/solidity-intern/image%2023.png)
+    ![图 26](../images/solidity-intern/dao_governance-contract_01.png)
 
-    :::
+:::
 
 ## 七、区块链前端整合
 
@@ -1155,7 +1155,7 @@ contract MessageBoard {
 6. **广播交易**：将签名交易发送到区块链网络
 7. **状态更新**：获取交易结果并更新前端界面
 
-![图 27](../images/solidity-intern/image%2024.png)
+![图 27](../images/solidity-intern/web3_development-tools_01.png)
 
 #### ==1.2 关键技术栈==
 
@@ -1171,7 +1171,7 @@ contract MessageBoard {
 
 在第六章中，我们已成功将智能合约部署至测试网络。然而，仅部署合约并不足以实现用户交互。为此，本章节将通过构建一个基于 Web 的前端页面，使用户可以通过网页界面与区块链上的合约进行交互（如留言等操作），从而实现完整的链上功能闭环。
 
-![图 28](../images/solidity-intern/image%2025.png)
+![图 28](../images/solidity-intern/blockchain_deployment-process_01.png)
 
 #### ==2.1 关键代码==
 
@@ -1467,7 +1467,7 @@ async function queryMessages() {
 
 #### 3.2 审计标准流程
 
-![图 29](../images/solidity-intern/2ae3ed30-21a9-4447-b8c5-1d79dcde2b6d.png)
+![图 29](../images/solidity-intern/solidity_basics-tutorial_01.png)
 
 1. **静态分析（Static Analysis）**：使用工具如 Slither、Mythril 扫描代码缺陷
 2. **动态测试（Fuzzing/Property Testing）**：模拟攻击行为和极限条件
@@ -1487,7 +1487,7 @@ async function queryMessages() {
 
 #### 4.1 GitHub 工作流
 
-![图 30](../images/solidity-intern/e12ee92b-1860-42a9-a1aa-89c29e0d131d.png)
+![图 30](../images/solidity-intern/ethereum_account-types_01.png)
 ::: steps
 
 - 分支策略：
@@ -1542,7 +1542,7 @@ async function queryMessages() {
 
 #### 4.2 Issue 管理
 
-![图 31](../images/solidity-intern/cdb9939a-18e9-4dd8-80f6-b8cf22ccf0dc.png)
+![图 31](../images/solidity-intern/remix_smart-contract-editor_01.png)
 
 - 描述 Issue 结构推荐：背景 + 问题 + 尝试过的方法 + 环境信息
 
