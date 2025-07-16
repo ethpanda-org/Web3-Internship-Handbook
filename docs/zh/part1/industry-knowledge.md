@@ -158,7 +158,7 @@ NFT 背后的另一项重要技术是**智能合约**。智能合约是一种自
 
 CryptoPunks 可以被看作是 NFT 历史中的“先驱者”。由 Larva Labs 于 2017 年创建，CryptoPunks 是一系列由 10,000 个像素风格的头像组成，每个头像都有其独特的属性（如不同的发型、眼睛、面部特征等）。这些头像一开始并未得到广泛重视，但随着 NFT 和加密货币市场的崛起，CryptoPunks 成为了最早的 NFT 收藏品之一，并且逐渐形成了专属的社群和文化。
 
-![CryptoPunks](../images/industry/cryptopunks.webp)
+![CryptoPunks](../images/industry/cryptopunks.jpg)
 
 通过区块链，这些 CryptoPunks 的所有权和历史交易都得到了记录，任何人都可以验证某个 Punk 是否属于你，也能看到它的历史交易价格、所有者等信息。
 
