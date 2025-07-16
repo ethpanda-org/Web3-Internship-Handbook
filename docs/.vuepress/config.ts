@@ -9,9 +9,9 @@
  * 特别的，请不要在两个配置文件中重复配置相同的项，当前文件的配置项会被覆盖
  */
 
-import { viteBundler } from '@vuepress/bundler-vite'
-import { defineUserConfig } from 'vuepress'
-import { plumeTheme } from 'vuepress-theme-plume'
+import { viteBundler } from '@vuepress/bundler-vite';
+import { defineUserConfig } from 'vuepress';
+import { plumeTheme } from 'vuepress-theme-plume';
 
 export default defineUserConfig({
   base: '/Web3-Internship-Handbook/',
@@ -25,7 +25,8 @@ export default defineUserConfig({
     '/en/': {
       title: 'Web3 Internship Handbook (English Coming Soon)',
       lang: 'en-US',
-      description: 'English version is under development. Please check the Chinese version for complete content.',
+      description:
+        'English version is under development. Please check the Chinese version for complete content.',
     },
   },
 
@@ -40,7 +41,12 @@ export default defineUserConfig({
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
     // hostname: 'https://your_site_url',
-    copyright: 'CC-BY-NC-SA-4.0',
+    copyright: {
+      license: 'CC-BY-NC-SA-4.0',
+      author: 'ETHPanda & LXDAO Community',
+      creation: 'original',
+    },
+
     /* 文档仓库配置，用于 editLink */
     docsRepo: 'https://github.com/ethpanda-org/Web3-Internship-Handbook',
     docsDir: 'docs',
@@ -49,10 +55,11 @@ export default defineUserConfig({
     /* 页内信息 */
     // editLink: true,
     lastUpdated: false,
-    // contributors: {
-    //   mode: 'block',
-    // },
-    changelog: false,
+    changelog: true,
+
+    plugins: {
+      git: true,
+    },
 
     /**
      * 博客
@@ -116,25 +123,25 @@ export default defineUserConfig({
     // readingTime: true,
 
     /**
-      * markdown
-      * @see https://theme-plume.vuejs.press/config/markdown/
-      */
+     * markdown
+     * @see https://theme-plume.vuejs.press/config/markdown/
+     */
     markdown: {
       //   abbr: true,         // 启用 abbr 语法  *[label]: content
-      annotation: true,   // 启用 annotation 语法  [+label]: content
-      pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
+      annotation: true, // 启用 annotation 语法  [+label]: content
+      pdf: true, // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
       //   caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
       //   plot: true,         // 启用隐秘文本语法 !!xxxx!!
       //   bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
       //   youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
       //   artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
       //   audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)
-      chat: true, 
-      icon: { 
+      chat: true,
+      icon: {
         provider: 'iconify',
         // provider: 'iconfont',
         // prefix: 'iconfont icon-',
-      },        // 启用内置图标语法  ::icon-name::
+      }, // 启用内置图标语法  ::icon-name::
       //   codepen: true,      // 启用嵌入 codepen 语法 @[codepen](user/slash)
       //   replit: true,       // 启用嵌入 replit 语法 @[replit](user/repl-name)
       //   codeSandbox: true,  // 启用嵌入 codeSandbox 语法 @[codeSandbox](id)
@@ -152,10 +159,10 @@ export default defineUserConfig({
       //   chartjs: true,      // 启用 chart.js
       //   echarts: true,      // 启用 ECharts
       collapse: true,
-      mermaid: true,      // 启用 mermaid
-      flowchart: true,    // 启用 flowchart
+      mermaid: true, // 启用 mermaid
+      flowchart: true, // 启用 flowchart
       image: {
-        figure: true,     // 启用 figure
+        figure: true, // 启用 figure
         // lazyload: true,   // 启用图片懒加载
         // mark: true,       // 启用图片标记
         // size: true,       // 启用图片大小
@@ -197,6 +204,5 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/guide/features/encryption/
      */
     // encrypt: {},
-
   }),
-})
+});

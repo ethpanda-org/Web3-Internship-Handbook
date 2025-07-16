@@ -10,20 +10,21 @@
  * 特别的，请不要在两个配置文件中重复配置相同的项，当前文件的配置项会覆盖 `.vuepress/config.ts` 文件中的配置
  */
 
-import { defineThemeConfig } from 'vuepress-theme-plume'
-import { enNavbar, zhNavbar } from './navbar'
-import { enNotes, zhNotes } from './notes'
+import { defineThemeConfig } from 'vuepress-theme-plume';
+import { enNavbar, zhNavbar } from './navbar';
+import { enNotes, zhNotes } from './notes';
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: '/640.png',
-
-  appearance: true,  // 配置 深色模式
+  appearance: false, // 配置 深色模式
 
   social: [
-    { icon: 'github', link: 'https://github.com/ethpanda-org/Web3-Internship-Handbook' },
+    {
+      icon: 'github',
+      link: 'https://github.com/ethpanda-org/Web3-Internship-Handbook',
+    },
   ],
   // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
   // aside: true, // 页内侧边栏， 默认显示在右侧
@@ -35,8 +36,8 @@ export default defineThemeConfig({
    */
   // copyright: true,
 
-  prevPage: true,   // 是否启用上一页链接
-  nextPage: true,   // 是否启用下一页链接
+  prevPage: true, // 是否启用上一页链接
+  nextPage: true, // 是否启用下一页链接
   // createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
@@ -47,9 +48,9 @@ export default defineThemeConfig({
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
   transition: {
-    page: true,        // 启用 页面间跳转过渡动画
-    postList: true,    // 启用 博客文章列表过渡动画
-    appearance: 'fade',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
+    page: true, // 启用 页面间跳转过渡动画
+    postList: true, // 启用 博客文章列表过渡动画
+    appearance: 'fade', // 启用 深色模式切换过渡动画, 或配置过渡动画类型
   },
 
   locales: {
@@ -73,12 +74,12 @@ export default defineThemeConfig({
        * 公告板
        * @see https://theme-plume.vuejs.press/guide/features/bulletin/
        */
-       // bulletin: {
-       //   layout: 'top-right',
-       //   contentType: 'markdown',
-       //   title: '',
-       //   content: '',
-       // },
+      // bulletin: {
+      //   layout: 'top-right',
+      //   contentType: 'markdown',
+      //   title: '',
+      //   content: '',
+      // },
     },
     '/en/': {
       /**
@@ -87,7 +88,8 @@ export default defineThemeConfig({
       profile: {
         avatar: '/640.png',
         name: 'Web3 Internship Handbook',
-        description: 'English version coming soon. Currently perfecting Chinese content.',
+        description:
+          'English version coming soon. Currently perfecting Chinese content.',
         // circle: true,
         // location: '',
         // organization: '',
@@ -100,12 +102,12 @@ export default defineThemeConfig({
        * 公告板
        * @see https://theme-plume.vuejs.press/guide/features/bulletin/
        */
-       // bulletin: {
-       //   layout: 'top-right',
-       //   contentType: 'markdown',
-       //   title: '',
-       //   content: '',
-       // },
+      // bulletin: {
+      //   layout: 'top-right',
+      //   contentType: 'markdown',
+      //   title: '',
+      //   content: '',
+      // },
     },
   },
-})
+});
