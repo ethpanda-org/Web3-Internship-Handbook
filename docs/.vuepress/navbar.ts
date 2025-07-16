@@ -8,13 +8,17 @@ import { defineNavbarConfig } from 'vuepress-theme-plume';
 
 export const zhNavbar = defineNavbarConfig([
   { text: '开始阅读', link: '/zh/README.md' },
-  { text: '关于我们', link: '/notes/aboutUs.md' },
-  { text: '参与和支持', link: '/notes/joinUs.md' },
+  {
+    text: '参与和支持',
+    link: 'https://github.com/ethpanda-org/Web3-Internship-Handbook/blob/main/CONTRIBUTING.md',
+  },
   { text: '致谢名单', link: '/zh/acknowledgments.md' },
 ]);
 
 export const enNavbar = defineNavbarConfig([
   { text: 'Chinese Version', link: '/zh/README.md' },
-  { text: 'About Us', link: '/notes/aboutUs.md' },
-  { text: 'Join Development', link: '/notes/joinUs.md' },
+  {
+    text: 'Join Development',
+    link: 'https://github.com/ethpanda-org/Web3-Internship-Handbook/blob/main/CONTRIBUTING.md',
+  },
 ]);
