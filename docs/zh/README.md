@@ -69,3 +69,30 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
 
 - Telegram 社群：<https://t.me/LXDAO>
 - Twitter（X）：<https://x.com/lxdao_official>
+
+## 👥 核心贡献者
+
+本项目汇聚了众多 Web3 行业专家和开发者的智慧结晶：[👥 查看完整贡献者名单](./acknowledgments.md)
+
+## 🏆 赞助方与合作伙伴
+
+我们感谢以下组织的支持与合作：
+
+TODO
+
+## 📄 使用许可
+
+本项目采用 [MIT License](https://github.com/ethpanda-org/Web3-Internship-Handbook/blob/main/LICENSE) 开源协议。
+
+内容使用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，禁止商业用途。
+
+---
+
+<div align="center">
+  <h3>🌟 如果这个项目对您有帮助，请给我们一个 Star！</h3>
+  <p>让更多人发现这个优质的 Web3 学习资源</p>
+
+[![GitHub stars](https://img.shields.io/github/stars/ethpanda-org/Web3-Internship-Handbook?style=social)](https://github.com/ethpanda-org/Web3-Internship-Handbook)
+[![GitHub forks](https://img.shields.io/github/forks/ethpanda-org/Web3-Internship-Handbook?style=social)](https://github.com/ethpanda-org/Web3-Internship-Handbook)
+
+</div>
