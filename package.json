@@ -1,8 +1,7 @@
 {
   "name": "web3-internship-handbook",
-  "version": "1.0.0",
-  "description": "",
-  "author": "“EchoZheng2333” <1137077228@qq.com>",
+  "private": true,
+  "description": "Web3 Internship Handbook",
   "license": "MIT",
   "engines": {
     "node": "^20.6.0 || >=22.0.0"
