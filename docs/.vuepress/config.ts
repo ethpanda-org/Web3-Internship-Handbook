@@ -14,7 +14,7 @@ import { defineUserConfig } from 'vuepress';
 import { plumeTheme } from 'vuepress-theme-plume';
 
 export default defineUserConfig({
-  base: '/Web3-Internship-Handbook/',
+  base: '/',
   lang: 'zh-CN',
   locales: {
     '/': {
@@ -32,7 +32,7 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: '/640.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/zh/images/logo/640.png' }],
   ],
 
   bundler: viteBundler(),
@@ -40,7 +40,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://web3intern.xyz',
     copyright: {
       license: 'CC-BY-NC-SA-4.0',
       author: 'ETHPanda & LXDAO Community',
