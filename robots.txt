@@ -1,0 +1,3 @@
+Sitemap: https://web3intern.xyz/sitemap.xml
+User-agent:*
+Disallow:
