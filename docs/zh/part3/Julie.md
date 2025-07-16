@@ -8,7 +8,7 @@ permalink: /zh/julie-community-growth-expert/
 
 ::: card
 
-![Julie](../images/Industry-veteran/WechatIMG71.jpg){.full-width width="20%"}
+![Julie](../images/interview/julie.jpg){.full-width width="20%"}
 
 Julie Chen，ZetaChain 华语及美国社区负责人，宾夕法尼亚大学毕业，全美华人 30 岁以下青年精英，曾供职于 SevenX Ventures、A&T Capital 等知名投资机构，推特 [@0xJuliechen](https://x.com/0xJuliechen)
 :::

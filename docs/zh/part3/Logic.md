@@ -8,7 +8,7 @@ permalink: /zh/logic-frontend-journey/
 
 ::: card
 
-![Logic](../images/Industry-veteran/WechatIMG73.jpg){.full-width width="20%"}
+![Logic](../images/interview/logic.jpg){.full-width width="20%"}
 
 Logic，Bybit 前端开发工程师，曾供职于 Artela 与 Rooch Network ，主导核心 Dapp 与基础设施的前端实现，亦曾在 LXDAO MyFirstLayer2 担任产品经理，推特 [@Logicdevlife](https://x.com/Logicdevlife)
 :::

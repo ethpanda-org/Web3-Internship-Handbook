@@ -8,7 +8,7 @@ permalink: /zh/jason-web2-to-web3-journey/
 
 ::: card
 
-![Jason](../images/Industry-veteran/WechatIMG69.jpg){.full-width width="20%"}
+![Jason](../images/interview/jason.jpg){.full-width width="20%"}
 
 Jason，现任某互联网大厂 C/C++ 开发，深大硕士毕业，曾斩获阿里、华为全职 Offer，推特 [@fxxkmystyle](https://x.com/fxxkmystyle)
 :::

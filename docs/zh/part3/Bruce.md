@@ -8,7 +8,7 @@ permalink: /zh/bruce-hiring-perspective/
 
 ::: card
 
-![Bruce](../images/Industry-veteran/bruce.jpg){.full-width width="20%"}
+![Bruce](../images/interview/bruce.jpg){.full-width width="20%"}
 
 Bruce，LXDAO & ETHPanda 联合发起人，十余年全栈开发与团队管理经验，曾任职阿里巴巴 Web Developer，现居新西兰，推特 [@brucexu_eth](https://x.com/brucexu_eth)
 :::
