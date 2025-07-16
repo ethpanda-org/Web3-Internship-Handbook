@@ -1,7 +1,7 @@
 ---
 title: 智能合约开发
 createTime: '2025/06/12 00:30:37'
-permalink: /web3-handbook/smart-contract-development/
+permalink: /zh/smart-contract-development/
 ---
 
 > 本章将围绕 Web3 行业中的智能合约工程师所需的技能进行介绍，首先介绍去中心化应用（Dapp）的基本架构，重点分析其与传统应用的不同之处。接着，我们将详细讨论开发 Dapp 的流程，从需求分析、智能合约的编写、前端与后端的设计，到最终部署和上线，帮助读者理解整个开发生命周期。

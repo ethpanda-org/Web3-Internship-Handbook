@@ -1,7 +1,7 @@
 ---
 title: 面试通关秘籍
 createTime: 2025/06/24 14:37:31
-permalink: /web3-handbook/interview-preparedness/
+permalink: /zh/interview-preparedness/
 ---
 
 > **目标**：本章将帮助 Web3 新人和在校学生系统性地准备面试，从基础知识储备到实战演练，逐步提升面试成功率。我们会针对不同岗位提供循序渐进的准备方案，确保每个人都能找到适合自己的学习路径。

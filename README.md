@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ethpanda-org/Web3-Internship-Handbook/pulls)
 
-[在线阅读](https://ethpanda-org.github.io/Web3-Internship-Handbook/) | [开始学习](./docs/web3-handbook/README.md) | [加入社区](https://t.me/ethpanda)
+[在线阅读](https://ethpanda-org.github.io/Web3-Internship-Handbook/) | [开始学习](./docs/zh/README.md) | [加入社区](https://t.me/ethpanda)
 
 </div>
 
@@ -38,67 +38,67 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
 
 ### 第一部分：入门导读
 
-1. [**区块链基础概念**](./docs/web3-handbook/part1/blockchain-basic.md)
+1. [**区块链基础概念**](./docs/zh/part1/blockchain-basic.md)
 
    - 区块链的本质与运作原理
    - 公链、私链、联盟链的区别
    - Web3 vs Web2：范式转变
 
-2. [**以太坊概览**](./docs/web3-handbook/part1/overview-of-ethereum.md)
+2. [**以太坊概览**](./docs/zh/part1/overview-of-ethereum.md)
 
    - 从 PoW 到 PoS：The Merge 详解
    - Layer 2 扩展方案全景
    - EVM 生态系统导览
 
-3. [**行业赛道全览**](./docs/web3-handbook/part1/industry-knowledge.md)
+3. [**行业赛道全览**](./docs/zh/part1/industry-knowledge.md)
 
    - DeFi：重塑金融体系
    - NFT：数字资产革命
    - DAO：组织形态创新
    - 2025 年新兴趋势
 
-4. [**Web3 工作方式**](./docs/web3-handbook/part1/remote-work-guide.md)
+4. [**Web3 工作方式**](./docs/zh/part1/remote-work-guide.md)
    - 必备工具与平台使用
    - 远程协作最佳实践
    - 社区文化与行业黑话
 
 ### 第二部分：职业发展
 
-1. [**区块链岗位全景图**](./docs/web3-handbook/part2/position-introduction.md)
+1. [**区块链岗位全景图**](./docs/zh/part2/position-introduction.md)
 
    - 技术岗 vs 非技术岗
    - 各岗位技能要求
    - 职业发展路径
 
-2. [**智能合约开发**](./docs/web3-handbook/part2/smart-contract-development.md)
+2. [**智能合约开发**](./docs/zh/part2/smart-contract-development.md)
 
    - Solidity 从入门到精通
    - Dapp 架构设计
    - 安全审计要点
 
-3. [**社区运营指南**](./docs/web3-handbook/part2/community-intern.md)
+3. [**社区运营指南**](./docs/zh/part2/community-intern.md)
 
    - 社区增长策略
    - 活动策划执行
    - 数据分析方法
 
-4. [**安全与合规**](./docs/web3-handbook/part2/security.md)
+4. [**安全与合规**](./docs/zh/part2/security.md)
    - 常见安全威胁
    - 合规要求解读
 
 ### 第三部分：前辈经验
 
-- [**Logic**：前端工程师的 Web3 征途](./docs/web3-handbook/part3/Logic.md)
-- [**Jason**：从 Web2 到 Web3 的转型之路](./docs/web3-handbook/part3/Jason.md)
-- [**Julie**：00 后如何成为社区增长专家](./docs/web3-handbook/part3/Julie.md)
+- [**Logic**：前端工程师的 Web3 征途](./docs/zh/part3/Logic.md)
+- [**Jason**：从 Web2 到 Web3 的转型之路](./docs/zh/part3/Jason.md)
+- [**Julie**：00 后如何成为社区增长专家](./docs/zh/part3/Julie.md)
 
 ### 第四部分：求职指南
 
-1. [**简历撰写指导**](./docs/web3-handbook/part4/write-resume.md)
-2. [**面试通关秘籍**](./docs/web3-handbook/part4/interview-preparedness.md)
-3. [**求职平台推荐**](./docs/web3-handbook/part4/job-platform.md)
+1. [**简历撰写指导**](./docs/zh/part4/write-resume.md)
+2. [**面试通关秘籍**](./docs/zh/part4/interview-preparedness.md)
+3. [**求职平台推荐**](./docs/zh/part4/job-platform.md)
 
-### [第五部分：资源附录](./docs/web3-handbook/part5/part5.md)
+### [第五部分：资源附录](./docs/zh/part5/part5.md)
 
 1. 区块链 / 以太坊术语表
 2. 推荐资料清单（文档、书籍、技术博客、视频课程等）
@@ -131,7 +131,7 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
   <tr>
     <td align="center">
       <a href="https://ethpanda.org">
-        <img src="./docs/web3-handbook/images/logo/640.png" width="100px;" alt="ETHPanda"/>
+        <img src="./docs/zh/images/logo/640.png" width="100px;" alt="ETHPanda"/>
         <br />
         <sub><b>ETHPanda</b></sub>
       </a>
@@ -140,7 +140,7 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
     </td>
     <td align="center">
       <a href="https://lxdao.io">
-        <img src="./docs/web3-handbook/images/logo/LXDAO.png" width="100px;" alt="LXDAO"/>
+        <img src="./docs/zh/images/logo/LXDAO.png" width="100px;" alt="LXDAO"/>
         <br />
         <sub><b>LXDAO</b></sub>
       </a>
@@ -156,7 +156,7 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
   <tr>
     <td align="center">
       <a href="https://x.com/brucexu_eth" target="_blank">
-         <img src="./docs/web3-handbook/images/contributor/bruce.png" width="64px;" alt="Bruce"/>
+         <img src="./docs/zh/images/contributor/bruce.png" width="64px;" alt="Bruce"/>
          <br />
          <sub><b>Bruce</b></sub>
          <br />
@@ -164,28 +164,28 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
       </a>
     </td>
     <td align="center">
-      <img src="./docs/web3-handbook/images/contributor/Echo.jpg" width="64px;" alt="Echo"/>
+      <img src="./docs/zh/images/contributor/Echo.jpg" width="64px;" alt="Echo"/>
       <br />
       <sub><b>Echo</b></sub>
       <br />
       <sub>内容架构师</sub>
     </td>
     <td align="center">
-      <img src="./docs/web3-handbook/images/contributor/tangyuan.png" width="64px;" alt="吃汤圆"/>
+      <img src="./docs/zh/images/contributor/tangyuan.png" width="64px;" alt="吃汤圆"/>
       <br />
       <sub><b>吃汤圆</b></sub>
       <br />
       <sub>核心编写者</sub>
     </td>
     <td align="center">
-      <img src="./docs/web3-handbook/images/contributor/Alex.jpg" width="64px;" alt="Alex"/>
+      <img src="./docs/zh/images/contributor/Alex.jpg" width="64px;" alt="Alex"/>
       <br />
       <sub><b>Alex</b></sub>
       <br />
       <sub>内容贡献者</sub>
     </td>
     <td align="center">
-      <img src="./docs/web3-handbook/images/contributor/Luna.jpg" width="64px;" alt="Luna"/>
+      <img src="./docs/zh/images/contributor/Luna.jpg" width="64px;" alt="Luna"/>
       <br />
       <sub><b>Luna</b></sub>
       <br />
@@ -194,7 +194,7 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
   </tr>
 </table>
 
-[查看完整贡献者名单](./docs/web3-handbook/acknowledgments.md)
+[查看完整贡献者名单](./docs/zh/acknowledgments.md)
 
 ---
 

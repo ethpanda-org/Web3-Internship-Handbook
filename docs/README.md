@@ -12,14 +12,14 @@ config:
       actions:
         - theme: brand
           text: 开始阅读
-          link: ./web3-handbook/README.md
+          link: ./zh/README.md
         - theme: alt
           text: Github →
           link: https://github.com/ethpanda-org/Web3-Internship-Handbook
   - type: image-text
     title: 「Web3 实习手册」是什么？
     image:
-      src: ./web3-handbook/images/home/brainstorming.svg
+      src: ./zh/images/home/brainstorming.svg
     width: 300
     list:
       - title: 这是一本专为高校学生打造的 Web3 入门读物。我们深知你在进入 Web3 领域时面临的挑战与困惑，因此，这本手册将成为你最可靠的引路人。
@@ -30,7 +30,7 @@ config:
   - type: text-image
     title: 为什么选择我们？
     image:
-      src: ./web3-handbook/images/home/confuse.png
+      src: ./zh/images/home/confuse.png
     width: 300
     list:
       - title: 我们不仅提供知识，更注重实践。Web3 行业日新月异，缺乏系统性指导是许多新人的痛点。我们致力于为你构建一个安全、高效的学习路径，让你自信迈入 Web3 世界。
@@ -42,7 +42,7 @@ config:
     features:
       - title: ETHPanda
         icon:
-          src: ./web3-handbook/images/logo/640.png
+          src: ./zh/images/logo/640.png
           width: 45px
           height: 45px
         details: ETHpanda 是一个由华语建设者组成的以太坊社区，致力于通过教育、公共服务、活动和技术创新，连接华语建设者与国际以太坊生态，共同推动以太坊的持续发展与创新。
@@ -50,7 +50,7 @@ config:
         linkText: 加入我们
       - title: LXDAO
         icon:
-          src: ./web3-handbook/images/logo/LXDAO.png
+          src: ./zh/images/logo/LXDAO.png
           width: 45px
           height: 45px
         details: LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品进入可持续发展的无限循环（Infinite Cycle）。
@@ -62,37 +62,37 @@ config:
     features:
       - title: Bruce
         icon:
-          src: ./web3-handbook/images/contributor/bruce.png
+          src: ./zh/images/contributor/bruce.png
           width: 45px
           height: 45px
         details: 项目发起人 & 生态建设
       - title: Echo
         icon:
-          src: ./web3-handbook/images/contributor/Echo.jpg
+          src: ./zh/images/contributor/Echo.jpg
           width: 45px
           height: 45px
         details: 项目统筹 & 内容架构设计 & 编写
       - title: 吃汤圆
         icon:
-          src: ./web3-handbook/images/contributor/tangyuan.png
+          src: ./zh/images/contributor/tangyuan.png
           width: 45px
           height: 45px
         details: 内容架构设计 & 编写
       - title: Alex
         icon:
-          src: ./web3-handbook/images/contributor/Alex.jpg
+          src: ./zh/images/contributor/Alex.jpg
           width: 45px
           height: 45px
         details: 内容编写
       - title: Luna
         icon:
-          src: ./web3-handbook/images/contributor/Luna.jpg
+          src: ./zh/images/contributor/Luna.jpg
           width: 45px
           height: 45px
         details: 内容编写
       - title: Jason
         icon:
-          src: ./web3-handbook/images/Industry-veteran/WechatIMG69.jpg
+          src: ./zh/images/Industry-veteran/WechatIMG69.jpg
           width: 45px
           height: 45px
         details: 内容编写

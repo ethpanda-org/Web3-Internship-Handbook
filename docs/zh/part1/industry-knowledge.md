@@ -1,7 +1,7 @@
 ---
 title: 行业赛道全览
 createTime: '2025/06/11 20:14:15'
-permalink: /web3-handbook/industry-knowledge/
+permalink: /zh/industry-knowledge/
 ---
 
 > 区块链技术现在已经从单一的加密货币支付系统发展为涵盖金融、艺术、组织治理和社区文化的多元生态系统。这次我们将深入解析 DeFi（去中心化金融）、NFT（非同质化代币）、DAO（去中心化自治组织）与 MEME（模因币）四大领域，通过典型案例剖析其核心机制，为大家提供全面的入门指南，以便更好地寻找实习相关岗位。

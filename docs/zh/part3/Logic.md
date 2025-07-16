@@ -1,7 +1,7 @@
 ---
 title: 技术向前端 Logic：Bybit 先锋的前端取经之路
 createTime: 2025/06/15 18:33:58
-permalink: /web3-handbook/logic-frontend-journey/
+permalink: /zh/logic-frontend-journey/
 ---
 
 > 在本章，我们追踪 Logic 从校园黑客松踏入 LXDAO，再到入职 Bybit 的链上闯关历程。他以运营助攻到前端架构师，强调业务洞察与质量体系的重要性，分享了「小项目-社区-开源-Hackathon」渐进式成长路径，并点明 Web3 前端需熟悉钱包交互与风险逻辑；AI 可解放重复劳动却难取代核心判断。对初学者，他建议先做 Testnet 实操、贡献 PR，积累软硬实力。

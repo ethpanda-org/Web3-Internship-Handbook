@@ -1,6 +1,6 @@
 ---
 title: 区块链岗位全景图
-permalink: /web3-handbook/position-introduction/
+permalink: /zh/position-introduction/
 createTime: '2025/06/12 00:30:37'
 ---
 

@@ -23,32 +23,9 @@ import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume';
 
 /* =================== locale: zh-CN ======================= */
 
-const zhDemoNote = defineNoteConfig({
-  dir: 'demo',
-  // `dir` 所指向的目录中的所有 markdown 文件，其 permalink 需要以 `link` 配置作为前缀
-  // 如果 前缀不一致，则无法生成侧边栏。
-  // 所以请确保  markdown 文件的 permalink 都以 `link` 开头
-  link: '/demo',
-  // 手动配置侧边栏结构
-  sidebar: ['', 'foo', 'bar'],
-  // 根据文件结构自动生成侧边栏
-  // sidebar: 'auto',
-});
-
-/**
- * 导出所有的 note
- * 每一个 note 都应该填入到 `notes.notes` 数组中
- * （zhDemoNote 为参考示例，如果不需要它，请删除）
- */
-// export const zhNotes = defineNotesConfig({
-//   dir: 'notes',
-//   link: '/',
-//   notes: [zhDemoNote],
-// })
-
 const handbookNote = defineNoteConfig({
-  dir: 'web3-handbook',
-  link: '/web3-handbook',
+  dir: 'zh',
+  link: '/zh',
   sidebar: [
     { text: 'Web3 实习手册', link: 'README.md' },
     {
@@ -59,7 +36,7 @@ const handbookNote = defineNoteConfig({
         { text: '行业知识', link: 'part1/industry-knowledge.md' },
         { text: 'Web3 工作方式', link: 'part1/remote-work-guide.md' },
       ],
-      collapsed: true,
+      collapsed: false,
     },
     {
       text: 'Web3 行业知识',
@@ -79,7 +56,7 @@ const handbookNote = defineNoteConfig({
           badge: { text: '待更新', type: 'info' },
         },
       ],
-      collapsed: true,
+      collapsed: false,
     },
     {
       text: '行业前辈访谈录',
@@ -87,12 +64,13 @@ const handbookNote = defineNoteConfig({
         { text: '前端先锋的链上闯关之路', link: 'part3/Logic.md' },
         { text: 'Web2 到 Web3 的转型之路', link: 'part3/Jason.md' },
         { text: 'Web3 社区增长专家', link: 'part3/Julie.md' },
+        { text: '如何成为靠谱的 Web3 实习生', link: 'part3/Bruce.md' },
       ],
-      collapsed: true,
+      collapsed: false,
     },
     {
       text: '面试准备与行业岗位推荐',
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: '招聘平台与职位推荐', link: 'part4/job-platform.md' },
         { text: 'Web3 行业简历撰写指导', link: 'part4/write-resume.md' },
@@ -104,15 +82,10 @@ const handbookNote = defineNoteConfig({
     },
     {
       text: '附录',
-      collapsed: true,
-      items: [
-        { text: '附录一', link: 'part5/part5.md' },
-        // { text: '线上活动执行模板', link: 'part5/online.md' },
-        // { text: '线下活动执行模板', link: 'part5/offline.md' },
-      ],
+      collapsed: false,
+      items: [{ text: '附录', link: 'part5/part5.md' }],
     },
     { text: '致谢名单', link: 'acknowledgments.md' },
-    // {text: '获取更多', link: 'get-started.md', collapsed: true}
   ],
 });
 

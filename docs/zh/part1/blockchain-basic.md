@@ -1,7 +1,7 @@
 ---
 title: 区块链基础概念
 createTime: '2025/06/11 17:59:22'
-permalink: /web3-handbook/blockchain-basic/
+permalink: /zh/blockchain-basic/
 ---
 
 > 在本章，我们首先介绍区块链的基本概念，包括其定义、典型结构，接着阐述公链、私链与联盟链三种主要类型；然后解析一下 Web3 的内涵，并对比了 Web3、Web 3.0 与传统 Web2 的差异；最后探讨去中心化带来的主要优势与面临的挑战。

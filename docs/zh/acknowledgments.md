@@ -2,7 +2,7 @@
 title: 致谢名单
 createTime: 2025/06/03 16:33:50
 order: 6
-permalink: /web3-handbook/acknowledgments/
+permalink: /zh/acknowledgments/
 ---
 
 # 致谢名单

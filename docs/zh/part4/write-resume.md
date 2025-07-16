@@ -1,7 +1,7 @@
 ---
 title: Web3 行业简历撰写指导
 createTime: 2025/06/11 20:49:34
-permalink: /web3-handbook/write-resume/
+permalink: /zh/write-resume/
 ---
 
 > 无论你是帅哥还是靓女，你的简历是都是招聘官见的第一面。见字如面，在竞争激烈的 Web3 行业当中，一份 **精准** 的 Web3 简历一定是你打开职业之门的金钥匙。一份优秀的 Web3 简历不仅需要传统简历干净、简洁的特点，更需突出与 Web3 行业的切合度。

@@ -4,7 +4,7 @@ createTime: 2025/06/20 17:28:06
 permalink: /article/wi8k8mhd/
 ---
 
-![ETHPanda](../web3-handbook/images/logo//640.png){.full-width width="50%"}
+![ETHPanda](../zh/images/logo//640.png){.full-width width="50%"}
 
 ### ==ETHPanda=={.important}
 
@@ -19,11 +19,9 @@ ETHPanda 是一个致力于推动以太坊和 Web3 技术在中文社区发展�
 - 覆盖区域：海内外华人聚集区域
 - 可持续性：ETHPanda 作为非营利性组织，将面向整个以太坊生态提供公共服务。依靠基金会 Grants、活动 Sponsorship、捐赠等实现可持续性
 
-<br> 
+<br>
 
-
-
-![LXDAO](../web3-handbook/images/logo/LXDAO.png){.full-width width="30%"}
+![LXDAO](../zh/images/logo/LXDAO.png){.full-width width="30%"}
 
 ### ==LXDAO=={.important}
 

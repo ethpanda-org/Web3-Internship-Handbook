@@ -1,7 +1,7 @@
 ---
-title: 用人方视角：Bruce 谈如何成为靠谱的 Web3 技术实习生
+title: 用人方视角：Bruce 谈如何成为靠谱的 Web3 实习生
 createTime: 2025/06/15 18:33:58
-permalink: /web3-handbook/bruce-hiring-perspective/
+permalink: /zh/bruce-hiring-perspective/
 ---
 
 > 本章从用人方视角出发，LXDAO & ETHPanda 联合发起人 Bruce 结合十余年开发与管理经验，深度解析什么是「靠谱」的实习生。他强调「可预期、可沟通、可复盘」三大核心素质，分享时间评估的「经验倍数法」，并提供从面试准备到团队协作的实用建议。对于想要在 Web3 领域站稳脚跟的技术新人，这些来自一线管理者的洞察将帮助你避开常见陷阱，快速成长为团队信赖的核心成员。

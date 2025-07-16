@@ -1,7 +1,7 @@
 ---
 title: Web3 工作方式
 createTime: '2025/06/11 20:18:18'
-permalink: /web3-handbook/remote-work-guide/
+permalink: /zh/remote-work-guide/
 ---
 
 > 远程办公是 Web3 世界的生存法则，去中心化组织的基因决定了远程协作的必然性。典型 Web3 团队可能由美国的技术极客、新加坡的合规专家、东欧的智能合约开发者组成，这种地理分布要求成员必须具备远程协作能力。全球顶尖的 Web3 加速器如 Seed Club，其核心团队分布在 12 个时区，却通过异步沟通工具完成每周千万美元级项目的孵化。所以提前掌握一些基础的 Web3 工作习惯、方式会帮助你更好的适应这个行业。
@@ -364,7 +364,7 @@ TODO 图片有点糊，麻烦设计师制作
 3. **标点与空格（细节控必备）**
    - 中英文混排时加空格：
      - ✅ 「在 LeanCloud 上创建 AVObject」
-     - ❌ 「在LeanCloud上创建AVObject」。
+     - ❌ 「在 LeanCloud 上创建 AVObject」。
    - 全角中文标点：用「」代替 ""，用。代替.。
    - 数字用半角：写「500 元」而非「５００元」。
    - 详细排版规则请参考：[https://github.com/sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)

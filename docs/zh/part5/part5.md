@@ -2,7 +2,7 @@
 title: 第五部分：附录
 createTime: 2025/06/03 16:33:50
 order: 5
-permalink: /web3-handbook/appendix/
+permalink: /zh/appendix/
 ---
 
 ## 一、区块链 / 以太坊术语表

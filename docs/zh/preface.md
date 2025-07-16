@@ -1,7 +1,7 @@
 ---
 title: 前言
 createTime: 2025/06/25 10:00:00
-permalink: /web3-handbook/preface/
+permalink: /zh/preface/
 ---
 
 ## 写在前面
