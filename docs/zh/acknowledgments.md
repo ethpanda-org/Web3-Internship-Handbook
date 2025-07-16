@@ -34,6 +34,7 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
 ## 主要贡献者
 
 <table>
+  <tbody>
   <tr>
     <td align="center" valign="top" width="14.28%">
       <a href="https://x.com/brucexu_eth">
@@ -109,6 +110,7 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
       <span title="职业规划">📈</span>
     </td>
   </tr>
+  </tbody>
 </table>
 
 ## 社区支持
