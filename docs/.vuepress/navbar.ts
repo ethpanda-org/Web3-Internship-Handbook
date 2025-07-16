@@ -10,6 +10,7 @@ export const zhNavbar = defineNavbarConfig([
   { text: '开始阅读', link: '/zh/README.md' },
   { text: '关于我们', link: '/notes/aboutUs.md' },
   { text: '参与和支持', link: '/notes/joinUs.md' },
+  { text: '致谢名单', link: '/zh/acknowledgments.md' },
 ]);
 
 export const enNavbar = defineNavbarConfig([

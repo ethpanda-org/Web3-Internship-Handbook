@@ -56,46 +56,6 @@ config:
         details: LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品进入可持续发展的无限循环（Infinite Cycle）。
         link: https://lxdao.io
         linkText: 加入我们
-  - type: features
-    title: 贡献者列表
-    description: 感谢所有的贡献者，包括但不限于
-    features:
-      - title: Bruce
-        icon:
-          src: ./zh/images/contributor/bruce.png
-          width: 45px
-          height: 45px
-        details: 项目发起人 & 生态建设
-      - title: Echo
-        icon:
-          src: ./zh/images/contributor/Echo.jpg
-          width: 45px
-          height: 45px
-        details: 项目统筹 & 内容架构设计 & 编写
-      - title: 吃汤圆
-        icon:
-          src: ./zh/images/contributor/tangyuan.png
-          width: 45px
-          height: 45px
-        details: 内容架构设计 & 编写
-      - title: Alex
-        icon:
-          src: ./zh/images/contributor/Alex.jpg
-          width: 45px
-          height: 45px
-        details: 内容编写
-      - title: Luna
-        icon:
-          src: ./zh/images/contributor/Luna.jpg
-          width: 45px
-          height: 45px
-        details: 内容编写
-      - title: Jason
-        icon:
-          src: ./zh/images/Industry-veteran/WechatIMG69.jpg
-          width: 45px
-          height: 45px
-        details: 内容编写
 
   - type:
       custom
@@ -110,7 +70,7 @@ config:
 
 ## ::emojione-v1:ledger:: Web3 实习生计划
 
-我们会在实习季开始前启动为期 ==3 个月==的实习生计划，围绕手册内容进行共学、答疑和模拟面试，并为你对接真实的实习机会。
+我们会在实习季开始前启动为期 ==1.5 个月==的实习生计划，围绕手册内容进行共学、答疑和模拟面试，并为你对接真实的实习机会。
 ::: right
 [了解详情](https://t.me/ETHPandaOrg)
 :::

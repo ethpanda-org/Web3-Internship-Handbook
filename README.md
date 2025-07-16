@@ -91,6 +91,7 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
 - [**Logic**：前端工程师的 Web3 征途](./docs/zh/part3/Logic.md)
 - [**Jason**：从 Web2 到 Web3 的转型之路](./docs/zh/part3/Jason.md)
 - [**Julie**：00 后如何成为社区增长专家](./docs/zh/part3/Julie.md)
+- [**Bruce**：用人方视角：如何成为靠谱的 Web3 实习生](./docs/zh/part3/Bruce.md)
 
 ### 第四部分：求职指南
 
@@ -123,76 +124,9 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
 
 ---
 
-## 👥 核心团队
+## 👥 核心贡献者
 
-### 发起组织
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://ethpanda.org">
-        <img src="./docs/zh/images/logo/640.png" width="100px;" alt="ETHPanda"/>
-        <br />
-        <sub><b>ETHPanda</b></sub>
-      </a>
-      <br />
-      <sub>以太坊中文社区</sub>
-    </td>
-    <td align="center">
-      <a href="https://lxdao.io">
-        <img src="./docs/zh/images/logo/LXDAO.png" width="100px;" alt="LXDAO"/>
-        <br />
-        <sub><b>LXDAO</b></sub>
-      </a>
-      <br />
-      <sub>开源公共物品 DAO</sub>
-    </td>
-  </tr>
-</table>
-
-### 主要贡献者
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://x.com/brucexu_eth" target="_blank">
-         <img src="./docs/zh/images/contributor/bruce.png" width="64px;" alt="Bruce"/>
-         <br />
-         <sub><b>Bruce</b></sub>
-         <br />
-         <sub>项目发起人</sub>
-      </a>
-    </td>
-    <td align="center">
-      <img src="./docs/zh/images/contributor/Echo.jpg" width="64px;" alt="Echo"/>
-      <br />
-      <sub><b>Echo</b></sub>
-      <br />
-      <sub>内容架构师</sub>
-    </td>
-    <td align="center">
-      <img src="./docs/zh/images/contributor/tangyuan.png" width="64px;" alt="吃汤圆"/>
-      <br />
-      <sub><b>吃汤圆</b></sub>
-      <br />
-      <sub>核心编写者</sub>
-    </td>
-    <td align="center">
-      <img src="./docs/zh/images/contributor/Alex.jpg" width="64px;" alt="Alex"/>
-      <br />
-      <sub><b>Alex</b></sub>
-      <br />
-      <sub>内容贡献者</sub>
-    </td>
-    <td align="center">
-      <img src="./docs/zh/images/contributor/Luna.jpg" width="64px;" alt="Luna"/>
-      <br />
-      <sub><b>Luna</b></sub>
-      <br />
-      <sub>内容贡献者</sub>
-    </td>
-  </tr>
-</table>
+本项目由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxdao.io) 社区联合发起，由众多 Web3 行业专家和开发者共同贡献。
 
 [查看完整贡献者名单](./docs/zh/acknowledgments.md)
 
@@ -203,15 +137,6 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
 欢迎赞助，资金将用于《Web3 实习手册》的长期更新迭代、免费印刷分发等。
 
 - TODO 增加中
-
----
-
-## 🌟 支持社区
-
-感谢以下社区和组织的大力支持：
-
-- TODO 增加中
-- 更多支持者...
 
 ---
 
