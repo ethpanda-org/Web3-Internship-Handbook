@@ -400,7 +400,7 @@ PEPE 基于“悲伤青蛙”形象，发行总量高达 420.69 万亿枚。2024
 **核心层级：**
 
 - **结算层**：最终性和争议解决（Ethereum L1）
-- **数据可用性层**：数据存储和检索（Celestia、EigenDA）
+- **数据可用性层**：数据存储和检索（Celestia、EigenDA、Ethereum Blob）
 - **执行层**：交易处理和状态转换（Optimism、Arbitrum）
 - **共识层**：区块排序和最终确定（Ethereum PoS）
 
