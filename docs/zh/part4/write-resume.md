@@ -62,7 +62,7 @@ permalink: /zh/write-resume/
    - **A（行动 / Action）：** 聚焦你在其中采取的具体行动，突出个人贡献和在去中心化环境中的协作。
    - **R（结果 / Result）：** 展示最终的成果，最好是链上 / 社区指标、媒体提及、投票通过率等可量化的数据。
 
-   ![简历结构 STAR 模型示例](../images/write-resume/resume-structure-star-model.png)
+   ![简历结构 STAR 模型示例](../images/write-resume/resume-structure-star-model.jpg)
 
 4. **技能 & 工具**
    - **技能旁边直接挂“作品”：** 证明你不仅仅是会用，而且能用出成果。

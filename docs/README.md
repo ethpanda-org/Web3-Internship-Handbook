@@ -42,7 +42,7 @@ config:
     features:
       - title: ETHPanda
         icon:
-          src: /images/640.png
+          src: /images/ethpanda.png
           width: 45px
           height: 45px
         details: ETHpanda 是一个由华语建设者组成的以太坊社区，致力于通过教育、公共服务、活动和技术创新，连接华语建设者与国际以太坊生态，共同推动以太坊的持续发展与创新。

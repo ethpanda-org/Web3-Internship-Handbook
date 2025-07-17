@@ -132,8 +132,6 @@ permalink: /zh/job-platform/
 :::
 **常见的 Web3 技术岗位包括：**
 
-TODO 设计师统一下文字排版和 Dapp 的大小写
-
 ![Web3 技术岗位分类](../images/job-platform/web3-tech-positions.png)
 
 - **区块链核心开发者（Blockchain Core Developer）：** 负责底层区块链协议的设计、开发和维护，如共识机制、P2P 网络等。通常需要精通 Go、Rust、C++ 等语言。

@@ -8,9 +8,7 @@ permalink: /zh/remote-work-guide/
 
 ## 一、Web3 常用工具及远程办公软件
 
-TODO 图片有点糊，麻烦设计师制作
-
-![常见 Web3 办公软件](../images/remote-work-guide/web3-software.png)
+![常见 Web3 办公软件](../images/remote-work-guide/web3-software.jpg)
 
 ### 1. Twitter
 
@@ -111,7 +109,7 @@ TODO 图片有点糊，麻烦设计师制作
     - 安装完成后打开 Discord，创建新账户或使用已有邮箱/手机号登录。
     - 官方新手指南：[https://support.discord.com/hc/zh-tw/articles/360045138571-Discord-新手指南](https://support.discord.com/hc/zh-tw/articles/360045138571-Discord-%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)
 
-    ![Discord 界面讲解](../images/remote-work-guide/discord-interface.png)
+    ![Discord 界面讲解](../images/remote-work-guide/discord-interface.jpg)
 
 :::
 
@@ -132,7 +130,7 @@ TODO 图片有点糊，麻烦设计师制作
     - 安装完成后登录 MetaMask 账号，或按提示创建并备份新的助记词钱包（与 Windows 流程相同）。
     - 如果使用 Safari 浏览器，请注意 MetaMask 暂无 Safari 版本，需使用支持的 Chromium 内核浏览器。
 
-    ![MetaMask 安装界面](../images/remote-work-guide/metamask-installation.png)
+    ![MetaMask 安装界面](../images/remote-work-guide/metamask-installation.jpg)
 
 :::
 
@@ -148,7 +146,7 @@ TODO 图片有点糊，麻烦设计师制作
 
    - [2025 年 LinkedIn 新账号注册官方教程](https://www.linkedin.com/help/learning/answer/a1338223?lang=zh-CN)
 
-   ![LinkedIn 注册界面](../images/remote-work-guide/linkedin-registration.png)
+   ![LinkedIn 注册界面](../images/remote-work-guide/linkedin-registration.jpg)
 
 ### 6. Notion
 
@@ -182,13 +180,13 @@ TODO 图片有点糊，麻烦设计师制作
 
 3.  ==常用功能演示==
 
-    ![Zoom 主界面](../images/remote-work-guide/zoom-main-interface.png)
+    ![Zoom 主界面](../images/remote-work-guide/zoom-main-interface.jpg)
 
-    ![Zoom 会议界面](../images/remote-work-guide/zoom-meeting-interface.png)
+    ![Zoom 会议界面](../images/remote-work-guide/zoom-meeting-interface.jpg)
 
-    ![Zoom 会议笔记](../images/remote-work-guide/zoom-meeting-notes.png)
+    ![Zoom 会议笔记](../images/remote-work-guide/zoom-meeting-notes.jpg)
 
-    ![Zoom 会议记录](../images/remote-work-guide/zoom-meeting-notes2.png)
+    ![Zoom 会议记录](../images/remote-work-guide/zoom-meeting-notes2.jpg)
 
 :::
 
@@ -205,20 +203,20 @@ TODO 图片有点糊，麻烦设计师制作
     - 访问官网：<https://calendly.com/>，用邮箱或 Google / Microsoft 账号注册（公司用户建议使用公共邮箱）
     - 验证邮箱后进入仪表盘，系统会引导完成基础配置
     - 设置你的可预约时间段（如：工作日 9:00–17:00）
-      ![Calendly 时间设置](../images/remote-work-guide/calendly-time-setup.png)
+      ![Calendly 时间设置](../images/remote-work-guide/calendly-time-setup.jpg)
 
     - 可选择会议类型：如 15 / 30 分钟通话、产品演示、一对一会议、组群会议等
-      ![Calendly 会议类型](../images/remote-work-guide/calendly-meeting-types.png)
+      ![Calendly 会议类型](../images/remote-work-guide/calendly-meeting-types.jpg)
 
     - 自动生成预约链接，可分享给对方
-      ![Calendly 分享链接](../images/remote-work-guide/calendly-share-link.png)
+      ![Calendly 分享链接](../images/remote-work-guide/calendly-share-link.jpg)
 
 3.  ==使用建议==
 
     - 预约前自动检查冲突，避免双重预订
     - 支持时区自动转换，对方看到的是自己的本地时间
     - 可集成 Zoom / Google Meet 自动生成会议链接
-      ![Calendly 集成设置](../images/remote-work-guide/calendly-integration.png)
+      ![Calendly 集成设置](../images/remote-work-guide/calendly-integration.jpg)
 
 :::
 
@@ -234,7 +232,7 @@ TODO 图片有点糊，麻烦设计师制作
 
     - Figma 官方入门指南：<https://help.figma.com/hc/en-us/sections/4403932712087-Getting-started>
     - 官方下载：<https://www.figma.com/downloads/>
-      ![Figma 界面介绍](../images/remote-work-guide/figma-interface.png)
+      ![Figma 界面介绍](../images/remote-work-guide/figma-interface.jpg)
 
 :::
 
@@ -256,7 +254,7 @@ TODO 图片有点糊，麻烦设计师制作
 
     - GitHub 官方入门指南：<https://docs.github.com/zh/get-started/quickstart>
     - Git 官方安装指南：<https://git-scm.com/book/zh/v2/起步-安装-Git>
-      ![GitHub 界面介绍](../images/remote-work-guide/github-interface.png)
+      ![GitHub 界面介绍](../images/remote-work-guide/github-interface.jpg)
 
 :::
 
@@ -380,7 +378,7 @@ TODO 图片有点糊，麻烦设计师制作
     - 包含海量图标、矢量插画、动态特性、可变字体等，是职场汇报的好帮手。
   - SmartArt 一键图表化
     - 在 Word / PPT 中选中文字 → 插入“智能图形” → 自动生成流程图 / 组织架构图。
-      ![SmartArt 图表化](../images/remote-work-guide/smartart-diagram.png)
+      ![SmartArt 图表化](../images/remote-work-guide/smartart-diagram.jpg)
   - 秀米：<https://xiumi.us/#/>
     - 图文排版、H5 制作、图片设计，原创模板素材，精选风格排版，独一无二的排版方式，设计出只属于你的图文，打动你的人群。
   - MD2Card：<https://md2card.com/zh>
@@ -457,7 +455,7 @@ TODO 图片有点糊，麻烦设计师制作
 
 ## 三、行业黑话
 
-![Web3 行业黑话概览](../images/remote-work-guide/web3-slang-overview.png)
+![Web3 行业黑话概览](../images/remote-work-guide/web3-slang-overview.jpg)
 
 ### 1. 基础类
 
