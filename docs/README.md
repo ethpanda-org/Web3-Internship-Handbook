@@ -64,8 +64,6 @@ config:
 
 <!-- 这里是自定义区域的内容，会插入到 type: custom 区域的位置 -->
 
-# 更多信息
-
 ::: card
 
 ## ::emojione-v1:ledger:: Web3 实习生计划
