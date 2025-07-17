@@ -17,7 +17,7 @@ config:
           text: Github →
           link: https://github.com/ethpanda-org/Web3-Internship-Handbook
   - type: image-text
-    title: 「Web3 实习手册」是什么？
+    title: “Web3 实习手册”是什么？
     image:
       src: ./zh/images/home/brainstorming.svg
     width: 300
