@@ -220,7 +220,7 @@ The Merge 只是起点，以太坊的“进化”还在继续！接下来的升�
 
 用户直接交互的应用和界面：
 
-- **DeFi 应用**：Uniswap（去中心化交易所）、Aave（借贷协议）、Compound（收益协议）
+- **DeFi 应用**：Uniswap（去中心化交易所）、Aave（借贷协议）、Compound（借贷协议）
 - **NFT 平台**：OpenSea、Foundation、SuperRare
 - **钱包应用**：MetaMask、Coinbase Wallet、Rainbow
 - **DAO 工具**：Snapshot、Aragon、Colony
