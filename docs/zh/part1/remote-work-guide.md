@@ -8,9 +8,7 @@ permalink: /zh/remote-work-guide/
 
 ## 一、Web3 常用工具及远程办公软件
 
-TODO 图片有点糊，麻烦设计师制作
-
-![常见 Web3 办公软件](../images/remote-work-guide/web3-software.png)
+![常见 Web3 办公软件](../images/remote-work-guide/web3-software.jpg)
 
 ### 1. Twitter
 
@@ -18,14 +16,14 @@ TODO 图片有点糊，麻烦设计师制作
 
 1. ==工具介绍==
 
-   Twitter（现名 X）是一家美国的社交媒体平台和微型博客服务，它允许用户发布并互动「推文」（短文本、图片或视频）。Twitter 是世界上访问量最高的社交网站之一，区块链和 Web3 相关项目常利用 Twitter 发布最新动态和公告，因此成为生态交流的重要渠道。
+   Twitter（现名 X）是一家美国的社交媒体平台和微型博客服务，它允许用户发布并互动“推文”（短文本、图片或视频）。Twitter 是世界上访问量最高的社交网站之一，区块链和 Web3 相关项目常利用 Twitter 发布最新动态和公告，因此成为生态交流的重要渠道。
 
 2. ==安装注册指南==
 
    - 打开浏览器，访问 Twitter 官网：[https://twitter.com](https://twitter.com/)
-   - 点击页面上的「注册」或「Sign up」按钮开始新用户注册
-   - 填写姓名和电子邮件（或手机号）及出生日期，然后按提示点击「下一步」
-   - Twitter 会向所填邮箱/手机号发送验证码，输入验证码后点击「下一步」
+   - 点击页面上的“注册”或“Sign up”按钮开始新用户注册
+   - 填写姓名和电子邮件（或手机号）及出生日期，然后按提示点击“下一步”
+   - Twitter 会向所填邮箱/手机号发送验证码，输入验证码后点击“下一步”
    - 设置账户密码并完成注册。如果提示通过手机号验证，可稍后在账号设置中添加手机号
    - Twitter 官网也提供官方桌面应用（Windows 商店或 Mac App Store），下载安装后使用同一账户登录，可获得类似网页版的使用体验
 
@@ -42,8 +40,8 @@ TODO 图片有点糊，麻烦设计师制作
 2. ==安装注册指南（以 Mac 系统为例）==
 
    - 在浏览器中访问 [https://desktop.telegram.org](https://desktop.telegram.org)。
-   - 点击「Get Telegram for macOS」下载适用于 macOS 的安装包。
-   - 打开下载的 `.dmg` 文件，将 Telegram 拖入「应用程序」文件夹中进行安装。
+   - 点击“Get Telegram for macOS”下载适用于 macOS 的安装包。
+   - 打开下载的 `.dmg` 文件，将 Telegram 拖入“应用程序”文件夹中进行安装。
    - 安装完成后打开 Telegram 应用，使用手机号登录并按照界面提示输入验证码完成注册。具体操作指南可查看：[https://kerrynotes.com/telegram-tutorial/#google_vignett](https://kerrynotes.com/telegram-tutorial/#google_vignette) （带常见问题回答）
 
 3. ==Telegram 常见的使用问题==
@@ -103,7 +101,7 @@ TODO 图片有点糊，麻烦设计师制作
 
 1.  ==工具介绍==
 
-    Discord 是一款面向社群的免费实时聊天和语音通信平台。用户可以创建或加入「服务器」（类似社区频道）来进行文本、语音和视频聊天。Discord 最初为游戏玩家设计，但现已广泛用于各种在线社群和项目讨论；其丰富的频道管理和权限系统适合团队协作。用户可以在不同频道中分享图片、文件，也可以进行语音通话或视频会议。
+    Discord 是一款面向社群的免费实时聊天和语音通信平台。用户可以创建或加入“服务器”（类似社区频道）来进行文本、语音和视频聊天。Discord 最初为游戏玩家设计，但现已广泛用于各种在线社群和项目讨论；其丰富的频道管理和权限系统适合团队协作。用户可以在不同频道中分享图片、文件，也可以进行语音通话或视频会议。
 
 2.  ==操作指南==
 
@@ -111,7 +109,7 @@ TODO 图片有点糊，麻烦设计师制作
     - 安装完成后打开 Discord，创建新账户或使用已有邮箱/手机号登录。
     - 官方新手指南：[https://support.discord.com/hc/zh-tw/articles/360045138571-Discord-新手指南](https://support.discord.com/hc/zh-tw/articles/360045138571-Discord-%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)
 
-    ![Discord 界面讲解](../images/remote-work-guide/discord-interface.png)
+    ![Discord 界面讲解](../images/remote-work-guide/discord-interface.jpg)
 
 :::
 
@@ -132,7 +130,7 @@ TODO 图片有点糊，麻烦设计师制作
     - 安装完成后登录 MetaMask 账号，或按提示创建并备份新的助记词钱包（与 Windows 流程相同）。
     - 如果使用 Safari 浏览器，请注意 MetaMask 暂无 Safari 版本，需使用支持的 Chromium 内核浏览器。
 
-    ![MetaMask 安装界面](../images/remote-work-guide/metamask-installation.png)
+    ![MetaMask 安装界面](../images/remote-work-guide/metamask-installation.jpg)
 
 :::
 
@@ -148,7 +146,7 @@ TODO 图片有点糊，麻烦设计师制作
 
    - [2025 年 LinkedIn 新账号注册官方教程](https://www.linkedin.com/help/learning/answer/a1338223?lang=zh-CN)
 
-   ![LinkedIn 注册界面](../images/remote-work-guide/linkedin-registration.png)
+   ![LinkedIn 注册界面](../images/remote-work-guide/linkedin-registration.jpg)
 
 ### 6. Notion
 
@@ -161,8 +159,8 @@ TODO 图片有点糊，麻烦设计师制作
 2.  ==安装注册指南（以 Mac 系统为例）==
 
     - 在浏览器中访问 [https://www.notion.com/desktop](https://www.notion.com/desktop)。
-    - 点击「Download for macOS」下载 Mac 版安装包。
-    - 下载后，打开 `.dmg` 文件并将 Notion 应用拖动到「应用程序」文件夹中完成安装。
+    - 点击“Download for macOS”下载 Mac 版安装包。
+    - 下载后，打开 `.dmg` 文件并将 Notion 应用拖动到“应用程序”文件夹中完成安装。
     - 具体的工具指南请阅读：[https://www.notion.com/zh-cn/help/guides](https://www.notion.com/zh-cn/help/guides)
 
 :::
@@ -178,17 +176,17 @@ TODO 图片有点糊，麻烦设计师制作
 2.  ==安装注册指南==
 
     - 具体安装细节请参考：[https://zoom.us/zh-cn/download](https://zoom.us/zh-cn/download)
-    - 安装完成后，打开 Zoom 客户端：如果已有 Zoom 账号，可点击「登录」输入邮箱和密码；也可使用 **Google、Apple、Facebook 或企业邮箱（SSO）** 登录。
+    - 安装完成后，打开 Zoom 客户端：如果已有 Zoom 账号，可点击“登录”输入邮箱和密码；也可使用 **Google、Apple、Facebook 或企业邮箱（SSO）** 登录。
 
 3.  ==常用功能演示==
 
-    ![Zoom 主界面](../images/remote-work-guide/zoom-main-interface.png)
+    ![Zoom 主界面](../images/remote-work-guide/zoom-main-interface.jpg)
 
-    ![Zoom 会议界面](../images/remote-work-guide/zoom-meeting-interface.png)
+    ![Zoom 会议界面](../images/remote-work-guide/zoom-meeting-interface.jpg)
 
-    ![Zoom 会议笔记](../images/remote-work-guide/zoom-meeting-notes.png)
+    ![Zoom 会议笔记](../images/remote-work-guide/zoom-meeting-notes.jpg)
 
-    ![Zoom 会议记录](../images/remote-work-guide/zoom-meeting-notes2.png)
+    ![Zoom 会议记录](../images/remote-work-guide/zoom-meeting-notes2.jpg)
 
 :::
 
@@ -205,20 +203,20 @@ TODO 图片有点糊，麻烦设计师制作
     - 访问官网：<https://calendly.com/>，用邮箱或 Google / Microsoft 账号注册（公司用户建议使用公共邮箱）
     - 验证邮箱后进入仪表盘，系统会引导完成基础配置
     - 设置你的可预约时间段（如：工作日 9:00–17:00）
-      ![Calendly 时间设置](../images/remote-work-guide/calendly-time-setup.png)
+      ![Calendly 时间设置](../images/remote-work-guide/calendly-time-setup.jpg)
 
     - 可选择会议类型：如 15 / 30 分钟通话、产品演示、一对一会议、组群会议等
-      ![Calendly 会议类型](../images/remote-work-guide/calendly-meeting-types.png)
+      ![Calendly 会议类型](../images/remote-work-guide/calendly-meeting-types.jpg)
 
     - 自动生成预约链接，可分享给对方
-      ![Calendly 分享链接](../images/remote-work-guide/calendly-share-link.png)
+      ![Calendly 分享链接](../images/remote-work-guide/calendly-share-link.jpg)
 
 3.  ==使用建议==
 
     - 预约前自动检查冲突，避免双重预订
     - 支持时区自动转换，对方看到的是自己的本地时间
     - 可集成 Zoom / Google Meet 自动生成会议链接
-      ![Calendly 集成设置](../images/remote-work-guide/calendly-integration.png)
+      ![Calendly 集成设置](../images/remote-work-guide/calendly-integration.jpg)
 
 :::
 
@@ -234,7 +232,7 @@ TODO 图片有点糊，麻烦设计师制作
 
     - Figma 官方入门指南：<https://help.figma.com/hc/en-us/sections/4403932712087-Getting-started>
     - 官方下载：<https://www.figma.com/downloads/>
-      ![Figma 界面介绍](../images/remote-work-guide/figma-interface.png)
+      ![Figma 界面介绍](../images/remote-work-guide/figma-interface.jpg)
 
 :::
 
@@ -256,7 +254,7 @@ TODO 图片有点糊，麻烦设计师制作
 
     - GitHub 官方入门指南：<https://docs.github.com/zh/get-started/quickstart>
     - Git 官方安装指南：<https://git-scm.com/book/zh/v2/起步-安装-Git>
-      ![GitHub 界面介绍](../images/remote-work-guide/github-interface.png)
+      ![GitHub 界面介绍](../images/remote-work-guide/github-interface.jpg)
 
 :::
 
@@ -264,14 +262,14 @@ TODO 图片有点糊，麻烦设计师制作
 
 ### 1. OKR 写法与最佳实践
 
-在远程工作中使用 OKR（目标与关键结果）不仅是一种管理工具，更是解决分布式团队核心痛点的系统性方案。远程团队因缺乏物理接触易陷入目标碎片化。OKR 要求目标（Objectives）全团队公开可见，关键结果（Key Results）量化可追踪，例如字节跳动 5 万员工通过 OKR 系统实时查看公司级目标到个人 KR 的完整链路，避免远程协作中「各自为战」。并且在远程办公中常引发管理者「失控焦虑」，而 OKR 聚焦结果产出而非工作时长。例如携程远程团队设定 KR 「客户满意度达 92% 」而非「 每日在线 8 小时」，员工可自主安排工作节奏，效率反提升 40%。
+在远程工作中使用 OKR（目标与关键结果）不仅是一种管理工具，更是解决分布式团队核心痛点的系统性方案。远程团队因缺乏物理接触易陷入目标碎片化。OKR 要求目标（Objectives）全团队公开可见，关键结果（Key Results）量化可追踪，例如字节跳动 5 万员工通过 OKR 系统实时查看公司级目标到个人 KR 的完整链路，避免远程协作中“各自为战”。并且在远程办公中常引发管理者“失控焦虑”，而 OKR 聚焦结果产出而非工作时长。例如携程远程团队设定 KR “客户满意度达 92% ”而非“ 每日在线 8 小时”，员工可自主安排工作节奏，效率反提升 40%。
 ::: steps
 
 1. **目标设定原则**
 
    - **聚焦关键目标**：每季度设定 3-5 个目标，避免分散精力。
-   - **野心与可行平衡**：目标应「令人不适但可达」，理想完成率在 60%-70%（Google 标准）。
-   - **结果导向**：聚焦成果而非产出（例：「提升客户留存率」 而非 「发送 10 份调研」）。
+   - **野心与可行平衡**：目标应“令人不适但可达”，理想完成率在 60%-70%（Google 标准）。
+   - **结果导向**：聚焦成果而非产出（例：“提升客户留存率” 而非 “发送 10 份调研”）。
 
 2. **关键结果（KR）设计**
 
@@ -288,7 +286,7 @@ TODO 图片有点糊，麻烦设计师制作
 
      :::
 
-   - **SMART 标准**：确保 KR 可衡量、有时限（例：「Q3 北美市场营收增长 15%」）。
+   - **SMART 标准**：确保 KR 可衡量、有时限（例：“Q3 北美市场营收增长 15%”）。
 
 3. **评分与复盘**
 
@@ -339,8 +337,8 @@ TODO 图片有点糊，麻烦设计师制作
 #### 2.2 会议中的注意事项
 
 1. **沟通禁忌**
-   - ❌ 发送模糊需求（如「请尽快处理」）；
-   - ✅ 改为：「需在 **6 月 10 日 18:00 UTC+8 前**提交方案，参考**附件 A 数据模板**」
+   - ❌ 发送模糊需求（如“请尽快处理”）；
+   - ✅ 改为：“需在 **6 月 10 日 18:00 UTC+8 前**提交方案，参考**附件 A 数据模板**”
 2. **决策痕迹留存**
    - 准备会议纪要，关键结论标红加粗
    - ✅ 决策事项 + 行动项明确 **DRI**（直接责任人）+ **Deadline**（精确到时区）
@@ -363,10 +361,10 @@ TODO 图片有点糊，麻烦设计师制作
      <br>
 3. **标点与空格（细节控必备）**
    - 中英文混排时加空格：
-     - ✅ 「在 LeanCloud 上创建 AVObject」
-     - ❌ 「在 LeanCloud 上创建 AVObject」。
-   - 全角中文标点：用「」代替 ""，用。代替.。
-   - 数字用半角：写「500 元」而非「５００元」。
+     - ✅ “在 LeanCloud 上创建 AVObject”
+     - ❌ “在 LeanCloud 上创建 AVObject”
+   - 全角中文标点：用“”代替 ""，用。代替.。
+   - 数字用半角：写“500 元”而非“５００元”。
    - 详细排版规则请参考：[https://github.com/sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)
 
 #### 3.2 效率翻倍工具技巧
@@ -379,8 +377,8 @@ TODO 图片有点糊，麻烦设计师制作
   - Iconfont 阿里巴巴矢量图标库：<https://www.iconfont.cn/>
     - 包含海量图标、矢量插画、动态特性、可变字体等，是职场汇报的好帮手。
   - SmartArt 一键图表化
-    - 在 Word / PPT 中选中文字 → 插入「智能图形」 → 自动生成流程图 / 组织架构图。
-      ![SmartArt 图表化](../images/remote-work-guide/smartart-diagram.png)
+    - 在 Word / PPT 中选中文字 → 插入“智能图形” → 自动生成流程图 / 组织架构图。
+      ![SmartArt 图表化](../images/remote-work-guide/smartart-diagram.jpg)
   - 秀米：<https://xiumi.us/#/>
     - 图文排版、H5 制作、图片设计，原创模板素材，精选风格排版，独一无二的排版方式，设计出只属于你的图文，打动你的人群。
   - MD2Card：<https://md2card.com/zh>
@@ -433,8 +431,8 @@ TODO 图片有点糊，麻烦设计师制作
 
   - 需求沟通模板
 
-    - 当同事说：「这个功能尽快做出来！」
-    - ❌ 回答：「现在排期满了」 → 制造对立
+    - 当同事说：“这个功能尽快做出来！”
+    - ❌ 回答：“现在排期满了” → 制造对立
     - ✅ 结构化回应：
       ::: card
 
@@ -448,16 +446,16 @@ TODO 图片有点糊，麻烦设计师制作
 
   - 冲突化解话术
     - 当被甩锅时：
-    - ❌ 「这明明是你的责任！」
-    - ✅ 「从流程看我这部分周三已完成（附邮件截图），目前卡在 QA 环节，咱们一起找测试负责人碰下？」
-    - 要点：用事实代替情绪，拉对方成「战友」而非对手
+    - ❌ “这明明是你的责任！”
+    - ✅ “从流程看我这部分周三已完成（附邮件截图），目前卡在 QA 环节，咱们一起找测试负责人碰下？”
+    - 要点：用事实代替情绪，拉对方成“战友”而非对手
   - 向上沟通技巧
     - 接收模糊任务时：您希望优先保证速度还是质量？如果有参考案例更好~
     - 领导意见矛盾时：上次您提到重点控成本，这次营销预算超标是否意味着策略调整？求确认方向
 
 ## 三、行业黑话
 
-![Web3 行业黑话概览](../images/remote-work-guide/web3-slang-overview.png)
+![Web3 行业黑话概览](../images/remote-work-guide/web3-slang-overview.jpg)
 
 ### 1. 基础类
 

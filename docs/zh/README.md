@@ -50,7 +50,7 @@ Web3 是一个快速发展的领域，我们会持续更新手册内容，确保
 
 ### 关于发起社区
 
-![ETHPanda](./images/logo//640.png){.full-width width="50%"}
+![ETHPanda](./images/logo/ethpanda.png){.full-width width="50%"}
 
 ==ETHPanda=={.important}
 

@@ -33,7 +33,7 @@ Dapp 的架构主要由三个核心部分组成：
 
 Dapp 的开发流程可以分为以下几个阶段：
 
-![Dapp 开发流程图](../images/solidity-intern/dapp_development-workflow_01.png)
+![Dapp 开发流程图](../images/solidity-intern/dapp_development-workflow_01.jpg)
 ::: steps
 
 1.  **需求分析与规划**
@@ -141,7 +141,7 @@ mkdir eth-dev && cd eth-dev
 npx hardhat
 ```
 
-选择「创建一个基本示例项目」，会自动生成合约、测试和配置。
+选择“创建一个基本示例项目”，会自动生成合约、测试和配置。
 
 **启动本地节点**
 
@@ -747,7 +747,7 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
     ```solidity
     /**
     * @title SafeCounter
-    * @dev 方案：在 inc() 中直接固定「最高 11」，超过即拒绝。
+    * @dev 方案：在 inc() 中直接固定“最高 11”，超过即拒绝。
     *      溢出永远不会发生，也杜绝了重复领奖。
     */
     contract SafeCounter {
@@ -1143,7 +1143,7 @@ contract MessageBoard {
 6. **广播交易**：将签名交易发送到区块链网络
 7. **状态更新**：获取交易结果并更新前端界面
 
-![Web3 开发工具流程](../images/solidity-intern/web3_development-tools-flow_01.png)
+![Web3 开发工具流程](../images/solidity-intern/web3_development-tools-flow_01.jpg)
 
 #### ==1.2 关键技术栈==
 
@@ -1456,7 +1456,7 @@ async function queryMessages() {
 
 #### 3.2 审计标准流程
 
-![Solidity 审计流程](../images/solidity-intern/solidity_audit-process_01.png)
+![Solidity 审计流程](../images/solidity-intern/solidity_audit-process_01.jpg)
 
 1. **静态分析（Static Analysis）**：使用工具如 Slither、Mythril 扫描代码缺陷
 2. **动态测试（Fuzzing/Property Testing）**：模拟攻击行为和极限条件
@@ -1540,7 +1540,7 @@ async function queryMessages() {
 
 #### 4.2 Issue 管理
 
-![Issue 管理流程](../images/solidity-intern/issue_management-process_01.png)
+![Issue 管理流程](../images/solidity-intern/issue_management-process_01.jpg)
 
 - 描述 Issue 结构推荐：背景 + 问题 + 尝试过的方法 + 环境信息
 

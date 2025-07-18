@@ -33,7 +33,7 @@ const handbookNote = defineNoteConfig({
       items: [
         { text: '区块链基础概念', link: 'part1/blockchain-basic.md' },
         { text: '以太坊概览', link: 'part1/overview-of-ethereum.md' },
-        { text: '行业知识', link: 'part1/industry-knowledge.md' },
+        { text: '行业赛道全览', link: 'part1/industry-knowledge.md' },
         { text: 'Web3 工作方式', link: 'part1/remote-work-guide.md' },
       ],
       collapsed: false,

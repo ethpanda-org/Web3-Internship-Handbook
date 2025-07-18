@@ -59,7 +59,7 @@ export default defineThemeConfig({
        * @see https://theme-plume.vuejs.press/config/basic/#profile
        */
       profile: {
-        avatar: '/640.png',
+        avatar: '/ethpanda.png',
         name: 'Web3 实习手册',
         description: '',
         // circle: true,
@@ -86,7 +86,7 @@ export default defineThemeConfig({
        * @see https://theme-plume.vuejs.press/config/basic/#profile
        */
       profile: {
-        avatar: '/640.png',
+        avatar: '/ethpanda.png',
         name: 'Web3 Internship Handbook',
         description:
           'English version coming soon. Currently perfecting Chinese content.',
