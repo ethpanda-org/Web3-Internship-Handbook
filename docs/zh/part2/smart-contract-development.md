@@ -195,7 +195,7 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
     | bool             | 布尔值           | true / false                      | false  |
     | uint8            | 8 位无符号整数   | 0 ~ 255                           | 0      |
     | uint16           | 16 位无符号整数  | 0 ~ 65535                         | 0      |
-    | uint256 / unit   | 256 位无符号整数 | 0 ~ (2^256 - 1)                   | 0      |
+    | uint256 / uint   | 256 位无符号整数 | 0 ~ (2^256 - 1)                   | 0      |
     | int8             | 8 位有符号整数   | -128 - 127                        | 0      |
     | int256 / int     | 256 位有符号整数 | -2^255 ~ (2^255 - 1)              | 0      |
     | address          | 以太坊地址       | 0x….                              | 0      |
@@ -1623,4 +1623,4 @@ async function queryMessages() {
 
 作者：[Jason](https://x.com/fxxkmystyle)、[Echo](https://x.com/Echo_liuchan)
 排版：[Echo](https://x.com/Echo_liuchan)
-校对：[Bruce](https://x.com/brucexu_eth)
+校对：[Bruce](https://x.com/brucexu_eth)、[Box](https://x.com/BoxMrChen)
