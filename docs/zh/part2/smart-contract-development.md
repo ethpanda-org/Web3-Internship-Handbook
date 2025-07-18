@@ -24,7 +24,12 @@ Dapp 的架构主要由三个核心部分组成：
 - 智能合约是 Dapp 的核心，它定义了应用的业务逻辑，并部署在区块链上。智能合约通过执行自动化的规则来确保交易和操作的透明性与不可篡改性。
 - 在以太坊平台上，智能合约通常使用 **Solidity** 编程语言编写，并通过 **Ethereum Virtual Machine (EVM)** 执行。
 
-==3. **区块链和去中心化存储（Blockchain & Decentralized Storage）**：==
+==3. **数据检索器（Indexer）**：==
+
+- 智能合约通常以 `Event` 形式释放日志事件，比如释放代表 NFT 转移的 `Transfer` 事件，数据检索器会检索这些数据并将其写入到 PostgreSQL 等传统数据库中
+- Dapp 在前端进行数据展示时需要检索器内的数据。一个简单的示例是某 NFT 项目需要展示用户持有的所有 NFT，但是 NFT 合约并不会提供通过输入地址参数返回该地址下的所有 NFT 的函数，此时我们可以运行数据检索器将 `Transfer` 事件读取后写入传统数据库内，前端可以在传统数据库内检索用户持有的 NFT 数据
+
+==4. **区块链和去中心化存储（Blockchain & Decentralized Storage）**：==
 
 - 区块链用于存储智能合约的状态数据及交易记录。去中心化存储如 **IPFS**（InterPlanetary File System）或 **Arweave**，用于存储大规模的非结构化数据（如图片、文档等），确保数据不易丢失和篡改。
 - 通过使用去中心化存储，Dapp 确保所有数据在多个节点上备份，保证数据的持久性和去中心化特性。
@@ -52,13 +57,21 @@ Dapp 的开发流程可以分为以下几个阶段：
     - **编写测试用例**：为智能合约编写单元测试，确保合约逻辑正确、无漏洞。
     - **审计和优化**：对合约进行安全审计，确保合约的安全性，避免常见漏洞（如重入攻击、整数溢出等）。
 
+3. **检索器开发**
+
+    检索器是获取链上数据的核心，负责捕获智能合约释放的事件并以合理的方式将其存入数据库的不同的表内部。在这一阶段，开发者需要:
+
+    - **确定功能需要的数据内容**: 前端使用的数据大部份都直接来自检索器，所以开发者需要确定前端工程师所需要的数据
+    - **编写检索器程序**: 目前主流的检索器框架，如 ponder 和 subgraph 都是用了 TypeScript 语言作为检索器的程序编写语言，开发者主要编写事件数据清理以及事件数据写入数据库的代码
+    - **部署和运维**: 编写程序完成后，一般使用 Docker 部署到云服务器中，当然目前很多检索器框架也提供 SaaS 服务，同时检索器作为一个常规的数据库应用需要运维
+
 3.  **前端开发**
 
     前端是用户与 Dapp 交互的主要界面，因此开发前端时需要：
 
     - **选择前端框架**：可以使用现代前端框架（如 **React**、**Vue**）来构建 UI。前端将通过 JavaScript 与智能合约进行交互。
     - **连接钱包**：通过集成 **MetaMask** 等 Web3 钱包，用户可以连接到 Dapp，并授权其与智能合约交互。
-    - **显示区块链数据**：前端需要从区块链获取数据（如账户余额、交易记录），并通过用户界面展示。
+    - **显示区块链数据**：前端需要从区块链和检索器内获取数据（如账户余额、交易记录），并通过用户界面展示。
     - **处理交易签名与确认**：当用户发起交易时，前端需要与钱包进行交互，获取用户的签名并将交易发送到区块链。
 
 4.  **与区块链交互**
@@ -110,28 +123,51 @@ npm install -g yarn
 
 ### 2. 以太坊本地开发链
 
-**方式一：Ganache（适合初学者）**
+**方式一：Foundry（Rust 实现，极快）**
 
-- 下载网址：[https://archive.trufflesuite.com/ganache/](https://archive.trufflesuite.com/ganache/)
-
-![Ganache 界面展示](../images/solidity-intern/ganache_interface-display_01.png)
-
-![Ganache 界面展示](../images/solidity-intern/ganache_interface-display_02.png)
-
----
-
-**方式二：Foundry（Rust 实现，极快，适合进阶用户）**
-
-- [Foundry 官方文档](https://book.getfoundry.sh/) - https://book.getfoundry.sh/
+- [Foundry 官方文档](https://getfoundry.sh/introduction/getting-started) - https://getfoundry.sh/introduction/getting-started
 
 ```bash
 curl -L <https://foundry.paradigm.xyz> | bash
 foundryup
 ```
 
+**初始化项目**
+
+```bash
+forge init Counter
+```
+
+**测试合约**
+
+```bash
+# Compile your contracts
+forge build
+
+# Run your test suite
+forge test
+```
+
+**启动本地节点**
+
+```bash
+chisel
+```
+
+**部署合约**
+
+```bash
+# Use forge scripts to deploy contracts
+# Set your private key
+export PRIVATE_KEY="0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
+
+# Deploy to local anvil instance
+forge script script/Counter.s.sol --rpc-url http://127.0.0.1:8545 --broadcast --private-key $PRIVATE_KEY
+```
+
 ---
 
-**方式三：Hardhat（推荐，现代以太坊开发框架）**
+**方式二：Hardhat（推荐，现代以太坊开发框架）**
 
 - [**Hardhat 官方教程**](https://hardhat.org/tutorial) - 含视频指导
 
@@ -345,13 +381,13 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
     ```solidity
     contract VisibilityExample {
         // 仅当前合约可访问
-        function privateFunc() private pure returns(uint) { return 1; }
+        function privateFunc() private pure returns(uint256) { return 1; }
         // 当前合约和继承合约可访问
-        function internalFunc() internal pure returns(uint) { return 2; }
+        function internalFunc() internal pure returns(uint256) { return 2; }
         // 所有人可访问
-        function publicFunc() public pure returns(uint) { return 3; }
+        function publicFunc() public pure returns(uint256) { return 3; }
         // 仅外部调用
-        function externalFunc() external pure returns(uint) { return 4; }
+        function externalFunc() external pure returns(uint256) { return 4; }
     }
     ```
 
@@ -361,15 +397,15 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
 
     ```solidity
     contract StateModifiers {
-        uint public count = 0;
+        uint256 public count = 0;
 
         // view: 只读函数，不修改状态
-        function getCount() public view returns(uint) {
+        function getCount() public view returns(uint256) {
             return count;
         }
 
         // pure: 纯函数，不读取也不修改状态
-        function add(uint a, uint b) public pure returns(uint) {
+        function add(uint256 a, uint256 b) public pure returns(uint256) {
             return a + b;
         }
 
@@ -391,13 +427,13 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
 
     ```solidity
     // 多个返回值
-    function getPersonInfo() public pure returns(string memory name, uint age) {
+    function getPersonInfo() public pure returns(string memory name, uint256 age) {
         name = "Alice";
         age = 25;
     }
 
     // 命名返回值
-    function calculate(uint a, uint b) public pure returns(uint sum, uint product) {
+    function calculate(uint256 a, uint256 b) public pure returns(uint256 sum, uint256 product) {
         sum = a + b;
         product = a * b;
         // 自动返回命名变量
@@ -405,9 +441,9 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
 
     // 调用带多返回值的函数
     function callExample() public pure {
-        (string memory name, uint age) = getPersonInfo();
+        (string memory name, uint256 age) = getPersonInfo();
         // 或者忽略某些返回值
-        (, uint productOnly) = calculate(5, 3);
+        (, uint256 productOnly) = calculate(5, 3);
     }
     ```
 
@@ -448,7 +484,7 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
 
     **继承与函数重写（Inheritance and Override）**
 
-    Solidity 支持单继承与多继承，子合约可重写父合约中的虚函数：
+    Solidity 支持单继承与多继承，子合约可重写父合约中的函数：
 
     ```solidity
     // 基础合约
@@ -505,14 +541,19 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
     abstract contract AbstractToken {
         string public name;
 
-        // 抽象函数，必须在子类中实现
+        // 没有函数体的抽象函数，必须被子类使用 override 关键词重载实现
         function totalSupply() public virtual returns (uint256);
+
+        // 有函数体实现的抽象函数，子类可以不使用 override 关键词重载直接继承已有的实现，也可以选择使用 override 关键词重载实现
+        function decimals() public view virtual returns (uint8) {
+            return 18;
+        }
     }
     ```
 
     **事件机制（Events）**
 
-    事件用于在链上记录重要状态变化，并可由外部监听器（如前端应用）捕捉：
+    事件用于在链上记录重要状态变化，并可由外部监听器（如检索器或前端应用）捕捉：
 
     ```solidity
     contract EventExample {
@@ -545,7 +586,7 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
 | --------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | Reentrancy                              | 恶意合约在 transfer / call 回调中再次进入受害函数，导致重复提款 | 1. Checks-Effects-Interactions <br> 2. `ReentrancyGuard`（OpenZeppelin）<br> 3. 使用 `transfer`/`send` 或限制 gas（已不推荐，仅旧代码）       |
 | 访问控制 (Access Control)               | 未受保护的管理函数可被任何人调用                                | 1. `Ownable`：`onlyOwner` 修饰符 <br> 2. `AccessControl`：基于角色的权限（`DEFAULT_ADMIN_ROLE`, `MINTER_ROLE` 等）<br> 3. 及时转移 / 多签管理 |
-| 整数溢出 (Integer Overflow / Underflow) | 旧版本 `<0.8` 加法/减法越界产生错误数值                         | 1. Solidity 0.8+ 默认内置溢出检查 <br> 2. 对老版本使用 `SafeMath` 库 <br> 3. 精简不必要的 `unchecked` 区块                                    |
+| 整数溢出 (Integer Overflow / Underflow) | 旧版本 `<0.8` 加法/减法越界产生错误数值                         | 1. Solidity 0.8+ 默认内置溢出检查 <br> 2. 对老版本使用 `SafeMath` 库                                   |
 
 ::: steps
 
@@ -677,8 +718,8 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
         mapping(address => uint256) public balance;
 
         // 构造函数：在部署时确定所有者地址
-        constructor() {
-            owner = msg.sender;
+        constructor(address owner_) {
+            owner = owner_;
         }
 
         // 存款函数：允许所有用户调用
@@ -798,7 +839,7 @@ contract MessageBoard {
     // 保存所有人的留言记录
     mapping(address => string[]) public messages;
 
-    // 留言事件，便于链上追踪
+    // 留言事件，便于检索器和区块链浏览器追踪
     event NewMessage(address indexed sender, string message);
 
     // 构造函数，在部署时留言一条欢迎词
@@ -815,12 +856,12 @@ contract MessageBoard {
     }
 
     // 查询某人第 n 条留言（从 0 开始）
-    function getMessage(address user, uint index) public view returns (string memory) {
+    function getMessage(address user, uint256 index) public view returns (string memory) {
         return messages[user][index];
     }
 
     // 查询某人一共发了多少条
-    function getMessageCount(address user) public view returns (uint) {
+    function getMessageCount(address user) public view returns (uint256) {
         return messages[user].length;
     }
 }
@@ -882,14 +923,14 @@ contract MessageBoard {
 | 控制方式     | **私钥签名**（用户、钱包）               | **合约代码**（EVM 字节码）                    |
 | 状态字段     | `nonce`、`balance`                       | `nonce`、`balance`、`codeHash`、`storageRoot` |
 | 能否发起交易 | ✅  必须用私钥签名                       | ❌  只能由 EOA 触发或合约内部调用             |
-| Gas 费用支付 | 由账户本身 ETH 余额承担                  | 从调用者余额扣除                              |
+| Gas 费用支付 | 由账户本身 ETH 余额承担                  | 由调用者支付                            |
 | 典型场景     | 钱包地址、热冷账户                       | ERC-20/721 Token、DeFi 协议、DAO              |
 
 ### 2. Gas 机制
 
 | 术语                   | 含义                                  | 备注                   |
 | ---------------------- | ------------------------------------- | ---------------------- |
-| **Gas**                | 执行 1 条 EVM 指令的抽象工作量单位    | 汇编级别价格表见黄皮书 |
+| **Gas**                | 执行 1 条 EVM 指令的抽象工作量单位    | 汇编级别价格表见 [evm.codes](https://www.evm.codes/) |
 | **Gas Limit (Tx)**     | 发送者愿为本笔交易消耗的 Gas 上限     | 防止死循环耗尽余额     |
 | **Gas Used**           | 实际执行指令花费的 Gas 总和           | 多退少不补             |
 | **Base Fee**           | 随区块动态调整的基础费用（EIP-1559）  | 全网销毁，抑制拍卖狂飙 |
@@ -1280,9 +1321,9 @@ async function leaveMessage() {
 }
 ```
 
-只读操作（免费）
+只读或模拟操作（免费）
 
-- `.call()` 方法用于执行只读查询
+- `.call()` 方法用于执行只读查询或者模拟操作以判断某笔交易是否会成功
 - 不需要 gas 费用，不会改变区块链状态
 - 可以直接获取返回值
 
@@ -1360,12 +1401,12 @@ async function queryMessages() {
 
      ```
      // ❌ 非优化
-     for (uint i = 0; i < arr.length; i++) {
+     for (uint256 i = 0; i < arr.length; i++) {
          ...
      }
      // ✅ 优化
-     uint len = arr.length;
-     for (uint i = 0; i < len; i++) {
+     uint256 len = arr.length;
+     for (uint i = 0; i < len; ++i) {
          ...
      }
      ```
@@ -1405,7 +1446,7 @@ async function queryMessages() {
 
      // ✅ 修复后
      function withdraw() public {
-         uint amount = balance[msg.sender];
+         uint256 amount = balance[msg.sender];
          balance[msg.sender] = 0;
          (bool sent,) = msg.sender.call{value: amount}("");
          require(sent);
@@ -1417,9 +1458,10 @@ async function queryMessages() {
    - 解决方法：
      - 使用 Chainlink 等权威价格源。
      - 增加时序约束和多源验证。
+     - 使用 TWAP 等加权算法。
 3. **整数溢出/下溢**
    - 使用 `unchecked {}` 时需确保逻辑安全。
-   - 推荐使用 `SafeMath` 或 Solidity 0.8+ 的内建溢出检查。
+   - 推荐使用Solidity 0.8+ 的内建溢出检查或 `SafeMath`。
 4. **权限控制缺失**
    - 所有管理函数应使用 `onlyOwner` 或 `AccessControl` 修饰符保护。
 5. **未初始化代理**
@@ -1451,7 +1493,7 @@ async function queryMessages() {
   - 使用 CLI 时，可执行类似 `mythx analyze MyContract.sol` 进行安全扫描
   - 使用方式：[github.com](https://github.com/ConsenSysDiligence/mythx-cli) - https://github.com/ConsenSysDiligence/mythx-cli
 - **Foundry**：高效的 Solidity 开发测试框架，支持属性测试（模糊测试）。
-  - 可使用 `forge test` 运行所有测试（包括以 `testFuzz_` 开头的基于属性测试）
+  - 可使用 `forge test` 运行所有测试
   - 使用方式：[Foundry 模糊测试文档](https://book.getfoundry.sh/forge/fuzz-testing) - https://book.getfoundry.sh/forge/fuzz-testing，或通过 `forge test --match-path <test 文件路径>` 定向运行特定测试文件。
 
 #### 3.2 审计标准流程
@@ -1578,7 +1620,7 @@ async function queryMessages() {
 #### 5.2 主流 L2 平台概览
 
 1. **Starknet**
-   - 语言：Cairo（非 Solidity）
+   - 语言：类 Rust 语言 Cairo（非 Solidity）
    - 特点：ZK-STARK，极高扩展性
 2. **zkSync**
    - 工具链：支持 Solidity 合约
