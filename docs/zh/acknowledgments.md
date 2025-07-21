@@ -17,9 +17,9 @@ permalink: /zh/acknowledgments/
 
 ETHPanda 是一个致力于推动以太坊和 Web3 技术在中文社区发展的开源组织。我们通过组织线上线下活动、提供教育资源和建设开发者社区，帮助更多人了解和参与 Web3 生态。作为一个去中心化的社区，我们欢迎所有对 Web3 感兴趣的朋友加入，共同学习和成长。
 
-- 官网：https://ethpanda.org
-- Telegram：https://t.me/ETHPandaOrg
-- Twitter：https://x.com/ETHPanda_Org
+- 官网：[https://ethpanda.org](https://ethpanda.org)
+- Telegram：[https://t.me/ETHPandaOrg](https://t.me/ETHPandaOrg)
+- Twitter：[https://x.com/ETHPanda_Org](https://x.com/ETHPanda_Org)
 
 ### LXDAO
 
@@ -27,9 +27,9 @@ ETHPanda 是一个致力于推动以太坊和 Web3 技术在中文社区发展�
 
 LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品进入可持续发展的无限循环（Infinite Cycle）。LX = 良心 = Conscience and Integrity，这体现了我们的核心价值观和文化，反映了我们的理想主义建设者群体的长期愿景，这也是开源项目支持者的共同特质。
 
-- 官网：https://lxdao.io
-- Telegram：https://t.me/LXDAO
-- Twitter：https://x.com/lxdao_official
+- 官网：[https://lxdao.io](https://lxdao.io)
+- Telegram：[https://t.me/LXDAO](https://lxdao.io)
+- Twitter：[https://x.com/lxdao_official](https://x.com/lxdao_official)
 
 ## 主要贡献者
 
@@ -108,6 +108,18 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
       <br />
       <span title="访谈内容">🎙️</span>
       <span title="职业规划">📈</span>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="14.28%">
+      <a href="#">
+        <img src="./images/contributor/wangshouh.jpeg" width="100px;" alt="Julie"/>
+        <br />
+        <sub><b>wangshouh</b></sub>
+      </a>
+      <br />
+      <span title="指导">🤝</span>
+      <span title="内容编写">📖</span>
     </td>
   </tr>
   </tbody>
