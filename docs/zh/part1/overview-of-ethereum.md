@@ -16,7 +16,7 @@ permalink: /zh/overview-of-ethereum/
 
 <!-- ::: card -->
 
-![ETH](../images/ethereum/ethereum.jpg)
+![ETH](../images/ethereum/ethereum.jpg){.full-width width="50%"}
 
 **以太币（ETH）是以太坊的原生代币**
 
@@ -198,7 +198,7 @@ The Merge 只是起点，以太坊的“进化”还在继续！接下来的升�
 
 ## **四、以太坊生态概览：L1、L2、Sidechains 等**
 
-以太坊的生态系统由多层架构组成，包括 L1（主网）、L2（二层扩展解决方案）、**侧链（Sidechains）** 等，共同支持高吞吐量和低费用的交易处理。
+以太坊的生态系统由多层架构组成，包括 ==**L1（主网）、L2（二层扩展解决方案）、侧链（Sidechains）**== 等，共同支持高吞吐量和低费用的交易处理。
 ::: steps
 
 1. **Layer 1（L1）**
@@ -216,7 +216,7 @@ The Merge 只是起点，以太坊的“进化”还在继续！接下来的升�
 
 以太坊生态可以分为以下几个层次：
 
-#### **应用层（Application Layer）**
+### 1. **应用层（Application Layer）**
 
 用户直接交互的应用和界面：
 
@@ -225,7 +225,7 @@ The Merge 只是起点，以太坊的“进化”还在继续！接下来的升�
 - **钱包应用**：MetaMask、Coinbase Wallet、Rainbow
 - **DAO 工具**：Snapshot、Aragon、Colony
 
-#### **协议层（Protocol Layer）**
+### 2. **协议层（Protocol Layer）**
 
 以太坊的核心基础设施：
 
@@ -233,7 +233,7 @@ The Merge 只是起点，以太坊的“进化”还在继续！接下来的升�
 - **执行层客户端**：Geth、Nethermind、Erigon、Besu
 - **核心协议**：EVM、状态管理、Gas 机制
 
-#### **扩展层（Scaling Layer）**
+### 3. **扩展层（Scaling Layer）**
 
 提升性能和降低成本的解决方案：
 
@@ -243,7 +243,7 @@ The Merge 只是起点，以太坊的“进化”还在继续！接下来的升�
 
 ## **五、以太坊文化与价值观**
 
-以太坊的文化深受 **密码朋克运动（Cypherpunk）** 影响，体现了对技术赋权个人、重塑社会协作的愿景：
+以太坊的文化深受 ==**密码朋克运动（Cypherpunk）**== 影响，体现了对技术赋权个人、重塑社会协作的愿景：
 
 ### **核心价值观**
 
