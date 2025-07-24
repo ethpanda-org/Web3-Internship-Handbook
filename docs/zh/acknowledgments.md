@@ -149,7 +149,41 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
 
 感谢以下社区和组织的大力支持：
 
-- 更多支持者陆续增加中...
+::: card
+南塘 DAO
+:::
+
+::: card
+Smartdeer
+:::
+
+::: card
+Blocksec
+:::
+
+::: card
+Mask Network
+:::
+
+::: card
+曼昆律师事务所
+:::
+
+::: card
+慢雾科技(SlowMist)
+:::
+
+::: card
+GMA
+:::
+
+::: card
+PKUBA
+:::
+
+::: card
+BUPT3DAO
+:::
 
 ## ==联系我们==
 
