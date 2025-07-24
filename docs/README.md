@@ -68,9 +68,9 @@ config:
 
 ## ::emojione-v1:ledger:: Web3 实习生计划
 
-我们会在实习季开始前启动为期 ==1.5 个月==的实习生计划，围绕手册内容进行共学、答疑和模拟面试，并为你对接真实的实习机会。
+我们会在实习季开始前启动为期 ==1 个月==的实习生计划，围绕手册内容进行共学、答疑和模拟面试，并为你对接真实的实习机会。目前 2025 夏季 Web3 实习计划正在同步进行中，详情参见 <https://x.com/ETHPanda_Org/status/1947592766101590327>。
 ::: right
-[了解详情](https://t.me/ETHPandaOrg)
+[了解详情](https://x.com/ETHPanda_Org/status/1947592766101590327)
 :::
 
 ::: card
@@ -79,7 +79,7 @@ config:
 
 我们欢迎各类 ==Web3 项目方、社区、媒体=={.warning}与我们合作，共同建设实习生生态。如果你希望参与我们的实习生计划，为行业培养人才，请联系我们。
 ::: right
-[联系我们](https://t.me/ETHPandaOrg)
+[联系我们](https://t.me/brucexu_eth)
 :::
 
 ::: card
@@ -98,6 +98,6 @@ config:
 
 感谢所有为本项目提供支持的社区伙伴，你们是生态繁荣的基石。
 ::: right
-[查看伙伴](https://github.com/ethpanda-org/Web3-Internship-Handbook/)
+[查看伙伴](https://web3intern.xyz/zh/acknowledgments/)
 
 :::
