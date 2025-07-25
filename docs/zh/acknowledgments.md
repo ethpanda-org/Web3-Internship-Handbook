@@ -141,6 +141,24 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
       <br />
       <span title="画图">🎨</span>
     </td>
+            <td align="center" valign="top" width="14.28%">
+      <a href="#">
+        <img src="./images/contributor/JIWEN.png" width="100px;" alt="JIWEN"/>
+        <br />
+        <sub><b>JINWEN</b></sub>
+      </a>
+      <br />
+      <span title="画图">🎨</span>
+    </td>
+            <td align="center" valign="top" width="14.28%">
+      <a href="#">
+        <img src="./images/contributor/JIWEN.png" width="100px;" alt="JIWEN"/>
+        <br />
+        <sub><b>JINWEN</b></sub>
+      </a>
+      <br />
+      <span title="画图">🎨</span>
+    </td>
   </tr>
   </tbody>
 </table>

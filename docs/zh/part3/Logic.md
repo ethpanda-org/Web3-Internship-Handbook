@@ -101,6 +101,6 @@ AI 解决的主要是 30% 的机械劳动——生成简单 CSS、解析错误�
 
 ## ::ep:avatar /#32b2f0:: 文章贡献者
 
-作者：[Alex](https://x.com/0xAlexWu)
-排版：[Echo](https://x.com/Echo_liuchan)、[吃汤圆](https://x.com/web3_cty)
+作者：[Alex](https://x.com/0xAlexWu)  
+排版：[Echo](https://x.com/Echo_liuchan)、[吃汤圆](https://x.com/web3_cty)  
 校对：[Bruce](https://x.com/brucexu_eth)

@@ -95,5 +95,5 @@ Bruce，LXDAO & ETHPanda 联合发起人，十余年全栈开发与团队管理�
 
 ## ::ep:avatar /#32b2f0:: 文章贡献者
 
-作者：[Bruce](https://x.com/brucexu_eth)
+作者：[Bruce](https://x.com/brucexu_eth)  
 排版：[Echo](https://x.com/Echo_liuchan)

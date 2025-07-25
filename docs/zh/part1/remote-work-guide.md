@@ -530,6 +530,6 @@ permalink: /zh/remote-work-guide/
 
 ## ::ep:avatar /#32b2f0::文章贡献者
 
-作者：[Echo](https://x.com/Echo_liuchan)
-排版：[Echo](https://x.com/Echo_liuchan)
+作者：[Echo](https://x.com/Echo_liuchan)  
+排版：[Echo](https://x.com/Echo_liuchan)  
 校对：[Bruce](https://x.com/brucexu_eth)
