@@ -34,6 +34,16 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
 
 ---
 
+## 📚 Web3 实习计划 2025 Summer 正在同步进行
+
+报名时间：2025 年 7 月 24 日 - 2025 年 8 月 1 日
+
+报名链接：<https://tally.so/r/npYXG8>
+
+详细说明：<https://x.com/ETHPanda_Org/status/1947592766101590327>
+
+---
+
 ## 📚 内容导航
 
 ### 第一部分：入门导读
