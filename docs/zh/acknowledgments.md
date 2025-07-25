@@ -34,12 +34,12 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
 
 ## ==主要贡献者==
 
-<table>
+<!-- <table>
   <tbody>
   <tr>
     <td align="center" valign="top" width="14.28%">
       <a href="https://x.com/brucexu_eth">
-        <img src="./images/contributor/bruce.png" width="100px;" alt="Bruce"/>
+        <img src="./images/contributor/bruce.png" width="100px;" hiegh="100px;"  alt="Bruce"/>
         <br />
         <sub><b>Bruce</b></sub>
       </a>
@@ -50,7 +50,7 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
     </td>
     <td align="center" valign="top" width="14.28%">
       <a href="https://x.com/Echo_liuchan">
-        <img src="./images/contributor/Echo.jpg" width="100px;" alt="Echo"/>
+        <img src="./images/contributor/Echo.jpg" width="100px;" hiegh="100px;"  alt="Echo"/>
         <br />
         <sub><b>Echo</b></sub>
       </a>
@@ -61,7 +61,7 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
     </td>
     <td align="center" valign="top" width="14.28%">
       <a href="https://x.com/web3_cty">
-        <img src="./images/contributor/tangyuan.png" width="100px;" alt="吃汤圆"/>
+        <img src="./images/contributor/tangyuan.png" width="100px;" hiegh="100px;"  alt="吃汤圆"/>
         <br />
         <sub><b>吃汤圆</b></sub>
       </a>
@@ -72,7 +72,7 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
     </td>
     <td align="center" valign="top" width="14.28%">
       <a href="https://x.com/0xAlexWu">
-        <img src="./images/contributor/Alex.jpg" width="100px;" alt="Alex"/>
+        <img src="./images/contributor/Alex.jpg" width="100px;" hiegh="100px;"  alt="Alex"/>
         <br />
         <sub><b>Alex</b></sub>
       </a>
@@ -81,8 +81,8 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
       <span title="技术文档">💻</span>
     </td>
     <td align="center" valign="top" width="14.28%">
-      <a href="#">
-        <img src="./images/contributor/Luna.jpg" width="100px;" alt="Luna"/>
+      <a href="https://x.com/nanakodesuu">
+        <img src="./images/contributor/Luna.jpg" width="100px;" hiegh="100px;" alt="Luna">
         <br />
         <sub><b>Luna</b></sub>
       </a>
@@ -91,8 +91,8 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
       <span title="用户体验">👤</span>
     </td>
     <td align="center" valign="top" width="14.28%">
-      <a href="#">
-        <img src="./images/interview/jason.jpg" width="100px;" alt="Jason"/>
+      <a href="https://x.com/fxxkmystyle">
+        <img src="./images/interview/jason.jpg" width="100px;" hiegh="100px;"  alt="Jason"/>
         <br />
         <sub><b>Jason</b></sub>
       </a>
@@ -101,8 +101,8 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
       <span title="行业洞察">💡</span>
     </td>
     <td align="center" valign="top" width="14.28%">
-      <a href="#">
-        <img src="./images/interview/julie.jpg" width="100px;" alt="Julie"/>
+      <a href="https://x.com/0xJuliechen">
+        <img src="./images/interview/julie.jpg" width="100px;" hiegh="100px;"  alt="Julie"/>
         <br />
         <sub><b>Julie</b></sub>
       </a>
@@ -113,8 +113,8 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
   </tr>
   <tr>
     <td align="center" valign="top" width="14.28%">
-      <a href="#">
-        <img src="./images/contributor/wangshouh.jpeg" width="100px;" alt="Julie"/>
+      <a href="https://x.com/wong_ssh">
+        <img src="./images/contributor/wangshouh.jpeg" width="100px;" hiegh="100px;"  alt="Julie"/>
         <br />
         <sub><b>wangshouh</b></sub>
       </a>
@@ -123,8 +123,8 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
       <span title="内容编写">📖</span>
     </td>
         <td align="center" valign="top" width="14.28%">
-      <a href="#">
-        <img src="./images/contributor/box.jpg" width="100px;" alt="Box"/>
+      <a href="https://x.com/BoxMrChen">
+        <img src="./images/contributor/box.jpg" width="100px;" hiegh="100px;" alt="Box"/>
         <br />
         <sub><b>Box</b></sub>
       </a>
@@ -134,7 +134,7 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
     </td>
         <td align="center" valign="top" width="14.28%">
       <a href="#">
-        <img src="./images/contributor/JIWEN.png" width="100px;" alt="JIWEN"/>
+        <img src="./images/contributor/JIWEN.png" width="100px;" hiegh="100px;"  alt="JIWEN"/>
         <br />
         <sub><b>JINWEN</b></sub>
       </a>
@@ -143,25 +143,158 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
     </td>
             <td align="center" valign="top" width="14.28%">
       <a href="#">
-        <img src="./images/contributor/JIWEN.png" width="100px;" alt="JIWEN"/>
+        <img src="./images/contributor/vivi.jpg" width="100px;" hiegh="100px;"  alt="Vivi"/>
         <br />
-        <sub><b>JINWEN</b></sub>
+        <sub><b>Vivi</b></sub>
       </a>
       <br />
-      <span title="画图">🎨</span>
+      <span title="内容编写">📖</span>
     </td>
             <td align="center" valign="top" width="14.28%">
       <a href="#">
-        <img src="./images/contributor/JIWEN.png" width="100px;" alt="JIWEN"/>
+        <img src="./images/contributor/shao.webp" width="100px;" hiegh="100px;"  alt="邵诗巍律师"/>
         <br />
-        <sub><b>JINWEN</b></sub>
+        <sub><b>邵诗巍律师</b></sub>
       </a>
       <br />
       <span title="画图">🎨</span>
     </td>
   </tr>
   </tbody>
-</table>
+</table> -->
+
+<CardGrid cols=6 >
+<Card>
+  <a href="https://x.com/brucexu_eth">  
+  <img src="./images/contributor/bruce.png" width="100px;" hiegh="100px;"  alt="Bruce"/>
+        <br />
+        <sub><b>Bruce</b></sub>
+      </a>
+      <br/>
+      <span title="项目发起人">🚀</span>
+      <span title="生态建设">🌍</span>
+      <span title="指导">🤝</span>
+  </Card>
+<Card>
+      <a href="https://x.com/Echo_liuchan">
+        <img src="./images/contributor/Echo.jpg" width="100px;" hiegh="100px;"  alt="Echo"/>
+        <br />
+        <sub><b>Echo</b></sub>
+      </a>
+      <br />
+      <span title="项目统筹">📋</span>
+      <span title="内容架构">🏗️</span>
+      <span title="内容编写">📖</span>
+</Card>
+<Card>
+      <a href="https://x.com/web3_cty">
+        <img src="./images/contributor/tangyuan.png" width="100px;" hiegh="100px;"  alt="吃汤圆"/>
+        <br />
+        <sub><b>吃汤圆</b></sub>
+      </a>
+      <br />
+      <span title="内容架构">🏗️</span>
+      <span title="内容编写">📖</span>
+      <span title="排版设计">🎨</span>
+</Card>
+<Card>
+      <a href="https://x.com/0xAlexWu">
+        <img src="./images/contributor/Alex.jpg" width="100px;" hiegh="100px;"  alt="Alex"/>
+        <br />
+        <sub><b>Alex</b></sub>
+      </a>
+      <br />
+      <span title="内容编写">📖</span>
+      <span title="技术文档">💻</span>
+</Card>
+<Card>
+      <a href="https://x.com/nanakodesuu">
+        <img src="./images/contributor/Luna.jpg" width="100px;" hiegh="100px;" alt="Luna">
+        <br />
+        <sub><b>Luna</b></sub>
+      </a>
+      <br />
+      <span title="内容编写">📖</span>
+      <span title="用户体验">👤</span>
+</Card>
+<Card>
+      <a href="https://x.com/fxxkmystyle">
+        <img src="./images/interview/jason.jpg" width="100px;" hiegh="100px;"  alt="Jason"/>
+        <br />
+        <sub><b>Jason</b></sub>
+      </a>
+      <br />
+      <span title="访谈内容">🎙️</span>
+      <span title="行业洞察">💡</span>
+</Card>
+<Card>
+      <a href="https://x.com/0xJuliechen">
+        <img src="./images/interview/julie.jpg" width="100px;" hiegh="100px;"  alt="Julie"/>
+        <br />
+        <sub><b>Julie</b></sub>
+      </a>
+      <br />
+      <span title="访谈内容">🎙️</span>
+      <span title="职业规划">📈</span>
+</Card>
+<Card>
+      <a href="https://x.com/wong_ssh">
+        <img src="./images/contributor/wangshouh.jpeg" width="100px;" hiegh="100px;"  alt="Julie"/>
+        <br />
+        <sub><b>wangshouh</b></sub>
+      </a>
+      <br />
+      <span title="指导">🤝</span>
+      <span title="内容编写">📖</span>
+</Card>
+<Card>
+      <a href="https://x.com/BoxMrChen">
+        <img src="./images/contributor/box.jpg" width="100px;" hiegh="100px;" alt="Box"/>
+        <br />
+        <sub><b>Box</b></sub>
+      </a>
+      <br />
+      <span title="指导">🤝</span>
+      <span title="内容编写">📖</span>
+</Card>
+<Card>
+      <a href="#">
+        <img src="./images/contributor/JIWEN.png" width="100px;" hiegh="100px;"  alt="JIWEN"/>
+        <br />
+        <sub><b>JINWEN</b></sub>
+      </a>
+      <br />
+      <span title="画图">🎨</span>
+</Card>
+<Card>
+    <a href="#">
+      <img src="./images/contributor/vivi.jpg" width="100px;" hiegh="100px;"  alt="Vivi"/>
+      <br />
+      <sub><b>Vivi</b></sub>
+    </a>
+    <br />
+    <span title="内容编写">📖</span>
+</Card>
+<Card>
+    <a href="#">
+      <img src="./images/contributor/shao.webp" width="100px;" hiegh="100px;"  alt="邵诗巍律师"/>
+      <br />
+      <sub><b>邵诗巍律师</b></sub>
+    </a>
+    <br />
+    <span title="内容编写">📖</span>
+</Card>
+<Card>
+    <a href="#">
+      <img src="./images/contributor/huang.png" width="100px;" hiegh="100px;"  alt="黄文颖律师"/>
+      <br />
+      <sub><b>黄文颖律师</b></sub>
+    </a>
+    <br />
+    <span title="内容编写">📖</span>
+</Card>
+</CardGrid>
+
 
 ## ==社区支持==
 
