@@ -532,7 +532,6 @@ Web3 行业发展极快，本手册内容会定期更新。建议关注项目官
 - 工时记录：[app.fairsharing.xyz/project/0x8e5B25E1b0093c3882Bd405998462a1365f21930/contribution](https://app.fairsharing.xyz/project/0x8e5B25E1b0093c3882Bd405998462a1365f21930/contribution)
 - 投票治理：[snapshot.box/#/s:ntdao.eth](https://snapshot.box/#/s:ntdao.eth)
 - 社区数字身份：[app.ntdao.xyz](app.ntdao.xyz)
-- 第一本 Web3 图书：[figma.com/design/e3pGC4j9qiQ8cAdHyCAxds/Untitled?node-id=0-1&p=f&t=gc8ob1kjJ5zIZwTn-0](https://www.figma.com/design/e3pGC4j9qiQ8cAdHyCAxds/Untitled?node-id=0-1&p=f&t=gc8ob1kjJ5zIZwTn-0)
 
 ## ::ep:avatar /#32b2f0::文章贡献者
 
