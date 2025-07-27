@@ -293,6 +293,15 @@ LXDAO 是一个研发驱动的 DAO，致力于帮助开源项目和公共物品�
     <br />
     <span title="内容编写">📖</span>
 </Card>
+<Card>
+    <a href="https://x.com/0xStella5607">
+      <img src="./images/contributor/guyi.jpg" width="100px;" hiegh="100px;"  alt="古忆"/>
+      <br />
+      <sub><b>古忆</b></sub>
+    </a>
+    <br />
+    <span title="内容编写">📖</span>
+</Card>
 </CardGrid>
 
 

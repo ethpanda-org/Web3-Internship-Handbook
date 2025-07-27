@@ -536,6 +536,6 @@ Web3 行业发展极快，本手册内容会定期更新。建议关注项目官
 
 ## ::ep:avatar /#32b2f0::文章贡献者
 
-作者：[吃汤圆](https://x.com/web3_cty)、 [古忆]()  
+作者：[吃汤圆](https://x.com/web3_cty)、 [古忆](https://x.com/0xStella5607)  
 排版：[Echo](https://x.com/Echo_liuchan)  
 校对：[Bruce](https://x.com/brucexu_eth)
