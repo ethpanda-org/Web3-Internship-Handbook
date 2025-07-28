@@ -235,6 +235,6 @@ Web3 面试的关键不是展示你知道多少，而是展示你能学多快、
 
 ## ::ep:avatar /#32b2f0::文章贡献者
 
-作者：[Alex](https://x.com/0xAlexWu)
-排版：[Echo](https://x.com/Echo_liuchan)
+作者：[Alex](https://x.com/0xAlexWu)  
+排版：[Echo](https://x.com/Echo_liuchan)  
 校对：[Bruce](https://x.com/brucexu_eth)
