@@ -32,7 +32,7 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: '/images/ethpanda.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/images/web3inter.jpg' }],
   ],
 
   bundler: viteBundler(),
