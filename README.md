@@ -142,14 +142,6 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
 
 ---
 
-## 赞助
-
-欢迎赞助，资金将用于《Web3 实习手册》的长期更新迭代、免费印刷分发等。
-
-- TODO 增加中
-
----
-
 ## 📮 联系我们
 
 - **GitHub Issues**: [提交问题或建议](https://github.com/ethpanda-org/Web3-Internship-Handbook/issues)
