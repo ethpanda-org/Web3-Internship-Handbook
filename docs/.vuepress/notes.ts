@@ -53,7 +53,7 @@ const handbookNote = defineNoteConfig({
         {
           text: '合规和网络安全',
           link: 'part2/security.md',
-          badge: { text: '待更新', type: 'info' },
+          // badge: { text: '待更新', type: 'info' },
         },
       ],
       collapsed: false,

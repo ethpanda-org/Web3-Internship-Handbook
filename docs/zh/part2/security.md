@@ -134,10 +134,11 @@ permalink: /zh/security/
     - 对稳定币发行商提出严格的资本和流动性要求
     - 要求加密货币服务提供商获得许可证
 
-    **关键要求**：
+    ::: important **关键要求**：
     - 稳定币发行商必须持有等值储备资产
     - 大型稳定币（超过 100 万用户）面临更严格监管
     - 禁止算法稳定币（如 Terra UST）
+    :::
 
     ==3. 香港监管框架==
     ::: tabs
@@ -387,16 +388,16 @@ Web3 项目常常通过跨境分区的方式来规避境内的监管风险，通
 > 随着区块链、Web3 等新兴技术的普及，越来越多的学生开始接触加密货币、数字钱包、远程实习和线上面试。然而，网络空间的“黑暗森林”法则同样适用于每一位新手：只要你暴露在网络世界，就有可能成为攻击者的目标。尤其是学生群体，因经验不足、警惕性不高，极易成为网络攻击的受害者。  
 > 本节将结合真实案例，系统梳理常见的网络安全风险、攻击方式、攻击手段与后果，帮助大家建立基本的安全防范意识。
 
--链上风险类型
+<!-- - 链上风险类型  
 a. 恐怖主义融资
 b. 黑客攻击
 c. 暗网交易等
 
--上述风险类型的真实案例展示分析
+- 上述风险类型的真实案例展示分析
 
--学生如何处理风险，应对建议
+- 学生如何处理风险，应对建议
 
--blocksec相关的合规工具与技术支持
+- blocksec 相关的合规工具与技术支持 -->
 
 
 ### 2. 常见网络安全风险与攻击方式
@@ -664,5 +665,5 @@ c. 暗网交易等
 
 ## ::ep:avatar /#32b2f0:: 文章贡献者
 
-作者：[黄文颖、邵诗巍｜曼昆律所](https://www.xiaohongshu.com/user/profile/5aacbeff11be104a3902e51a?xsec_token=YBJSqF5mquAQGxmOXzyrnRGOWDg2bngVz73d_dYNKbtyI=&xsec_source=app_share&xhsshare=WeixinSession&appuid=6019521a0000000001005b83&apptime=1753357678&share_id=72d3a32cab644835908c87c97abf48d8&wechatWid=d597980e578166d4379927d713140a72&wechatOrigin=menu)、vivi、[慢雾：区块链黑暗森林自救手册节选](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md)  
+作者：[黄文颖、邵诗巍｜曼昆律所](https://www.xiaohongshu.com/user/profile/5aacbeff11be104a3902e51a?xsec_token=YBJSqF5mquAQGxmOXzyrnRGOWDg2bngVz73d_dYNKbtyI=&xsec_source=app_share&xhsshare=WeixinSession&appuid=6019521a0000000001005b83&apptime=1753357678&share_id=72d3a32cab644835908c87c97abf48d8&wechatWid=d597980e578166d4379927d713140a72&wechatOrigin=menu)、vivi、[慢雾：区块链黑暗森林自救手册节选](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md)、[Blocksec](https://docs.blocksec.com/)
 排版：[Echo](https://x.com/Echo_liuchan)
