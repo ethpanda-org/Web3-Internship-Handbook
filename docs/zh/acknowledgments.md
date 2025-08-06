@@ -329,7 +329,7 @@ SmartDeer 是一站式 “HR 服务和 SaaS” 平台，致力于全球招聘和
 ![实习、大使机会提供方](../zh/images/contributor/Instagram%20story%20-%2016.png)
 ### 实习机会
 ::: card
-#### 万向区块链实验室 TODO 补充链接
+#### [万向区块链实验室](https://www.blockchainlabs.org/#/home)
 智链万物，信至行远！万向区块链致力于构建一个充满活力的全球化区块链生态圈，从技术、资金、资源等方面全力推动中国区块链行业的发展和落地。
 :::
 
@@ -377,8 +377,7 @@ Backed by YZi Labs & Coinbase.
 ### 生态大使对接
 ::: card
 #### [Arbitrum](https://x.com/arbitrum_cn?s=21)
-Arbitrum 是以太坊最大的 L2
-TODO 详细补充
+Arbitrum 是一个构建在以太坊之上的 Layer 2 扩容解决方案，常年稳居 L2 市场 TVL 第一，由 Offchain Labs 开发，旨在在不牺牲去中心化和安全性的前提下，大幅提升以太坊的吞吐量、降低交易费用。它采用了 Optimistic Rollup 技术，通过将大量交易打包后统一提交至以太坊主网，从而减轻主链负担，实现更高效的处理能力。
 :::
 ::: card
 #### [Conflux](https://x.com/Conflux_Network)
@@ -450,8 +449,8 @@ OpenCAS 中国科学院大学开源软件与区块链协会，学生主导的区
 过去七年间，THUBA 已发展成为中国区块链领域的重要推动力量，累计举办 200 多场活动，吸引超过 10 万人次参与，并建立了一个拥有 2 万多名关注者的活跃社群。2022 年，清华大学在 CoinDesk 发布的全球区块链影响力高校排名中位列第六，居中国大陆高校首位，充分展现了 THUBA 的影响力与领导力。未来，THUBA 将继续与下一代创新者携手前行，共同塑造区块链技术的未来发展方向。
 :::
 ::: card
-#### [0xUclub](https://x.com/0xuclub)
-TODO 简介补充
+#### [香港大学生区块链社区｜0xUclub](https://x.com/0xuclub)
+0xU 香港大学生区块链社区成立于 2022 年 7 月，是由来自 HKU、CUHK 和 HKUST 的大学生发起，并联合各大高校同学共同组建的学生社团。我们致力于汇集香港各大高校和行业资源、推动区块链行业的研究和交流，并支持区块链创业项目的落地和发展。
 :::
 
 ### 媒体支持
