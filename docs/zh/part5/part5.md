@@ -35,6 +35,7 @@ permalink: /zh/appendix/
 - **CryptoZombies**：[趣味化 Solidity 教程](https://cryptozombies.io/zh/)
 - **LearnWeb3**：[全栈 Web3 开发课程](https://learnweb3.io/)
 - **Alchemy University**：[免费区块链开发课程](https://university.alchemy.com/)
+- **中文排版模式**：[https://github.com/sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)
 
 ### 🎥 优质视频课程
 
