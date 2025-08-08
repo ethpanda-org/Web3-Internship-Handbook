@@ -132,6 +132,11 @@ curl -L <https://foundry.paradigm.xyz> | bash
 foundryup
 ```
 
+Foundry 提供以下以太坊开发工具：
+- `forge`: 帮助构建、测试、调试、部署和验证智能合约
+- `anvil`: 本地开发节点，完全兼容以太坊 JSON-RPC 规范
+- `cast`: 命令行工具，用于与链上应用交互
+
 **初始化项目**
 
 ```bash
@@ -151,7 +156,7 @@ forge test
 **启动本地节点**
 
 ```bash
-chisel
+anvil
 ```
 
 **部署合约**
