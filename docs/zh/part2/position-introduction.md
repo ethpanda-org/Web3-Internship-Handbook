@@ -213,9 +213,11 @@ createTime: '2025/06/12 00:30:37'
 - [电鸭社区](https://eleduck.com/) - 中文，远程工作者社区
 - [Web3Career](https://web3.career/) - 英文，专业的 Web3 招聘平台
 - [CryptoJobs](https://crypto.jobs/) - 英文，区块链行业招聘信息
+- [The Ethereum Season of Internships](https://nxbn.ethereum.foundation/internships) - 英文，以太坊实习季
+- [Ethereum Job Board](https://www.ethereumjobboard.com/) - 英文，ETH 旗舰项目招聘板
 
 ## ::ep:avatar /#32b2f0:: 文章贡献者
 
-作者：[吃汤圆](https://x.com/web3_cty)  
+作者：[吃汤圆](https://x.com/web3_cty), [segment7](https://x.com/segseven)  
 排版：[Echo](https://x.com/Echo_liuchan)  
 校对：[Bruce](https://x.com/brucexu_eth)
