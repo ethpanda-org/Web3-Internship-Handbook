@@ -376,7 +376,7 @@ PEPE 基于“悲伤青蛙”形象，发行总量高达 420.69 万亿枚。2024
 
     南塘 DAO 在 OP 链上发行了 ERC20 标准的 Token ——南塘豆（代号：NT）。该代币主要用于量化成员贡献并作为 DAO 治理投票的凭证。鉴于南塘合作社文化大院是南塘 DAO 乡村活动的主要基地，南塘 DAO 每月将增发相当于当月总支出的 20% 的南塘豆分配给南塘合作社（该部分南塘豆具备投票权）。
 
-    在中国现行法律框架下，南塘豆被界定为虚拟商品，可在当地特定场景中用于交换商品与服务。**应用实例包括：** 使用南塘豆购买咖啡、果汁、午餐、社区超市商品（支付比例为 50% 人民币 + 50% 南塘豆），或用于南塘合作社住宿消费等。其应用场景仍在持续拓展中。为便利村民适应这一新型社区货币，南塘 DAO 为老年人提供了社区货币卡片，并帮助年轻村民使用社区数字身份（详见[南塘 DAO 相关网站：社区数字身份](app.ntdao.xyz)）。
+    在中国现行法律框架下，南塘豆被界定为虚拟商品，可在当地特定场景中用于交换商品与服务。**应用实例包括：** 使用南塘豆购买咖啡、果汁、午餐、社区超市商品（支付比例为 50% 人民币 + 50% 南塘豆），或用于南塘合作社住宿消费等。其应用场景仍在持续拓展中。为便利村民适应这一新型社区货币，南塘 DAO 为老年人提供了社区货币卡片，并帮助年轻村民使用社区数字身份（详见[南塘 DAO 相关网站：社区数字身份](https://app.ntdao.xyz/)）。
 
     ![社区货币卡片](../images/industry/nantang.webp)
 
@@ -531,10 +531,10 @@ Web3 行业发展极快，本手册内容会定期更新。建议关注项目官
 
 **南塘 DAO 相关网站**
 
-- 论坛：[forum.ntdao.xyz](forum.ntdao.xyz)
+- 论坛：[forum.ntdao.xyz](https://forum.ntdao.xyz/)
 - 工时记录：[app.fairsharing.xyz/project/0x8e5B25E1b0093c3882Bd405998462a1365f21930/contribution](https://app.fairsharing.xyz/project/0x8e5B25E1b0093c3882Bd405998462a1365f21930/contribution)
 - 投票治理：[snapshot.box/#/s:ntdao.eth](https://snapshot.box/#/s:ntdao.eth)
-- 社区数字身份：[app.ntdao.xyz](app.ntdao.xyz)
+- 社区数字身份：[app.ntdao.xyz](https://app.ntdao.xyz/)
 
 ## ::ep:avatar /#32b2f0::文章贡献者
 
