@@ -174,11 +174,15 @@ The Merge 只是起点，以太坊的“进化”还在继续！接下来的升�
     - **成本低**：多笔交易分摊验证成本
     - **安全性高**：继承以太坊主网的安全性
 
-    **代表项目**：zkSync Era、Polygon zkEVM、Scroll
+    **代表项目**：zkSync Era、Polygon zkEVM#、Scroll
+    Polygon zkEVM 宣佈 Polygon zkEVM Mainnet Beta 將於2026關閉，轉型為 Zisk。
+    詳情︰
+    https://forum.polygon.technology/t/sunsetting-polygon-zkevm-mainnet-beta-in-2026/21020
+    https://github.com/0xpolygonhermez
     <br>
     <br>
 
-4.  ==**其他重要升级方向**=={.important}
+5.  ==**其他重要升级方向**=={.important}
 
     - **EIP-1559 成果**：已实现基础费用机制，但 Gas 费仍受网络拥堵影响较大
     - **Verkle 树技术**：优化状态存储结构，减少节点同步所需的数据量
