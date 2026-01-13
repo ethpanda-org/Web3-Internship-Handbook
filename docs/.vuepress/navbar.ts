@@ -15,6 +15,15 @@ export const zhNavbar = defineNavbarConfig([
   { text: '致谢名单', link: '/zh/acknowledgments.md' },
 ]);
 
+export const zhTWNavbar = defineNavbarConfig([
+  { text: '開始閱讀', link: '/zh-TW/README.md' },
+  {
+    text: '參與和支持',
+    link: 'https://github.com/ethpanda-org/Web3-Internship-Handbook/blob/main/CONTRIBUTING.md',
+  },
+  { text: '致謝名單', link: '/zh-TW/acknowledgments.md' },
+]);
+
 export const enNavbar = defineNavbarConfig([
   { text: 'Chinese Version', link: '/zh/README.md' },
   {

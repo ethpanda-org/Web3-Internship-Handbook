@@ -22,6 +22,11 @@ export default defineUserConfig({
       lang: 'zh-CN',
       description: '',
     },
+    '/zh-TW/': {
+      title: 'Web3 實習手冊',
+      lang: 'zh-TW',
+      description: '',
+    },
     '/en/': {
       title: 'Web3 Internship Handbook (English Coming Soon)',
       lang: 'en-US',

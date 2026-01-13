@@ -94,6 +94,79 @@ export const zhNotes = defineNotesConfig({
   notes: [handbookNote],
 });
 
+/* =================== locale: zh-TW ======================= */
+
+const handbookNoteTW = defineNoteConfig({
+  dir: 'zh-TW',
+  link: '/zh-TW',
+  sidebar: [
+    { text: 'Web3 實習手冊', link: 'README.md' },
+    {
+      text: '入門導讀',
+      items: [
+        { text: '區塊鏈基礎概念', link: 'part1/blockchain-basic.md' },
+        { text: '以太坊概覽', link: 'part1/overview-of-ethereum.md' },
+        { text: '行業賽道全覽', link: 'part1/industry-knowledge.md' },
+        { text: 'Web3 工作方式', link: 'part1/remote-work-guide.md' },
+      ],
+      collapsed: false,
+    },
+    {
+      text: 'Web3 行業知識',
+      items: [
+        {
+          text: '區塊鏈崗位全景圖',
+          link: 'part2/position-introduction.md',
+        },
+        {
+          text: '智慧合約開發',
+          link: 'part2/smart-contract-development.md',
+        },
+        { text: '社群營運指南', link: 'part2/community-intern.md' },
+        {
+          text: '合規和網路安全',
+          link: 'part2/security.md',
+        },
+      ],
+      collapsed: false,
+    },
+    {
+      text: '行業前輩訪談錄',
+      items: [
+        { text: '前端先鋒的鏈上闖關之路', link: 'part3/Logic.md' },
+        { text: 'Web2 到 Web3 的轉型之路', link: 'part3/Jason.md' },
+        { text: 'Web3 社群增長專家', link: 'part3/Julie.md' },
+        { text: '如何成為靠譜的 Web3 實習生', link: 'part3/Bruce.md' },
+      ],
+      collapsed: false,
+    },
+    {
+      text: '面試準備與行業崗位推薦',
+      collapsed: false,
+      items: [
+        { text: '招聘平台與職位推薦', link: 'part4/job-platform.md' },
+        { text: 'Web3 行業履歷撰寫指導', link: 'part4/write-resume.md' },
+        {
+          text: '面試準備與典型面試題',
+          link: 'part4/interview-preparedness.md',
+        },
+      ],
+    },
+    {
+      text: '附錄',
+      collapsed: false,
+      items: [{ text: '附錄', link: 'part5/part5.md' }],
+    },
+    { text: '致謝名單', link: 'acknowledgments.md' },
+  ],
+});
+
+export const zhTWNotes = defineNotesConfig({
+  dir: '/',
+  link: '/',
+  notes: [handbookNoteTW],
+});
+
 /* =================== locale: en-US ======================= */
 
 const enDemoNote = defineNoteConfig({

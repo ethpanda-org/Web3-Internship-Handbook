@@ -11,8 +11,8 @@
  */
 
 import { defineThemeConfig } from 'vuepress-theme-plume';
-import { enNavbar, zhNavbar } from './navbar';
-import { enNotes, zhNotes } from './notes';
+import { enNavbar, zhNavbar, zhTWNavbar } from './navbar';
+import { enNotes, zhNotes, zhTWNotes } from './notes';
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -80,6 +80,22 @@ export default defineThemeConfig({
       //   title: '',
       //   content: '',
       // },
+    },
+    '/zh-TW/': {
+      /**
+       * @see https://theme-plume.vuejs.press/config/basic/#profile
+       */
+      profile: {
+        avatar: '/ethpanda.png',
+        name: 'Web3 實習手冊',
+        description: '',
+        // circle: true,
+        // location: '',
+        // organization: '',
+      },
+
+      navbar: zhTWNavbar,
+      notes: zhTWNotes,
     },
     '/en/': {
       /**
