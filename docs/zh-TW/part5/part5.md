@@ -2,7 +2,7 @@
 title: 第五部分：附錄
 createTime: 2025/06/03 16:33:50
 order: 5
-permalink: /zh-TW/appendix/
+permalink: /zh-tw/appendix/
 ---
 
 ## 一、區塊鏈 / 以太坊術語表
@@ -20,14 +20,14 @@ permalink: /zh-TW/appendix/
 
 - **以太坊開發者資源**：[Ethereum.org 開發者門戶](https://ethereum.org/zh/developers/)
 - **Solidity 官方文件**：[Solidity 中文文件](https://docs.soliditylang.org/zh-cn/latest/)
-- **Vyper 官方文件**：[Vyper 智慧合約語言](https://vyper.readthedocs.io/)
+- **Vyper 官方文件**：[Vyper 智能合約語言](https://vyper.readthedocs.io/)
 - **以太坊改進提案**：[EIPs - 以太坊改進提案](https://eips.ethereum.org/)
 
 精選書籍
 
 - **《精通以太坊》**：Andreas M. Antonopoulos 著，區塊鏈開發聖經
 - **《區塊鏈技術指南》**：鄒均等著，全面系統的區塊鏈知識
-- **《Solidity 智慧合約開發》**：深入淺出智慧合約程式設計
+- **《Solidity 智能合約開發》**：深入淺出智能合約程式設計
 - **《DeFi 實戰指南》**：去中心化金融協議設計與實現
 
 線上教程
@@ -52,7 +52,7 @@ permalink: /zh-TW/appendix/
 
 - **Vitalik Buterin 部落格**：[以太坊創始人技術思考](https://vitalik.eth.limo/)
 - **ConsenSys 部落格**：[企業級區塊鏈解決方案](https://consensys.net/blog/)
-- **OpenZeppelin 部落格**：[智慧合約安全最佳實踐](https://blog.openzeppelin.com/)
+- **OpenZeppelin 部落格**：[智能合約安全最佳實踐](https://blog.openzeppelin.com/)
 
 行業資訊
 
@@ -69,7 +69,7 @@ permalink: /zh-TW/appendix/
 
 入門專案
 
-- **投票 DApp**：智慧合約 + Web3 前端
+- **投票 DApp**：智能合約 + Web3 前端
 - **代幣發行**：ERC-20 代幣建立與部署
 - **NFT 集合**：ERC-721 NFT 鑄造平臺
 - **多籤錢包**：多重簽名合約實現
@@ -87,7 +87,7 @@ permalink: /zh-TW/appendix/
 
 ## 三、開發工具與基礎設施
 
-### 💻 智慧合約開發
+### 💻 智能合約開發
 
 開發環境
 
@@ -98,7 +98,7 @@ permalink: /zh-TW/appendix/
 
 測試網路
 
-- **Sepolia**：以太坊官方推薦測試網，主要用於智慧合約的測試。
+- **Sepolia**：以太坊官方推薦測試網，主要用於智能合約的測試。
 - **Holesky**：以太坊官方推薦測試網，主要用於基礎設施、驗證者（驗證節點）、質押等方面的測試。
 
 水龍頭服務
@@ -136,7 +136,7 @@ RPC 服務商
 
 審計服務
 
-- **OpenZeppelin Defender**：[智慧合約安全平臺](https://openzeppelin.com/)
+- **OpenZeppelin Defender**：[智能合約安全平臺](https://openzeppelin.com/)
 - **ConsenSys Diligence**：[安全審計](https://diligence.consensys.io/)
 
 ## 四、社群與資源
@@ -165,10 +165,10 @@ RPC 服務商
 **前端開發者**：
 
 - **核心技能**：JavaScript/TypeScript、React/Vue、Web3.js/Ethers.js
-- **區塊鏈互動**：錢包連線（MetaMask、WalletConnect）、智慧合約呼叫
+- **區塊鏈互動**：錢包連線（MetaMask、WalletConnect）、智能合約呼叫
 - **工具鏈**：Vite、Webpack、IPFS 部署
 
-**智慧合約開發者**：
+**智能合約開發者**：
 
 - **程式語言**：Solidity（以太坊）、Rust（Solana/Near）、Move（Aptos/Sui）
 - **開發框架**：Hardhat、Foundry、Truffle（已停止維護）
@@ -206,12 +206,12 @@ RPC 服務商
 
 1. **使用者群體**：目標使用者主要在哪個生態？
 2. **成本考慮**：交易頻率與 Gas 費敏感度
-3. **技術要求**：TPS、確認時間、智慧合約複雜度
+3. **技術要求**：TPS、確認時間、智能合約複雜度
 4. **生態支援**：DEX、預言機、跨鏈橋可用性
 
 ::::
 
-:::: details ❓ 智慧合約安全最佳實踐？
+:::: details ❓ 智能合約安全最佳實踐？
 
 **編碼規範**：
 
@@ -293,10 +293,10 @@ RPC 服務商
 
 **職業方向**：
 
-- **智慧合約開發**：Solidity/Rust，專注協議層開發
+- **智能合約開發**：Solidity/Rust，專注協議層開發
 - **DApp 前端**：Web3 整合，使用者介面和體驗
 - **DevRel**：開發者關係，技術佈道和社群建設
-- **安全審計**：智慧合約安全分析和漏洞挖掘
+- **安全審計**：智能合約安全分析和漏洞挖掘
 - **產品經理**：Web3 產品設計和使用者需求分析
 
 ::::
@@ -320,7 +320,7 @@ RPC 服務商
 **第三階段：實踐積累（6-12 個月）**
 
 - 完成 CryptoZombies 等線上教程
-- 部署第一個智慧合約（ERC-20 代幣）
+- 部署第一個智能合約（ERC-20 代幣）
 - 參與開源專案或社群貢獻
 - 撰寫學習心得和技術部落格
 

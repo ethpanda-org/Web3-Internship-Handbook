@@ -1,7 +1,7 @@
 ---
 title: 安全與合規
 createTime: '2025/06/11 21:04:39'
-permalink: /zh-TW/security/
+permalink: /zh-tw/security/
 ---
 
 > 作為 Web3 的新手，在參與到 Web3 專案前，請務必通讀本合規指南，確保在行動前不會觸犯法律的底線，仔細甄別下述案例的情形，有所防範。
@@ -652,7 +652,7 @@ c. 暗網交易等
 
 
 
-## ::eos-icons:application-outlined /#32b2f0:: 擴充套件閱讀
+## ::eos-icons:application-outlined /#32b2f0:: 擴展閱讀
 
 1. 區塊鏈安全紅手冊（專案方）：[https://www.slowmist.com/redhandbook/](https://www.slowmist.com/redhandbook/)
 2. 區塊鏈黑暗森林自救手冊：[https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md)

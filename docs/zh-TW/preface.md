@@ -1,7 +1,7 @@
 ---
 title: 前言
 createTime: 2025/06/25 10:00:00
-permalink: /zh-TW/preface/
+permalink: /zh-tw/preface/
 ---
 
 ## 寫在前面

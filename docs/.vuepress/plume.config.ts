@@ -81,7 +81,7 @@ export default defineThemeConfig({
       //   content: '',
       // },
     },
-    '/zh-TW/': {
+    '/zh-tw/': {
       /**
        * @see https://theme-plume.vuejs.press/config/basic/#profile
        */
@@ -95,6 +95,7 @@ export default defineThemeConfig({
       },
 
       navbar: zhTWNavbar,
+      // 使用獨立的 zhTWNotes，明確指定 dir 和 link 為 /zh-tw/
       notes: zhTWNotes,
     },
     '/en/': {

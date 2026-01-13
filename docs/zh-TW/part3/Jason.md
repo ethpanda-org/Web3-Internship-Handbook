@@ -1,7 +1,7 @@
 ---
 title: 技術後端向 Jason：資深 Web2 開發者的轉型之路
 createTime: 2025/06/15 18:35:28
-permalink: /zh-TW/jason-web2-to-web3-journey/
+permalink: /zh-tw/jason-web2-to-web3-journey/
 ---
 
 > 在本章，我們追溯 Jason 從大廠 C/C++ 開發者轉向 Web3 的路徑：研二自建以太坊節點、內推與線下社群獲取崗位，靠多段實習與紮實底層基礎拿下頂級交易所面試；強調 CPU/IO 原理對鏈上系統最佳化的必要性，指出前端遷移最易、底層開發需補產品思維；建議小白按專業優勢切入，實踐—補基礎形成閉環，牢記理解業務才是 AI 難以替代的核心競爭力。

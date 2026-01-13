@@ -1,7 +1,7 @@
 ---
 title: 用人方視角：Bruce 談如何成為靠譜的 Web3 實習生
 createTime: 2025/06/15 18:33:58
-permalink: /zh-TW/bruce-hiring-perspective/
+permalink: /zh-tw/bruce-hiring-perspective/
 ---
 
 > 本章從用人方視角出發，LXDAO & ETHPanda 聯合發起人 Bruce 結合十餘年開發與管理經驗，深度解析什麼是“靠譜”的實習生。他強調“可預期、可溝通、可覆盤”三大核心素質，分享時間評估的“經驗倍數法”，並提供從面試準備到團隊協作的實用建議。對於想要在 Web3 領域站穩腳跟的技術新人，這些來自一線管理者的洞察將幫助你避開常見陷阱，快速成長為團隊信賴的核心成員。

@@ -1,7 +1,7 @@
 ---
 title: 運營增長向 Julie：00 後社群增長專家
 createTime: 2025/06/15 18:36:55
-permalink: /zh-TW/julie-community-growth-expert/
+permalink: /zh-tw/julie-community-growth-expert/
 ---
 
 > 在本章，我們走近 ZetaChain 社群負責人 Julie，記錄她 18 歲入圈從翻譯等“Dirty work”起步，借多元內容與社群試驗洞察 VC 與專案增長差異，終掌舵中美社群運營。她強調社群共識即生產力，分享 0→1 冷啟動:任務可感知、簡化敘事、大使激勵、高頻互動；並奉上 AMA 選題結合熱點與覆盤擴散法，以及 00/05 後以長板定位、持續輸出、主動連線、好奇驅動的成長路線。

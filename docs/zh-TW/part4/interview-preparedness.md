@@ -1,7 +1,7 @@
 ---
 title: 面試通關秘籍
 createTime: 2025/06/24 14:37:31
-permalink: /zh-TW/interview-preparedness/
+permalink: /zh-tw/interview-preparedness/
 ---
 
 > **目標**：本章將幫助 Web3 新人和在校學生系統性地準備面試，從基礎知識儲備到實戰演練，逐步提升面試成功率。我們會針對不同崗位提供循序漸進的準備方案，確保每個人都能找到適合自己的學習路徑。
@@ -88,7 +88,7 @@ permalink: /zh-TW/interview-preparedness/
 #### 必備基礎知識
 
 - **Web 開發基礎**：HTML、CSS、JavaScript、React/Vue
-- **Web3 整合**：瞭解錢包連線、智慧合約呼叫的基本流程
+- **Web3 整合**：瞭解錢包連線、智能合約呼叫的基本流程
 - **開發工具**：Git、npm、基礎的部署流程
 
 #### 面試準備步驟
@@ -109,7 +109,7 @@ permalink: /zh-TW/interview-preparedness/
 
 3. **專案實踐**
    - 完成一個簡單的 Dapp 前端（如代幣餘額查詢）
-   - 學會連線錢包並呼叫智慧合約
+   - 學會連線錢包並呼叫智能合約
    - 瞭解基本的錯誤處理和使用者體驗最佳化
 
 :::
@@ -122,12 +122,12 @@ permalink: /zh-TW/interview-preparedness/
 | **Web3 整合**  | 錢包連線、基本合約呼叫   | 多鏈支援、錯誤處理    |
 | **使用者體驗**   | 載入狀態、錯誤提示       | 離線處理、響應式設計  |
 
-### 2. 後端/智慧合約方向
+### 2. 後端/智能合約方向
 
 #### 必備基礎知識
 
 - **程式設計基礎**：至少掌握一門程式語言（JavaScript、Python、Solidity）
-- **區塊鏈概念**：理解智慧合約、交易、Gas 等基本概念
+- **區塊鏈概念**：理解智能合約、交易、Gas 等基本概念
 - **開發工具**：瞭解 Hardhat、Foundry 等開發框架
 
 #### 面試準備步驟
@@ -147,7 +147,7 @@ permalink: /zh-TW/interview-preparedness/
    - 瞭解測試網部署流程
 
 3. **實踐專案**
-   - 完成 1-2 個簡單的智慧合約專案
+   - 完成 1-2 個簡單的智能合約專案
    - 學會寫基本的測試用例
    - 瞭解常見的安全問題和防範措施
 

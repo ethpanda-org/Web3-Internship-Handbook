@@ -2,7 +2,7 @@
 title: 致謝名單
 createTime: 2025/06/03 16:33:50
 order: 6
-permalink: /zh-TW/acknowledgments/
+permalink: /zh-tw/acknowledgments/
 ---
 
 # 致謝名單
@@ -351,8 +351,8 @@ Deck: [https://docs.google.com/presentation/d/1SabM5GiIRoQRhFUPEIUyqLD0h3Bx1IcZ5
 :::
 
 ::: card
-#### [位元鷹](https://x.com/BiteagleLabs)
-位元鷹是一家國內領先的 AI + Web3 公司！
+#### [比特鷹](https://x.com/BiteagleLabs)
+比特鷹是一家國內領先的 AI + Web3 公司！
 成立於 2021 年，經歷了一輪完整的牛熊週期，長期深耕 Web3，團隊年輕有活力，95% 成員為 00 後，技術氛圍好，實現1年頂3年的成長，致力於以世界一流的標準打磨行業領先的產品，為使用者創造價值。
 :::
 
@@ -432,7 +432,7 @@ OpenCAS 中國科學院大學開源軟體與區塊鏈協會，學生主導的區
 :::
 ::: card
 #### [廣州大學區塊鏈技術與應用研究平臺](https://x.com/Gzhulianxie)
-我們聚焦區塊鏈底層技術、智慧合約、DeFi、NFT、Web3.0及產業應用等前沿領域，致力於打造廣大區塊鏈愛好者學習交流、資源互助的社群。
+我們聚焦區塊鏈底層技術、智能合約、DeFi、NFT、Web3.0及產業應用等前沿領域，致力於打造廣大區塊鏈愛好者學習交流、資源互助的社群。
 :::
 ::: card
 #### [香港中文大學（深圳）區塊鏈協會｜0xCUHKSZ](https://x.com/0xCUHKSZ_)

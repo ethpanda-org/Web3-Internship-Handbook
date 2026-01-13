@@ -1,7 +1,7 @@
 ---
 title: 社群運營指南
 createTime: '2025/06/11 20:30:21'
-permalink: /zh-TW/community-intern/
+permalink: /zh-tw/community-intern/
 ---
 
 > 在 Web3 專案中，社群運營是連線使用者與專案的重要橋樑。本模組將梳理社群運營的核心職責，包括內容釋出、社群維護、活動組織和對外協作等日常工作，同時介紹常用的工具和平臺，涵蓋社交媒體、溝通協作、內容創作和資料分析等方面，幫助你快速掌握實操技能，建立高效的工作流程。
@@ -296,7 +296,7 @@ Web3 世界的資料是開放的，以下工具是日常分析和監控專案的
 
 :::
 
-<!-- ## ::eos-icons:application-outlined /#32b2f0:: 擴充套件閱讀
+<!-- ## ::eos-icons:application-outlined /#32b2f0:: 擴展閱讀
 [1]  -->
 
 ## ::ep:avatar /#32b2f0:: 文章貢獻者

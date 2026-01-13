@@ -1,7 +1,7 @@
 ---
 title: Web3 行業簡歷撰寫指導
 createTime: 2025/06/11 20:49:34
-permalink: /zh-TW/write-resume/
+permalink: /zh-tw/write-resume/
 ---
 
 > 無論你是帥哥還是靚女，你的簡歷是都是招聘官見的第一面。見字如面，在競爭激烈的 Web3 行業當中，一份 **精準** 的 Web3 簡歷一定是你開啟職業之門的金鑰匙。一份優秀的 Web3 簡歷不僅需要傳統簡歷乾淨、簡潔的特點，更需突出與 Web3 行業的切合度。
@@ -100,9 +100,9 @@ Web3 簡歷不僅僅是找工作的敲門磚，更是你個人在去中心化世
 
 簡歷要保持簡潔，不要過於花哨，重點突出跟崗位相關的技能和經驗，避免其他的喧賓奪主。以下為虛構的建立示例，內容並不完全嚴謹正確，僅作為參考使用。
 
-**智慧合約工程師：陳大文**
+**智能合約工程師：陳大文**
 
-![智慧合約工程師簡歷模板](../images/write-resume/smart-contract-engineer-resume-template.jpg)
+![智能合約工程師簡歷模板](../images/write-resume/smart-contract-engineer-resume-template.jpg)
 **研究分析師：王美麗**
 
 ![研究分析師簡歷模板](../images/write-resume/research-analyst-resume-template.jpg)

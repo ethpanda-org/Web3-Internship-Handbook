@@ -1,7 +1,7 @@
 ---
 title: 招聘平臺與職位推薦
 createTime: 2025/06/11 20:45:28
-permalink: /zh-TW/job-platform/
+permalink: /zh-tw/job-platform/
 ---
 
 > 想踏入 Web3，卻被“資訊混雜、渠道分散、崗位真假難辨”嚇退？本章為你拆解求職全流程：先用“及時、真實、準確”三大維度教你篩選招聘資訊，再甄選優質平臺與多元資訊渠道；接著提供 12 項“專案可靠度打分表”，幫你避開騙局；隨後梳理運營、技術兩大職業路徑，從大使計劃到核心開發者，配套任務清單與成長方法；最後給出實用的面試與成長建議，讓你的第一份 Web3 工作不再靠運氣，而是靠策略與實踐拿下！
@@ -135,9 +135,9 @@ permalink: /zh-TW/job-platform/
 ![Web3 技術崗位分類](../images/job-platform/web3-tech-positions.png)
 
 - **區塊鏈核心開發者（Blockchain Core Developer）：** 負責底層區塊鏈協議的設計、開發和維護，如共識機制、P2P 網路等。通常需要精通 Go、Rust、C++ 等語言。
-- **智慧合約工程師（Smart Contract Engineer）：** 負責在區塊鏈上編寫、測試和部署智慧合約，如 DeFi 協議、NFT 合約等。主要使用 Solidity、Rust（for Solana/Polkadot）等語言。
+- **智能合約工程師（Smart Contract Engineer）：** 負責在區塊鏈上編寫、測試和部署智能合約，如 DeFi 協議、NFT 合約等。主要使用 Solidity、Rust（for Solana/Polkadot）等語言。
 - **Dapp 後端開發者（Dapp Backend Developer）：** 負責 Dapp 的後端服務開發，如資料索引、API 介面等。可能涉及 Node.js、Python、Go 等語言，以及 IPFS、The Graph 等技術。
-- **Web3 安全審計師（Web3 Security Auditor）：** 負責對智慧合約和區塊鏈專案進行安全審計，發現並修復潛在漏洞。需要深入理解區塊鏈安全原理和常見攻擊模式。
+- **Web3 安全審計師（Web3 Security Auditor）：** 負責對智能合約和區塊鏈專案進行安全審計，發現並修復潛在漏洞。需要深入理解區塊鏈安全原理和常見攻擊模式。
 - **密碼學工程師（Cryptography Engineer）：** 專注於密碼學演算法的設計和實現，應用於零知識證明（ZKP）、同態加密等領域。
 - **DevOps 工程師（DevOps Engineer）：** 負責 Web3 專案的部署、自動化、監控和運維，確保系統的穩定性和效率。
 
