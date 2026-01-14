@@ -86,7 +86,7 @@ Dapp 的开发流程可以分为以下几个阶段：
     一旦开发完成，Dapp 进入部署阶段。具体步骤包括：
 
     - **部署智能合约**：推荐使用 **Hardhat** 或 **Foundry**（现代化开发工具）将智能合约部署到测试网（如 **Sepolia**、**Holesky**）或主网。
-    - **前端部署**：将前端应用部署到去中心化平台（如 **IPFS**）或传统的 Web 服务（Vercel）。
+    - **前端部署**：将前端应用部署到去中心化平台（如 **IPFS**）或传统的 Web 服务（如Vercel）。
     - **发布和维护**：将 Dapp 上线，进行用户反馈收集，定期更新合约和前端，修复潜在问题。
 
 :::
@@ -211,7 +211,340 @@ npx hardhat run scripts/deploy.js --network localhost
 - OpenZeppelin 合约库：`npm install @openzeppelin/contracts`
 - [**Chainlink 测试环境**](https://docs.chain.link/resources/link-token-contracts) - 预言机集成指南
 
-## 三、Solidity 智能合约编程（简单介绍）
+## 三、RPC 节点服务详解
+
+在 Web3 开发中，**RPC（Remote Procedure Call，远程过程调用）** 是连接前端应用与区块链网络的关键桥梁。理解 RPC 的工作原理、选择合适的 RPC 服务商，以及正确配置和使用 RPC 节点，是每个 Web3 开发者必须掌握的基础知识。
+
+### 1. RPC 是什么？
+
+**RPC** 是一种通信协议，允许应用程序通过网络调用远程服务器上的函数或方法。在区块链开发中，RPC 节点是运行区块链客户端软件的服务器，它们维护完整的区块链数据副本，并提供 API 接口供开发者查询链上数据、发送交易等操作。
+
+::: card
+==**简单理解**=={.warning}
+
+想象 RPC 节点就像银行的 ATM 机：
+- **ATM 机**（RPC 节点）连接着银行的核心系统（区块链网络）
+- 你通过 ATM 机（调用 RPC API）可以查询余额（读取链上数据）、转账（发送交易）
+- 不同的 ATM 机可能由不同的银行或服务商提供（不同的 RPC 服务商）
+:::
+
+### 2. RPC 在 Web3 开发中的作用
+
+在 Dapp 开发中，RPC 节点承担着以下关键职责：
+
+::: steps
+
+1. **读取链上数据**
+   - 查询账户余额、交易历史
+   - 读取智能合约的状态变量
+   - 获取区块信息、Gas 价格等
+
+2. **发送交易**
+   - 将用户签名的交易广播到区块链网络
+   - 查询交易状态和确认数
+   - 估算交易所需的 Gas 费用
+
+3. **事件监听**
+   - 监听智能合约事件（Events）
+   - 实时获取链上状态变化
+   - 支持 WebSocket 长连接推送
+
+4. **网络管理**
+   - 切换不同的区块链网络（主网、测试网）
+   - 获取网络信息和链 ID
+   - 管理节点连接状态
+
+:::
+
+### 3. JSON-RPC 协议
+
+以太坊使用 **JSON-RPC 2.0** 协议作为标准的 RPC 通信格式。所有请求和响应都是 JSON 格式，通过 HTTP 或 WebSocket 传输。
+
+**基本请求格式**：
+
+```json
+{
+  "jsonrpc": "2.0",
+  "method": "eth_getBalance",
+  "params": ["0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb", "latest"],
+  "id": 1
+}
+```
+
+**基本响应格式**：
+
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": "0x1bc16d674ec80000"
+}
+```
+
+**常用 JSON-RPC 方法**：
+
+| 方法名 | 功能 | 示例 |
+|--------|------|------|
+| `eth_getBalance` | 查询账户余额 | `eth_getBalance(address, block)` |
+| `eth_blockNumber` | 获取最新区块号 | `eth_blockNumber()` |
+| `eth_sendTransaction` | 发送交易 | `eth_sendTransaction(txObject)` |
+| `eth_call` | 调用合约（只读） | `eth_call(callObject, block)` |
+| `eth_getTransactionReceipt` | 获取交易收据 | `eth_getTransactionReceipt(txHash)` |
+| `eth_getLogs` | 查询事件日志 | `eth_getLogs(filterObject)` |
+
+### 4. 主流 RPC 服务商对比
+
+对于大多数开发者来说，自建节点成本高昂且维护复杂，因此通常会选择第三方 RPC 服务商。以下是主流服务商的对比：
+
+| 服务商 | 特点 | 免费额度 | 适用场景 |
+|--------|------|----------|----------|
+| **Alchemy** | 企业级服务，稳定性高，文档完善 | 每月 3 亿次请求 | 生产环境、企业应用 |
+| **Infura** | 老牌服务商，ConsenSys 旗下 | 每月 10 万次请求 | 开发测试、中小型项目 |
+| **QuickNode** | 高性能，低延迟，多链支持 | 有限免费额度 | 高频交易、实时应用 |
+| **Public Node** | 完全免费，无需注册 | 无限制（可能有速率限制） | 学习测试、个人项目 |
+| **Ankr** | 多链支持，去中心化节点网络 | 免费额度有限 | 多链应用开发 |
+
+::: note **选择建议**
+
+- **开发测试阶段**：使用 Public Node 或 Infura 免费额度
+- **生产环境**：选择 Alchemy 或 QuickNode，确保稳定性和性能
+- **多链项目**：考虑 Ankr 或 QuickNode 的多链支持
+- **企业应用**：优先选择 Alchemy，提供 SLA 保障和专业技术支持
+
+:::
+
+### 5. 如何获取和使用 RPC 端点
+
+#### 5.1 获取 RPC URL
+
+以 **Alchemy** 为例，获取 RPC 端点的步骤：
+
+::: steps
+
+1. **注册账号**
+   - 访问 [Alchemy 官网](https://www.alchemy.com/)
+   - 使用邮箱或 GitHub 账号注册
+
+2. **创建应用**
+   - 登录后点击 "Create App"
+   - 选择网络（Mainnet、Sepolia、Arbitrum 等）
+   - 填写应用名称和描述
+
+3. **获取 RPC URL**
+   - 创建成功后，在应用详情页可以看到 RPC URL
+   - 格式类似：`https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY`
+   - **重要**：妥善保管 API Key，不要提交到公开仓库
+
+:::
+
+#### 5.2 在代码中使用 RPC
+
+**使用 Viem（推荐）**：
+
+```typescript
+import { createPublicClient, http } from 'viem'
+import { mainnet } from 'viem/chains'
+
+const client = createPublicClient({
+  chain: mainnet,
+  transport: http('https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY')
+})
+
+// 查询余额
+const balance = await client.getBalance({
+  address: '0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb'
+})
+```
+
+**使用 Ethers.js**：
+
+```javascript
+const { ethers } = require('ethers')
+
+const provider = new ethers.JsonRpcProvider(
+  'https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY'
+)
+
+// 查询余额
+const balance = await provider.getBalance('0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb')
+```
+
+**使用 Web3.js**：
+
+```javascript
+const { Web3 } = require('web3')
+
+const web3 = new Web3('https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY')
+
+// 查询余额
+const balance = await web3.eth.getBalance('0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb')
+```
+
+#### 5.3 在 Hardhat 中配置 RPC
+
+在 `hardhat.config.js` 中配置：
+
+```javascript
+require('@nomicfoundation/hardhat-toolbox')
+
+module.exports = {
+  solidity: '0.8.19',
+  networks: {
+    mainnet: {
+      url: process.env.MAINNET_RPC_URL || '',
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+    },
+    sepolia: {
+      url: process.env.SEPOLIA_RPC_URL || '',
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+    },
+  },
+}
+```
+
+在 `.env` 文件中配置（不要提交到 Git）：
+
+```bash
+MAINNET_RPC_URL=https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY
+SEPOLIA_RPC_URL=https://eth-sepolia.g.alchemy.com/v2/YOUR_API_KEY
+PRIVATE_KEY=your_private_key_here
+```
+
+### 6. RPC 使用最佳实践
+
+::: steps
+
+1. **保护 API Key**
+   - 使用环境变量存储 RPC URL 和 API Key
+   - 不要将敏感信息提交到 Git 仓库
+   - 使用 `.gitignore` 忽略 `.env` 文件
+   - 定期轮换 API Key，特别是发现泄露时
+
+2. **错误处理和重试**
+   - RPC 调用可能因网络问题失败，需要实现重试机制
+   - 设置合理的超时时间
+   - 处理常见的错误码（如 `429` 速率限制、`503` 服务不可用）
+
+   ```typescript
+   async function getBalanceWithRetry(address: string, retries = 3) {
+     for (let i = 0; i < retries; i++) {
+       try {
+         return await client.getBalance({ address })
+       } catch (error) {
+         if (i === retries - 1) throw error
+         await new Promise(resolve => setTimeout(resolve, 1000 * (i + 1)))
+       }
+     }
+   }
+   ```
+
+3. **速率限制管理**
+   - 了解服务商的速率限制（Rate Limit）
+   - 实现请求队列或节流（Throttling）
+   - 对于高频请求，考虑使用 WebSocket 连接
+
+4. **多节点备份**
+   - 不要依赖单一 RPC 节点
+   - 配置多个 RPC 端点作为备用
+   - 实现故障转移（Failover）机制
+
+   ```typescript
+   const rpcUrls = [
+     'https://eth-mainnet.g.alchemy.com/v2/KEY1',
+     'https://eth-mainnet.infura.io/v3/KEY2',
+     'https://rpc.ankr.com/eth'
+   ]
+   
+   async function callWithFallback(method: string, params: any[]) {
+     for (const url of rpcUrls) {
+       try {
+         const client = createPublicClient({
+           chain: mainnet,
+           transport: http(url)
+         })
+         return await client.request({ method, params })
+       } catch (error) {
+         console.warn(`RPC ${url} failed, trying next...`)
+       }
+     }
+     throw new Error('All RPC endpoints failed')
+   }
+   ```
+
+5. **监控和日志**
+   - 记录 RPC 调用的成功率和延迟
+   - 监控 API 使用量，避免超出免费额度
+   - 设置告警，及时发现服务异常
+
+6. **本地节点开发**
+   - 开发测试时优先使用本地节点（如 Hardhat Node、Anvil）
+   - 本地节点响应快，不受速率限制
+   - 可以重置状态，方便测试
+
+:::
+
+### 7. 常见问题与解决方案
+
+:::: details ❓ RPC 调用返回 "rate limit exceeded" 错误？
+
+**原因**：请求频率超过了服务商的限制。
+
+**解决方案**：
+- 降低请求频率，实现请求节流
+- 升级到付费计划提高速率限制
+- 使用 WebSocket 连接替代 HTTP 轮询
+- 配置多个 RPC 端点进行负载均衡
+
+::::
+
+:::: details ❓ 如何判断 RPC 节点的可靠性？
+
+**评估指标**：
+- **可用性**：节点在线时间百分比（目标 >99.9%）
+- **延迟**：请求响应时间（目标 <100ms）
+- **同步状态**：节点是否与网络同步
+- **历史记录**：查看服务商的历史故障记录
+
+**测试方法**：
+```bash
+# 使用 curl 测试响应时间
+time curl -X POST https://eth-mainnet.g.alchemy.com/v2/YOUR_KEY \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
+```
+
+::::
+
+:::: details ❓ 自建节点 vs 使用第三方 RPC 服务？
+
+**自建节点**：
+- ✅ 完全控制，无速率限制
+- ✅ 数据隐私，不依赖第三方
+- ❌ 成本高（服务器、存储、带宽）
+- ❌ 维护复杂，需要专业技术
+
+**第三方 RPC**：
+- ✅ 零维护，开箱即用
+- ✅ 成本低，免费额度充足
+- ✅ 高可用性，专业运维
+- ❌ 依赖外部服务
+- ❌ 可能有速率限制
+
+**建议**：
+- 大多数项目：使用第三方 RPC 服务
+- 企业级应用：考虑自建节点 + 第三方备份
+- 高频交易：自建节点或专用 RPC 服务
+
+::::
+
+### 8. 扩展阅读
+
+- **JSON-RPC 规范**：[Ethereum JSON-RPC API 文档](https://ethereum.org/en/developers/docs/apis/json-rpc/)
+- **Alchemy 文档**：[Alchemy 开发者指南](https://docs.alchemy.com/)
+- **Infura 文档**：[Infura 使用指南](https://docs.infura.io/)
+- **Viem 文档**：[Viem RPC 客户端](https://viem.sh/docs/clients/public.html)
+
+## 四、Solidity 智能合约编程（简单介绍）
 
 Solidity 是一种面向合约的高级编程语言，专门用于在以太坊虚拟机（EVM）上编写智能合约。它具有静态类型、支持继承、库和复杂的用户定义类型等特性。
 
@@ -822,7 +1155,7 @@ Solidity 是一种面向合约的高级编程语言，专门用于在以太坊�
 
 :::
 
-## 四、智能合约实战项目
+## 五、智能合约实战项目
 
 本章节将通过一个简单的"链上留言板"项目，介绍如何使用 Remix 开发、编译、部署并调用智能合约。
 
@@ -918,7 +1251,7 @@ contract MessageBoard {
 
 ![Remix 函数调用](../images/solidity-intern/remix_function-call_01.png)
 
-## 五、以太坊技术基础
+## 六、以太坊技术基础
 
 ### 1. 帐户模型
 
@@ -960,7 +1293,7 @@ contract MessageBoard {
   - 客户端/前端常以 `n ≥ 12` 作"概率足够低"确认
   - 完全终结在 PoS 下由 **Finality Gadget**（Casper FFG）给出
 
-## 六、部署合约
+## 七、部署合约
 
 在第四章中，我们已经体验了使用 Remix 在本地虚拟机环境下部署合约的基本流程。然而，该过程仅为本地模拟，并未真正将合约发布到区块链网络。
 
@@ -1175,7 +1508,7 @@ contract MessageBoard {
 
 :::
 
-## 七、区块链前端整合
+## 八、区块链前端整合
 
 ### 1. 前端与合约交互工作流程概览
 
@@ -1353,7 +1686,7 @@ async function queryMessages() {
 
 通过上述操作，前端即可实现用户连接钱包、链上留言、读取留言记录等功能，构建一个完整可用的 Dapp 原型。至此你已经了解合约代码，合约上链，前端交互整个大概流程。
 
-## 八、高阶内容
+## 九、高阶内容
 
 ### 1. Gas 优化
 
