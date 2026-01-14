@@ -59,6 +59,25 @@ permalink: /zh/overview-of-ethereum/
 
 为了解决这些问题，以太坊启动了多次升级（如 Homestead、Metropolis），逐步优化网络性能和安全性，但核心的 PoW 机制仍未改变。
 
+## 四、Layer 2 扩展方案对比（2026 年最新数据）
+
+随着以太坊 L2 生态的发展，多个 L2 解决方案已成为扩展以太坊的核心方式。截至 2026 年 1 月 14 日，以下是主流 L2 方案的对比：
+
+| L2 方案 | TVL | 共识机制 | 发展阶段 | 主要特点 |
+| ---- | ---- | ---- | ---- | ---- |
+| **Arbitrum One** | $18.48B | Optimistic + BoLD | STAGE 1 | 最大的 L2，生态最成熟，DeFi 项目众多 |
+| **Base Chain** | $13.54B | Optimistic (OP) | STAGE 1 | Coinbase 背后，消费级应用友好 |
+| **OP Mainnet** | $2.52B | Optimistic + OPFP | STAGE 1 | Optimism 官方，协议研究领先 |
+| **Starknet** | $849.43M | Validity (Cairo) | STAGE 1 | 采用 Cairo 语言，零知识证明驱动 |
+| **Linea** | $713.32M | Validity (Linea) | STAGE 0 | ConsenSys 推出，zkEVM 方案 |
+| **ZKsync Era** | $519.43M | Validity (Boojum) | STAGE 0 | zkEVM 方案，智能合约兼容性强 |
+
+**Layer 2 的核心优势**：
+- **交易成本低**：Gas 费下降 90-99%，日常使用成本接近零
+- **交易速度快**：TPS 从 30 提升至 1000-2000+，实现秒级确认
+- **继承以太坊安全**：通过 Optimistic Rollup 或 Zero-Knowledge Proof 确保安全性
+- **开发者友好**：兼容 EVM，现有智能合约可快速迁移
+
 ### 2. 以太坊 2.0 与 The Merge：从双链并行到完美合并
 
 **The Merge 完整故事**：
