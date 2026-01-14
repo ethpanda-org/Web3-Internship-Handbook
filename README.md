@@ -72,6 +72,12 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
    - 远程协作最佳实践
    - 社区文化与行业黑话
 
+5. [**Web3 钱包安全指南**](./docs/zh/part1/wallet-security-guide.md)
+   - 钱包基础概念与类型
+   - 常见安全威胁与防范
+   - 日常安全操作规范
+   - 紧急应对措施
+
 ### 第二部分：职业发展
 
 1. [**区块链岗位全景图**](./docs/zh/part2/position-introduction.md)
