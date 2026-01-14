@@ -22,6 +22,11 @@ export default defineUserConfig({
       lang: 'zh-CN',
       description: '',
     },
+    '/zh-tw/': {
+      title: 'Web3 實習手冊',
+      lang: 'zh-TW',
+      description: '',
+    },
     '/en/': {
       title: 'Web3 Internship Handbook (English Coming Soon)',
       lang: 'en-US',
@@ -41,6 +46,7 @@ export default defineUserConfig({
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
     hostname: 'https://web3intern.xyz',
+
     copyright: {
       license: 'CC-BY-NC-SA-4.0',
       author: 'ETHPanda & LXDAO Community',
