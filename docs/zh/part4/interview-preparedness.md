@@ -244,7 +244,6 @@ permalink: /zh/interview-preparedness/
 - **前端进阶**：
    - **React Hooks**：底层原理、执行顺序及自定义 Hooks 实践。
    - **DOM 交互**：React 框架下获取与操作 DOM 元素的规范方式。
-
 - **合约开发**：
    - **OpenZeppelin**：标准合约库的使用场景与安全实践。
    - **Gas 优化**：智能合约开发中降低存储与执行成本的策略。
