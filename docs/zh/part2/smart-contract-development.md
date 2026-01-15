@@ -2533,6 +2533,6 @@ A:
 
 ## ::ep:avatar /#32b2f0::文章贡献者
 
-作者：[Jason](https://x.com/fxxkmystyle)、[Echo](https://x.com/Echo_liuchan)  
+作者：[Jason](https://x.com/fxxkmystyle)、[Echo](https://x.com/Echo_liuchan)、[huahua](https://x.com/hujny218119)   
 排版：[Echo](https://x.com/Echo_liuchan)  
 校对：[Bruce](https://x.com/brucexu_eth)、[Box](https://x.com/BoxMrChen)
