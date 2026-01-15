@@ -29,6 +29,7 @@ permalink: /zh/appendix/
 - **《区块链技术指南》**：邹均等著，全面系统的区块链知识
 - **《Solidity 智能合约开发》**：深入浅出智能合约编程
 - **《DeFi 实战指南》**：去中心化金融协议设计与实现
+- **《021 学习以太坊》**：XiaoHai67890 撰写，LXDAO 与 ETHPanda 社区联合出品，面向小白的教材。[《021 Ethereum》—— 从零到一学以太坊](https://github.com/XiaoHai67890/021Ethereum)
 - **《区块链黑暗森林自救手册》**：[慢雾科技](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/tree/main) - Web3 安全实战指南，防御常见攻击与骗局
 
 在线教程
