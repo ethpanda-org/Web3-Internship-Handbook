@@ -14,6 +14,9 @@ config:
           text: 开始阅读
           link: ./zh/README.md
         - theme: alt
+          text: 官方平台 →
+          link: https://web3career.build
+        - theme: alt
           text: Github →
           link: https://github.com/ethpanda-org/Web3-Internship-Handbook
   - type: image-text
@@ -68,9 +71,9 @@ config:
 
 ## ::emojione-v1:ledger:: Web3 实习生计划
 
-我们会在实习季开始前启动为期 ==1 个月==的实习生计划，围绕手册内容进行共学、答疑和模拟面试，并为你对接真实的实习机会。目前 2025 夏季 Web3 实习计划正在同步进行中，详情参见 <https://x.com/ETHPanda_Org/status/1947592766101590327>。
+我们会在实习季开始前启动为期 ==1 个月==的实习生计划，围绕手册内容进行共学、答疑和模拟面试，并为你对接真实的实习机会。目前 2025 冬季 Web3 实习计划正在进行中，官方平台为 <https://web3career.build>，用于报名学习和管理进度，详情参见 <https://web3career.build/programs/web3-internship-bootcamp-2025-winter>。官方 X：<https://x.com/web3careerbuild>，官方 TG：<https://t.me/Web3CareerBuild>。
 ::: right
-[了解详情](https://x.com/ETHPanda_Org/status/1947592766101590327)
+[了解详情](https://web3career.build/programs/web3-internship-bootcamp-2025-winter)
 :::
 
 ::: card
