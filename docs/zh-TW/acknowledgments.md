@@ -302,6 +302,15 @@ LXDAO 是一個研發驅動的 DAO，致力於幫助開源專案和公共物品�
     <br />
     <span title="內容編寫">📖</span>
 </Card>
+<Card>
+    <a href="https://x.com/xichngz0437353">
+      <img src="../zh/images/contributor/james_1022.png" width="100px;" hiegh="100px;" alt="James_1022"/>
+      <br />
+      <sub><b>James_1022</b></sub>
+    </a>
+    <br />
+    <span title="繁體中文翻譯">🌐</span>
+</Card>
 </CardGrid>
 
 
