@@ -1688,6 +1688,536 @@ async function queryMessages() {
 
 通过上述操作，前端即可实现用户连接钱包、链上留言、读取留言记录等功能，构建一个完整可用的 Dapp 原型。至此你已经了解合约代码，合约上链，前端交互整个大概流程。
 
+### 3. 现代化实战项目：使用 Viem 和 Wagmi 构建留言板 Dapp
+
+::: tip 💡 推荐阅读
+本节展示如何使用现代化技术栈（Viem + Wagmi + RainbowKit）构建完整的 Dapp。
+相比上一节的 Web3.js 示例，具有更好的性能、类型安全和开发体验。
+两个示例可以对比学习，选择适合你项目的技术栈。
+:::
+
+#### 3.1 项目概述
+
+我们构建了一个功能完整的链上留言板 Dapp，展示了现代 Web3 开发的最佳实践：
+
+**核心特性**
+
+✨ **技术栈对比**
+
+| 特性 | Web3.js (上一节) | Viem + Wagmi (本节) |
+|------|-----------------|-------------------|
+| 包体积 | ~1.2MB | ~100KB |
+| TypeScript 支持 | 部分支持 | 原生完整支持 |
+| 性能 | 一般 | 优秀（快 2-10 倍） |
+| 钱包连接 | 手动实现 | RainbowKit 开箱即用 |
+| React 集成 | 需要自己封装 | Wagmi Hooks 原生支持 |
+| 维护状态 | 维护中 | 活跃开发 |
+
+**实现功能**
+
+- 🔐 多钱包连接（MetaMask、WalletConnect 等）
+- 🌐 自动网络检测与一键切换
+- ✍️ 链上留言发送与状态追踪
+- 📖 留言列表展示与分页
+- 📊 实时合约信息展示
+- 🎨 现代化响应式 UI
+- 🔔 完善的错误处理与通知系统
+
+**在线演示**
+
+- 🚀 **在线体验**: [https://messageboard-modern-dapp.vercel.app/](https://messageboard-modern-dapp.vercel.app/)
+- 📦 **源代码**: [GitHub - messageboard-modern-dapp](https://github.com/huahuahua1223/messageboard-modern-dapp)
+- 📄 **合约地址**: [`0xfD3fd6Dc8Ba106C6626B4c1504B4CA4Db986Dd14`](https://sepolia.etherscan.io/address/0xfD3fd6Dc8Ba106C6626B4c1504B4CA4Db986Dd14#code) (Sepolia - 已开源验证)
+
+![项目界面展示](../images/solidity-intern/messageboard-modern-dapp-screenshot.png)
+
+#### 3.2 核心代码实现
+
+本节重点介绍 Viem 和 Wagmi 的核心用法，展示与 Web3.js 的差异。
+
+##### 3.2.1 Wagmi 配置
+
+Wagmi 是基于 Viem 的 React Hooks 库，提供开箱即用的区块链交互功能。
+
+**配置 Wagmi (`src/config/wagmi.ts`)**
+
+```typescript
+import { http, createConfig } from "wagmi";
+import { sepolia } from "wagmi/chains";
+import { injected, walletConnect } from "wagmi/connectors";
+
+// WalletConnect Project ID (在 https://cloud.walletconnect.com/ 注册)
+const projectId = import.meta.env.VITE_WALLETCONNECT_PROJECT_ID;
+
+export const config = createConfig({
+  chains: [sepolia],
+  connectors: [
+    injected(), // MetaMask 等浏览器插件钱包
+    walletConnect({ 
+      projectId,
+      metadata: {
+        name: "MessageBoard Dapp",
+        description: "A modern Web3 message board",
+        url: "https://messageboard-modern-dapp.vercel.app",
+        icons: ["https://avatars.githubusercontent.com/u/37784886"],
+      },
+    }),
+  ],
+  transports: {
+    [sepolia.id]: http(), // 使用公共 RPC
+  },
+});
+
+declare module "wagmi" {
+  interface Register {
+    config: typeof config;
+  }
+}
+```
+
+**关键优势**：
+- 支持多种钱包连接器（MetaMask、WalletConnect、Coinbase Wallet 等）
+- 自动处理网络切换和钱包状态
+- 完整的 TypeScript 类型支持
+
+##### 3.2.2 钱包连接实现
+
+**使用 RainbowKit（推荐）**
+
+RainbowKit 提供美观的钱包连接 UI，开箱即用：
+
+```tsx
+import "@rainbow-me/rainbowkit/styles.css";
+import { RainbowKitProvider, ConnectButton } from "@rainbow-me/rainbowkit";
+import { WagmiProvider } from "wagmi";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { config } from "./config/wagmi";
+
+const queryClient = new QueryClient();
+
+function App() {
+  return (
+    <WagmiProvider config={config}>
+      <QueryClientProvider client={queryClient}>
+        <RainbowKitProvider>
+          {/* 一行代码实现钱包连接按钮 */}
+          <ConnectButton />
+          
+          {/* 你的应用组件 */}
+          <YourAppComponents />
+        </RainbowKitProvider>
+      </QueryClientProvider>
+    </WagmiProvider>
+  );
+}
+```
+
+**对比 Web3.js 的优势**：
+- ❌ Web3.js：需要手动实现钱包检测、连接、状态管理
+- ✅ Viem + Wagmi + RainbowKit：一行代码搞定所有功能
+
+##### 3.2.3 读取合约数据
+
+**使用 Wagmi 的 `useReadContract` Hook**
+
+```typescript
+import { useReadContract } from "wagmi";
+import { MESSAGE_BOARD_ADDRESS, MESSAGE_BOARD_ABI } from "../config/contract";
+
+function MessageCount({ address }: { address: Address }) {
+  // 读取指定地址的留言数量
+  const { data: count, isLoading, error } = useReadContract({
+    address: MESSAGE_BOARD_ADDRESS,
+    abi: MESSAGE_BOARD_ABI,
+    functionName: "getMessageCount",
+    args: [address],
+  });
+
+  if (isLoading) return <div>加载中...</div>;
+  if (error) return <div>读取失败: {error.message}</div>;
+
+  return <div>留言总数: {count?.toString()}</div>;
+}
+```
+
+**核心特点**：
+- 自动处理加载状态 (`isLoading`)
+- 自动处理错误 (`error`)
+- 自动重试和缓存
+- 完整的 TypeScript 类型推断
+
+**对比 Web3.js**：
+
+```javascript
+// Web3.js 需要手动处理这些逻辑
+const [count, setCount] = useState(null);
+const [loading, setLoading] = useState(false);
+const [error, setError] = useState(null);
+
+useEffect(() => {
+  async function fetchCount() {
+    setLoading(true);
+    try {
+      const result = await contract.methods.getMessageCount(address).call();
+      setCount(result);
+    } catch (err) {
+      setError(err);
+    } finally {
+      setLoading(false);
+    }
+  }
+  fetchCount();
+}, [address]);
+```
+
+Wagmi 将所有这些逻辑封装成一个 Hook，大幅简化代码。
+
+##### 3.2.4 写入合约数据（发送交易）
+
+**使用 Wagmi 的 `useWriteContract` 和 `useWaitForTransactionReceipt`**
+
+```typescript
+import { useWriteContract, useWaitForTransactionReceipt } from "wagmi";
+import { MESSAGE_BOARD_ADDRESS, MESSAGE_BOARD_ABI } from "../config/contract";
+
+function MessageForm() {
+  const [message, setMessage] = useState("");
+
+  // 写入合约
+  const { 
+    writeContract, 
+    data: hash,
+    isPending,
+    error 
+  } = useWriteContract();
+
+  // 等待交易确认
+  const { 
+    isLoading: isConfirming,
+    isSuccess 
+  } = useWaitForTransactionReceipt({ 
+    hash 
+  });
+
+  // 发送留言
+  const handleSubmit = () => {
+    writeContract({
+      address: MESSAGE_BOARD_ADDRESS,
+      abi: MESSAGE_BOARD_ABI,
+      functionName: "leaveMessage",
+      args: [message],
+    });
+  };
+
+  return (
+    <div>
+      <input 
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+        placeholder="写下你的留言..."
+        disabled={isPending || isConfirming}
+      />
+      
+      <button 
+        onClick={handleSubmit}
+        disabled={!message || isPending || isConfirming}
+      >
+        {isPending && "等待钱包确认..."}
+        {isConfirming && "交易确认中..."}
+        {!isPending && !isConfirming && "发送留言"}
+      </button>
+
+      {isSuccess && (
+        <div className="success">
+          ✅ 留言成功！
+          <a 
+            href={`https://sepolia.etherscan.io/tx/${hash}`}
+            target="_blank"
+          >
+            查看交易
+          </a>
+        </div>
+      )}
+
+      {error && (
+        <div className="error">
+          ❌ 交易失败: {error.message}
+        </div>
+      )}
+    </div>
+  );
+}
+```
+
+**交易状态流程**：
+1. `isPending`: 等待用户在钱包中确认
+2. `isConfirming`: 交易已发送，等待区块链确认
+3. `isSuccess`: 交易成功确认
+4. `error`: 发生错误（用户拒绝、Gas 不足等）
+
+**对比 Web3.js**：
+
+```javascript
+// Web3.js 需要手动管理所有状态
+const handleSubmit = async () => {
+  try {
+    setStatus('pending');
+    const tx = await contract.methods.leaveMessage(message).send({
+      from: account
+    });
+    
+    setStatus('confirming');
+    // 需要手动轮询交易状态
+    const receipt = await waitForReceipt(tx.transactionHash);
+    
+    setStatus('success');
+    setHash(tx.transactionHash);
+  } catch (error) {
+    setStatus('error');
+    setError(error);
+  }
+};
+```
+
+Wagmi 自动处理所有状态转换，代码更简洁可靠。
+
+##### 3.2.5 网络切换
+
+**使用 `useSwitchChain` Hook**
+
+```typescript
+import { useChainId, useSwitchChain } from "wagmi";
+import { sepolia } from "wagmi/chains";
+
+function NetworkSwitcher() {
+  const chainId = useChainId();
+  const { switchChain } = useSwitchChain();
+
+  const isWrongNetwork = chainId !== sepolia.id;
+
+  if (!isWrongNetwork) {
+    return (
+      <div className="network-badge success">
+        ✅ Sepolia 测试网
+      </div>
+    );
+  }
+
+  return (
+    <div className="network-badge warning">
+      ⚠️ 错误的网络
+      <button onClick={() => switchChain({ chainId: sepolia.id })}>
+        切换到 Sepolia
+      </button>
+    </div>
+  );
+}
+```
+
+**一键切换网络**，无需手动配置网络参数。
+
+#### 3.3 完整项目结构
+
+```
+messageboard-modern-dapp/
+├── src/
+│   ├── components/          # React 组件
+│   │   ├── ContractInfo.tsx      # 合约信息展示
+│   │   ├── LoadingSpinner.tsx    # 加载动画
+│   │   ├── MessageForm.tsx       # 留言表单
+│   │   ├── MessageItem.tsx       # 单条留言
+│   │   ├── MessageList.tsx       # 留言列表
+│   │   ├── NetworkSwitcher.tsx   # 网络切换
+│   │   └── Toast.tsx             # 通知组件
+│   ├── hooks/               # 自定义 Hooks
+│   │   ├── useMessageBoard.ts    # 封装合约交互逻辑
+│   │   └── useToast.ts           # Toast 通知
+│   ├── config/              # 配置文件
+│   │   ├── wagmi.ts             # Wagmi 配置
+│   │   └── contract.ts          # 合约 ABI 和地址
+│   ├── utils/               # 工具函数
+│   │   ├── constants.ts         # 常量定义
+│   │   └── formatters.ts        # 格式化函数
+│   └── App.tsx              # 主应用
+├── package.json
+└── README.md
+```
+
+#### 3.4 本地运行指南
+
+**1. 克隆项目**
+
+```bash
+git clone https://github.com/huahuahua1223/messageboard-modern-dapp.git
+cd messageboard-modern-dapp
+```
+
+**2. 安装依赖**
+
+```bash
+pnpm install
+```
+
+**3. 配置环境变量**
+
+创建 `.env` 文件：
+
+```env
+# WalletConnect Project ID (在 https://cloud.walletconnect.com/ 注册)
+VITE_WALLETCONNECT_PROJECT_ID=your_project_id_here
+
+# 合约地址（已部署，可直接使用）
+VITE_CONTRACT_ADDRESS=0xfD3fd6Dc8Ba106C6626B4c1504B4CA4Db986Dd14
+
+# Sepolia RPC URL（可选，使用公共 RPC）
+VITE_SEPOLIA_RPC_URL=https://ethereum-sepolia-rpc.publicnode.com
+```
+
+**4. 启动开发服务器**
+
+```bash
+pnpm dev
+```
+
+访问 `http://localhost:5173` 即可查看应用。
+
+**5. 使用步骤**
+
+1. 点击右上角 "Connect Wallet" 连接钱包
+2. 确保在 Sepolia 测试网（如果不是，点击"切换到 Sepolia"）
+3. 在左侧表单输入留言内容
+4. 点击"发送留言"并在钱包中确认交易
+5. 等待约 10-20 秒，留言将出现在右侧列表
+
+#### 3.5 技术要点总结
+
+##### 为什么选择 Viem 和 Wagmi？
+
+**1. 性能优异**
+- Viem 比 Web3.js 快 2-10 倍
+- 包体积仅为 Web3.js 的 1/10
+- 支持 Tree-shaking，打包体积更小
+
+**2. 类型安全**
+- 完整的 TypeScript 支持
+- 自动推断 ABI 类型
+- 编译时就能发现错误
+
+**3. 开发体验**
+- Wagmi Hooks 简化状态管理
+- RainbowKit 提供开箱即用的钱包 UI
+- 自动处理重试、缓存、错误
+
+**4. 现代化架构**
+- 函数式 API 设计
+- 与 React 生态完美集成
+- 活跃的社区和文档
+
+##### 核心概念对比
+
+**钱包连接**
+
+| Web3.js | Viem + Wagmi |
+|---------|--------------|
+| 需要手动检测 `window.ethereum` | 自动检测，支持多钱包 |
+| 手动管理连接状态 | `useAccount` Hook 自动管理 |
+| 需要自己实现 UI | RainbowKit 开箱即用 |
+
+**读取数据**
+
+| Web3.js | Viem + Wagmi |
+|---------|--------------|
+| `contract.methods.xxx().call()` | `useReadContract({ functionName: "xxx" })` |
+| 手动处理加载和错误状态 | 自动提供 `isLoading`、`error` |
+| 需要自己实现缓存 | 自动缓存和重新验证 |
+
+**写入数据**
+
+| Web3.js | Viem + Wagmi |
+|---------|--------------|
+| `contract.methods.xxx().send()` | `writeContract({ functionName: "xxx" })` |
+| 手动轮询交易状态 | `useWaitForTransactionReceipt` 自动等待 |
+| 手动处理错误 | 自动捕获并分类错误 |
+
+##### 学习建议
+
+1. **从 Hooks 开始学习**
+   - `useAccount` - 获取钱包信息
+   - `useReadContract` - 读取合约数据
+   - `useWriteContract` - 写入合约数据
+   - `useWaitForTransactionReceipt` - 等待交易确认
+
+2. **理解 React Query 的作用**
+   - Wagmi 基于 TanStack Query（React Query）
+   - 理解缓存、重新验证、乐观更新等概念
+   - 掌握 `queryKey` 和 `staleTime` 的使用
+
+3. **阅读官方文档**
+   - [Viem 文档](https://viem.sh)
+   - [Wagmi 文档](https://wagmi.sh)
+   - [RainbowKit 文档](https://www.rainbowkit.com)
+
+4. **参考示例项目**
+   - 本项目的完整源代码
+   - Wagmi 官方示例
+   - 其他优秀的开源 Dapp
+
+#### 3.6 常见问题
+
+**Q: 这个示例和上一节的 Web3.js 示例有什么区别？**
+
+A: 主要区别在技术栈和开发体验：
+- **技术栈**: Web3.js → Viem + Wagmi + RainbowKit
+- **性能**: 更快的运行速度，更小的包体积
+- **类型安全**: 完整的 TypeScript 支持
+- **开发效率**: Hooks 大幅简化代码
+- **用户体验**: RainbowKit 提供专业的钱包连接 UI
+
+两个示例功能相同，可以对比学习，选择适合你项目的技术栈。
+
+**Q: 我应该学习哪个？Web3.js 还是 Viem？**
+
+A: 
+- **新项目**: 强烈推荐 Viem + Wagmi
+- **维护老项目**: 可能需要继续使用 Web3.js
+- **学习建议**: 两者都了解，重点掌握 Viem
+
+**Q: RainbowKit 是必需的吗？**
+
+A: 不是必需的，但强烈推荐：
+- 它提供开箱即用的钱包连接 UI
+- 支持多种钱包（MetaMask、WalletConnect、Coinbase Wallet 等）
+- 节省大量开发时间
+- 你也可以使用其他方案，如 ConnectKit、Web3Modal
+
+**Q: 如何在生产环境中使用？**
+
+A:
+1. 将合约部署到主网
+2. 修改 `wagmi.ts` 中的 chain 配置
+3. 配置自己的 RPC 节点（Alchemy、Infura 等）
+4. 进行充分的测试
+5. 部署到 Vercel、Netlify 等平台
+
+**Q: 性能优化建议？**
+
+A:
+- 使用 `React.memo` 避免不必要的重渲染
+- 合理配置 Wagmi 的 `staleTime` 和 `cacheTime`
+- 使用虚拟滚动处理大列表
+- 懒加载非关键组件
+- 使用 CDN 加速静态资源
+
+---
+
+### 4. 扩展阅读
+
+- [Viem 官方文档](https://viem.sh)
+- [Wagmi 官方文档](https://wagmi.sh)
+- [RainbowKit 官方文档](https://www.rainbowkit.com)
+- [Viem 迁移指南](https://viem.sh/docs/migration-guide.html)
+- [Web3 开发最佳实践](https://ethereum.org/en/developers/docs/)
+
 ## 九、高阶内容
 
 ### 1. Gas 优化
@@ -2003,6 +2533,6 @@ async function queryMessages() {
 
 ## ::ep:avatar /#32b2f0::文章贡献者
 
-作者：[Jason](https://x.com/fxxkmystyle)、[Echo](https://x.com/Echo_liuchan)  
+作者：[Jason](https://x.com/fxxkmystyle)、[Echo](https://x.com/Echo_liuchan)、[huahua](https://x.com/hujny218119)   
 排版：[Echo](https://x.com/Echo_liuchan)  
 校对：[Bruce](https://x.com/brucexu_eth)、[Box](https://x.com/BoxMrChen)
