@@ -1,11 +1,21 @@
 :root {
-
   --my-h1-color: #111;
   --my-h2-color: #013801;
   --my-h3-color: #22c55e;
   --my-h4-color: #018101;
   --my-h5-color: #006400;
   --my-h6-color: #111;
+}
+
+/* 深色模式標題顏色 */
+html.dark,
+[data-theme="dark"] {
+  --my-h1-color: #f0f0f0;
+  --my-h2-color: #4ade80;
+  --my-h3-color: #22c55e;
+  --my-h4-color: #86efac;
+  --my-h5-color: #bbf7d0;
+  --my-h6-color: #f0f0f0;
 }
 
 h1 { color: var(--my-h1-color); }
