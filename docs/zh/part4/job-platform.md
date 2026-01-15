@@ -25,13 +25,16 @@ permalink: /zh/job-platform/
 这里的平台都是满足几个特点：时间悠久（老牌）、真实与可靠
 ::: steps
 
-1. [**Web3.career**](https://web3.career)
+1. [**web3career.build**](https://web3career.build)
+   - **简介：** Web3Career.build 是 Web3 实习计划的官方平台，用于报名学习、管理进度与查看相关机会信息，适合想系统参与实习计划的同学优先使用。
+     <br>
+2. [**Web3.career**](https://web3.career)
    - **简介：** Web3.career 是一个专注于 Web3 领域的全球性招聘平台，汇集了大量来自区块链、加密货币、DeFi、NFT、元宇宙等领域的职位。其特点是职位更新及时，覆盖面广，且提供了详细的职位描述和公司信息，是 Web3 求职者的重要资源。
      <br>
-2. [**DeJob**](https://www.dejob.top/)
+3. [**DeJob**](https://www.dejob.top/)
    - **简介：** DeJob 是一个专注于 Web3 和远程招聘的平台，旨在帮助 Web3 项目方和求职者进行匹配。该平台支持免费发布职位，且职位更新较快，尤其适合国内 Web3 项目和求职者。
      <br>
-3. [**SmartDeer**](https://smartdeer.com/)
+4. [**SmartDeer**](https://smartdeer.com/)
    - **简介：** SmartDeer 是一个新兴的 Web3 人才招聘平台，专注于连接优质的 Web3 项目和专业人才。平台提供精准的岗位匹配服务，涵盖技术开发、产品运营、市场推广等多个职能领域。其特点是注重人才质量和项目可靠性，为求职者提供更有保障的就业选择。
 
 :::
