@@ -123,8 +123,13 @@ RPC 服务商
 
 数据索引
 
+用于快速判断项目活跃度、TVL 与资金流向时，可配合可视化看板工具。
+
 - **The Graph**：[去中心化索引协议](https://thegraph.com/) - GraphQL API
 - **Moralis**：[Web3 后端服务](https://moralis.com/) - 一站式 Web3 开发平台
+- **Dune**：[链上数据查询与可视化](https://dune.com/)
+- **DeFiLlama**：[TVL 与项目数据聚合](https://defillama.com/)
+- **Token Terminal**：[协议收入与基本面数据](https://tokenterminal.com/)
 
 ### 🔐 安全工具
 
