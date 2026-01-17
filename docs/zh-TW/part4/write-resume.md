@@ -27,6 +27,8 @@ permalink: /zh-tw/write-resume/
 | **社群與 DAO 角色** | 突出你在 DAO 或 Web3 社群中的參與角色，如 Delegate（代表）、Core Contributor（核心貢獻者）、Bounty Hunter（賞金獵人）等。 | 如果有，加入 Snapshot 投票連結或區塊高度，展示你的社群影響力。如投遞開發崗，則需要進行弱化  |
 | 獎項                | 駭客松獎項等與 Web3 高度相關且有官方背書                                                                                  | 注意貼合度，如投遞運營崗，則需要進行弱化                                                    |
 
+**隱私提示：** 簡歷裡涉及鏈上證明時，建議使用專門的展示地址，不要公開主錢包或大額餘額；可提供 Etherscan 交易連結（<https://etherscan.io/>）、專案 PR（<https://github.com/>）或作品頁（如 <https://mirror.xyz/>）作為可驗證證據。
+
 ## 三、核心觀點：Web3 簡歷的“三板斧”
 
 1. **鏈上戰績 > 宏大敘事**

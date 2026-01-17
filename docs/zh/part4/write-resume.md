@@ -27,6 +27,8 @@ permalink: /zh/write-resume/
 | **社区与 DAO 角色** | 突出你在 DAO 或 Web3 社区中的参与角色，如 Delegate（代表）、Core Contributor（核心贡献者）、Bounty Hunter（赏金猎人）等。 | 如果有，加入 Snapshot 投票链接或区块高度，展示你的社区影响力。如投递开发岗，则需要进行弱化  |
 | 奖项                | 黑客松奖项等与 Web3 高度相关且有官方背书                                                                                  | 注意贴合度，如投递运营岗，则需要进行弱化                                                    |
 
+**隐私提示：** 简历里涉及链上证明时，建议使用专门的展示地址，不要公开主钱包或大额余额；可提供 Etherscan 交易链接（<https://etherscan.io/>）、项目 PR（<https://github.com/>）或作品页（如 <https://mirror.xyz/>）作为可验证证据。
+
 ## 三、核心观点：Web3 简历的“三板斧”
 
 1. **链上战绩 > 宏大叙事**

@@ -169,6 +169,7 @@ permalink: /zh-tw/interview-preparedness/
 - **開放性問題**：展示思考過程，不要只給結論
 - **程式碼題目**：先理解需求，再動手寫程式碼
 - **系統設計**：從簡單開始，逐步完善
+- **作業/演示**：可能出現 take-home 或錢包互動 demo，建議準備測試網地址（Sepolia）與區塊瀏覽器連結（<https://sepolia.etherscan.io/>），必要時可用水龍頭領取測試幣：<https://www.alchemy.com/faucets/ethereum-sepolia>。
 
 ### 2. 非技術問題應對
 
