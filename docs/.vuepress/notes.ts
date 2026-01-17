@@ -82,7 +82,10 @@ const handbookNote = defineNoteConfig({
     {
       text: '附录',
       collapsed: false,
-      items: [{ text: '附录', link: 'part5/part5.md' }],
+      items: [
+        { text: '附录', link: 'part5/part5.md' },
+        { text: '信息追踪工具汇总', link: 'part5/info-tracking-tools.md' },
+      ],
     },
     { text: '致谢名单', link: 'acknowledgments.md' },
   ],
