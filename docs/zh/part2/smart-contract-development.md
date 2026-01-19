@@ -1210,13 +1210,13 @@ contract MessageBoard {
 
 ### 3. 新建合约文件
 
-在 Remix IDE 左侧文件管理面板（File Explorer）中，点击"新建文件"按钮，创建一个名为 `messageboard.sol` 的 Solidity 合约文件，并将合约代码粘贴至该文件中。
+在 Remix IDE 左侧面板的文件管理（File Explorer）中（第一个图案），点击"新建文件"按钮，创建一个名为 `messageboard.sol` 的 Solidity 合约文件，并将合约代码粘贴至该文件中。
 
 ![Remix 编辑代码](../images/solidity-intern/remix_code-editing_01.png)
 
 ### 4. 编译
 
-1. 在 Remix 右侧面板中选择 **Solidity Compiler**，进入编译设置界面；
+1. 在 Remix IDE 左侧面板中选择 **Solidity Compiler**（第三个图案），进入编译设置界面；
 2. 在 **COMPILER VERSION** 下拉菜单中选择与合约代码版本一致的编译器版本；
 3. 点击 **Compile messageboard.sol** 按钮以启动编译过程；
 4. 若编译成功，将在面板右上角看到绿色的 ✅ 符号；
@@ -1228,7 +1228,7 @@ contract MessageBoard {
 
 ### 5. 部署
 
-- 在 Remix 右侧面板中选择 **Deploy & Run Transactions**，进入部署与交互界面；
+- 在 Remix IDE 左侧面板中选择 **Deploy & Run Transactions**（第四个图案），进入部署与交互界面；
 - 默认环境选择为 JavaScript VM，本地虚拟区块链，系统将自动为多个账户分配初始余额（每个账户默认 100 ETH），可用于部署与调用合约时支付 Gas 费用；
 
 ![Remix 部署界面](../images/solidity-intern/remix_deploy-interface_01.png)
