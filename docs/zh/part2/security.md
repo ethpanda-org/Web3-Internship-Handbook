@@ -663,6 +663,110 @@ c. 暗网交易等
 7. SlowMist Hacked 区块链被黑档案库，大量的案例索引：[https://hacked.slowmist.io/](https://hacked.slowmist.io/)
 8. 反钓鱼攻防学习平台：<https://unphishable.io/>
 
+## 四、签名安全与 UX 风险
+
+> Web3 用户面临的一个普遍问题：钱包签名时，弹窗里全是看不懂的字符。用户要么直接点确认，要么被钓鱼网站骗签。
+
+### 4.1 问题：用户看不懂签名内容
+
+当你在 Web3 应用中点击「确认」时，钱包会弹出签名请求。但大多数情况下，用户看到的是：
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+签名请求
+
+原始数据:
+0x8f73b3a8d4e9f2c1b5a7e3d9c4...
+（几百个十六进制字符）
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[拒绝]        [确认]
+```
+
+**问题是什么？**
+- 用户无法理解这些字符的含义
+- 养成了直接点确认的习惯
+- 钓鱼网站利用这一点骗取资产授权
+
+**真实案例：** Badger DAO 钓鱼攻击（2022）中，用户被诱导签署一个 `setApprovalForAll` 授权，以为是连接钱包，实际授权了攻击者转移所有 NFT 的权限，损失 300 万美元。
+
+---
+
+### 4.2 常见签名类型及风险
+
+| 签名类型 | 用途 | 风险等级 | 用户应关注 |
+|----------|------|----------|------------|
+| Personal Sign | 登录、身份验证 | 🟢 低 | 签名的消息内容 |
+| 合约调用 | 与智能合约交互 | 🟡 中-高 | 调用的合约和方法 |
+| Permit/授权 | 链下签名，后续由第三方执行 | 🔴 极高 | 授权额度和有效期 |
+
+**高风险操作识别：**
+- `approve(..., type(uint256).max)` → 无限授权
+- `setApprovalForAll(..., true)` → 全量 NFT 授权
+- `transferOwnership(...)` → 转移合约所有权
+
+---
+
+### 4.3 EIP-712：让签名人类可读
+
+EIP-712 是以太坊的标准，让签名数据变成**结构化、可读的**格式。
+
+**对比示例：**
+
+```javascript
+// ❌ 传统方式：用户看到乱码
+const message = "0x8f73b3a8d4e9f2c1...";
+await signer.signMessage(message);
+
+// 钱包显示：
+// 0x8f73b3a8d4e9f2c1b5a7e3d9c4...
+// [拒绝] [确认]
+```
+
+```javascript
+// ✅ EIP-712：用户看到可读内容
+const domain = { name: "MyApp", version: "1", chainId: 1 };
+const types = { Message: [{ name: "content", type: "string" }] };
+const message = { content: "我授权 MyApp 代我投票" };
+
+await signer._signTypedData(domain, types, message);
+
+// 支持的钱包显示：
+// MyApp 请求签名
+// 内容: 我授权 MyApp 代我投票
+// [拒绝] [确认]
+```
+
+**主流钱包支持情况：**
+
+| 钱包 | EIP-712 支持 | UX 评分 |
+|------|--------------|---------|
+| MetaMask | ✅ | ⭐⭐⭐ |
+| Rainbow | ✅ | ⭐⭐⭐⭐⭐ |
+| Argent | ✅ | ⭐⭐⭐⭐⭐ |
+| Coinbase Wallet | ✅ | ⭐⭐⭐⭐ |
+
+---
+
+### 4.4 用户安全建议
+
+**签名前自查清单：**
+- [ ] 我理解这个签名的目的吗？
+- [ ] 这个签名会转移我的资产吗？
+- [ ] 授权的额度是否合理？
+- [ ] 这个网站值得信任吗？
+
+**开发者最佳实践：**
+1. 使用 EIP-712 而不是原始 hex 数据
+2. 在钱包弹窗**之前**，先在 DApp UI 上显示签名预览
+3. 高风险操作添加二次确认
+
+**工具推荐：**
+- [Revoke.cash](https://revoke.cash/) - 检查和撤销代币授权
+- [EIP-712 在线预览](https://eip-712-viewer.vercel.app/) - 可视化签名数据
+
+---
+
 ## ::ep:avatar /#32b2f0:: 文章贡献者
 
 作者：[黄文颖、邵诗巍｜曼昆律所](https://www.xiaohongshu.com/user/profile/5aacbeff11be104a3902e51a?xsec_token=YBJSqF5mquAQGxmOXzyrnRGOWDg2bngVz73d_dYNKbtyI=&xsec_source=app_share&xhsshare=WeixinSession&appuid=6019521a0000000001005b83&apptime=1753357678&share_id=72d3a32cab644835908c87c97abf48d8&wechatWid=d597980e578166d4379927d713140a72&wechatOrigin=menu)、vivi、[慢雾：区块链黑暗森林自救手册节选](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md)、[Blocksec](https://docs.blocksec.com/)
