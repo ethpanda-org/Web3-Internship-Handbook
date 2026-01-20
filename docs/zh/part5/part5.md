@@ -29,6 +29,7 @@ permalink: /zh/appendix/
 - **《区块链技术指南》**：邹均等著，全面系统的区块链知识
 - **《Solidity 智能合约开发》**：深入浅出智能合约编程
 - **《DeFi 实战指南》**：去中心化金融协议设计与实现
+- **《区块链黑暗森林自救手册》**：[慢雾科技](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/tree/main) - Web3 安全实战指南，防御常见攻击与骗局
 
 在线教程
 
@@ -44,8 +45,13 @@ permalink: /zh/appendix/
 - **Moralis Web3**：[全栈 DApp 开发](https://www.youtube.com/c/MoralisWeb3)
 - **ETHGlobal**：[黑客松项目分享](https://www.youtube.com/c/ETHGlobal)
 - **Ethereum Foundation**：[以太坊开发者大会](https://www.youtube.com/c/EthereumFoundation)
-- **Bankless**：[行业最新动态](https://www.youtube.com/c/Bankless)
-
+- **《区块链技术与应用》**：[北京大学肖臻老师的区块链技术分析公开课](https://www.bilibili.com/video/BV1Vt411X7JF)
+- **区块链系统学习**：[成都信息工程大学梁培利老师的区块链课程](https://space.bilibili.com/220951871)
+- **《跟我学Solidity》**：[Solidity开发教程](https://space.bilibili.com/615957867/channel/collectiondetail?sid=1067760 )
+- **Hardhat框架**：[（32 小时最全课程）区块链，智能合约 & 全栈 Web3 开发](https://www.bilibili.com/video/BV1Ca411n7ta)
+- **Foundry 框架**：[Solidity智能合约Foundry框架零基础教程](https://www.bilibili.com/video/BV13a4y1F7V3)
+- **智能合约安全审计入门**：[2024年智能合约安全审计课程（第1-5课）](https://www.bilibili.com/video/BV1B94y1M71V) 
+- **智能合约安全审计进阶**：[21小时智能合约安全审计课程（基础知识+案例实战）](https://www.bilibili.com/video/BV1qK4y1i7Zw) 
 ### 📖 技术博客与资讯
 
 技术博客

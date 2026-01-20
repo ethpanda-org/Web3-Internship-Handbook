@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ethpanda-org/Web3-Internship-Handbook/pulls)
 
-[在线阅读](https://ethpanda-org.github.io/Web3-Internship-Handbook/) | [开始学习](./docs/zh/README.md) | [加入社区](https://t.me/ethpanda)
+[在线阅读](https://ethpanda-org.github.io/Web3-Internship-Handbook/) | [开始学习](./docs/zh/README.md) | [官方学习平台](https://web3career.build) | [官方 X](https://x.com/web3careerbuild) | [官方 TG](https://t.me/Web3CareerBuild) | [加入社区](https://t.me/ethpanda)
 
 </div>
 
@@ -34,13 +34,15 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
 
 ---
 
-## 📚 Web3 实习计划 2025 Summer 正在同步进行
+## 📚 Web3 实习计划 2025 冬季 正在进行
 
-报名时间：2025 年 7 月 24 日 - 2025 年 8 月 1 日
+官方平台：<https://web3career.build>（用于报名学习和管理进度）
 
-报名链接：<https://tally.so/r/npYXG8>
+项目地址：<https://web3career.build/programs/web3-internship-bootcamp-2025-winter>
 
-详细说明：<https://x.com/ETHPanda_Org/status/1947592766101590327>
+官方 X：<https://x.com/web3careerbuild>
+
+官方 TG：<https://t.me/Web3CareerBuild>
 
 ---
 

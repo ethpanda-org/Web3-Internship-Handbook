@@ -11,8 +11,8 @@
  */
 
 import { defineThemeConfig } from 'vuepress-theme-plume';
-import { enNavbar, zhNavbar } from './navbar';
-import { enNotes, zhNotes } from './notes';
+import { enNavbar, zhNavbar, zhTWNavbar } from './navbar';
+import { enNotes, zhNotes, zhTWNotes } from './notes';
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -80,6 +80,23 @@ export default defineThemeConfig({
       //   title: '',
       //   content: '',
       // },
+    },
+    '/zh-tw/': {
+      /**
+       * @see https://theme-plume.vuejs.press/config/basic/#profile
+       */
+      profile: {
+        avatar: '/ethpanda.png',
+        name: 'Web3 實習手冊',
+        description: '',
+        // circle: true,
+        // location: '',
+        // organization: '',
+      },
+
+      navbar: zhTWNavbar,
+      // 使用獨立的 zhTWNotes，明確指定 dir 和 link 為 /zh-tw/
+      notes: zhTWNotes,
     },
     '/en/': {
       /**
