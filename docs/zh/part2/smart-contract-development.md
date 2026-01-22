@@ -1737,6 +1737,7 @@ async function queryMessages() {
 3. **循环优化**
 
    - 减少不必要的运算，如 `array.length` 缓存到变量中。
+   - 使用 `++i` 替代 `i++`, 前置递增在底层汇编操作上更优化，`++i` 减少一次临时变量的创建。
    - 示例：
 
      ```
@@ -1752,6 +1753,38 @@ async function queryMessages() {
      ```
 
 4. **函数可见性选择** - `external` 比 `public` 更节省 gas，适用于仅被外部调用的函数。
+   
+6. **短路**
+   
+   - 复杂的条件判断中，利用 `&&`、`||` 的短路特性避免昂贵计算；尽早 `return` 以减少后续不必要执行。
+   - 示例：
+     ```
+     // ❌ 非优化
+     
+     // 条件A、B、C都会执行，即使A已经失败
+     if (expensiveCheckA(x) && expensiveCheckB(x) && expensiveCheckC(x, y)) {
+        // 执行操作
+     }
+     
+     // ✅ 优化
+     
+     // 1. 单独检查，失败时立即revert
+     if (!expensiveCheckA(x)) {
+        revert("Check A failed");
+     }
+    
+     // 2. 继续下一个检查
+     if (!expensiveCheckB(x)) {
+        revert("Check B failed");
+     }
+    
+     // 3. 最后执行最昂贵的检查
+     if (!expensiveCheckC(x, y)) {
+        revert("Check C failed");
+     }
+    
+     // 所有检查通过，执行操作
+     ```
    :::
 
 ### 2. 合约安全
