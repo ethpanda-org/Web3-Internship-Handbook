@@ -1708,11 +1708,11 @@ async function queryMessages() {
    - 每次初始化写入 `storage` 的成本高达 20,000 gas（修改 `storage` 中已有的存储值成本是 2,900 - 5,000）；所以能用 `memory` 就不要用 `storage`。
    - 示例：
 
-     ```
-     // 公共状态变量，存储在storage中
-     uint256 public totalScore;
+   ```
+    // 公共状态变量，存储在storage中
+    uint256 public totalScore;
      
-     // ❌ 非优化写法
+    // ❌ 非优化写法
     function updateScore(uint256[] memory scores) public {
         for (uint256 i = 0; i < scores.length; i++) {
             // 每一轮循环都在读写storage
@@ -1720,8 +1720,8 @@ async function queryMessages() {
         }
     }
 
-     // ✅ 优化写法
-     function updateScore(uint256[] memory scores) public {
+    // ✅ 优化写法
+    function updateScore(uint256[] memory scores) public {
         // 1. 仅读取一次storage到内存 (SLOAD)
         uint256 tempScore = totalScore; 
         for (uint256 i = 0; i < scores.length; i++) {
@@ -1731,7 +1731,7 @@ async function queryMessages() {
         // 3. 将最终结果写回storage (SSTORE)，仅需一次写存储
         totalScore = tempScore; 
     }
-     ```
+```
 
 2. **使用位压缩（Bit Packing）**
 
