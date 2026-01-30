@@ -1703,27 +1703,39 @@ async function queryMessages() {
 ::: steps
 
 1. **减少存储操作（Storage Write）**
-
-   - 读取存储第一次需 2100 gas（后续 100 gas），而内存读取仅 3 gas。推荐多次访问同一存储数据时，将其缓存到内存以减少 SLOAD 次数
-   - 每次写入 `storage` 的成本高达 20,000 gas；优先使用 `memory`。
+   - 区块链数据存储位置有三种：storage（存储，也就是磁盘）、memory（内存，临时的）、calldata（只读数据）
+   - 第一次读取 `storage` 需 2100 gas（后续是热读取需 100 gas），而读取 `memory` 仅 3 gas。推荐多次访问同一存储数据时，将其缓存到 `memory` 以减少 SLOAD 次数
+   - 每次初始化写入 `storage` 的成本高达 20,000 gas（修改 `storage` 中已有的存储值成本是 2,900 - 5,000）；所以能用 `memory` 就不要用 `storage`。
    - 示例：
 
      ```
+     // 公共状态变量，存储在storage中
+     uint256 public totalScore;
+     
      // ❌ 非优化写法
-     mapping(address => uint256) public balances;
-     function deposit() public payable {
-         balances[msg.sender] += msg.value;
-     }
+    function updateScore(uint256[] memory scores) public {
+        for (uint256 i = 0; i < scores.length; i++) {
+            // 每一轮循环都在读写storage
+            totalScore += scores[i]; 
+        }
+    }
 
-     // ✅ 优化写法（一次读，一次写）
-     function deposit() public payable {
-         uint256 current = balances[msg.sender];
-         balances[msg.sender] = current + msg.value;
-     }
+     // ✅ 优化写法
+     function updateScore(uint256[] memory scores) public {
+        // 1. 仅读取一次storage到内存 (SLOAD)
+        uint256 tempScore = totalScore; 
+        for (uint256 i = 0; i < scores.length; i++) {
+            // 2. 在内存中操作 (MLOAD/MSTORE)，每次仅需 3 Gas
+            tempScore += scores[i]; 
+        }
+        // 3. 将最终结果写回storage (SSTORE)，仅需一次写存储
+        totalScore = tempScore; 
+    }
      ```
 
 2. **使用位压缩（Bit Packing）**
 
+    EVM 存储是以 32 字节（256 位） 为基本单位的。定义一个 uint256，它会占满一整个插槽；定义一个 uint8，它只需要 1 字节，但如果不进行压缩，剩下的 31 字节就会被浪费掉。位压缩的目的就是通过多个连续小尺寸变量，让它们在物理上存储在同一个插槽内。
    - 将多个变量压缩到一个 `uint256` 中以节省存储空间。
    - 示例：
 
@@ -1736,12 +1748,13 @@ async function queryMessages() {
 
 3. **循环优化**
 
-   - 减少不必要的运算，如 `array.length` 缓存到变量中。
+   - 减少不必要的运算，如 `array.length` 缓存到变量中定义在循环外，而非每次都在循环中反复定义。
    - 示例：
 
      ```
      // ❌ 非优化
      for (uint256 i = 0; i < arr.length; i++) {
+         uint256 len = arr.length;
          ...
      }
      // ✅ 优化
