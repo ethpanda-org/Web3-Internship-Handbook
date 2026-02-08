@@ -268,7 +268,7 @@ npx hardhat run scripts/deploy.js --network localhost
 {
   "jsonrpc": "2.0",
   "method": "eth_getBalance",
-  "params": ["0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb", "latest"],
+  "params": ["0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045", "latest"],
   "id": 1
 }
 ```
@@ -352,9 +352,9 @@ const client = createPublicClient({
   transport: http('https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY')
 })
 
-// 查询余额
+// 查询余额，此为Vitalik Buterin在以太坊主网最活跃地址
 const balance = await client.getBalance({
-  address: '0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb'
+  address: '0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045'
 })
 ```
 
@@ -368,7 +368,7 @@ const provider = new ethers.JsonRpcProvider(
 )
 
 // 查询余额
-const balance = await provider.getBalance('0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb')
+const balance = await provider.getBalance('0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045')
 ```
 
 **使用 Web3.js**：
@@ -379,7 +379,7 @@ const { Web3 } = require('web3')
 const web3 = new Web3('https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY')
 
 // 查询余额
-const balance = await web3.eth.getBalance('0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb')
+const balance = await web3.eth.getBalance('0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045')
 ```
 
 #### 5.3 在 Hardhat 中配置 RPC
