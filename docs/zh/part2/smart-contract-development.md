@@ -268,7 +268,7 @@ npx hardhat run scripts/deploy.js --network localhost
 {
   "jsonrpc": "2.0",
   "method": "eth_getBalance",
-  "params": ["0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb", "latest"],
+  "params": ["0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045", "latest"],
   "id": 1
 }
 ```
@@ -352,9 +352,9 @@ const client = createPublicClient({
   transport: http('https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY')
 })
 
-// 查询余额
+// 查询余额（示例地址为 Vitalik Buterin 常用地址）
 const balance = await client.getBalance({
-  address: '0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb'
+  address: '0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045'
 })
 ```
 
@@ -368,7 +368,7 @@ const provider = new ethers.JsonRpcProvider(
 )
 
 // 查询余额
-const balance = await provider.getBalance('0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb')
+const balance = await provider.getBalance('0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045')
 ```
 
 **使用 Web3.js**：
@@ -379,7 +379,7 @@ const { Web3 } = require('web3')
 const web3 = new Web3('https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY')
 
 // 查询余额
-const balance = await web3.eth.getBalance('0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb')
+const balance = await web3.eth.getBalance('0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045')
 ```
 
 #### 5.3 在 Hardhat 中配置 RPC
@@ -1216,7 +1216,7 @@ contract MessageBoard {
 
 ### 4. 编译
 
-1. 在 Remix 右侧面板中选择 **Solidity Compiler**，进入编译设置界面；
+1. 在 Remix 左侧面板中选择 **Solidity Compiler**，进入编译设置界面；
 2. 在 **COMPILER VERSION** 下拉菜单中选择与合约代码版本一致的编译器版本；
 3. 点击 **Compile messageboard.sol** 按钮以启动编译过程；
 4. 若编译成功，将在面板右上角看到绿色的 ✅ 符号；
@@ -1228,7 +1228,7 @@ contract MessageBoard {
 
 ### 5. 部署
 
-- 在 Remix 右侧面板中选择 **Deploy & Run Transactions**，进入部署与交互界面；
+- 在 Remix 左侧面板中选择 **Deploy & Run Transactions**，进入部署与交互界面；
 - 默认环境选择为 JavaScript VM，本地虚拟区块链，系统将自动为多个账户分配初始余额（每个账户默认 100 ETH），可用于部署与调用合约时支付 Gas 费用；
 
 ![Remix 部署界面](../images/solidity-intern/remix_deploy-interface_01.png)
@@ -1398,7 +1398,7 @@ contract MessageBoard {
 
     ==**连接钱包**=={.note}
 
-    打开 Remix IDE，点击右侧面板中的 **Deploy & Run Transactions** 模块，在 **Environment** 下拉菜单中选择：
+    打开 Remix IDE，点击左侧面板中的 **Deploy & Run Transactions** 模块，在 **Environment** 下拉菜单中选择：
     ::: card
 
     ```
@@ -1704,21 +1704,28 @@ async function queryMessages() {
 
 1. **减少存储操作（Storage Write）**
 
-   - 读取存储第一次需 2100 gas（后续 100 gas），而内存读取仅 3 gas。推荐多次访问同一存储数据时，将其缓存到内存以减少 SLOAD 次数
+   - 读取存储第一次需 2100 gas（后续 100 gas），而内存读取仅 3 gas。只有在同一 `storage` 值会被多次读取时，缓存到局部变量才有明显收益。
    - 每次写入 `storage` 的成本高达 20,000 gas；优先使用 `memory`。
    - 示例：
 
      ```
-     // ❌ 非优化写法
+     // ❌ 非优化写法（重复读取 storage）
      mapping(address => uint256) public balances;
-     function deposit() public payable {
+     uint256 public limit;
+     event Deposit(address indexed user, uint256 newBalance);
+
+     function depositBad() public payable {
          balances[msg.sender] += msg.value;
+         require(balances[msg.sender] <= limit, "limit exceeded");
+         emit Deposit(msg.sender, balances[msg.sender]);
      }
 
-     // ✅ 优化写法（一次读，一次写）
-     function deposit() public payable {
-         uint256 current = balances[msg.sender];
-         balances[msg.sender] = current + msg.value;
+     // ✅ 优化写法（缓存后复用，减少 SLOAD）
+     function depositGood() public payable {
+         uint256 newBalance = balances[msg.sender] + msg.value; // 1 次 SLOAD
+         require(newBalance <= limit, "limit exceeded");
+         balances[msg.sender] = newBalance; // 1 次 SSTORE
+         emit Deposit(msg.sender, newBalance);
      }
      ```
 

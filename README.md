@@ -34,11 +34,11 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
 
 ---
 
-## 📚 Web3 实习计划 2025 冬季 正在进行
+## 📚 Web3 实习计划 2026 冬季 正在进行
 
 官方平台：<https://web3career.build>（用于报名学习和管理进度）
 
-项目地址：<https://web3career.build/programs/web3-internship-bootcamp-2025-winter>
+项目地址：<https://web3career.build/programs/web3-internship-bootcamp-2026-winter>
 
 官方 X：<https://x.com/web3careerbuild>
 
@@ -67,7 +67,7 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
    - DeFi：重塑金融体系
    - NFT：数字资产革命
    - DAO：组织形态创新
-   - 2025 年新兴趋势
+   - 2026 年新兴趋势
 
 4. [**Web3 工作方式**](./docs/zh/part1/remote-work-guide.md)
    - 必备工具与平台使用

@@ -29,6 +29,7 @@ permalink: /zh-tw/appendix/
 - **《區塊鏈技術指南》**：鄒均等著，全面系統的區塊鏈知識
 - **《Solidity 智能合約開發》**：深入淺出智能合約程式設計
 - **《DeFi 實戰指南》**：去中心化金融協議設計與實現
+- **《021 學習以太坊》**：面向新手的以太坊入門教材，[開源地址](https://github.com/XiaoHai67890/021Ethereum)
 
 線上教程
 
@@ -119,6 +120,9 @@ RPC 服務商
 
 - **The Graph**：[去中心化索引協議](https://thegraph.com/) - GraphQL API
 - **Moralis**：[Web3 後端服務](https://moralis.com/) - 一站式 Web3 開發平臺
+- **Dune**：[鏈上資料查詢與視覺化](https://dune.com/) - 適合做協議資料分析與面試作品展示
+- **DeFiLlama**：[TVL 與協議資料聚合](https://defillama.com/) - 適合快速對比賽道和項目規模
+- **Token Terminal**：[協議收入與基本面資料](https://tokenterminal.com/) - 適合做商業與估值維度分析
 
 ### 🔐 安全工具
 

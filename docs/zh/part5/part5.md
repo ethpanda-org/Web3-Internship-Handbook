@@ -29,6 +29,7 @@ permalink: /zh/appendix/
 - **《区块链技术指南》**：邹均等著，全面系统的区块链知识
 - **《Solidity 智能合约开发》**：深入浅出智能合约编程
 - **《DeFi 实战指南》**：去中心化金融协议设计与实现
+- **《021 学习以太坊》**：面向新手的以太坊入门教材，[开源地址](https://github.com/XiaoHai67890/021Ethereum)
 - **《区块链黑暗森林自救手册》**：[慢雾科技](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/tree/main) - Web3 安全实战指南，防御常见攻击与骗局
 
 在线教程
@@ -125,6 +126,9 @@ RPC 服务商
 
 - **The Graph**：[去中心化索引协议](https://thegraph.com/) - GraphQL API
 - **Moralis**：[Web3 后端服务](https://moralis.com/) - 一站式 Web3 开发平台
+- **Dune**：[链上数据查询与可视化](https://dune.com/) - 适合做协议数据分析与面试作品展示
+- **DeFiLlama**：[TVL 与协议数据聚合](https://defillama.com/) - 适合快速对比赛道和项目规模
+- **Token Terminal**：[协议收入与基本面数据](https://tokenterminal.com/) - 适合做商业与估值维度分析
 
 ### 🔐 安全工具
 

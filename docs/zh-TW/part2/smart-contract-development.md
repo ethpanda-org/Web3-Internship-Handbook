@@ -881,7 +881,7 @@ contract MessageBoard {
 
 ### 4. 編譯
 
-1. 在 Remix 右側面板中選擇 **Solidity Compiler**，進入編譯設定介面；
+1. 在 Remix 左側面板中選擇 **Solidity Compiler**，進入編譯設定介面；
 2. 在 **COMPILER VERSION** 下拉選單中選擇與合約程式碼版本一致的編譯器版本；
 3. 點選 **Compile messageboard.sol** 按鈕以啟動編譯過程；
 4. 若編譯成功，將在面板右上角看到綠色的 ✅ 符號；
@@ -893,7 +893,7 @@ contract MessageBoard {
 
 ### 5. 部署
 
-- 在 Remix 右側面板中選擇 **Deploy & Run Transactions**，進入部署與互動介面；
+- 在 Remix 左側面板中選擇 **Deploy & Run Transactions**，進入部署與互動介面；
 - 預設環境選擇為 JavaScript VM，本地虛擬區塊鏈，系統將自動為多個賬戶分配初始餘額（每個賬戶預設 100 ETH），可用於部署與呼叫合約時支付 Gas 費用；
 
 ![Remix 部署介面](../images/solidity-intern/remix_deploy-interface_01.png)
@@ -1063,7 +1063,7 @@ contract MessageBoard {
 
     ==**連線錢包**=={.note}
 
-    開啟 Remix IDE，點選右側面板中的 **Deploy & Run Transactions** 模組，在 **Environment** 下拉選單中選擇：
+    開啟 Remix IDE，點選左側面板中的 **Deploy & Run Transactions** 模組，在 **Environment** 下拉選單中選擇：
     ::: card
 
     ```
@@ -1369,21 +1369,28 @@ async function queryMessages() {
 
 1. **減少儲存操作（Storage Write）**
 
-   - 讀取儲存第一次需 2100 gas（後續 100 gas），而記憶體讀取僅 3 gas。推薦多次訪問同一儲存資料時，將其快取到記憶體以減少 SLOAD 次數
+   - 讀取儲存第一次需 2100 gas（後續 100 gas），而記憶體讀取僅 3 gas。只有在同一 `storage` 值會被多次讀取時，快取到區域變數才有明顯收益。
    - 每次寫入 `storage` 的成本高達 20,000 gas；優先使用 `memory`。
    - 示例：
 
      ```
-     // ❌ 非最佳化寫法
+     // ❌ 非最佳化寫法（重複讀取 storage）
      mapping(address => uint256) public balances;
-     function deposit() public payable {
+     uint256 public limit;
+     event Deposit(address indexed user, uint256 newBalance);
+
+     function depositBad() public payable {
          balances[msg.sender] += msg.value;
+         require(balances[msg.sender] <= limit, "limit exceeded");
+         emit Deposit(msg.sender, balances[msg.sender]);
      }
 
-     // ✅ 最佳化寫法（一次讀，一次寫）
-     function deposit() public payable {
-         uint256 current = balances[msg.sender];
-         balances[msg.sender] = current + msg.value;
+     // ✅ 最佳化寫法（快取後複用，減少 SLOAD）
+     function depositGood() public payable {
+         uint256 newBalance = balances[msg.sender] + msg.value; // 1 次 SLOAD
+         require(newBalance <= limit, "limit exceeded");
+         balances[msg.sender] = newBalance; // 1 次 SSTORE
+         emit Deposit(msg.sender, newBalance);
      }
      ```
 
