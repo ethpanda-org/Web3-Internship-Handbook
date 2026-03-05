@@ -20,14 +20,26 @@
 5. 本地验证
    - `npm ci`
    - `npm run docs:build`
-6. 提交与推送
+6. 发布与线上检查
+   - 触发并确认 `Deploy Docs` 工作流成功
+     - `gh run list --workflow deploy-docs.yml --limit 5`
+   - 检查 Pages 配置必须是 workflow 模式
+     - `gh api repos/ethpanda-org/Web3-Internship-Handbook/pages --jq '{build_type: .build_type, status: .status}'`
+     - 若 `build_type != "workflow"`，执行：
+       - `gh api -X PUT repos/ethpanda-org/Web3-Internship-Handbook/pages -f build_type=workflow`
+   - 回归验证关键历史链接（应返回 200 或跳转）
+     - `/zh/start/`
+     - `/zh/part3/Julie.html`
+     - `/zh-tw/part2/community-intern.html`
+     - `/zh-tw/part3/Julie.html`
+7. 提交与推送
    - `git add -A && git commit -m "docs: <summary>" && git push origin main`
-7. 关闭队列
+8. 关闭队列
    - 对每个 issue / PR 留下处理结论（含 commit）
    - 然后执行关闭
      - `gh issue close <num> --comment "<reason + commit>"`
      - `gh pr close <num> --comment "<adopted/partially adopted/not planned + reason + commit>"`
-8. 收尾检查
+9. 收尾检查
    - `gh issue list --state open --limit 200`
    - `gh pr list --state open --limit 200`
    - 两者应为空或仅剩“有意保留”的条目
