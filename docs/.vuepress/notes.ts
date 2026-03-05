@@ -101,15 +101,15 @@ export const zhNotes = defineNotesConfig({
 
 /**
  * 繁體中文 notes 配置（獨立配置）
- * 關鍵修正：明確指定 dir 和 link 為 zh-tw
+ * 明確指定 dir 為 zh-TW（實際內容目錄），link 為 /zh-tw/
  * 這樣 /zh-tw/ locale 就有自己獨立的上下文
  */
 export const zhTWNotes = defineNotesConfig({
-  dir: 'zh-tw',
+  dir: 'zh-TW',
   link: '/zh-tw/',
   notes: [
     defineNoteConfig({
-      dir: '',  // 相對於 zhTWNotes 的 dir (即 docs/zh-tw/)
+      dir: '',  // 相對於 zhTWNotes 的 dir (即 docs/zh-TW/)
       link: '', // 相對於 zhTWNotes 的 link (即 /zh-tw/)
       sidebar: [
         { text: 'Web3 實習手冊', link: '/zh-tw/start/' },
