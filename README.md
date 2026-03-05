@@ -34,11 +34,11 @@ Web3 实习手册是由 [ETHPanda](https://ethpanda.org) 和 [LXDAO](https://lxd
 
 ---
 
-## 📚 Web3 实习计划 2026 冬季 正在进行
+## 📚 Web3 实习计划 2025 冬季（已结束）
 
 官方平台：<https://web3career.build>（用于报名学习和管理进度）
 
-项目地址：<https://web3career.build/programs/web3-internship-bootcamp-2026-winter>
+项目地址（保留查看）：<https://web3career.build/programs/web3-internship-bootcamp-2025-winter>
 
 官方 X：<https://x.com/web3careerbuild>
 

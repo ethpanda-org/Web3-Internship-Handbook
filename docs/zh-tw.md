@@ -71,9 +71,9 @@ createTime: 2026/01/14 04:08:44
 
 ## ::emojione-v1:ledger:: Web3 實習生計劃
 
-我們會在實習季開始前啟動為期 ==1 個月==的實習生計劃，圍繞手冊內容進行共學、答疑和模擬面試，並為你對接真實的實習機會。目前 2026 冬季 Web3 實習計劃正在進行中，官方平台為 <https://web3career.build>，詳情參見 <https://web3career.build/programs/web3-internship-bootcamp-2026-winter>。官方 X：<https://x.com/web3careerbuild>，官方 TG：<https://t.me/Web3CareerBuild>。
+我們會在實習季開始前啟動為期 ==1 個月==的實習生計劃，圍繞手冊內容進行共學、答疑和模擬面試，並為你對接真實的實習機會。2025 冬季 Web3 實習計劃已結束，官方平台為 <https://web3career.build>（用於報名學習和管理進度），歷史專案頁面仍保留，詳情參見 <https://web3career.build/programs/web3-internship-bootcamp-2025-winter>。官方 X：<https://x.com/web3careerbuild>，官方 TG：<https://t.me/Web3CareerBuild>。
 ::: right
-[瞭解詳情](https://web3career.build/programs/web3-internship-bootcamp-2026-winter)
+[瞭解詳情](https://web3career.build/programs/web3-internship-bootcamp-2025-winter)
 :::
 
 ::: card
