@@ -7,12 +7,12 @@
 import { defineNavbarConfig } from 'vuepress-theme-plume';
 
 export const zhNavbar = defineNavbarConfig([
-  { text: '开始阅读', link: '/zh/README.md' },
+  { text: '开始阅读', link: '/zh/' },
   {
     text: '参与和支持',
     link: 'https://github.com/ethpanda-org/Web3-Internship-Handbook/blob/main/CONTRIBUTING.md',
   },
-  { text: '致谢名单', link: '/zh/acknowledgments.md' },
+  { text: '致谢名单', link: '/zh/acknowledgments/' },
 ]);
 
 export const zhTWNavbar = defineNavbarConfig([
@@ -22,11 +22,11 @@ export const zhTWNavbar = defineNavbarConfig([
     text: '參與和支持',
     link: 'https://github.com/ethpanda-org/Web3-Internship-Handbook/blob/main/CONTRIBUTING.md',
   },
-  { text: '致謝名單', link: '/zh-tw/acknowledgments.md' },
+  { text: '致謝名單', link: '/zh-tw/acknowledgments/' },
 ]);
 
 export const enNavbar = defineNavbarConfig([
-  { text: 'Chinese Version', link: '/zh/README.md' },
+  { text: 'Chinese Version', link: '/zh/' },
   {
     text: 'Join Development',
     link: 'https://github.com/ethpanda-org/Web3-Internship-Handbook/blob/main/CONTRIBUTING.md',

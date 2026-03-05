@@ -27,14 +27,14 @@ const handbookNote = defineNoteConfig({
   dir: 'zh',
   link: '/zh',
   sidebar: [
-    { text: 'Web3 实习手册', link: 'README.md' },
+    { text: 'Web3 实习手册', link: '/zh/' },
     {
       text: '入门导读',
       items: [
-        { text: '区块链基础概念', link: 'part1/blockchain-basic.md' },
-        { text: '以太坊概览', link: 'part1/overview-of-ethereum.md' },
-        { text: '行业赛道全览', link: 'part1/industry-knowledge.md' },
-        { text: 'Web3 工作方式', link: 'part1/remote-work-guide.md' },
+        { text: '区块链基础概念', link: '/zh/blockchain-basic/' },
+        { text: '以太坊概览', link: '/zh/overview-of-ethereum/' },
+        { text: '行业赛道全览', link: '/zh/industry-knowledge/' },
+        { text: 'Web3 工作方式', link: '/zh/remote-work-guide/' },
       ],
       collapsed: false,
     },
@@ -43,16 +43,16 @@ const handbookNote = defineNoteConfig({
       items: [
         {
           text: '区块链岗位全景图',
-          link: 'part2/position-introduction.md',
+          link: '/zh/position-introduction/',
         },
         {
           text: '智能合约开发',
-          link: 'part2/smart-contract-development.md',
+          link: '/zh/smart-contract-development/',
         },
-        { text: '社区运营指南', link: 'part2/community-intern.md' },
+        { text: '社区运营指南', link: '/zh/community-intern/' },
         {
           text: '合规和网络安全',
-          link: 'part2/security.md',
+          link: '/zh/security/',
         },
       ],
       collapsed: false,
@@ -60,10 +60,10 @@ const handbookNote = defineNoteConfig({
     {
       text: '行业前辈访谈录',
       items: [
-        { text: '前端先锋的链上闯关之路', link: 'part3/Logic.md' },
-        { text: 'Web2 到 Web3 的转型之路', link: 'part3/Jason.md' },
-        { text: 'Web3 社区增长专家', link: 'part3/Julie.md' },
-        { text: '如何成为靠谱的 Web3 实习生', link: 'part3/Bruce.md' },
+        { text: '前端先锋的链上闯关之路', link: '/zh/logic-frontend-journey/' },
+        { text: 'Web2 到 Web3 的转型之路', link: '/zh/jason-web2-to-web3-journey/' },
+        { text: 'Web3 社区增长专家', link: '/zh/julie-community-growth-expert/' },
+        { text: '如何成为靠谱的 Web3 实习生', link: '/zh/bruce-hiring-perspective/' },
       ],
       collapsed: false,
     },
@@ -71,20 +71,20 @@ const handbookNote = defineNoteConfig({
       text: '面试准备与行业岗位推荐',
       collapsed: false,
       items: [
-        { text: '招聘平台与职位推荐', link: 'part4/job-platform.md' },
-        { text: 'Web3 行业简历撰写指导', link: 'part4/write-resume.md' },
+        { text: '招聘平台与职位推荐', link: '/zh/job-platform/' },
+        { text: 'Web3 行业简历撰写指导', link: '/zh/write-resume/' },
         {
           text: '面试准备与典型面试题',
-          link: 'part4/interview-preparedness.md',
+          link: '/zh/interview-preparedness/',
         },
       ],
     },
     {
       text: '附录',
       collapsed: false,
-      items: [{ text: '附录', link: 'part5/part5.md' }],
+      items: [{ text: '附录', link: '/zh/appendix/' }],
     },
-    { text: '致谢名单', link: 'acknowledgments.md' },
+    { text: '致谢名单', link: '/zh/acknowledgments/' },
   ],
 });
 
@@ -112,34 +112,34 @@ export const zhTWNotes = defineNotesConfig({
       dir: '',  // 相對於 zhTWNotes 的 dir (即 docs/zh-tw/)
       link: '', // 相對於 zhTWNotes 的 link (即 /zh-tw/)
       sidebar: [
-        { text: 'Web3 實習手冊', link: 'README.md' },
+        { text: 'Web3 實習手冊', link: '/zh-tw/start/' },
         {
           text: '入門導讀',
           items: [
-            { text: '區塊鏈基礎概念', link: 'part1/blockchain-basic.md' },
-            { text: '以太坊概覽', link: 'part1/overview-of-ethereum.md' },
-            { text: '行業賽道全覽', link: 'part1/industry-knowledge.md' },
-            { text: 'Web3 工作方式', link: 'part1/remote-work-guide.md' },
+            { text: '區塊鏈基礎概念', link: '/zh-tw/blockchain-basic/' },
+            { text: '以太坊概覽', link: '/zh-tw/overview-of-ethereum/' },
+            { text: '行業賽道全覽', link: '/zh-tw/industry-knowledge/' },
+            { text: 'Web3 工作方式', link: '/zh-tw/remote-work-guide/' },
           ],
           collapsed: false,
         },
         {
           text: 'Web3 行業知識',
           items: [
-            { text: '區塊鏈崗位全景圖', link: 'part2/position-introduction.md' },
-            { text: '智能合約開發', link: 'part2/smart-contract-development.md' },
-            { text: '社群營運指南', link: 'part2/community-intern.md' },
-            { text: '合規和網路安全', link: 'part2/security.md' },
+            { text: '區塊鏈崗位全景圖', link: '/zh-tw/position-introduction/' },
+            { text: '智能合約開發', link: '/zh-tw/smart-contract-development/' },
+            { text: '社群營運指南', link: '/zh-tw/community-intern/' },
+            { text: '合規和網路安全', link: '/zh-tw/security/' },
           ],
           collapsed: false,
         },
         {
           text: '行業前輩訪談錄',
           items: [
-            { text: '前端先鋒的鏈上闯關之路', link: 'part3/Logic.md' },
-            { text: 'Web2 到 Web3 的轉型之路', link: 'part3/Jason.md' },
-            { text: 'Web3 社群增長專家', link: 'part3/Julie.md' },
-            { text: '如何成為靠譜的 Web3 實習生', link: 'part3/Bruce.md' },
+            { text: '前端先鋒的鏈上闯關之路', link: '/zh-tw/logic-frontend-journey/' },
+            { text: 'Web2 到 Web3 的轉型之路', link: '/zh-tw/jason-web2-to-web3-journey/' },
+            { text: 'Web3 社群增長專家', link: '/zh-tw/julie-community-growth-expert/' },
+            { text: '如何成為靠譜的 Web3 實習生', link: '/zh-tw/bruce-hiring-perspective/' },
           ],
           collapsed: false,
         },
@@ -147,17 +147,17 @@ export const zhTWNotes = defineNotesConfig({
           text: '面試準備與行業崗位推薦',
           collapsed: false,
           items: [
-            { text: '招聘平台與職位推薦', link: 'part4/job-platform.md' },
-            { text: 'Web3 行業履歷撰寫指導', link: 'part4/write-resume.md' },
-            { text: '面試準備與典型面試題', link: 'part4/interview-preparedness.md' },
+            { text: '招聘平台與職位推薦', link: '/zh-tw/job-platform/' },
+            { text: 'Web3 行業履歷撰寫指導', link: '/zh-tw/write-resume/' },
+            { text: '面試準備與典型面試題', link: '/zh-tw/interview-preparedness/' },
           ],
         },
         {
           text: '附錄',
           collapsed: false,
-          items: [{ text: '附錄', link: 'part5/part5.md' }],
+          items: [{ text: '附錄', link: '/zh-tw/appendix/' }],
         },
-        { text: '致謝名單', link: 'acknowledgments.md' },
+        { text: '致謝名單', link: '/zh-tw/acknowledgments/' },
       ],
     }),
   ],
