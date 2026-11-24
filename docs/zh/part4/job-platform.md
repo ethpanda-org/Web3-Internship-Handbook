@@ -36,6 +36,9 @@ permalink: /zh/job-platform/
      <br>
 4. [**SmartDeer**](https://smartdeer.com/)
    - **简介：** SmartDeer 是一个新兴的 Web3 人才招聘平台，专注于连接优质的 Web3 项目和专业人才。平台提供精准的岗位匹配服务，涵盖技术开发、产品运营、市场推广等多个职能领域。其特点是注重人才质量和项目可靠性，为求职者提供更有保障的就业选择。
+     <br>
+5. [**JobsInCrypto**](https://jobsincrypto.net/)
+   - **简介：** JobsInCrypto 是一个加密货币与 Web3 招聘网站，目前有 1000 多个经过人工审核的在线职位。求职者可以在人才库中创建匿名档案，由公司主动联系你。求职者免费使用。
 
 :::
 
